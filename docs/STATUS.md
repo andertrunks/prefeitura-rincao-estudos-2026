@@ -19,17 +19,18 @@ Atualizado em 21/08/2026.
 - PWA e cache offline;
 - seção de prova prática do Ajudante Geral;
 - transparência sobre questões reais não reproduzidas;
-- fluxo de publicação gratuita no GitHub Pages.
+- fluxo de publicação gratuita no GitHub Pages;
 - build de produção e lint sem erros;
 - integridade validada: 140 unidades curriculares, 90 questões e distribuição 10/5/15 por cargo;
 - testes funcionais de estudo, favoritos, revisões, questões, Caderno de Erros, simulado completo, busca, importação e persistência;
 - validação responsiva em viewport móvel de 390 × 844;
-- manifesto e service worker servidos pelo build de produção.
+- manifesto e service worker servidos pelo build de produção;
+- repositório público criado em `andertrunks/prefeitura-rincao-estudos-2026`;
+- GitHub Pages publicado via GitHub Actions em https://andertrunks.github.io/prefeitura-rincao-estudos-2026/;
+- versão pública validada em desktop e viewport móvel.
 
 ## Pendências externas
 
-- criar ou selecionar repositório público no GitHub;
-- ativar GitHub Pages com a origem "GitHub Actions";
 - conferir eventuais retificações do edital após 21/08/2026;
 - conferir emendas posteriores à versão oficial disponibilizada da Lei Orgânica (arquivo declara atualização até 2007).
 

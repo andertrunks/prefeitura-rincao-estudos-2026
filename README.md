@@ -2,6 +2,8 @@
 
 Plataforma pública, gratuita e static-first para o Concurso Público nº 001/2026 da Prefeitura de Rincão-SP, destinada exclusivamente a Monitor de Educação, Agente Administrativo e Ajudante Geral.
 
+**Site público:** [acessar a plataforma](https://andertrunks.github.io/prefeitura-rincao-estudos-2026/)
+
 ![Tela móvel da plataforma](docs/preview-mobile.png)
 
 ## Recursos
