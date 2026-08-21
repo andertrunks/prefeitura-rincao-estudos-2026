@@ -1,0 +1,14 @@
+{
+  "name": "Rincão Estudos 2026",
+  "short_name": "Rincão Estudos",
+  "description": "Plataforma gratuita de preparação para o Concurso Público nº 001/2026 da Prefeitura de Rincão-SP.",
+  "start_url": "/prefeitura-rincao-estudos-2026/",
+  "scope": "/prefeitura-rincao-estudos-2026/",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#0b6b50",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
