@@ -1,6 +1,6 @@
 # Status do projeto
 
-Atualizado em 21/08/2026.
+Atualizado em 22/08/2026.
 
 ## Concluído
 
@@ -28,12 +28,27 @@ Atualizado em 21/08/2026.
 - repositório público criado em `andertrunks/prefeitura-rincao-estudos-2026`;
 - GitHub Pages publicado via GitHub Actions em https://andertrunks.github.io/prefeitura-rincao-estudos-2026/;
 - versão pública validada em desktop e viewport móvel.
+- armazenamento local v2 com migração compatível e namespaces `guest` / `user:<UUID>`;
+- autenticação opcional e sincronização offline-first preparadas com Supabase;
+- novo projeto Supabase gratuito em `sa-east-1`, sem billing ou upgrade;
+- oito tabelas pessoais normalizadas, RLS forçada e quatro políticas por tabela;
+- permissões públicas restritas: `anon` sem acesso e `authenticated` somente com operações cobertas por RLS;
+- proteção no banco contra atualizações fora de ordem por navegadores antigos;
+- migração assistida de visitante para conta, com mescla e proteção contra duplicidade;
+- suporte a vários cargos por conta, mantendo um cargo ativo por vez;
+- recomendações determinísticas por erro, amostra mínima e revisão vencida;
+- questões preparadas para `cargoIds[]`, com compatibilidade dos IDs existentes;
+- página de conta e página de privacidade;
+- cache PWA v2 com atualização de navegação e limpeza de versões antigas;
+- testes automatizados para migração, isolamento local, conflitos, recomendações e questões compartilhadas.
+- auditoria de dependências de produção sem vulnerabilidades conhecidas.
 
 ## Pendências externas
 
 - conferir eventuais retificações do edital após 21/08/2026;
 - conferir emendas posteriores à versão oficial disponibilizada da Lei Orgânica (arquivo declara atualização até 2007).
+- configurar as credenciais do Google OAuth no painel do Supabase e validar o primeiro login real.
 
 ## Decisão de custo
 
-O Google AI Studio não foi usado porque a conta acessível aparece como Pro e a interface apresenta alerta de controle de gastos da API. A regra de custo zero determina que uma ferramenta com cobrança incerta seja evitada. A implementação local não depende de API paga nem de backend.
+O Google AI Studio não foi usado porque a conta acessível aparece como Pro e a interface apresenta alerta de controle de gastos da API. A regra de custo zero determina que uma ferramenta com cobrança incerta seja evitada. A sincronização usa somente o plano gratuito do Supabase e degrada com segurança para armazenamento local; não há API paga nem serviço com billing habilitado.

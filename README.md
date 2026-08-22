@@ -16,6 +16,10 @@ Plataforma pública, gratuita e static-first para o Concurso Público nº 001/20
 - modos prova e estudo;
 - Caderno de Erros, favoritos, revisões e estatísticas;
 - dados locais em IndexedDB/LocalStorage;
+- cadastro opcional e login com Google pelo Supabase Auth;
+- sincronização offline-first e isolamento `guest` / `user:<UUID>`;
+- importação assistida do progresso de visitante;
+- recomendações locais baseadas em desempenho, sem IA paga;
 - exportação e importação de backup;
 - PWA com suporte offline;
 - preparação específica para a prova prática do Ajudante Geral;
@@ -26,10 +30,12 @@ Plataforma pública, gratuita e static-first para o Concurso Público nº 001/20
 ```bash
 pnpm install
 pnpm dev
+pnpm test
+pnpm check
 pnpm build
 ```
 
-O mapa auditado e a cobertura tópico a tópico ficam em [`docs/MAPA-MESTRE-DO-EDITAL.md`](docs/MAPA-MESTRE-DO-EDITAL.md) e [`docs/cobertura-edital.md`](docs/cobertura-edital.md).
+O mapa auditado e a cobertura tópico a tópico ficam em [`docs/MAPA-MESTRE-DO-EDITAL.md`](docs/MAPA-MESTRE-DO-EDITAL.md) e [`docs/cobertura-edital.md`](docs/cobertura-edital.md). A arquitetura de autenticação, RLS, namespaces e conflitos está em [`docs/AUTENTICACAO-E-SINCRONIZACAO.md`](docs/AUTENTICACAO-E-SINCRONIZACAO.md).
 
 ## Fontes e limites
 
