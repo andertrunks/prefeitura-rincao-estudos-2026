@@ -1,6 +1,8 @@
 export type CargoId = 'monitor' | 'agente' | 'ajudante'
 export type DisciplineId = 'portugues' | 'matematica' | 'especificos'
 export type OriginKind = 'edital' | 'subtema' | 'complemento' | 'banca'
+export type StorageNamespace = 'guest' | `user:${string}`
+export type SyncStatus = 'local' | 'pending' | 'syncing' | 'synced' | 'error' | 'unavailable'
 
 export interface SourceLink {
   label: string
@@ -40,7 +42,9 @@ export interface Cargo {
 
 export interface Question {
   id: string
-  cargoId: CargoId
+  cargoIds: CargoId[]
+  /** Compatibilidade de leitura com pacotes editoriais anteriores. */
+  cargoId?: CargoId
   discipline: DisciplineId
   topicId: string
   statement: string
@@ -55,6 +59,8 @@ export interface Question {
 }
 
 export interface AnswerRecord {
+  id: string
+  cargoId: CargoId
   questionId: string
   selectedIndex: number
   correct: boolean
@@ -71,17 +77,23 @@ export interface SimulationRecord {
   startedAt: string
   finishedAt: string
   elapsedSeconds: number
+  correctAnswers: number
+  updatedAt: string
 }
 
 export interface ReviewRecord {
+  cargoId: CargoId
   topicId: string
   dueAt: string
   intervalDays: 1 | 7 | 15 | 30
+  status: 'pending' | 'completed' | 'dismissed'
+  updatedAt: string
 }
 
 export interface UserData {
-  version: 1
+  version: 2
   selectedCargo: CargoId
+  cargoIds: CargoId[]
   completedTopics: string[]
   favoriteTopics: string[]
   favoriteQuestions: string[]
@@ -89,4 +101,5 @@ export interface UserData {
   simulations: SimulationRecord[]
   reviews: ReviewRecord[]
   studySeconds: number
+  updatedAt: string
 }

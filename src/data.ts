@@ -291,7 +291,7 @@ function questionFromTopic(topic: Topic, cargoId: CargoId, index: number, pool: 
   alternatives.splice(correctIndex, 0, topic.summary)
   return {
     id: `q-${cargoId}-${topic.id}-${index}`,
-    cargoId,
+    cargoIds: [cargoId],
     discipline: topic.discipline,
     topicId: topic.id,
     statement: `Assinale a alternativa que descreve corretamente o conteúdo “${topic.title}” conforme o material alinhado ao edital.`,
