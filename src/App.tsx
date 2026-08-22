@@ -77,8 +77,10 @@ import {
   dismissGuestImport,
   loadUserData,
   normalizeImportedData,
+  nextUpdatedAt,
   queueGuestImport,
   shouldOfferGuestImport,
+  touchUserData,
 } from './storage'
 import type {
   AnswerRecord,
@@ -396,8 +398,11 @@ function LessonPage({ data, setData }: AppState) {
   const relatedQuestions = questions.filter((question) => questionMatchesCargo(question, data.selectedCargo) && question.topicId === topic.id)
   const toggleArray = (key: 'completedTopics' | 'favoriteTopics') => setData((current) => ({ ...current, [key]: current[key].includes(topic.id) ? current[key].filter((id) => id !== topic.id) : [...current[key], topic.id] }))
   const scheduleReview = (days: 1 | 7 | 15 | 30) => {
-    const updatedAt = new Date().toISOString()
-    setData((current) => ({ ...current, reviews: [...current.reviews.filter((review) => !(review.topicId === topic.id && review.cargoId === data.selectedCargo)), { cargoId: data.selectedCargo, topicId: topic.id, intervalDays: days, dueAt: new Date(Date.now() + days * 86400000).toISOString(), status: 'pending', updatedAt }] }))
+    setData((current) => {
+      const existing = current.reviews.find((review) => review.topicId === topic.id && review.cargoId === data.selectedCargo)
+      const updatedAt = nextUpdatedAt(current.updatedAt, existing?.updatedAt)
+      return { ...current, reviews: [...current.reviews.filter((review) => !(review.topicId === topic.id && review.cargoId === data.selectedCargo)), { cargoId: data.selectedCargo, topicId: topic.id, intervalDays: days, dueAt: new Date(Date.now() + days * 86400000).toISOString(), status: 'pending', updatedAt }] }
+    })
   }
 
   return (
@@ -520,7 +525,7 @@ function ErrorNotebook({ data }: AppState) {
 
 function ReviewsPage({ data, setData }: AppState) {
   const reviews = data.reviews.filter((review) => review.status === 'pending' && review.cargoId === data.selectedCargo && topics.some((topic) => topic.id === review.topicId && topic.cargoIds.includes(data.selectedCargo))).sort((a, b) => a.dueAt.localeCompare(b.dueAt))
-  const remove = (topicId: string) => setData((value) => ({ ...value, reviews: value.reviews.map((review) => review.topicId === topicId && review.cargoId === data.selectedCargo ? { ...review, status: 'dismissed', updatedAt: new Date().toISOString() } : review) }))
+  const remove = (topicId: string) => setData((value) => ({ ...value, reviews: value.reviews.map((review) => review.topicId === topicId && review.cargoId === data.selectedCargo ? { ...review, status: 'dismissed', updatedAt: nextUpdatedAt(value.updatedAt, review.updatedAt) } : review) }))
   return <><PageHeader eyebrow="Revisão espaçada" title="Sua fila de revisão" description="Agendamentos de 1, 7, 15 e 30 dias, com prioridade para assuntos que você marcou." />{reviews.length ? <div className="review-list">{reviews.map((review) => { const topic = topics.find((item) => item.id === review.topicId)!; const due = new Date(review.dueAt) <= new Date(); return <article key={review.topicId} className={due ? 'due' : ''}><span><CalendarClock size={20} /></span><div><small>{due ? 'Revisar agora' : `Agendada para ${new Date(review.dueAt).toLocaleDateString('pt-BR')}`}</small><h2>{topic.title}</h2><p>{disciplineLabels[topic.discipline]} · intervalo de {review.intervalDays} dia(s)</p></div><Link to={`/aula/${topic.id}`}>Abrir aula</Link><button aria-label="Remover revisão" onClick={() => remove(topic.id)}><X size={17} /></button></article> })}</div> : <EmptyState icon={CalendarClock} title="Nenhuma revisão agendada" text="Abra uma aula e escolha 1, 7, 15 ou 30 dias para criar sua fila." />}</>
 }
 
@@ -577,7 +582,7 @@ function App() {
   const importGuestProgress = async () => {
     if (!user || !guestImport) return
     setImportBusy(true)
-    const merged = { ...mergeUserData(data, guestImport), updatedAt: new Date().toISOString() }
+    const merged = touchUserData(mergeUserData(data, guestImport), data.selectedCargo, data.updatedAt)
     queueGuestImport(user.id, guestImport)
     setData(merged)
     await syncNow(merged)

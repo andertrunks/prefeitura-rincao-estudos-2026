@@ -119,7 +119,7 @@ export function useProgress() {
   const setData = useCallback<Dispatch<SetStateAction<UserData>>>((action) => {
     setStoredData((current) => {
       const next = typeof action === 'function' ? action(current) : action
-      return touchUserData(next, next.selectedCargo)
+      return touchUserData(next, next.selectedCargo, current.updatedAt)
     })
   }, [])
 

@@ -69,6 +69,8 @@ O cliente envia fotografias completas somente depois de fazer `pull + merge`. Is
 
 Como segunda barreira, gatilhos do Postgres mantêm o maior `updated_at` em perfis, aulas, revisões, simulados e tempo de estudo. Mesmo se dois dispositivos sincronizarem simultaneamente entre o `pull` e o `push`, uma gravação antiga não substitui a mais nova.
 
+O cliente mantém um relógio lógico monotônico: cada alteração usa o maior valor entre o horário atual e o último `updated_at` conhecido, acrescido de 1 ms. Assim, uma configuração incorreta do relógio do dispositivo ou um registro remoto datado no futuro não impede novas alterações legítimas de serem sincronizadas.
+
 ## Banco de dados
 
 As migrações ficam em `supabase/migrations` e criam:

@@ -298,12 +298,20 @@ export async function saveUserData(namespace: StorageNamespace, data: UserData):
   await dbWriteQueue
 }
 
-export function touchUserData(data: UserData, selectedCargo = data.selectedCargo): UserData {
+export function nextUpdatedAt(...timestamps: Array<string | undefined>): string {
+  const latestKnown = timestamps.reduce((latest, timestamp) => {
+    const parsed = timestamp ? Date.parse(timestamp) : Number.NaN
+    return Number.isFinite(parsed) ? Math.max(latest, parsed) : latest
+  }, 0)
+  return new Date(Math.max(Date.now(), latestKnown + 1)).toISOString()
+}
+
+export function touchUserData(data: UserData, selectedCargo = data.selectedCargo, previousUpdatedAt?: string): UserData {
   return {
     ...data,
     selectedCargo,
     cargoIds: [...new Set([...data.cargoIds, selectedCargo])],
-    updatedAt: now(),
+    updatedAt: nextUpdatedAt(data.updatedAt, previousUpdatedAt),
   }
 }
 

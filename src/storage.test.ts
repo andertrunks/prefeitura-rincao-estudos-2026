@@ -4,7 +4,9 @@ import {
   createDefaultUserData,
   loadUserData,
   migrateUserData,
+  nextUpdatedAt,
   saveUserData,
+  touchUserData,
 } from './storage'
 
 class MemoryStorage implements Storage {
@@ -71,5 +73,15 @@ describe('storage versionado e isolado', () => {
 
     expect(migrated?.simulations[0].answerIds).toEqual([migrated?.answers[0].id])
     expect(migrated?.simulations[0].correctAnswers).toBe(1)
+  })
+
+  it('avança o relógio lógico mesmo quando o estado remoto está no futuro', () => {
+    const future = '2099-01-01T00:00:00.000Z'
+    const touched = touchUserData({ ...createDefaultUserData('monitor'), updatedAt: future }, 'agente', future)
+
+    expect(touched.selectedCargo).toBe('agente')
+    expect(touched.cargoIds).toContain('agente')
+    expect(touched.updatedAt).toBe(nextUpdatedAt(future))
+    expect(touched.updatedAt > future).toBe(true)
   })
 })
