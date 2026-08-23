@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0",
+  "packageId": "rincao-2026-lote-002-portugues-medio-fonema",
+  "version": "0.1.0",
+  "generatedAt": "2026-08-22T21:51:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "cargoIds": [
+    "agente-administrativo",
+    "monitor-educacao"
+  ],
+  "disciplinaIds": [
+    "medio-portugues"
+  ],
+  "lessonIds": [
+    "medio-portugues-fonema-001"
+  ],
+  "questionIds": [
+    "q-inedita-medio-portugues-0006",
+    "q-inedita-medio-portugues-0007",
+    "q-inedita-medio-portugues-0008",
+    "q-inedita-medio-portugues-0009",
+    "q-inedita-medio-portugues-0010",
+    "q-inedita-medio-portugues-0011",
+    "q-inedita-medio-portugues-0012",
+    "q-inedita-medio-portugues-0013",
+    "q-inedita-medio-portugues-0014",
+    "q-inedita-medio-portugues-0015"
+  ],
+  "realQuestionReferenceIds": [
+    "real-inepam-fonema-marinopolis-2025-q05",
+    "real-inepam-fonema-santaisabel-2024-q03",
+    "real-inepam-fonema-clementina-2025-q06",
+    "real-inepam-fonema-barradochapeu-2023-q01",
+    "real-inepam-fonema-mongagua-2026-q04"
+  ],
+  "coverageItemIds": [
+    "edital-medio-portugues-fonema"
+  ],
+  "editorialStatus": "questoes_adicionadas",
+  "files": [
+    {
+      "path": "medio-portugues-fonema-001.md",
+      "sha256": "8fc9108b5ad008ac59c45a5939f35a1b416fec1fe6af6faf80b2895d49e20c96",
+      "size": 19591
+    },
+    {
+      "path": "questions.json",
+      "sha256": "a8a3ed454f9f234e900b427430233bb18427b62b385d2f6aa0a7a73a52f4f5fd",
+      "size": 9397
+    },
+    {
+      "path": "referencias-questoes-reais-fonema.json",
+      "sha256": "b0d7553be9fa1fcdfdd19d02312575f76f032424dc7d3fddc185b67a93634e87",
+      "size": 3670
+    },
+    {
+      "path": "sources.json",
+      "sha256": "cfc6c55c760e9b59c944ece707fce1a3f6aba72cf97f93d59b4220a79a842710",
+      "size": 3751
+    },
+    {
+      "path": "cobertura-edital.json",
+      "sha256": "f01cc75038be260bab876d0b0d2de30643cb1b2d140e90c5618562ca6714c7b2",
+      "size": 773
+    },
+    {
+      "path": "README.md",
+      "sha256": "b9e79147c24cb99e3ff1cfca63fe93734d50aa755b18c678a789f020753a2535",
+      "size": 855
+    }
+  ]
+}

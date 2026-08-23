@@ -1,0 +1,255 @@
+{
+  "schemaVersion": "1.0",
+  "questions": [
+    {
+      "id": "q-inedita-medio-portugues-0006",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "letra-e-fonema",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a alternativa que apresenta corretamente a quantidade de letras e fonemas da palavra “pilha”.",
+      "alternativas": {
+        "A": "5 letras e 5 fonemas.",
+        "B": "5 letras e 4 fonemas.",
+        "C": "4 letras e 5 fonemas.",
+        "D": "4 letras e 4 fonemas.",
+        "E": "5 letras e 3 fonemas."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "PILHA tem 5 letras. O grupo LH é dígrafo e representa um único fonema. Assim, a palavra possui 4 fonemas: /p/ /i/ /lh/ /a/."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0007",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "x-dois-fonemas",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Em qual alternativa a palavra possui mais fonemas do que letras?",
+      "alternativas": {
+        "A": "chave",
+        "B": "carro",
+        "C": "massa",
+        "D": "fixo",
+        "E": "ninho"
+      },
+      "respostaCorreta": "D",
+      "explicacao": "Em “fixo”, a letra X representa dois fonemas, /k/ + /s/. Por isso, a palavra tem 4 letras e 5 fonemas. Nas demais, há dígrafos, o que reduz a quantidade de fonemas em relação às letras."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0008",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "digrafo",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a palavra que apresenta dígrafo consonantal.",
+      "alternativas": {
+        "A": "prato",
+        "B": "trava",
+        "C": "chave",
+        "D": "bloco",
+        "E": "cravo"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Em “chave”, CH é formado por duas letras que representam um único fonema. PR, TR, BL e CR são encontros consonantais, pois os sons das consoantes permanecem perceptíveis."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0009",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "h-sem-fonema",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "A palavra “hora” possui:",
+      "alternativas": {
+        "A": "4 letras e 3 fonemas.",
+        "B": "4 letras e 4 fonemas.",
+        "C": "3 letras e 4 fonemas.",
+        "D": "3 letras e 3 fonemas.",
+        "E": "4 letras e 2 fonemas."
+      },
+      "respostaCorreta": "A",
+      "explicacao": "HORA possui 4 letras. O H inicial não representa fonema. Assim, na análise escolar usual, contam-se os sons de O, R e A: 3 fonemas."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0010",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "x-valores-foneticos",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "enunciado": "Assinale a palavra em que a letra X representa dois fonemas, correspondentes a /k/ + /s/.",
+      "alternativas": {
+        "A": "exame",
+        "B": "xícara",
+        "C": "próximo",
+        "D": "enxame",
+        "E": "táxi"
+      },
+      "respostaCorreta": "E",
+      "explicacao": "Em “táxi”, X representa /k/ + /s/. Em “exame”, o X tem som de Z; em “xícara” e “enxame”, som semelhante a CH; em “próximo”, som de S."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0011",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "rr-digrafo",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "A palavra “carro” apresenta 5 letras. Considerando o dígrafo RR, quantos fonemas ela possui?",
+      "alternativas": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "C A R R O = 5 letras. RR representa um único fonema. Assim, a contagem sonora é /k/ /a/ /rr/ /o/: 4 fonemas."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0012",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "comparacao-letras-fonemas",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "enunciado": "Assinale a alternativa correta sobre as palavras “pilhas” e “travas”.",
+      "alternativas": {
+        "A": "Ambas têm 6 letras e 5 fonemas.",
+        "B": "“Pilhas” tem 6 letras e 5 fonemas; “travas” tem 6 letras e 6 fonemas.",
+        "C": "“Pilhas” tem 5 letras e 6 fonemas; “travas” tem 6 letras e 5 fonemas.",
+        "D": "Ambas têm 6 letras e 6 fonemas.",
+        "E": "“Pilhas” e “travas” possuem dígrafos consonantais."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "Em “pilhas”, LH é dígrafo, reduzindo a contagem para 5 fonemas. Em “travas”, TR é encontro consonantal e os dois sons permanecem; a palavra tem 6 letras e 6 fonemas."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0013",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "qu-gu",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "enunciado": "Na palavra “queijo”, a sequência QU é analisada como dígrafo porque:",
+      "alternativas": {
+        "A": "Q e U são duas vogais pronunciadas juntas.",
+        "B": "o Q não é pronunciado.",
+        "C": "o U é sempre pronunciado como semivogal.",
+        "D": "Q e U participam da representação de um único fonema, sem pronúncia independente do U.",
+        "E": "toda sequência QU é obrigatoriamente encontro consonantal."
+      },
+      "respostaCorreta": "D",
+      "explicacao": "Em “queijo”, o U não é pronunciado de forma independente; a sequência QU participa da representação de um único fonema consonantal. A análise deve sempre observar a pronúncia."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0014",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "x-dois-fonemas",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "enunciado": "A palavra “anexos” possui 6 letras. Na pronúncia em que X representa /k/ + /s/, a quantidade de fonemas é:",
+      "alternativas": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "4",
+        "E": "8"
+      },
+      "respostaCorreta": "A",
+      "explicacao": "A letra X representa dois fonemas, /k/ + /s/. Assim, uma palavra com 6 letras pode apresentar 7 fonemas. Essa mesma análise aparece em julgamento oficial da INEPAM."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0015",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "conceitos-gerais",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "enunciado": "Assinale a afirmação correta.",
+      "alternativas": {
+        "A": "Todo encontro de duas consoantes forma um dígrafo.",
+        "B": "Toda palavra possui exatamente o mesmo número de letras e fonemas.",
+        "C": "A letra X representa sempre um único fonema.",
+        "D": "M e N são sempre fonemas consonantais independentes.",
+        "E": "Um dígrafo é formado por duas letras que representam um único fonema."
+      },
+      "respostaCorreta": "E",
+      "explicacao": "Dígrafo é a relação em que duas letras representam um único fonema. As demais alternativas generalizam de forma incorreta: encontros consonantais podem manter dois sons, a relação entre letras e fonemas varia, X pode representar /ks/, e M/N podem apenas nasalizar uma vogal."
+    }
+  ]
+}

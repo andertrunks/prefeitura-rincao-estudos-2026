@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0",
+  "temaId": "fonema",
+  "disciplinaId": "medio-portugues",
+  "cargoIds": [
+    "agente-administrativo",
+    "monitor-educacao"
+  ],
+  "pesquisadoEm": "2026-08-22",
+  "prioridadeAplicada": [
+    "mesmo cargo",
+    "cargo equivalente",
+    "mesma escolaridade/área",
+    "mesma disciplina e nível",
+    "outros cargos INEPAM compatíveis"
+  ],
+  "observacaoPesquisa": "Não foi localizada, nesta rodada, questão de fonema comprovável para o cargo exato Agente Administrativo ou Monitor de Educação. Foram localizados exemplos de Escriturário (equivalente administrativo), Monitor de Transporte e Recreação, grupos de agentes e funções administrativas/técnicas, todos em documentos oficiais da INEPAM.",
+  "referencias": [
+    {
+      "id": "real-inepam-fonema-marinopolis-2025-q05",
+      "sourceRef": "src-inepam-marinopolis-2025-recursos",
+      "concurso": "Prefeitura de Marinópolis/SP - Concurso Público nº 001/2025",
+      "cargoOriginal": "grupo incluindo Escriturário",
+      "questao": "05",
+      "disciplina": "Português",
+      "habilidade": "contagem de letras e fonemas; dígrafo LH; X com dois fonemas",
+      "evidencia": "O julgamento oficial compara pilhas, cabelo, anexos, braços e travas e conclui que pilhas é a única com 6 letras e 5 fonemas.",
+      "resultadoOficial": "recurso indeferido"
+    },
+    {
+      "id": "real-inepam-fonema-santaisabel-2024-q03",
+      "sourceRef": "src-inepam-santaisabel-2024-recursos",
+      "concurso": "Prefeitura de Santa Isabel/SP - Concurso Público nº 001/2024",
+      "cargoOriginal": "grupo de agentes e funções técnicas",
+      "questao": "03",
+      "disciplina": "Português",
+      "habilidade": "comparação do número de fonemas",
+      "evidencia": "Lâmpada é registrada com 6 fonemas; entre as alternativas, cavalo também tem 6.",
+      "gabaritoOficial": "C",
+      "resultadoOficial": "recurso indeferido"
+    },
+    {
+      "id": "real-inepam-fonema-clementina-2025-q06",
+      "sourceRef": "src-inepam-clementina-2025-recursos",
+      "concurso": "Prefeitura de Clementina/SP - processo seletivo de 2025 (numeração interna inconsistente no documento)",
+      "cargoOriginal": "Professor de Ensino Fundamental e Monitor de Transporte e Recreação",
+      "questao": "06",
+      "disciplina": "Português",
+      "habilidade": "contagem de fonemas e reconhecimento de dígrafos",
+      "evidencia": "A banca registra 9 fonemas em arrebanhando e destaca RR e NH como dígrafos.",
+      "resultadoOficial": "recurso indeferido"
+    },
+    {
+      "id": "real-inepam-fonema-barradochapeu-2023-q01",
+      "sourceRef": "src-inepam-barradochapeu-2023-recursos",
+      "concurso": "Prefeitura de Barra do Chapéu/SP - Concurso Público nº 001/2023",
+      "cargoOriginal": "grupo de cargos de nível superior/educação",
+      "questao": "01",
+      "disciplina": "Português",
+      "habilidade": "uma letra representando dois fonemas",
+      "evidencia": "O julgamento registra que fixos tem 5 letras e 6 fonemas, com X = /k/ + /s/.",
+      "resultadoOficial": "recurso indeferido"
+    },
+    {
+      "id": "real-inepam-fonema-mongagua-2026-q04",
+      "sourceRef": "src-inepam-mongagua-2026-recursos",
+      "concurso": "Câmara Municipal de Mongaguá/SP - Concurso Público nº 001/2026",
+      "cargoOriginal": "Analista de Patrimônio e Almoxarifado",
+      "questao": "04",
+      "disciplina": "Português",
+      "habilidade": "dígrafo versus uma letra com dois fonemas",
+      "evidencia": "A banca afirma que crucifixo não apresenta dígrafo no X; X representa /k/ + /s/.",
+      "resultadoOficial": "recurso indeferido"
+    }
+  ]
+}

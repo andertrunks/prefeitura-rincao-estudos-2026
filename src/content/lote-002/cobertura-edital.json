@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "coverageStatus": "parcial",
+  "items": [
+    {
+      "id": "edital-medio-portugues-fonema",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "descricao": "Fonema",
+      "editalRef": "Anexo II - Conhecimentos Gerais - Cargos de Ensino Médio e Técnico - Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "questoesVinculadas": 10,
+      "questoesReaisAnalisadas": 5,
+      "status": "questoes_adicionadas",
+      "observacao": "Lote 002 produzido com aula completa, 10 questões inéditas e 5 exemplos reais da INEPAM resolvidos a partir de julgamentos oficiais de recursos."
+    }
+  ]
+}

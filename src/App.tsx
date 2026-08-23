@@ -48,6 +48,8 @@ import { AccountPage } from './account/AccountPage'
 import { AuthModal } from './auth/AuthModal'
 import { useAuth } from './auth/useAuth'
 import { GuestImportModal } from './auth/GuestImportModal'
+import { RichLessonArticle, RichLessonToc } from './content/RichLessonArticle'
+import { richLessonsByTopicId } from './content/editorial'
 import {
   HashRouter,
   Link,
@@ -65,6 +67,7 @@ import {
   practicalExam,
   questions,
   schedule,
+  simulationQuestionsForCargo,
   topics,
   verifiedQuestionReferences,
 } from './data'
@@ -395,6 +398,7 @@ function LessonPage({ data, setData }: AppState) {
   if (!topic || !topic.cargoIds.includes(data.selectedCargo)) return <Navigate to="/estudo" replace />
   const completed = data.completedTopics.includes(topic.id)
   const favorite = data.favoriteTopics.includes(topic.id)
+  const richLesson = richLessonsByTopicId[topic.id]
   const relatedQuestions = questions.filter((question) => questionMatchesCargo(question, data.selectedCargo) && question.topicId === topic.id)
   const toggleArray = (key: 'completedTopics' | 'favoriteTopics') => setData((current) => ({ ...current, [key]: current[key].includes(topic.id) ? current[key].filter((id) => id !== topic.id) : [...current[key], topic.id] }))
   const scheduleReview = (days: 1 | 7 | 15 | 30) => {
@@ -410,6 +414,7 @@ function LessonPage({ data, setData }: AppState) {
       <Link className="back-link" to="/estudo"><ArrowLeft size={16} /> Voltar ao material</Link>
       <header className="lesson-header"><div><span className={`origin-chip ${topic.origin}`}>{originLabels[topic.origin]}</span><small>{disciplineLabels[topic.discipline]}</small><h1>{topic.title}</h1><p>{topic.summary}</p></div><div className="lesson-actions"><button className={favorite ? 'active' : ''} onClick={() => toggleArray('favoriteTopics')}><Heart size={18} fill={favorite ? 'currentColor' : 'none'} /> {favorite ? 'Favorito' : 'Favoritar'}</button><button className={completed ? 'complete' : ''} onClick={() => toggleArray('completedTopics')}>{completed ? <CheckCircle2 size={18} /> : <BookCheck size={18} />}{completed ? 'Concluída' : 'Marcar como concluída'}</button></div></header>
       <div className="lesson-layout"><div className="lesson-content">
+        {richLesson ? <RichLessonArticle lesson={richLesson} /> : <>
         <LessonSection number="01" title="O que o edital cobra"><blockquote>“{topic.editalText}”</blockquote><p>Edital, {topic.editalItem}, página {topic.editalPage} do PDF.</p></LessonSection>
         <LessonSection number="02" title="Explicação completa"><p>{topic.summary}</p><p>Para resolver questões, primeiro identifique o conceito solicitado, depois elimine alternativas que omitem condições essenciais ou aplicam regra de outro assunto. O nível e os exemplos desta aula foram ajustados às atribuições de {cargos.find((cargo) => cargo.id === data.selectedCargo)?.name}.</p></LessonSection>
         <LessonSection number="03" title="O mais importante para a prova"><ul>{topic.keyPoints.map((point) => <li key={point}>{point}</li>)}</ul></LessonSection>
@@ -421,7 +426,8 @@ function LessonPage({ data, setData }: AppState) {
         <LessonSection number="09" title="Flashcards"><div className="flashcards"><details><summary>O que define {topic.title.toLowerCase()}?</summary><p>{topic.summary}</p></details>{topic.keyPoints.slice(0, 2).map((point, index) => <details key={point}><summary>Qual é o ponto-chave {index + 1}?</summary><p>{point}</p></details>)}</div></LessonSection>
         <LessonSection number="10" title="Questões relacionadas"><p>{relatedQuestions.length ? `${relatedQuestions.length} questão(ões) inédita(s) vinculada(s) a esta aula.` : 'O banco será ampliado sem classificar questão não verificada como real.'}</p><Link className="inline-action" to={`/questoes?topico=${topic.id}`}>Praticar este assunto <ArrowRight size={16} /></Link></LessonSection>
         <LessonSection number="11" title="Fontes utilizadas"><div className="sources-list">{topic.sources.map((source) => <a key={`${source.kind}-${source.label}`} href={source.url} target="_blank" rel="noreferrer"><span>{source.kind}</span><strong>{source.label}</strong><ArrowRight size={16} /></a>)}</div></LessonSection>
-      </div><aside className="lesson-aside"><div className="aside-card"><span>Revisão espaçada</span><h3>Agendar esta aula</h3><div className="review-buttons">{([1, 7, 15, 30] as const).map((days) => <button key={days} onClick={() => scheduleReview(days)}>{days} {days === 1 ? 'dia' : 'dias'}</button>)}</div></div><div className="aside-card"><span>Rastreabilidade</span><h3>Edital confirmado</h3><p>Página {topic.editalPage}<br />{topic.editalItem}</p></div></aside></div>
+        </>}
+      </div><aside className="lesson-aside">{richLesson && <RichLessonToc lesson={richLesson} />}<div className="aside-card"><span>Revisão espaçada</span><h3>Agendar esta aula</h3><div className="review-buttons">{([1, 7, 15, 30] as const).map((days) => <button key={days} onClick={() => scheduleReview(days)}>{days} {days === 1 ? 'dia' : 'dias'}</button>)}</div></div><div className="aside-card"><span>Rastreabilidade</span><h3>{richLesson ? 'Pacote editorial integrado' : 'Edital confirmado'}</h3><p>{richLesson ? <>ID local: {topic.id}<br />ID editorial: {richLesson.editorialId}<br />Versão {richLesson.packageVersion}</> : <>Página {topic.editalPage}<br />{topic.editalItem}</>}</p></div></aside></div>
     </article>
   )
 }
@@ -465,7 +471,7 @@ function QuestionsPage({ data, setData }: AppState) {
       <PageHeader eyebrow="Banco de questões" title="Pratique com feedback" description="Cinco alternativas por questão. O gabarito e a explicação só aparecem depois da confirmação." />
       <div className="question-toolbar"><select value={discipline} onChange={(event) => setDiscipline(event.target.value as DisciplineId | 'todas')}><option value="todas">Todas as disciplinas</option>{(Object.keys(disciplineLabels) as DisciplineId[]).map((id) => <option value={id} key={id}>{disciplineLabels[id]}</option>)}</select><select value={status} onChange={(event) => setStatus(event.target.value as typeof status)}><option value="todas">Todas as questões</option><option value="nao-respondidas">Não respondidas</option><option value="erradas">Minhas erradas</option><option value="favoritas">Favoritas</option></select><span>{filtered.length} questões</span></div>
       {question ? <QuestionCard question={question} selected={selected} confirmed={confirmed} onSelect={setSelected} onConfirm={confirm} onNext={next} favorite={data.favoriteQuestions.includes(question.id)} onFavorite={() => setData((value) => ({ ...value, favoriteQuestions: value.favoriteQuestions.includes(question.id) ? value.favoriteQuestions.filter((id) => id !== question.id) : [...value.favoriteQuestions, question.id] }))} counter={`${current + 1} / ${filtered.length}`} /> : <EmptyState icon={CircleHelp} title="Nenhuma questão neste filtro" text="Altere os filtros ou responda novas questões para preencher esta lista." />}
-      <section className="transparency-panel"><div><ShieldCheck size={22} /><span><strong>Transparência do banco</strong><small>0 questões reais reproduzidas · 90 questões inéditas claramente identificadas</small></span></div><p>As páginas oficiais consultadas não publicaram cadernos integrais verificáveis. Para não inventar origem nem alternativas, as referências foram catalogadas sem republicação.</p><details><summary>Ver referências pesquisadas</summary>{verifiedQuestionReferences.map((reference) => <a href={reference.url} key={reference.title} target="_blank" rel="noreferrer"><strong>{reference.title}</strong><span>{reference.note}</span></a>)}</details></section>
+      <section className="transparency-panel"><div><ShieldCheck size={22} /><span><strong>Transparência do banco</strong><small>{questions.filter((item) => item.type === 'real').length} questões reais reproduzidas · {questions.filter((item) => item.type === 'inedita').length} questões inéditas claramente identificadas</small></span></div><p>Referências reais parciais são usadas apenas na extensão comprovada pelos documentos oficiais. Elas não entram no banco como questões reais sem enunciado, alternativas e origem integralmente verificáveis.</p><details><summary>Ver referências pesquisadas</summary>{verifiedQuestionReferences.map((reference) => <a href={reference.url} key={reference.title} target="_blank" rel="noreferrer"><strong>{reference.title}</strong><span>{reference.note}</span></a>)}</details></section>
     </>
   )
 }
@@ -484,7 +490,7 @@ function SimulationsPage({ data, setData }: AppState) {
   const [answers, setAnswers] = useState<Record<string, number>>({})
   const [seconds, setSeconds] = useState(0)
   const [result, setResult] = useState<{ records: AnswerRecord[]; simulation: SimulationRecord } | null>(null)
-  const set = useMemo(() => questions.filter((question) => questionMatchesCargo(question, data.selectedCargo)), [data.selectedCargo])
+  const set = useMemo(() => simulationQuestionsForCargo(data.selectedCargo), [data.selectedCargo])
   const current = set[index]
   useEffect(() => { if (!active || result) return; const timer = window.setInterval(() => setSeconds((value) => value + 1), 1000); return () => window.clearInterval(timer) }, [active, result])
 

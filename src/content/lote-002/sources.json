@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0",
+  "lastVerifiedAt": "2026-08-22T21:51:00-03:00",
+  "sources": [
+    {
+      "id": "src-edital-rincao-2026",
+      "tipo": "edital_oficial",
+      "titulo": "Concurso Público nº 001/2026 - Edital de Abertura das Inscrições",
+      "orgao": "Prefeitura Municipal de Rincão-SP / INEPAM",
+      "referencia": "PDF oficial do projeto",
+      "uso": "Fonte de verdade para cargos, regras, conteúdo programático, datas e prova prática"
+    },
+    {
+      "id": "src-inepam-marinopolis-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Marinópolis - Concurso Público nº 001/2025 - Julgamento dos Recursos dos Gabaritos",
+      "orgao": "Prefeitura Municipal de Marinópolis-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1587",
+      "verificadoEm": "2026-08-22",
+      "uso": "Fonema: questão 05 de Português para grupo que incluía Escriturário. O documento oficial detalha a contagem de letras e fonemas em pilhas, cabelo, anexos, braços e travas."
+    },
+    {
+      "id": "src-inepam-santaisabel-2024-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Santa Isabel - Concurso Público nº 001/2024 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Santa Isabel-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1182",
+      "verificadoEm": "2026-08-22",
+      "uso": "Fonema: questão 03 de Português para grupo de cargos de agentes e funções técnicas. Compara o número de fonemas de lâmpada com anzol, fixados, cavalo, telhados e cabra; gabarito C."
+    },
+    {
+      "id": "src-inepam-clementina-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Clementina - Julgamento dos Recursos de Processo Seletivo de 2025",
+      "orgao": "Prefeitura Municipal de Clementina-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1968",
+      "verificadoEm": "2026-08-22",
+      "uso": "Fonema: questão 06 de Português para Professor de Ensino Fundamental e Monitor de Transporte e Recreação. A banca registra 9 fonemas em arrebanhando e destaca RR/NH como dígrafos.",
+      "observacao": "O documento oficial apresenta inconsistência interna na numeração do processo seletivo: o cabeçalho indica nº 001/2025 e o fechamento menciona nº 002/2025. O projeto preserva essa limitação sem corrigi-la por inferência."
+    },
+    {
+      "id": "src-inepam-barradochapeu-2023-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Barra do Chapéu - Concurso Público nº 001/2023 - Julgamento dos Recursos dos Gabaritos",
+      "orgao": "Prefeitura Municipal de Barra do Chapéu-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=271",
+      "verificadoEm": "2026-08-22",
+      "uso": "Fonema: questão 01 de Português. O julgamento registra que fixos tem 5 letras e 6 fonemas porque X representa /k/ + /s/."
+    },
+    {
+      "id": "src-inepam-mongagua-2026-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Câmara Municipal de Mongaguá - Concurso Público nº 001/2026 - Julgamento dos Recursos",
+      "orgao": "Câmara Municipal de Mongaguá-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2403",
+      "verificadoEm": "2026-08-22",
+      "uso": "Fonema/dígrafo: questão 04 de Português para Analista de Patrimônio e Almoxarifado. A banca explica que crucifixo não tem dígrafo no X, pois X representa dois sons /k/ + /s/."
+    }
+  ]
+}

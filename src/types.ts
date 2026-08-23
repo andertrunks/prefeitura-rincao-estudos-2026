@@ -12,6 +12,8 @@ export interface SourceLink {
 
 export interface Topic {
   id: string
+  /** ID permanente definido pela fonte editorial, quando houver aula completa integrada. */
+  editorialId?: string
   cargoIds: CargoId[]
   discipline: DisciplineId
   title: string

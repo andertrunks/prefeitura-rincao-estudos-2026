@@ -1,3 +1,4 @@
+import { editorialQuestions } from './content/editorial'
 import type { Cargo, CargoId, DisciplineId, Question, SourceLink, Topic } from './types'
 
 const EDITAL_URL = 'https://www.inepam.org.br/'
@@ -114,7 +115,7 @@ const fundamentalMath = makeTopics('fm', ['ajudante'], 'matematica', 33, 'Anexo 
 ])
 
 const mediumPortuguese = makeTopics('mp', mediumCargos, 'portugues', 33, 'Anexo II - Conhecimentos gerais / Ensino Médio e Técnico', [
-  ['fonema', 'Fonema', 'Estudar os sons da língua e perceber que número de letras e fonemas pode ser diferente.', ['Fonema é som; letra é representação.', 'Dígrafos usam duas letras para um som.', 'Encontros consonantais preservam sons.']],
+  ['fonema', 'Fonema', 'Aula completa sobre letras, sons, dígrafos, contagem de fonemas e aplicação em questões da INEPAM.', ['Fonema é som; letra é representação.', 'Dígrafos usam duas letras para um som.', 'Uma letra pode representar dois fonemas.']],
   ['silaba', 'Sílaba', 'Dividir palavras em grupos sonoros e reconhecer a sílaba tônica.', ['Toda sílaba tem núcleo vocálico.', 'Classifique pela quantidade de sílabas.', 'Localize a tonicidade.']],
   ['ortografia', 'Ortografia', 'Aplicar a grafia oficial, incluindo emprego de letras e hífen.', ['Observe famílias de palavras.', 'Considere o Acordo Ortográfico.', 'Diferencie grafia de pronúncia.']],
   ['substantivo', 'Substantivo', 'Reconhecer palavras que nomeiam seres, lugares, ações, estados e conceitos.', ['Pode variar em gênero e número.', 'Pode ser comum ou próprio.', 'Funciona como núcleo de grupos nominais.']],
@@ -269,7 +270,7 @@ export const topics: Topic[] = [
   ...ajudanteSpecific,
   ...agentSpecific,
   ...monitorSpecific,
-]
+].map((topic) => topic.id === 'mp-fonema' ? { ...topic, editorialId: 'medio-portugues-fonema-001' } : topic)
 
 export const disciplineLabels: Record<DisciplineId, string> = {
   portugues: 'Língua Portuguesa',
@@ -323,10 +324,20 @@ function questionsForCargo(cargoId: CargoId): Question[] {
 }
 
 export const questions: Question[] = [
-  ...questionsForCargo('monitor'),
-  ...questionsForCargo('agente'),
+  ...questionsForCargo('monitor').filter((question) => question.topicId !== 'mp-fonema'),
+  ...questionsForCargo('agente').filter((question) => question.topicId !== 'mp-fonema'),
   ...questionsForCargo('ajudante'),
+  ...editorialQuestions,
 ]
+
+export function simulationQuestionsForCargo(cargoId: CargoId): Question[] {
+  const cargoQuestions = questions.filter((question) => question.cargoIds.includes(cargoId) || question.cargoId === cargoId)
+  return [
+    ...cargoQuestions.filter((question) => question.discipline === 'portugues').slice(0, 10),
+    ...cargoQuestions.filter((question) => question.discipline === 'matematica').slice(0, 5),
+    ...cargoQuestions.filter((question) => question.discipline === 'especificos').slice(0, 15),
+  ]
+}
 
 export const verifiedQuestionReferences = [
   {
