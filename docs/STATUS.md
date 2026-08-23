@@ -10,7 +10,7 @@ Atualizado em 22/08/2026.
 - navegação por HashRouter;
 - seleção dos três cargos;
 - 140 unidades curriculares mapeadas no conjunto geral (134 títulos distintos), com recorte por cargo;
-- 90 questões inéditas com cinco alternativas e vínculo Cargo → Disciplina → Tópico;
+- 98 questões inéditas ativas com cinco alternativas e vínculo Cargo → Disciplina → Tópico;
 - simulados completos 10/5/15 nos modos prova e estudo;
 - correção automática sem revelar gabarito antes da confirmação;
 - Caderno de Erros, favoritos, revisões e desempenho;
@@ -21,7 +21,7 @@ Atualizado em 22/08/2026.
 - transparência sobre questões reais não reproduzidas;
 - fluxo de publicação gratuita no GitHub Pages;
 - build de produção e lint sem erros;
-- integridade validada: 140 unidades curriculares, 90 questões e distribuição 10/5/15 por cargo;
+- integridade validada: 140 unidades curriculares, 98 questões ativas e distribuição 10/5/15 por simulado e cargo;
 - testes funcionais de estudo, favoritos, revisões, questões, Caderno de Erros, simulado completo, busca, importação e persistência;
 - validação responsiva em viewport móvel de 390 × 844;
 - manifesto e service worker servidos pelo build de produção;
@@ -42,6 +42,12 @@ Atualizado em 22/08/2026.
 - cache PWA v2 com atualização de navegação e limpeza de versões antigas;
 - testes automatizados para migração, isolamento local, conflitos, recomendações e questões compartilhadas.
 - auditoria de dependências de produção sem vulnerabilidades conhecidas.
+- primeira integração editorial real concluída com o Lote 002 — Português Médio — Fonema;
+- aula `medio-portugues-fonema-001.md` incorporada integralmente como conteúdo estático, mantendo o ID local `mp-fonema`;
+- 10 questões inéditas — estilo INEPAM do pacote integradas e compartilhadas por Agente Administrativo e Monitor de Educação;
+- cinco referências reais da banca preservadas como análise pedagógica, sem classificação indevida como questões reais do banco;
+- renderização de Markdown longo com índice interno, tabelas responsivas, metadados editoriais e links oficiais;
+- cache PWA atualizado para `rincao-estudos-v3`.
 
 ## Pendências externas
 

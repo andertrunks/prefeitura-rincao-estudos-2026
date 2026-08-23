@@ -11,7 +11,7 @@ Plataforma pública, gratuita e static-first para o Concurso Público nº 001/20
 - conteúdo rastreado por página e item do edital;
 - cobertura estrutural de 74 tópicos para Monitor, 76 para Agente e 36 para Ajudante;
 - aulas divididas por cargo, disciplina e tópico;
-- banco de 90 questões inéditas, sempre identificado como tal;
+- banco de 98 questões inéditas ativas, sempre identificado como tal;
 - simulados com 30 questões na distribuição 10/5/15;
 - modos prova e estudo;
 - Caderno de Erros, favoritos, revisões e estatísticas;
@@ -22,6 +22,7 @@ Plataforma pública, gratuita e static-first para o Concurso Público nº 001/20
 - recomendações locais baseadas em desempenho, sem IA paga;
 - exportação e importação de backup;
 - PWA com suporte offline;
+- aulas editoriais completas importadas estaticamente de pacotes versionados, com Markdown navegável e fontes rastreáveis;
 - preparação específica para a prova prática do Ajudante Geral;
 - publicação gratuita pelo GitHub Pages.
 
@@ -35,7 +36,7 @@ pnpm check
 pnpm build
 ```
 
-O mapa auditado e a cobertura tópico a tópico ficam em [`docs/MAPA-MESTRE-DO-EDITAL.md`](docs/MAPA-MESTRE-DO-EDITAL.md) e [`docs/cobertura-edital.md`](docs/cobertura-edital.md). A arquitetura de autenticação, RLS, namespaces e conflitos está em [`docs/AUTENTICACAO-E-SINCRONIZACAO.md`](docs/AUTENTICACAO-E-SINCRONIZACAO.md).
+O mapa auditado e a cobertura tópico a tópico ficam em [`docs/MAPA-MESTRE-DO-EDITAL.md`](docs/MAPA-MESTRE-DO-EDITAL.md) e [`docs/cobertura-edital.md`](docs/cobertura-edital.md). A arquitetura de autenticação, RLS, namespaces e conflitos está em [`docs/AUTENTICACAO-E-SINCRONIZACAO.md`](docs/AUTENTICACAO-E-SINCRONIZACAO.md). O fluxo de pacotes de conteúdo está em [`docs/INTEGRACAO-EDITORIAL.md`](docs/INTEGRACAO-EDITORIAL.md).
 
 ## Fontes e limites
 
