@@ -1,0 +1,440 @@
+{
+  "schemaVersion": "1.0",
+  "lastVerifiedAt": "2026-08-23",
+  "sources": [
+    {
+      "id": "src-edital-rincao-2026",
+      "tipo": "edital_oficial",
+      "titulo": "Concurso Público nº 001/2026 - Edital de Abertura das Inscrições",
+      "orgao": "Prefeitura Municipal de Rincão-SP / INEPAM",
+      "referencia": "PDF oficial do projeto",
+      "uso": "Fonte de verdade para cargos, regras, conteúdo programático, datas e prova prática"
+    },
+    {
+      "id": "src-rerratificacao-rincao-2026",
+      "tipo": "rerratificacao_oficial",
+      "titulo": "Rerratificação do Edital de Abertura das Inscrições",
+      "orgao": "Prefeitura Municipal de Rincão-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2681",
+      "verificadoEm": "2026-08-23",
+      "referencia": "Documento oficial de 13 de agosto de 2026, 2 páginas",
+      "uso": "Acrescenta atribuições e conteúdos programáticos exclusivamente para Nutricionista e Psicólogo; ratifica os demais itens do edital"
+    },
+    {
+      "id": "src-inepam-programa-1362",
+      "tipo": "documento_oficial_inepam",
+      "titulo": "Anexo II - Conteúdo Programático - concurso/processo INEPAM",
+      "orgao": "INEPAM",
+      "url": "https://www.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1362",
+      "verificadoEm": "2026-08-22",
+      "uso": "Evidência de que Interpretação de Textos integra o programa padrão de Língua Portuguesa para funções de ensino médio em concurso organizado pela banca"
+    },
+    {
+      "id": "src-inepam-programa-1456",
+      "tipo": "documento_oficial_inepam",
+      "titulo": "Processo Seletivo nº 001/2025 - Anexo II - Conteúdo Programático",
+      "orgao": "INEPAM",
+      "url": "https://inepam.org.br/concurso/downloadAnexo.do?idAnexo=1456",
+      "verificadoEm": "2026-08-22",
+      "uso": "Evidência adicional de recorrência do tópico Interpretação de Textos em programas de nível médio da banca"
+    },
+    {
+      "id": "src-inepam-programa-704",
+      "tipo": "documento_oficial_inepam",
+      "titulo": "Concurso Público nº 001/2024 - Anexo II - Conteúdo Programático",
+      "orgao": "INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=704",
+      "verificadoEm": "2026-08-22",
+      "uso": "Evidência adicional de recorrência do tópico Interpretação de Textos em programas de nível médio da banca"
+    },
+    {
+      "id": "src-inepam-dumont-2024-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Dumont - Concurso Público nº 0001/2024 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Dumont-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=954",
+      "verificadoEm": "2026-08-22",
+      "uso": "Questão real de Português, cargo Escriturário, questão 03: inferência sobre a relação imaginária da narradora com um coelho de pelúcia. Documento oficial contém enunciado essencial e justificativa da banca, mas não todas as alternativas no trecho consultado. Além da referência de interpretação já catalogada, o documento sustenta Sílaba/ditongo na questão 01 do grupo Eletricista, Encanador, Merendeira, Motorista, Operador de Máquina e Servente: em leite, ei é ditongo decrescente. Substantivo: questão 02, classificação de cônjuge como sobrecomum e declaração expressa de uso da gramática normativa."
+    },
+    {
+      "id": "src-inepam-embu-2024-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Embu das Artes - Concurso Público nº 001/2024 - Julgamento dos Recursos dos Gabaritos",
+      "orgao": "Prefeitura Municipal de Embu das Artes-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1271",
+      "verificadoEm": "2026-08-22",
+      "uso": "Questão real de Português, Guarda Civil Municipal - Feminino, questão 01: interpretação e caracterização de personagem; gabarito oficial C (racional), com análise das alternativas pela banca."
+    },
+    {
+      "id": "src-inepam-marinopolis-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Marinópolis - Concurso Público nº 001/2025 - Julgamento dos Recursos dos Gabaritos",
+      "orgao": "Prefeitura Municipal de Marinópolis-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1587",
+      "verificadoEm": "2026-08-22",
+      "uso": "Fonema: questão 05 de Português para grupo que incluía Escriturário. O documento oficial detalha a contagem de letras e fonemas em pilhas, cabelo, anexos, braços e travas."
+    },
+    {
+      "id": "src-inepam-santaisabel-2024-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Santa Isabel - Concurso Público nº 001/2024 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Santa Isabel-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1182",
+      "verificadoEm": "2026-08-22",
+      "uso": "Fonema: questão 03 de Português para grupo de cargos de agentes e funções técnicas. Compara o número de fonemas de lâmpada com anzol, fixados, cavalo, telhados e cabra; gabarito C. Além do uso em Fonema, sustenta Sílaba/encontros vocálicos: Agente de Serviços Gerais, questão 07, em que a banca afirma que quaisquer contém tritongo em quais- e confirma alternativa C."
+    },
+    {
+      "id": "src-inepam-clementina-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Clementina - Julgamento dos Recursos de Processo Seletivo de 2025",
+      "orgao": "Prefeitura Municipal de Clementina-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1968",
+      "verificadoEm": "2026-08-22",
+      "uso": "Fonema: questão 06 de Português para Professor de Ensino Fundamental e Monitor de Transporte e Recreação. A banca registra 9 fonemas em arrebanhando e destaca RR/NH como dígrafos. Além do uso em Fonema, sustenta Sílaba: questão 08 de grupo incluindo Educador e Monitor do Transporte Escolar; a banca distingue oxítona de monossílabo tônico e classifica pé como monossílabo tônico. Numeral: Professor de Educação Infantil, questão 08; distinção entre ordinal (ordem/posição) e fracionário (parte de um todo).",
+      "observacao": "O documento oficial apresenta inconsistência interna na numeração do processo seletivo: o cabeçalho indica nº 001/2025 e o fechamento menciona nº 002/2025. O projeto preserva essa limitação sem corrigi-la por inferência."
+    },
+    {
+      "id": "src-inepam-barradochapeu-2023-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Barra do Chapéu - Concurso Público nº 001/2023 - Julgamento dos Recursos dos Gabaritos",
+      "orgao": "Prefeitura Municipal de Barra do Chapéu-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=271",
+      "verificadoEm": "2026-08-22",
+      "uso": "Fonema: questão 01 de Português. O julgamento registra que fixos tem 5 letras e 6 fonemas porque X representa /k/ + /s/. Verbo: questão 05; transformação da voz ativa em passiva analítica preservando o tempo verbal."
+    },
+    {
+      "id": "src-inepam-mongagua-2026-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Câmara Municipal de Mongaguá - Concurso Público nº 001/2026 - Julgamento dos Recursos",
+      "orgao": "Câmara Municipal de Mongaguá-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2403",
+      "verificadoEm": "2026-08-22",
+      "uso": "Fonema/dígrafo: questão 04 de Português para Analista de Patrimônio e Almoxarifado. A banca explica que crucifixo não tem dígrafo no X, pois X representa dois sons /k/ + /s/. Além do uso em Fonema, sustenta Sílaba: Procurador Jurídico, questão 05; a banca divide apocalipse em a-po-ca-lip-se, identifica lip como sílaba tônica e classifica a palavra como paroxítona. Numeral: Procurador Jurídico, questão 01; distinção contextual entre artigo indefinido e numeral cardinal no uso de 'um'."
+    },
+    {
+      "id": "src-inepam-campolimpo-2026-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Câmara Municipal de Campo Limpo Paulista - Concurso Público nº 001/2026 - Julgamento dos Recursos",
+      "orgao": "Câmara Municipal de Campo Limpo Paulista-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2328",
+      "verificadoEm": "2026-08-23",
+      "uso": "Sílaba: Controle Interno e Escriturário, questão 09. A banca classifica álibi como proparoxítona e discute a estrutura fonológica de médium. O mesmo concurso contém Assistente Administrativo, tornando a amostra especialmente próxima do contexto de Rincão."
+    },
+    {
+      "id": "src-inepam-estivagerbi-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Câmara Municipal de Estiva Gerbi - Concurso Público nº 001/2025 - Julgamento dos Recursos",
+      "orgao": "Câmara Municipal de Estiva Gerbi-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1846",
+      "verificadoEm": "2026-08-23",
+      "uso": "Sílaba/tonicidade: Analista Financeiro, questão 06. A banca afirma que tonicidade é fonética, analisa epidemia, boa, navio, moeda e fortuito e mantém a alternativa E. Substantivo: Analista Financeiro, questão 02, discussão normativa da classificação de ídolo como sobrecomum."
+    },
+    {
+      "id": "src-planalto-acordo-ortografico-1990",
+      "tipo": "norma_oficial",
+      "titulo": "Decreto nº 6.583, de 29 de setembro de 2008 — Acordo Ortográfico da Língua Portuguesa",
+      "orgao": "Presidência da República / Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6583.htm",
+      "verificadoEm": "2026-08-23",
+      "uso": "Fonte normativa oficial para o Acordo Ortográfico de 1990 promulgado no Brasil."
+    },
+    {
+      "id": "src-abl-volp-2025-2026",
+      "tipo": "referencia_ortografica_oficial",
+      "titulo": "Vocabulário Ortográfico da Língua Portuguesa — VOLP — edição digital 2025-2026",
+      "orgao": "Academia Brasileira de Letras",
+      "url": "https://www.academia.org.br/nossa-lingua/vocabulario-ortografico",
+      "verificadoEm": "2026-08-23",
+      "uso": "Referência oficial de registro das palavras e grafias da língua portuguesa em sua vertente brasileira."
+    },
+    {
+      "id": "src-inepam-ribeiraodosul-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Ribeirão do Sul - Concurso Público nº 001/2025 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Ribeirão do Sul-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2070",
+      "verificadoEm": "2026-08-23",
+      "uso": "Ortografia para Escriturário/Mecânico I: questão 04 (discrição), questão 08 (goela/VOLP) e questão 09 (sessão/seção e a/há)."
+    },
+    {
+      "id": "src-inepam-creamt-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "CREA/MT - Concurso Público nº 001/2025 - Julgamento dos Recursos",
+      "orgao": "Conselho Regional de Engenharia e Agronomia do Estado de Mato Grosso / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1876",
+      "verificadoEm": "2026-08-23",
+      "uso": "Ortografia: Agente Fiscal questão 08 (acinte/desafinado) e Analista Administrativo questão 07 (acensorista como erro). Verbo: Assistente Administrativo, questões 01 e 02, com pretérito mais-que-perfeito, futuro do subjuntivo de VER e forma 'reouve' do verbo REAVER. Numeral: grupo de Analistas, questões 12 e 13 ('meio' como numeral em contexto e ausência de multiplicativo convencional para treze); Analista Administrativo, questão 16 ('duzentésimo' não registrado; forma normativa ducentésimo); grupo anterior, questão 16 sobre leitura de ordinais/cardinais em nomes de papas, reis, séculos e capítulos."
+    },
+    {
+      "id": "src-inepam-anhembi-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Anhembi - Concurso Público nº 001/2025 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Anhembi-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2233",
+      "verificadoEm": "2026-08-23",
+      "uso": "Ortografia e norma-padrão: uso documentado de mal/mau e explicitação de que a banca adota a gramática normativa como referência. Substantivo: questão 04 de grupo de cargos, anulada porque duas alternativas apresentavam exemplos de substantivos epicenos."
+    },
+    {
+      "id": "src-inepam-itajuba-2024-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Itajubá - Concurso Público nº 001/2024 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Itajubá-MG / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=881",
+      "verificadoEm": "2026-08-23",
+      "uso": "Substantivo: Agente Administrativo, questão 04. A banca classifica gerente como comum de dois gêneros e contrapõe a categoria aos sobrecomuns; amostra de máxima relevância por ser mesma banca, mesmo cargo e mesmo tema; Advérbio: questão 05 de outro grupo de cargos; 'rapidamente' como advérbio de modo, com rejeição de classificação como tempo no contexto Verbo: Agente Administrativo, questão 06, voz passiva sintética e concordância; no mesmo concurso, questão 03 de outro grupo explicita a formação do imperativo afirmativo de 'tu'."
+    },
+    {
+      "id": "src-inepam-cruzeiro-2024-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Câmara Municipal de Cruzeiro - Concurso Público nº 001/2024 - Julgamento dos Recursos",
+      "orgao": "Câmara Municipal de Cruzeiro-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1201",
+      "verificadoEm": "2026-08-23",
+      "uso": "Substantivo: questão 04 de grupo com Coordenador Administrativo e Técnico Legislativo. A banca reafirma gerente como substantivo comum de dois gêneros."
+    },
+    {
+      "id": "src-inepam-pradopolis-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Pradópolis - Processo Seletivo nº 003/2025 - Retificação do Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Pradópolis-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1973",
+      "verificadoEm": "2026-08-23",
+      "uso": "Substantivo: questão 03. A banca analisa gênero gramatical de dinamite, libido e eclipse, comparando a sequência com as alternativas."
+    },
+    {
+      "id": "src-inepam-pradopolis-2023-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Pradópolis - Concurso Público nº 01/2023 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Pradópolis-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=213",
+      "verificadoEm": "2026-08-23",
+      "uso": "Adjetivo: questão 04 do grupo de Ensino Médio/Técnico/Superior. A banca afirma que locuções adjetivas integram o estudo da classe adjetivo."
+    },
+    {
+      "id": "src-inepam-luminarias-2023-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Luminárias - Concurso Público nº 001/2023 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Luminárias-MG / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=814",
+      "verificadoEm": "2026-08-23",
+      "uso": "Adjetivo: questão 06 de grupo que inclui Auxiliar Administrativo e Monitor de Educação; cobrança de adjetivos pátrios. Verbo: questão 06 de grupo que incluía Auxiliar Administrativo e Monitor de Educação; conceito de verbo abundante e particípios 'exprimido/expresso'."
+    },
+    {
+      "id": "src-inepam-embudasartes-2023-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Embu das Artes - Concurso Público nº 001/2023 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Embu das Artes-SP / INEPAM",
+      "url": "https://www.app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=543",
+      "verificadoEm": "2026-08-23",
+      "uso": "Adjetivo: questão 05 de grupo que inclui Auxiliar Educacional; banca define adjetivo biforme e usa fino/fina como exemplo."
+    },
+    {
+      "id": "src-inepam-saec-catanduva-2023-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "SAEC Catanduva - Concurso Público nº 01/2023 - Julgamento dos Recursos",
+      "orgao": "Superintendência de Água e Esgoto de Catanduva-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=105",
+      "verificadoEm": "2026-08-23",
+      "uso": "Adjetivo: questão 05; adjetivos pátrios, malgaxe = relativo a Madagascar, e declaração do referencial de gramática normativa usado pela banca."
+    },
+    {
+      "id": "src-inepam-santaernestina-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Santa Ernestina - Concurso Público nº 001/2025 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Santa Ernestina-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1492",
+      "verificadoEm": "2026-08-23",
+      "uso": "Adjetivo: questão 04 de grupo que inclui Oficial de Apoio Administrativo; locução de cobra e adjetivo viperino."
+    },
+    {
+      "id": "src-inepam-bofete-2023-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Bofete - Concurso Público nº 0001/2023 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Bofete-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=269",
+      "verificadoEm": "2026-08-23",
+      "uso": "Adjetivo: questão 08; banca classifica sério como adjetivo adverbiado no contexto analisado."
+    },
+    {
+      "id": "src-inepam-saosebastiaorioverde-2024-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de São Sebastião do Rio Verde - Concurso Público nº 001/2024 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de São Sebastião do Rio Verde-MG / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1203",
+      "verificadoEm": "2026-08-23",
+      "uso": "Adjetivo: questão 08; distinção entre superlativo absoluto analítico e sintético."
+    },
+    {
+      "id": "src-inepam-barrinha-2026-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Barrinha - Processo Seletivo Simplificado nº 001/2026 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Barrinha-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2132",
+      "verificadoEm": "2026-08-23",
+      "uso": "Adjetivo: questão 02; construção de superlativo relativo e inadequação de mais melhor. Aula registra cautela terminológica sobre a justificativa da banca."
+    },
+    {
+      "id": "src-inepam-embudasartes-2026-smaj-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Embu das Artes - Processo Seletivo nº 001/2026 SMAJ - Julgamento do Recurso",
+      "orgao": "Prefeitura Municipal de Embu das Artes-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2348",
+      "verificadoEm": "2026-08-23",
+      "uso": "Adjetivo: Residente Jurídico, questão 05; macérrimo como superlativo de magro e afirmação de que Classes de Palavras abrange flexão e uso."
+    },
+    {
+      "id": "src-inepam-anhembi-2023-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Anhembi - Concurso Público nº 0001/2023 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Anhembi-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=416",
+      "verificadoEm": "2026-08-23",
+      "uso": "Preposição: questão 06 do grupo que inclui Escriturário e Controle Interno; distingue objeto direto preposicionado, verbo transitivo indireto e adjuntos introduzidos por preposição; Advérbio: questão 08 do grupo que inclui Escriturário; 'demais' como advérbio de intensidade Verbo: questão 04; formação do imperativo afirmativo para 3ª pessoa a partir do presente do subjuntivo."
+    },
+    {
+      "id": "src-inepam-embudasartes-2026-sme-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Embu das Artes - Processo Seletivo nº 003/2026 SME - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Embu das Artes-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2356",
+      "verificadoEm": "2026-08-23",
+      "uso": "Preposição: Professor de Educação Básica I, questão 06; uso de eu/mim após preposição, 'entre mim e ti', 'conosco' e 'para mim'."
+    },
+    {
+      "id": "src-inepam-conchas-2026-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Conchas - Processo Seletivo nº 001/2026 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Conchas-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2235",
+      "verificadoEm": "2026-08-23",
+      "uso": "Preposição: questão 03; diferencia verbo haver em tempo passado e preposição 'a' em indicação de tempo futuro."
+    },
+    {
+      "id": "src-inepam-novaubirata-2024-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Nova Ubiratã - Concurso Público nº 001/2024 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Nova Ubiratã-MT / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=746",
+      "verificadoEm": "2026-08-23",
+      "uso": "Preposição: questão sobre crase/regência em grupo com cargos administrativos e educacionais; explicita a preposição 'a' exigida por complemento indireto."
+    },
+    {
+      "id": "src-inepam-magda-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Magda/SP - Processo Seletivo nº 002/2025 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Magda-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1640",
+      "verificadoEm": "2026-08-23",
+      "uso": "Conjunção: Auxiliar de Sala e Monitor Escolar, questão 09; adversativas 'mas' e 'porém' e pontuação."
+    },
+    {
+      "id": "src-inepam-juara-2023-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Juara - Processo Seletivo nº 005/2023 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Juara-MT / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=479",
+      "verificadoEm": "2026-08-23",
+      "uso": "Conjunção: Técnico Administrativo Educacional e funções educacionais, questão 04; 'quando' como conjunção subordinativa temporal; Advérbio: Técnico Administrativo Educacional, questão 04; advérbio interrogativo em interrogação indireta"
+    },
+    {
+      "id": "src-inepam-carmodamata-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Carmo da Mata - Processo Seletivo nº 002/2025 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Carmo da Mata-MG / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1752",
+      "verificadoEm": "2026-08-23",
+      "uso": "Conjunção: grupo com Monitor de Apoio (PCD e Creche), questão 04; vírgula antes da adversativa 'mas'."
+    },
+    {
+      "id": "src-inepam-setebarras-2026-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Sete Barras - Processo Seletivo Simplificado nº 003/2026 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Sete Barras-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2436",
+      "verificadoEm": "2026-08-23",
+      "uso": "Advérbio: Auxiliar Administrativo Sênior, questão 06; 'rápido' como adjetivo com valor de advérbio de modo."
+    },
+    {
+      "id": "src-inepam-bomjardimdaserra-2023-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Bom Jardim da Serra - Concurso Público nº 01/2023 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Bom Jardim da Serra-SC / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=133",
+      "verificadoEm": "2026-08-23",
+      "uso": "Advérbio: grupo que inclui Técnico Administrativo, questões 07 e 09; adjunto adverbial de lugar/tempo e 'forte' com valor adverbial de modo."
+    },
+    {
+      "id": "src-inepam-santaisabel-2026-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Santa Isabel - Concurso Público nº 001/2026 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Santa Isabel-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2150",
+      "verificadoEm": "2026-08-23",
+      "uso": "Verbo: questão 04 de Português de grupo de cargos de níveis técnico/superior; cobrança de verbos abundantes e particípios, com explicação oficial da banca."
+    },
+    {
+      "id": "src-inepam-doiscorregos-2023-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Dois Córregos - Julgamento dos Recursos - INEPAM",
+      "orgao": "INEPAM / órgão promotor de Dois Córregos-SP",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=65",
+      "verificadoEm": "2026-08-23",
+      "uso": "Verbo: questão 07; distinção entre infinitivo de VIR e futuro do subjuntivo de VER ('vir'), com explicação do valor futuro/condicional."
+    },
+    {
+      "id": "src-inepam-embudasartes-2025-sme-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Embu das Artes - Processo Seletivo nº 001/2025 - SME - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Embu das Artes-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1404",
+      "verificadoEm": "2026-08-23",
+      "uso": "Pronome: uso de o/lhe conforme transitividade; eu/mim antes de infinitivo; pronome de tratamento e concordância."
+    },
+    {
+      "id": "src-inepam-sarutaia-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Sarutaiá - Concurso Público nº 001/2025 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Sarutaiá-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2074",
+      "verificadoEm": "2026-08-23",
+      "uso": "Pronome: questão de gramática normativa envolvendo pronome demonstrativo e colocação de pronome oblíquo."
+    },
+    {
+      "id": "src-inepam-setebarras-2026-ps001-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Sete Barras - Processo Seletivo nº 001/2026 - Julgamento dos Recursos dos Gabaritos",
+      "orgao": "Prefeitura Municipal de Sete Barras-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2102",
+      "verificadoEm": "2026-08-23",
+      "uso": "Numeral: Agente de Combate às Endemias, questão 08; distinção contextual entre artigo indefinido e numeral cardinal no vocábulo 'um'."
+    },
+    {
+      "id": "src-inepam-ariranha-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Ariranha - Concurso Público nº 001/2025 - Julgamento dos Recursos dos Gabaritos",
+      "orgao": "Prefeitura Municipal de Ariranha-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1982",
+      "verificadoEm": "2026-08-23",
+      "uso": "Numeral: Diretor de Escola, questão 08; classificação de 'duodécimo' como ordinal correspondente a doze."
+    },
+    {
+      "id": "src-inepam-guariba-2024-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Guariba - Processo Seletivo nº 004/2024 - Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Guariba-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=711",
+      "verificadoEm": "2026-08-23",
+      "uso": "Numeral: questão 09 de grupo de professores; 'undécimo' como ordinal, contraste com cardinal 'onze' e leitura de 1/10."
+    },
+    {
+      "id": "src-inepam-guariba-2026-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Guariba - Julgamento dos Recursos - Concurso/Processo de 2026",
+      "orgao": "Prefeitura Municipal de Guariba-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2194",
+      "verificadoEm": "2026-08-23",
+      "uso": "Numeral: questão 09 de Português de grupo com Agente Comunitário de Saúde e outros cargos; a banca classifica 'metade' como numeral fracionário, por expressar divisão."
+    }
+  ],
+  "editorialCaution": "Questões reais são usadas apenas com proveniência comprovável. Não reconstruir enunciados ou alternativas ausentes. Recursos visuais são permitidos quando aumentarem a compreensão. Em legislação, todo dispositivo do recorte exigido pelo edital deve ser coberto antes de conclusão."
+}

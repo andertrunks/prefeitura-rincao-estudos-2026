@@ -1,0 +1,614 @@
+{
+  "schemaVersion": "1.1",
+  "concurso": "Prefeitura Municipal de Rincão-SP — Concurso Público nº 001/2026",
+  "sourceRefs": [
+    "src-edital-rincao-2026",
+    "src-rerratificacao-rincao-2026"
+  ],
+  "coverageStatus": "em_producao",
+  "summary": {
+    "completeLessons": 34,
+    "portugueseMedium": 21,
+    "mathMedium": 13,
+    "interactiveQuestions": 115,
+    "wholeProjectComplete": false
+  },
+  "cargoCoverage": {
+    "agente-administrativo": {
+      "sharedMediumContent": "34 aulas revisadas",
+      "specificKnowledge": "pendente",
+      "status": "em_producao"
+    },
+    "monitor-educacao": {
+      "sharedMediumContent": "34 aulas revisadas",
+      "specificKnowledge": "pendente",
+      "status": "em_producao"
+    },
+    "ajudante-geral": {
+      "portugueseFundamental": "pendente",
+      "mathFundamental": "pendente",
+      "specificKnowledge": "pendente",
+      "practicalPreparation": "pendente",
+      "status": "nao_iniciado"
+    }
+  },
+  "items": [
+    {
+      "id": "edital-medio-portugues-fonema",
+      "stableItemId": "MED-PORT-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "descricao": "Fonema",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "questoesVinculadas": 10,
+      "status": "questoes_adicionadas"
+    },
+    {
+      "id": "edital-medio-portugues-silaba",
+      "stableItemId": "MED-PORT-002",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "silaba",
+      "descricao": "Sílaba",
+      "aulaIds": [
+        "medio-portugues-silaba-001"
+      ],
+      "questoesVinculadas": 10,
+      "status": "questoes_adicionadas"
+    },
+    {
+      "id": "edital-medio-portugues-ortografia",
+      "stableItemId": "MED-PORT-003",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "ortografia",
+      "descricao": "Ortografia",
+      "aulaIds": [
+        "medio-portugues-ortografia-001"
+      ],
+      "questoesVinculadas": 10,
+      "status": "questoes_adicionadas"
+    },
+    {
+      "id": "edital-medio-portugues-substantivo",
+      "stableItemId": "MED-PORT-004",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "substantivo",
+      "descricao": "Substantivo",
+      "aulaIds": [
+        "medio-portugues-substantivo-001"
+      ],
+      "questoesVinculadas": 10,
+      "status": "questoes_adicionadas"
+    },
+    {
+      "id": "edital-medio-portugues-adjetivo",
+      "stableItemId": "MED-PORT-005",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adjetivo",
+      "descricao": "Adjetivo",
+      "aulaIds": [
+        "medio-portugues-adjetivo-001"
+      ],
+      "questoesVinculadas": 10,
+      "status": "questoes_adicionadas"
+    },
+    {
+      "id": "edital-medio-portugues-preposicao",
+      "stableItemId": "MED-PORT-006",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "preposicao",
+      "descricao": "Preposição",
+      "aulaIds": [
+        "medio-portugues-preposicao-001"
+      ],
+      "questoesVinculadas": 10,
+      "status": "questoes_adicionadas"
+    },
+    {
+      "id": "edital-medio-portugues-conjuncao",
+      "stableItemId": "MED-PORT-007",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "conjuncao",
+      "descricao": "Conjunção",
+      "aulaIds": [
+        "medio-portugues-conjuncao-001"
+      ],
+      "questoesVinculadas": 10,
+      "status": "questoes_adicionadas"
+    },
+    {
+      "id": "edital-medio-portugues-adverbio",
+      "stableItemId": "MED-PORT-008",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adverbio",
+      "descricao": "Advérbio",
+      "aulaIds": [
+        "medio-portugues-adverbio-001"
+      ],
+      "questoesVinculadas": 10,
+      "status": "questoes_adicionadas"
+    },
+    {
+      "id": "edital-medio-portugues-verbo",
+      "stableItemId": "MED-PORT-009",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "verbo",
+      "descricao": "Verbo",
+      "aulaIds": [
+        "medio-portugues-verbo-001"
+      ],
+      "questoesVinculadas": 10,
+      "status": "questoes_adicionadas"
+    },
+    {
+      "id": "edital-medio-portugues-pronome",
+      "stableItemId": "MED-PORT-010",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "pronome",
+      "descricao": "Pronome",
+      "aulaIds": [
+        "medio-portugues-pronome-001"
+      ],
+      "questoesVinculadas": 10,
+      "status": "questoes_adicionadas"
+    },
+    {
+      "id": "edital-medio-portugues-numeral",
+      "stableItemId": "MED-PORT-011",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "numeral",
+      "descricao": "Numeral",
+      "aulaIds": [
+        "medio-portugues-numeral-001"
+      ],
+      "questoesVinculadas": 10,
+      "status": "questoes_adicionadas"
+    },
+    {
+      "id": "edital-medio-portugues-interjeicao",
+      "stableItemId": "MED-PORT-012",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "interjeicao",
+      "descricao": "Interjeição",
+      "aulaIds": [
+        "medio-portugues-interjeicao-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-portugues-artigo",
+      "stableItemId": "MED-PORT-013",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "artigo",
+      "descricao": "Artigo",
+      "aulaIds": [
+        "medio-portugues-artigo-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-portugues-acentuacao",
+      "stableItemId": "MED-PORT-014",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "acentuacao",
+      "descricao": "Acentuação",
+      "aulaIds": [
+        "medio-portugues-acentuacao-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-portugues-concordancia-nominal-verbal",
+      "stableItemId": "MED-PORT-015",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "concordancia-nominal-verbal",
+      "descricao": "Concordância nominal e verbal",
+      "aulaIds": [
+        "medio-portugues-concordancia-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-portugues-pontuacao",
+      "stableItemId": "MED-PORT-016",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "pontuacao",
+      "descricao": "Pontuação",
+      "aulaIds": [
+        "medio-portugues-pontuacao-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-portugues-crase",
+      "stableItemId": "MED-PORT-017",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "crase",
+      "descricao": "Crase",
+      "aulaIds": [
+        "medio-portugues-crase-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-portugues-colocacao-pronominal",
+      "stableItemId": "MED-PORT-018",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "colocacao-pronominal",
+      "descricao": "Colocação pronominal",
+      "aulaIds": [
+        "medio-portugues-colocacao-pronominal-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-portugues-analise-sintatica-periodo-simples-composto",
+      "stableItemId": "MED-PORT-019",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "analise-sintatica-periodo-simples-composto",
+      "descricao": "Análise sintática — período simples e composto",
+      "aulaIds": [
+        "medio-portugues-analise-sintatica-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-portugues-figuras-de-linguagem",
+      "stableItemId": "MED-PORT-020",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "figuras-de-linguagem",
+      "descricao": "Figuras de linguagem",
+      "aulaIds": [
+        "medio-portugues-figuras-linguagem-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-portugues-interpretacao-de-textos",
+      "stableItemId": "MED-PORT-021",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "interpretacao-de-textos",
+      "descricao": "Interpretação de textos",
+      "aulaIds": [
+        "medio-portugues-interpretacao-001"
+      ],
+      "questoesVinculadas": 5,
+      "status": "questoes_adicionadas"
+    },
+    {
+      "id": "edital-medio-matematica-radicais",
+      "stableItemId": "MED-MAT-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "radicais",
+      "descricao": "Radicais",
+      "aulaIds": [
+        "medio-matematica-radicais-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-matematica-razao-proporcao",
+      "stableItemId": "MED-MAT-002",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "razao-proporcao",
+      "descricao": "Razão e proporção",
+      "aulaIds": [
+        "medio-matematica-razao-proporcao-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-matematica-porcentagem",
+      "stableItemId": "MED-MAT-003",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "porcentagem",
+      "descricao": "Porcentagem",
+      "aulaIds": [
+        "medio-matematica-porcentagem-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-matematica-juros-simples",
+      "stableItemId": "MED-MAT-004",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "juros-simples",
+      "descricao": "Juros simples",
+      "aulaIds": [
+        "medio-matematica-juros-simples-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-matematica-numeros-reais",
+      "stableItemId": "MED-MAT-005",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "numeros-reais",
+      "descricao": "Números reais",
+      "aulaIds": [
+        "medio-matematica-numeros-reais-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-matematica-fatoracao-expressao-algebrica",
+      "stableItemId": "MED-MAT-006",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "fatoracao-expressao-algebrica",
+      "descricao": "Fatoração de expressão algébrica",
+      "aulaIds": [
+        "medio-matematica-fatoracao-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-matematica-expressoes-algebricas-operacoes",
+      "stableItemId": "MED-MAT-007",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "expressoes-algebricas-operacoes",
+      "descricao": "Operações com expressões algébricas",
+      "aulaIds": [
+        "medio-matematica-expressoes-algebricas-operacoes-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-matematica-expressoes-algebricas-fracionarias",
+      "stableItemId": "MED-MAT-008",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "expressoes-algebricas-fracionarias",
+      "descricao": "Expressões algébricas fracionárias",
+      "aulaIds": [
+        "medio-matematica-expressoes-algebricas-fracionarias-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-matematica-mdc-mmc",
+      "stableItemId": "MED-MAT-009",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "mdc-mmc",
+      "descricao": "MDC e MMC",
+      "aulaIds": [
+        "medio-matematica-mdc-mmc-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-matematica-sistema-medidas",
+      "stableItemId": "MED-MAT-010",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "sistema-medidas",
+      "descricao": "Sistema de medidas",
+      "aulaIds": [
+        "medio-matematica-sistema-medidas-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-matematica-estatistica",
+      "stableItemId": "MED-MAT-011",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "estatistica",
+      "descricao": "Estatística",
+      "aulaIds": [
+        "medio-matematica-estatistica-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-matematica-geometria-elementos-basicos",
+      "stableItemId": "MED-MAT-012",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "geometria-elementos-basicos",
+      "descricao": "Geometria",
+      "aulaIds": [
+        "medio-matematica-geometria-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    },
+    {
+      "id": "edital-medio-matematica-probabilidade-analise-combinatoria",
+      "stableItemId": "MED-MAT-013",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "temaId": "probabilidade-analise-combinatoria",
+      "descricao": "Probabilidade e análise combinatória",
+      "aulaIds": [
+        "medio-matematica-probabilidade-analise-combinatoria-001"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado"
+    }
+  ],
+  "pendingAreas": [
+    {
+      "cargoId": "agente-administrativo",
+      "area": "Conhecimentos Específicos",
+      "status": "em_producao"
+    },
+    {
+      "cargoId": "monitor-educacao",
+      "area": "Conhecimentos Específicos",
+      "status": "em_producao"
+    },
+    {
+      "cargoId": "ajudante-geral",
+      "area": "Português — Ensino Fundamental",
+      "status": "nao_iniciado"
+    },
+    {
+      "cargoId": "ajudante-geral",
+      "area": "Matemática — Ensino Fundamental",
+      "status": "nao_iniciado"
+    },
+    {
+      "cargoId": "ajudante-geral",
+      "area": "Conhecimentos Específicos",
+      "status": "nao_iniciado"
+    },
+    {
+      "cargoId": "ajudante-geral",
+      "area": "Preparação para Prova Prática",
+      "status": "em_producao"
+    }
+  ]
+}
+

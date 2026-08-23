@@ -1,0 +1,632 @@
+{
+  "schemaVersion": "1.1",
+  "libraryId": "rincao-2026-conteudo-master",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-23T13:30:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "editorialStatus": "em_producao",
+  "scope": {
+    "concurso": "Prefeitura Municipal de Rincão-SP — Concurso Público nº 001/2026",
+    "banca": "INEPAM",
+    "cargoIds": [
+      "agente-administrativo",
+      "monitor-educacao",
+      "ajudante-geral"
+    ]
+  },
+  "officialDocumentGate": {
+    "status": "auditado_sem_impacto_nos_cargos_do_projeto",
+    "documentId": "rerratificacao-edital-abertura-2026-08-13",
+    "publishedAt": "2026-08-13",
+    "sourceUrl": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2681"
+  },
+  "lessons": [
+    {
+      "stableItemId": "MED-PORT-001",
+      "id": "medio-portugues-fonema-001",
+      "temaId": "fonema",
+      "titulo": "Fonema",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-fonema-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-002",
+      "id": "medio-portugues-silaba-001",
+      "temaId": "silaba",
+      "titulo": "Sílaba",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-silaba-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-003",
+      "id": "medio-portugues-ortografia-001",
+      "temaId": "ortografia",
+      "titulo": "Ortografia",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-ortografia-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-004",
+      "id": "medio-portugues-substantivo-001",
+      "temaId": "substantivo",
+      "titulo": "Substantivo",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-substantivo-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-005",
+      "id": "medio-portugues-adjetivo-001",
+      "temaId": "adjetivo",
+      "titulo": "Adjetivo",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-adjetivo-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-006",
+      "id": "medio-portugues-preposicao-001",
+      "temaId": "preposicao",
+      "titulo": "Preposição",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-preposicao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-007",
+      "id": "medio-portugues-conjuncao-001",
+      "temaId": "conjuncao",
+      "titulo": "Conjunção",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-conjuncao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-008",
+      "id": "medio-portugues-adverbio-001",
+      "temaId": "adverbio",
+      "titulo": "Advérbio",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-adverbio-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-009",
+      "id": "medio-portugues-verbo-001",
+      "temaId": "verbo",
+      "titulo": "Verbo",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-verbo-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-010",
+      "id": "medio-portugues-pronome-001",
+      "temaId": "pronome",
+      "titulo": "Pronome",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-pronome-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-011",
+      "id": "medio-portugues-numeral-001",
+      "temaId": "numeral",
+      "titulo": "Numeral",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-numeral-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-012",
+      "id": "medio-portugues-interjeicao-001",
+      "temaId": "interjeicao",
+      "titulo": "Interjeição",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-interjeicao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-PORT-013",
+      "id": "medio-portugues-artigo-001",
+      "temaId": "artigo",
+      "titulo": "Artigo",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-artigo-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-PORT-014",
+      "id": "medio-portugues-acentuacao-001",
+      "temaId": "acentuacao",
+      "titulo": "Acentuação",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-acentuacao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-PORT-015",
+      "id": "medio-portugues-concordancia-001",
+      "temaId": "concordancia-nominal-verbal",
+      "titulo": "Concordância nominal e verbal",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-concordancia-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-PORT-016",
+      "id": "medio-portugues-pontuacao-001",
+      "temaId": "pontuacao",
+      "titulo": "Pontuação",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-pontuacao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-PORT-017",
+      "id": "medio-portugues-crase-001",
+      "temaId": "crase",
+      "titulo": "Crase",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-crase-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-PORT-018",
+      "id": "medio-portugues-colocacao-pronominal-001",
+      "temaId": "colocacao-pronominal",
+      "titulo": "Colocação pronominal",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-colocacao-pronominal-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-PORT-019",
+      "id": "medio-portugues-analise-sintatica-001",
+      "temaId": "analise-sintatica-periodo-simples-composto",
+      "titulo": "Análise sintática — período simples e composto",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-analise-sintatica-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-PORT-020",
+      "id": "medio-portugues-figuras-linguagem-001",
+      "temaId": "figuras-de-linguagem",
+      "titulo": "Figuras de linguagem",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-figuras-linguagem-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-PORT-021",
+      "id": "medio-portugues-interpretacao-001",
+      "temaId": "interpretacao-de-textos",
+      "titulo": "Interpretação de textos",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-interpretacao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "MED-MAT-001",
+      "id": "medio-matematica-radicais-001",
+      "temaId": "radicais",
+      "titulo": "Radicais",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-radicais-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-MAT-002",
+      "id": "medio-matematica-razao-proporcao-001",
+      "temaId": "razao-proporcao",
+      "titulo": "Razão e proporção",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-razao-proporcao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-MAT-003",
+      "id": "medio-matematica-porcentagem-001",
+      "temaId": "porcentagem",
+      "titulo": "Porcentagem",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-porcentagem-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-MAT-004",
+      "id": "medio-matematica-juros-simples-001",
+      "temaId": "juros-simples",
+      "titulo": "Juros simples",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-juros-simples-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-MAT-005",
+      "id": "medio-matematica-numeros-reais-001",
+      "temaId": "numeros-reais",
+      "titulo": "Números reais",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-numeros-reais-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-MAT-006",
+      "id": "medio-matematica-fatoracao-001",
+      "temaId": "fatoracao-expressao-algebrica",
+      "titulo": "Fatoração de expressão algébrica",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-fatoracao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-MAT-007",
+      "id": "medio-matematica-expressoes-algebricas-operacoes-001",
+      "temaId": "expressoes-algebricas-operacoes",
+      "titulo": "Operações com expressões algébricas",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-expressoes-algebricas-operacoes-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-MAT-008",
+      "id": "medio-matematica-expressoes-algebricas-fracionarias-001",
+      "temaId": "expressoes-algebricas-fracionarias",
+      "titulo": "Expressões algébricas fracionárias",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-expressoes-algebricas-fracionarias-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-MAT-009",
+      "id": "medio-matematica-mdc-mmc-001",
+      "temaId": "mdc-mmc",
+      "titulo": "MDC e MMC",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-mdc-mmc-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-MAT-010",
+      "id": "medio-matematica-sistema-medidas-001",
+      "temaId": "sistema-medidas",
+      "titulo": "Sistema de medidas",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-sistema-medidas-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-MAT-011",
+      "id": "medio-matematica-estatistica-001",
+      "temaId": "estatistica",
+      "titulo": "Estatística",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-estatistica-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-MAT-012",
+      "id": "medio-matematica-geometria-001",
+      "temaId": "geometria-elementos-basicos",
+      "titulo": "Geometria",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-geometria-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "MED-MAT-013",
+      "id": "medio-matematica-probabilidade-analise-combinatoria-001",
+      "temaId": "probabilidade-analise-combinatoria",
+      "titulo": "Probabilidade e análise combinatória",
+      "disciplinaId": "medio-matematica",
+      "path": "src/content/library/lessons/medio-matematica-probabilidade-analise-combinatoria-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "questionCount": 0
+    }
+  ],
+  "questionBank": {
+    "path": "src/content/library/data/questions.json",
+    "total": 115,
+    "realInepam": 0,
+    "ineditaEstiloInepam": 115,
+    "questionIds": [
+      "q-inedita-medio-portugues-0001",
+      "q-inedita-medio-portugues-0002",
+      "q-inedita-medio-portugues-0003",
+      "q-inedita-medio-portugues-0004",
+      "q-inedita-medio-portugues-0005",
+      "q-inedita-medio-portugues-0006",
+      "q-inedita-medio-portugues-0007",
+      "q-inedita-medio-portugues-0008",
+      "q-inedita-medio-portugues-0009",
+      "q-inedita-medio-portugues-0010",
+      "q-inedita-medio-portugues-0011",
+      "q-inedita-medio-portugues-0012",
+      "q-inedita-medio-portugues-0013",
+      "q-inedita-medio-portugues-0014",
+      "q-inedita-medio-portugues-0015",
+      "q-inedita-medio-portugues-0016",
+      "q-inedita-medio-portugues-0017",
+      "q-inedita-medio-portugues-0018",
+      "q-inedita-medio-portugues-0019",
+      "q-inedita-medio-portugues-0020",
+      "q-inedita-medio-portugues-0021",
+      "q-inedita-medio-portugues-0022",
+      "q-inedita-medio-portugues-0023",
+      "q-inedita-medio-portugues-0024",
+      "q-inedita-medio-portugues-0025",
+      "q-inedita-medio-portugues-0026",
+      "q-inedita-medio-portugues-0027",
+      "q-inedita-medio-portugues-0028",
+      "q-inedita-medio-portugues-0029",
+      "q-inedita-medio-portugues-0030",
+      "q-inedita-medio-portugues-0031",
+      "q-inedita-medio-portugues-0032",
+      "q-inedita-medio-portugues-0033",
+      "q-inedita-medio-portugues-0034",
+      "q-inedita-medio-portugues-0035",
+      "q-inedita-medio-portugues-0036",
+      "q-inedita-medio-portugues-0037",
+      "q-inedita-medio-portugues-0038",
+      "q-inedita-medio-portugues-0039",
+      "q-inedita-medio-portugues-0040",
+      "q-inedita-medio-portugues-0041",
+      "q-inedita-medio-portugues-0042",
+      "q-inedita-medio-portugues-0043",
+      "q-inedita-medio-portugues-0044",
+      "q-inedita-medio-portugues-0045",
+      "q-inedita-medio-portugues-0046",
+      "q-inedita-medio-portugues-0047",
+      "q-inedita-medio-portugues-0048",
+      "q-inedita-medio-portugues-0049",
+      "q-inedita-medio-portugues-0050",
+      "q-inedita-medio-portugues-0051",
+      "q-inedita-medio-portugues-0052",
+      "q-inedita-medio-portugues-0053",
+      "q-inedita-medio-portugues-0054",
+      "q-inedita-medio-portugues-0055",
+      "q-inedita-medio-portugues-0056",
+      "q-inedita-medio-portugues-0057",
+      "q-inedita-medio-portugues-0058",
+      "q-inedita-medio-portugues-0059",
+      "q-inedita-medio-portugues-0060",
+      "q-inedita-medio-portugues-0061",
+      "q-inedita-medio-portugues-0062",
+      "q-inedita-medio-portugues-0063",
+      "q-inedita-medio-portugues-0064",
+      "q-inedita-medio-portugues-0065",
+      "q-inedita-medio-portugues-0066",
+      "q-inedita-medio-portugues-0067",
+      "q-inedita-medio-portugues-0068",
+      "q-inedita-medio-portugues-0069",
+      "q-inedita-medio-portugues-0070",
+      "q-inedita-medio-portugues-0071",
+      "q-inedita-medio-portugues-0072",
+      "q-inedita-medio-portugues-0073",
+      "q-inedita-medio-portugues-0074",
+      "q-inedita-medio-portugues-0075",
+      "q-inedita-medio-portugues-0076",
+      "q-inedita-medio-portugues-0077",
+      "q-inedita-medio-portugues-0078",
+      "q-inedita-medio-portugues-0079",
+      "q-inedita-medio-portugues-0080",
+      "q-inedita-medio-portugues-0081",
+      "q-inedita-medio-portugues-0082",
+      "q-inedita-medio-portugues-0083",
+      "q-inedita-medio-portugues-0084",
+      "q-inedita-medio-portugues-0085",
+      "q-inedita-medio-portugues-0086",
+      "q-inedita-medio-portugues-0087",
+      "q-inedita-medio-portugues-0088",
+      "q-inedita-medio-portugues-0089",
+      "q-inedita-medio-portugues-0090",
+      "q-inedita-medio-portugues-0091",
+      "q-inedita-medio-portugues-0092",
+      "q-inedita-medio-portugues-0093",
+      "q-inedita-medio-portugues-0094",
+      "q-inedita-medio-portugues-0095",
+      "q-inedita-medio-portugues-0096",
+      "q-inedita-medio-portugues-0097",
+      "q-inedita-medio-portugues-0098",
+      "q-inedita-medio-portugues-0099",
+      "q-inedita-medio-portugues-0100",
+      "q-inedita-medio-portugues-0101",
+      "q-inedita-medio-portugues-0102",
+      "q-inedita-medio-portugues-0103",
+      "q-inedita-medio-portugues-0104",
+      "q-inedita-medio-portugues-0105",
+      "q-inedita-medio-portugues-0106",
+      "q-inedita-medio-portugues-0107",
+      "q-inedita-medio-portugues-0108",
+      "q-inedita-medio-portugues-0109",
+      "q-inedita-medio-portugues-0110",
+      "q-inedita-medio-portugues-0111",
+      "q-inedita-medio-portugues-0112",
+      "q-inedita-medio-portugues-0113",
+      "q-inedita-medio-portugues-0114",
+      "q-inedita-medio-portugues-0115"
+    ]
+  },
+  "data": {
+    "coverage": "src/content/library/data/cobertura-edital.json",
+    "calendar": "src/content/library/data/calendar.json",
+    "news": "src/content/library/data/news.json",
+    "rectifications": "src/content/library/data/rectifications.json",
+    "sources": "src/content/library/data/sources.json"
+  }
+}
+

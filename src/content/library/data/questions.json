@@ -1,0 +1,3070 @@
+{
+  "schemaVersion": "1.0",
+  "questions": [
+    {
+      "id": "q-inedita-medio-portugues-0001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "interpretacao-de-textos",
+      "subtemaId": "informacao-explicita",
+      "aulaIds": [
+        "medio-portugues-interpretacao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": "A biblioteca municipal passou a abrir uma hora mais cedo. Segundo a administração, a mudança busca atender estudantes e trabalhadores que não conseguiam utilizar o espaço no horário anterior. O funcionamento noturno permaneceu sem alteração.",
+      "enunciado": "De acordo com o texto, a alteração realizada pela biblioteca foi:",
+      "alternativas": {
+        "A": "o encerramento do atendimento noturno.",
+        "B": "a abertura uma hora mais cedo.",
+        "C": "a redução do número de usuários.",
+        "D": "a cobrança pelo uso do espaço.",
+        "E": "a substituição do atendimento presencial."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "O texto informa explicitamente que a biblioteca passou a abrir uma hora mais cedo. As demais alternativas acrescentam informações que não aparecem no texto."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0002",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "interpretacao-de-textos",
+      "subtemaId": "inferencia",
+      "aulaIds": [
+        "medio-portugues-interpretacao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "textoBase": "Quando saiu de casa, Paulo levou o guarda-chuva apesar do céu ainda claro. Duas horas depois, as ruas estavam molhadas e muitas pessoas procuravam abrigo sob as marquises.",
+      "enunciado": "Uma conclusão permitida pelo texto é que:",
+      "alternativas": {
+        "A": "Paulo tinha certeza de que ocorreria uma tempestade.",
+        "B": "as ruas foram lavadas pela prefeitura.",
+        "C": "houve chuva depois que Paulo saiu de casa.",
+        "D": "Paulo emprestou seu guarda-chuva.",
+        "E": "todas as pessoas estavam sem guarda-chuva."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Ruas molhadas e pessoas buscando abrigo permitem inferir que choveu. O texto não autoriza concluir certeza prévia de Paulo, lavagem das ruas, empréstimo ou situação de todas as pessoas."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0003",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "interpretacao-de-textos",
+      "subtemaId": "ideia-central",
+      "aulaIds": [
+        "medio-portugues-interpretacao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "textoBase": "Separar materiais recicláveis reduz o volume enviado aos aterros e permite o reaproveitamento de papel, vidro, metal e plástico. Para que a prática funcione, porém, é necessário que a população saiba como descartar cada material e que exista coleta adequada.",
+      "enunciado": "A ideia central do texto é:",
+      "alternativas": {
+        "A": "a reciclagem depende apenas da iniciativa individual.",
+        "B": "todo resíduo doméstico pode ser reciclado.",
+        "C": "aterros devem receber somente vidro e metal.",
+        "D": "a separação de recicláveis traz benefícios, mas depende de orientação e coleta adequadas.",
+        "E": "papel e plástico são os únicos materiais reaproveitáveis."
+      },
+      "respostaCorreta": "D",
+      "explicacao": "A alternativa D reúne as duas ideias principais: benefício da separação e condições para seu funcionamento. As demais absolutizam ou distorcem o texto."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0004",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "interpretacao-de-textos",
+      "subtemaId": "conectivos-e-relacoes",
+      "aulaIds": [
+        "medio-portugues-interpretacao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "textoBase": "O atendimento eletrônico agilizou vários procedimentos, mas o serviço presencial continua necessário para situações que exigem conferência de documentos originais.",
+      "enunciado": "No texto, a palavra 'mas' estabelece relação de:",
+      "alternativas": {
+        "A": "causa.",
+        "B": "oposição ou contraste.",
+        "C": "conclusão.",
+        "D": "explicação.",
+        "E": "condição."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "O conectivo 'mas' contrapõe a agilidade do atendimento eletrônico à permanência da necessidade do atendimento presencial em certos casos."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0005",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "interpretacao-de-textos",
+      "subtemaId": "extrapolacao",
+      "aulaIds": [
+        "medio-portugues-interpretacao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "textoBase": "A escola iniciou um projeto de leitura semanal. Nas primeiras semanas, parte dos estudantes demonstrou maior interesse em retirar livros na biblioteca. A equipe pretende acompanhar os resultados ao longo do semestre.",
+      "enunciado": "Assinale a alternativa que extrapola as informações do texto:",
+      "alternativas": {
+        "A": "A escola iniciou um projeto de leitura semanal.",
+        "B": "Houve aumento de interesse de parte dos estudantes pela retirada de livros.",
+        "C": "A equipe pretende acompanhar os resultados durante o semestre.",
+        "D": "O projeto já comprovou que todos os estudantes melhoraram suas notas.",
+        "E": "O texto relata resultados iniciais do projeto."
+      },
+      "respostaCorreta": "D",
+      "explicacao": "O texto não menciona notas nem afirma que todos os estudantes melhoraram. A alternativa D acrescenta uma conclusão sem apoio textual."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0006",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "letra-e-fonema",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a alternativa que apresenta corretamente a quantidade de letras e fonemas da palavra “pilha”.",
+      "alternativas": {
+        "A": "5 letras e 5 fonemas.",
+        "B": "5 letras e 4 fonemas.",
+        "C": "4 letras e 5 fonemas.",
+        "D": "4 letras e 4 fonemas.",
+        "E": "5 letras e 3 fonemas."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "PILHA tem 5 letras. O grupo LH é dígrafo e representa um único fonema. Assim, a palavra possui 4 fonemas: /p/ /i/ /lh/ /a/."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0007",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "x-dois-fonemas",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Em qual alternativa a palavra possui mais fonemas do que letras?",
+      "alternativas": {
+        "A": "chave",
+        "B": "carro",
+        "C": "massa",
+        "D": "fixo",
+        "E": "ninho"
+      },
+      "respostaCorreta": "D",
+      "explicacao": "Em “fixo”, a letra X representa dois fonemas, /k/ + /s/. Por isso, a palavra tem 4 letras e 5 fonemas. Nas demais, há dígrafos, o que reduz a quantidade de fonemas em relação às letras."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0008",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "digrafo",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a palavra que apresenta dígrafo consonantal.",
+      "alternativas": {
+        "A": "prato",
+        "B": "trava",
+        "C": "chave",
+        "D": "bloco",
+        "E": "cravo"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Em “chave”, CH é formado por duas letras que representam um único fonema. PR, TR, BL e CR são encontros consonantais, pois os sons das consoantes permanecem perceptíveis."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0009",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "h-sem-fonema",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "A palavra “hora” possui:",
+      "alternativas": {
+        "A": "4 letras e 3 fonemas.",
+        "B": "4 letras e 4 fonemas.",
+        "C": "3 letras e 4 fonemas.",
+        "D": "3 letras e 3 fonemas.",
+        "E": "4 letras e 2 fonemas."
+      },
+      "respostaCorreta": "A",
+      "explicacao": "HORA possui 4 letras. O H inicial não representa fonema. Assim, na análise escolar usual, contam-se os sons de O, R e A: 3 fonemas."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0010",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "x-valores-foneticos",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "enunciado": "Assinale a palavra em que a letra X representa dois fonemas, correspondentes a /k/ + /s/.",
+      "alternativas": {
+        "A": "exame",
+        "B": "xícara",
+        "C": "próximo",
+        "D": "enxame",
+        "E": "táxi"
+      },
+      "respostaCorreta": "E",
+      "explicacao": "Em “táxi”, X representa /k/ + /s/. Em “exame”, o X tem som de Z; em “xícara” e “enxame”, som semelhante a CH; em “próximo”, som de S."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0011",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "rr-digrafo",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "A palavra “carro” apresenta 5 letras. Considerando o dígrafo RR, quantos fonemas ela possui?",
+      "alternativas": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "C A R R O = 5 letras. RR representa um único fonema. Assim, a contagem sonora é /k/ /a/ /rr/ /o/: 4 fonemas."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0012",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "comparacao-letras-fonemas",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "enunciado": "Assinale a alternativa correta sobre as palavras “pilhas” e “travas”.",
+      "alternativas": {
+        "A": "Ambas têm 6 letras e 5 fonemas.",
+        "B": "“Pilhas” tem 6 letras e 5 fonemas; “travas” tem 6 letras e 6 fonemas.",
+        "C": "“Pilhas” tem 5 letras e 6 fonemas; “travas” tem 6 letras e 5 fonemas.",
+        "D": "Ambas têm 6 letras e 6 fonemas.",
+        "E": "“Pilhas” e “travas” possuem dígrafos consonantais."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "Em “pilhas”, LH é dígrafo, reduzindo a contagem para 5 fonemas. Em “travas”, TR é encontro consonantal e os dois sons permanecem; a palavra tem 6 letras e 6 fonemas."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0013",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "qu-gu",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "enunciado": "Na palavra “queijo”, a sequência QU é analisada como dígrafo porque:",
+      "alternativas": {
+        "A": "Q e U são duas vogais pronunciadas juntas.",
+        "B": "o Q não é pronunciado.",
+        "C": "o U é sempre pronunciado como semivogal.",
+        "D": "Q e U participam da representação de um único fonema, sem pronúncia independente do U.",
+        "E": "toda sequência QU é obrigatoriamente encontro consonantal."
+      },
+      "respostaCorreta": "D",
+      "explicacao": "Em “queijo”, o U não é pronunciado de forma independente; a sequência QU participa da representação de um único fonema consonantal. A análise deve sempre observar a pronúncia."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0014",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "x-dois-fonemas",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "enunciado": "A palavra “anexos” possui 6 letras. Na pronúncia em que X representa /k/ + /s/, a quantidade de fonemas é:",
+      "alternativas": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "4",
+        "E": "8"
+      },
+      "respostaCorreta": "A",
+      "explicacao": "A letra X representa dois fonemas, /k/ + /s/. Assim, uma palavra com 6 letras pode apresentar 7 fonemas. Essa mesma análise aparece em julgamento oficial da INEPAM."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0015",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "fonema",
+      "subtemaId": "conceitos-gerais",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "enunciado": "Assinale a afirmação correta.",
+      "alternativas": {
+        "A": "Todo encontro de duas consoantes forma um dígrafo.",
+        "B": "Toda palavra possui exatamente o mesmo número de letras e fonemas.",
+        "C": "A letra X representa sempre um único fonema.",
+        "D": "M e N são sempre fonemas consonantais independentes.",
+        "E": "Um dígrafo é formado por duas letras que representam um único fonema."
+      },
+      "respostaCorreta": "E",
+      "explicacao": "Dígrafo é a relação em que duas letras representam um único fonema. As demais alternativas generalizam de forma incorreta: encontros consonantais podem manter dois sons, a relação entre letras e fonemas varia, X pode representar /ks/, e M/N podem apenas nasalizar uma vogal."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0016",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "silaba",
+      "subtemaId": "separacao-hiato",
+      "aulaIds": [
+        "medio-portugues-silaba-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa em que a palavra está corretamente separada em sílabas.",
+      "alternativas": {
+        "A": "sau-de",
+        "B": "sa-úd-e",
+        "C": "sa-ú-de",
+        "D": "saú-de",
+        "E": "s-aú-de"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Em “saúde”, A e Ú formam hiato, portanto pertencem a sílabas diferentes: sa-ú-de."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0017",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "silaba",
+      "subtemaId": "digrafos-separacao",
+      "aulaIds": [
+        "medio-portugues-silaba-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "A divisão silábica correta da palavra “carro” é:",
+      "alternativas": {
+        "A": "ca-rro",
+        "B": "car-ro",
+        "C": "c-arr-o",
+        "D": "carro",
+        "E": "ca-rr-o"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "O dígrafo RR representa um fonema, mas suas letras se distribuem por sílabas diferentes na divisão: car-ro."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0018",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "silaba",
+      "subtemaId": "numero-de-silabas",
+      "aulaIds": [
+        "medio-portugues-silaba-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "A palavra “país” é classificada, quanto ao número de sílabas, como:",
+      "alternativas": {
+        "A": "monossílaba",
+        "B": "trissílaba",
+        "C": "polissílaba",
+        "D": "dissílaba",
+        "E": "monossílabo átono"
+      },
+      "respostaCorreta": "D",
+      "explicacao": "“País” separa-se pa-ís. O hiato A-Í produz duas sílabas; portanto, é dissílaba."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0019",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "silaba",
+      "subtemaId": "monossilabas",
+      "aulaIds": [
+        "medio-portugues-silaba-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "textoBase": null,
+      "enunciado": "Assinale a palavra que, na divisão silábica padrão, possui apenas uma sílaba.",
+      "alternativas": {
+        "A": "pneu",
+        "B": "saúde",
+        "C": "país",
+        "D": "janela",
+        "E": "queijo"
+      },
+      "respostaCorreta": "A",
+      "explicacao": "“Pneu” é monossílaba. As demais têm duas ou mais sílabas."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0020",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "silaba",
+      "subtemaId": "tonicidade-paroxitona",
+      "aulaIds": [
+        "medio-portugues-silaba-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "textoBase": null,
+      "enunciado": "Considerando a pronúncia padrão, a palavra “apocalipse” é:",
+      "alternativas": {
+        "A": "monossílaba tônica",
+        "B": "oxítona",
+        "C": "proparoxítona",
+        "D": "monossílaba átona",
+        "E": "paroxítona"
+      },
+      "respostaCorreta": "E",
+      "explicacao": "A palavra separa-se a-po-ca-lip-se e a sílaba tônica é “lip”, a penúltima; logo, é paroxítona."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0021",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "silaba",
+      "subtemaId": "monossilabo-tonico",
+      "aulaIds": [
+        "medio-portugues-silaba-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "textoBase": null,
+      "enunciado": "De acordo com a classificação gramatical escolar, a palavra “pé” é:",
+      "alternativas": {
+        "A": "oxítona dissílaba",
+        "B": "paroxítona",
+        "C": "monossílabo tônico",
+        "D": "monossílabo átono",
+        "E": "proparoxítona"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“Pé” possui uma única sílaba e tem força própria; portanto, é monossílabo tônico, não oxítona."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0022",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "silaba",
+      "subtemaId": "tritongo",
+      "aulaIds": [
+        "medio-portugues-silaba-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "textoBase": null,
+      "enunciado": "Assinale a divisão silábica correta da palavra “quaisquer”.",
+      "alternativas": {
+        "A": "qua-is-quer",
+        "B": "quais-quer",
+        "C": "qu-a-is-quer",
+        "D": "quaisq-uer",
+        "E": "qu-ai-squer"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "Em “quaisquer”, o grupo vocálico de “quais” permanece na mesma sílaba; a divisão é quais-quer."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0023",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "silaba",
+      "subtemaId": "digrafo-nh",
+      "aulaIds": [
+        "medio-portugues-silaba-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "A palavra “ninho” está corretamente separada em:",
+      "alternativas": {
+        "A": "nin-ho",
+        "B": "n-in-ho",
+        "C": "ni-n-ho",
+        "D": "ni-nho",
+        "E": "ninh-o"
+      },
+      "respostaCorreta": "D",
+      "explicacao": "O dígrafo NH permanece na mesma sílaba: ni-nho."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0024",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "silaba",
+      "subtemaId": "separacao-combinada",
+      "aulaIds": [
+        "medio-portugues-silaba-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "dificil",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa que apresenta a divisão correta de “passeio”.",
+      "alternativas": {
+        "A": "pas-sei-o",
+        "B": "pa-ssei-o",
+        "C": "pas-se-io",
+        "D": "pass-ei-o",
+        "E": "pa-ss-ei-o"
+      },
+      "respostaCorreta": "A",
+      "explicacao": "O dígrafo SS se separa (pas-sei-o), enquanto EI permanece unido como ditongo; o O final forma outra sílaba."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0025",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "silaba",
+      "subtemaId": "polissilaba",
+      "aulaIds": [
+        "medio-portugues-silaba-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "Quanto ao número de sílabas, a palavra “administrativo” é:",
+      "alternativas": {
+        "A": "monossílaba",
+        "B": "dissílaba",
+        "C": "trissílaba",
+        "D": "tetrassílaba obrigatoriamente",
+        "E": "polissílaba"
+      },
+      "respostaCorreta": "E",
+      "explicacao": "A palavra possui mais de três sílabas (ad-mi-nis-tra-ti-vo), portanto é polissílaba."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0026",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "ortografia",
+      "subtemaId": "grafia-correta",
+      "aulaIds": [
+        "medio-portugues-ortografia-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas corretamente segundo a norma-padrão.",
+      "alternativas": {
+        "A": "excessão, privilégio, pesquisa",
+        "B": "exceção, previlégio, pesquisa",
+        "C": "exceção, privilégio, pesquisa",
+        "D": "exceção, privilégio, pesquiza",
+        "E": "excessão, previlégio, pesquiza"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "As formas corretas são exceção, privilégio e pesquisa. As demais alternativas introduzem erros recorrentes de grafia."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0027",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "ortografia",
+      "subtemaId": "mal-mau",
+      "aulaIds": [
+        "medio-portugues-ortografia-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Complete corretamente: “O servidor estava de ___ humor porque dormiu ___ durante a noite.”",
+      "alternativas": {
+        "A": "mal — mau",
+        "B": "mau — mal",
+        "C": "mau — mau",
+        "D": "mal — mal",
+        "E": "mal — máu"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "Mau é adjetivo e se opõe a bom: mau humor. Mal é advérbio e se opõe a bem: dormiu mal."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0028",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "ortografia",
+      "subtemaId": "a-ha",
+      "aulaIds": [
+        "medio-portugues-ortografia-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Assinale a alternativa que completa corretamente: “O edital foi publicado ___ três dias e a prova ocorrerá daqui ___ um mês.”",
+      "alternativas": {
+        "A": "a — há",
+        "B": "à — a",
+        "C": "há — há",
+        "D": "há — a",
+        "E": "a — a"
+      },
+      "respostaCorreta": "D",
+      "explicacao": "Tempo passado usa há: publicado há três dias. Tempo futuro usa a: daqui a um mês."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0029",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "ortografia",
+      "subtemaId": "sessao-secao-cessao",
+      "aulaIds": [
+        "medio-portugues-ortografia-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Assinale a sequência que completa corretamente: “A ___ de protocolo informou que a ___ extraordinária ocorrerá após a assinatura do termo de ___ de uso.”",
+      "alternativas": {
+        "A": "seção — sessão — cessão",
+        "B": "sessão — seção — cessão",
+        "C": "cessão — sessão — seção",
+        "D": "seção — cessão — sessão",
+        "E": "sessão — cessão — seção"
+      },
+      "respostaCorreta": "A",
+      "explicacao": "Seção é setor/divisão; sessão é reunião/período; cessão é ato de ceder."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0030",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "ortografia",
+      "subtemaId": "porques",
+      "aulaIds": [
+        "medio-portugues-ortografia-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Assinale a alternativa corretamente grafada e adequada ao contexto.",
+      "alternativas": {
+        "A": "Não sei porque o sistema falhou?",
+        "B": "Por quê o candidato chegou atrasado?",
+        "C": "Ninguém explicou por que da mudança.",
+        "D": "O servidor faltou, por que estava doente.",
+        "E": "Gostaria de saber por que o prazo foi alterado."
+      },
+      "respostaCorreta": "E",
+      "explicacao": "Em pergunta indireta com sentido de “por qual razão”, usa-se por que. As demais alternativas empregam formas inadequadas ao contexto."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0031",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "ortografia",
+      "subtemaId": "g-j",
+      "aulaIds": [
+        "medio-portugues-ortografia-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a alternativa que completa corretamente: “Espero que eles ___ amanhã; a ___ foi marcada com antecedência.”",
+      "alternativas": {
+        "A": "viagem — viajem",
+        "B": "viajem — viajem",
+        "C": "viajem — viagem",
+        "D": "viagem — viagem",
+        "E": "viajen — viagem"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Viajem é forma do verbo viajar; viagem é substantivo."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0032",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "ortografia",
+      "subtemaId": "hifen",
+      "aulaIds": [
+        "medio-portugues-ortografia-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Assinale a alternativa em que as duas palavras estão grafadas corretamente de acordo com o Acordo Ortográfico.",
+      "alternativas": {
+        "A": "antiinflamatório — anti-racista",
+        "B": "anti-inflamatório — antirracista",
+        "C": "antiinflamatório — antirracista",
+        "D": "anti-inflamatório — anti-racista",
+        "E": "anti inflamatório — antiracista"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "Usa-se hífen diante da mesma vogal em anti-inflamatório. Antes de R, em formação como antirracista, não há hífen e duplica-se a consoante."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0033",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "ortografia",
+      "subtemaId": "paronimos",
+      "aulaIds": [
+        "medio-portugues-ortografia-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Assinale a alternativa que completa corretamente: “O risco era ___, por isso o relatório foi ___ para corrigir um dado.”",
+      "alternativas": {
+        "A": "eminente — ratificado",
+        "B": "eminente — retificado",
+        "C": "iminente — ratificado",
+        "D": "iminente — retificado",
+        "E": "iminente — retificato"
+      },
+      "respostaCorreta": "D",
+      "explicacao": "Iminente significa prestes a acontecer. Retificar significa corrigir."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0034",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "ortografia",
+      "subtemaId": "x-ch",
+      "aulaIds": [
+        "medio-portugues-ortografia-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a alternativa em que a palavra está grafada incorretamente.",
+      "alternativas": {
+        "A": "enchergar",
+        "B": "enxame",
+        "C": "enxada",
+        "D": "encher",
+        "E": "enxoval"
+      },
+      "respostaCorreta": "A",
+      "explicacao": "A forma correta é enxergar, com X. Encher conserva CH por relação com cheio."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0035",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "ortografia",
+      "subtemaId": "familia-palavras",
+      "aulaIds": [
+        "medio-portugues-ortografia-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Considerando a grafia correta das palavras, assinale a alternativa adequada.",
+      "alternativas": {
+        "A": "O propietário trouxe o documento.",
+        "B": "O acensorista realizou o atendimento.",
+        "C": "A guela ficou irritada após o exame.",
+        "D": "O servidor agiu com descrição para não expor o assunto.",
+        "E": "O proprietário agiu com discrição durante a reunião."
+      },
+      "respostaCorreta": "E",
+      "explicacao": "Proprietário e discrição estão adequados. As formas corretas das demais são ascensorista, goela e, no contexto de comportamento reservado, discrição."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0036",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "substantivo",
+      "subtemaId": "classificacao-comum-proprio",
+      "aulaIds": [
+        "medio-portugues-substantivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa em que o termo destacado é um substantivo próprio.",
+      "alternativas": {
+        "A": "A escola recebeu novos livros.",
+        "B": "O município publicou o comunicado.",
+        "C": "Rincão divulgou o cronograma.",
+        "D": "A criança entrou na sala.",
+        "E": "O servidor arquivou o documento."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“Rincão” individualiza um município específico, portanto é substantivo próprio. Os demais termos destacados no sentido proposto são comuns."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0037",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "substantivo",
+      "subtemaId": "concreto-abstrato",
+      "aulaIds": [
+        "medio-portugues-substantivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Na frase “A dedicação da monitora favoreceu a aprendizagem das crianças”, os substantivos “dedicação” e “aprendizagem” são classificados, quanto ao sentido, como:",
+      "alternativas": {
+        "A": "próprios",
+        "B": "concretos",
+        "C": "coletivos",
+        "D": "abstratos",
+        "E": "compostos"
+      },
+      "respostaCorreta": "D",
+      "explicacao": "Dedicação e aprendizagem nomeiam qualidade/ação/processo concebidos em relação a seres, por isso são substantivos abstratos."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0038",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "substantivo",
+      "subtemaId": "simples-composto",
+      "aulaIds": [
+        "medio-portugues-substantivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa que apresenta um substantivo composto.",
+      "alternativas": {
+        "A": "documento",
+        "B": "computador",
+        "C": "guarda-chuva",
+        "D": "servidor",
+        "E": "prefeitura"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“Guarda-chuva” apresenta mais de um radical e é substantivo composto."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0039",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "substantivo",
+      "subtemaId": "primitivo-derivado",
+      "aulaIds": [
+        "medio-portugues-substantivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa em que o segundo substantivo é derivado do primeiro.",
+      "alternativas": {
+        "A": "pedra – pedreiro",
+        "B": "casa – escola",
+        "C": "livro – mesa",
+        "D": "terra – chuva",
+        "E": "ferro – papel"
+      },
+      "respostaCorreta": "A",
+      "explicacao": "“Pedreiro” é formado a partir de “pedra”; logo, pedra é primitivo e pedreiro é derivado na família apresentada."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0040",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "substantivo",
+      "subtemaId": "comum-dois-generos",
+      "aulaIds": [
+        "medio-portugues-substantivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Segundo a classificação tradicional da gramática normativa, o substantivo “gerente” é:",
+      "alternativas": {
+        "A": "epiceno",
+        "B": "sobrecomum",
+        "C": "comum de dois gêneros",
+        "D": "coletivo",
+        "E": "sempre masculino"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "A forma do substantivo permanece a mesma, e o gênero pode ser marcado pelo determinante: o gerente/a gerente. É comum de dois gêneros."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0041",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "substantivo",
+      "subtemaId": "sobrecomum",
+      "aulaIds": [
+        "medio-portugues-substantivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa que apresenta um substantivo sobrecomum.",
+      "alternativas": {
+        "A": "gerente",
+        "B": "estudante",
+        "C": "vítima",
+        "D": "cobra",
+        "E": "professor"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“Vítima” tem gênero gramatical fixo e pode designar homem ou mulher, sendo tradicionalmente classificada como sobrecomum."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0042",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "substantivo",
+      "subtemaId": "epiceno",
+      "aulaIds": [
+        "medio-portugues-substantivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Na expressão “a cobra macho”, a palavra “cobra”, segundo a classificação tradicional, é substantivo:",
+      "alternativas": {
+        "A": "comum de dois gêneros",
+        "B": "sobrecomum",
+        "C": "epiceno",
+        "D": "abstrato",
+        "E": "próprio"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Nomes de certos animais com gênero gramatical fixo e sexo indicado por macho/fêmea são classificados como epicenos."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0043",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "substantivo",
+      "subtemaId": "plural-ao",
+      "aulaIds": [
+        "medio-portugues-substantivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa em que todos os plurais estão corretos.",
+      "alternativas": {
+        "A": "cidadões – capitões – botãos",
+        "B": "cidadãos – capitães – botões",
+        "C": "cidadães – capitãos – botãos",
+        "D": "cidadãos – capitões – botães",
+        "E": "cidadães – capitães – botões"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "As formas normativas são: cidadão → cidadãos; capitão → capitães; botão → botões."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0044",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "substantivo",
+      "subtemaId": "genero-lexical",
+      "aulaIds": [
+        "medio-portugues-substantivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "dificil",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa que apresenta, respectivamente, um substantivo feminino, outro feminino e um masculino.",
+      "alternativas": {
+        "A": "eclipse – libido – dinamite",
+        "B": "dinamite – libido – eclipse",
+        "C": "libido – eclipse – dinamite",
+        "D": "eclipse – dinamite – libido",
+        "E": "dinamite – eclipse – libido"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "Na norma-padrão tradicional: a dinamite, a libido e o eclipse."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0045",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "substantivo",
+      "subtemaId": "substantivacao",
+      "aulaIds": [
+        "medio-portugues-substantivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Na frase “O não do candidato foi definitivo”, a palavra “não” exerce função de:",
+      "alternativas": {
+        "A": "advérbio de negação apenas",
+        "B": "conjunção",
+        "C": "preposição",
+        "D": "substantivo por substantivação",
+        "E": "interjeição"
+      },
+      "respostaCorreta": "D",
+      "explicacao": "O artigo “o” e a função nominal mostram que “não” está substantivado no contexto."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0046",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adjetivo",
+      "subtemaId": "genero-biforme-uniforme",
+      "aulaIds": [
+        "medio-portugues-adjetivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa em que o adjetivo apresentado é biforme quanto ao gênero.",
+      "alternativas": {
+        "A": "feliz",
+        "B": "inteligente",
+        "C": "fino",
+        "D": "simples",
+        "E": "cortês"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Fino varia para fina. Os demais mantêm a mesma forma no masculino e no feminino nos usos apresentados."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0047",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adjetivo",
+      "subtemaId": "locucao-adjetiva",
+      "aulaIds": [
+        "medio-portugues-adjetivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "A locução adjetiva “de mãe” corresponde, em sentido tradicional, ao adjetivo:",
+      "alternativas": {
+        "A": "fraterno",
+        "B": "materno",
+        "C": "paterno",
+        "D": "filial",
+        "E": "doméstico"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "Materno significa relativo à mãe e é correspondência tradicional da locução adjetiva “de mãe”."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0048",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adjetivo",
+      "subtemaId": "adjetivo-patrio",
+      "aulaIds": [
+        "medio-portugues-adjetivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "dificil",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa que apresenta o adjetivo pátrio tradicionalmente relacionado a Madagascar.",
+      "alternativas": {
+        "A": "madagascarense",
+        "B": "malgácio",
+        "C": "madagasquês",
+        "D": "malgaxe",
+        "E": "malgásio"
+      },
+      "respostaCorreta": "D",
+      "explicacao": "Malgaxe é forma registrada para natural ou relativo a Madagascar e já foi mencionada em julgamento oficial da INEPAM."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0049",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adjetivo",
+      "subtemaId": "adjetivo-adverbiado",
+      "aulaIds": [
+        "medio-portugues-adjetivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Na frase “Os candidatos falaram baixo durante a prova”, a palavra “baixo” exerce, no contexto, valor de:",
+      "alternativas": {
+        "A": "advérbio/adjetivo adverbiado, pois modifica o verbo falaram",
+        "B": "substantivo, pois nomeia a intensidade da voz",
+        "C": "adjetivo que caracteriza candidatos e deve ir para o plural",
+        "D": "preposição",
+        "E": "conjunção"
+      },
+      "respostaCorreta": "A",
+      "explicacao": "Baixo tem forma adjetiva, mas modifica a maneira como os candidatos falaram. Nesse uso, funciona com valor adverbial e permanece invariável."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0050",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adjetivo",
+      "subtemaId": "comparativo",
+      "aulaIds": [
+        "medio-portugues-adjetivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "A frase “O segundo relatório é tão detalhado quanto o primeiro” apresenta grau:",
+      "alternativas": {
+        "A": "superlativo absoluto analítico",
+        "B": "comparativo de superioridade",
+        "C": "superlativo relativo de inferioridade",
+        "D": "comparativo de inferioridade",
+        "E": "comparativo de igualdade"
+      },
+      "respostaCorreta": "E",
+      "explicacao": "A estrutura “tão + adjetivo + quanto” caracteriza comparativo de igualdade."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0051",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adjetivo",
+      "subtemaId": "superlativo-absoluto-analitico",
+      "aulaIds": [
+        "medio-portugues-adjetivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "Em “O servidor foi muito cuidadoso na conferência dos documentos”, o adjetivo está no:",
+      "alternativas": {
+        "A": "comparativo de igualdade",
+        "B": "superlativo relativo de superioridade",
+        "C": "superlativo absoluto analítico",
+        "D": "comparativo de inferioridade",
+        "E": "grau normal"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "A intensidade é expressa por “muito” + adjetivo, estrutura típica do superlativo absoluto analítico."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0052",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adjetivo",
+      "subtemaId": "superlativo-absoluto-sintetico",
+      "aulaIds": [
+        "medio-portugues-adjetivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa que apresenta superlativo absoluto sintético.",
+      "alternativas": {
+        "A": "muito difícil",
+        "B": "mais difícil que",
+        "C": "dificílimo",
+        "D": "tão difícil quanto",
+        "E": "o mais difícil da turma"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Dificílimo concentra a ideia de intensidade na própria forma do adjetivo, caracterizando superlativo absoluto sintético."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0053",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adjetivo",
+      "subtemaId": "comparativos-irregulares",
+      "aulaIds": [
+        "medio-portugues-adjetivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a frase adequada à norma-padrão em uma comparação comum entre dois relatórios.",
+      "alternativas": {
+        "A": "Este relatório é mais melhor que o anterior.",
+        "B": "Este relatório é muito mais melhor que o anterior.",
+        "C": "Este relatório é o mais melhor que o anterior.",
+        "D": "Este relatório é melhor que o anterior.",
+        "E": "Este relatório é mais bom que o anterior, sem qualquer restrição de contexto."
+      },
+      "respostaCorreta": "D",
+      "explicacao": "Melhor é a forma comparativa sintética tradicional de bom. Em comparação comum entre dois elementos, “melhor que” é a construção padrão."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0054",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adjetivo",
+      "subtemaId": "substantivacao",
+      "aulaIds": [
+        "medio-portugues-adjetivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Na frase “O responsável chegou antes do início da reunião”, a palavra “responsável” funciona como:",
+      "alternativas": {
+        "A": "adjetivo substantivado, núcleo do grupo nominal",
+        "B": "advérbio de modo",
+        "C": "adjetivo que caracteriza um substantivo expresso depois dele",
+        "D": "preposição",
+        "E": "conjunção"
+      },
+      "respostaCorreta": "A",
+      "explicacao": "Responsável aparece acompanhado pelo artigo “o” e funciona como núcleo nominal, sem substantivo expresso a ser caracterizado."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0055",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adjetivo",
+      "subtemaId": "superlativo-relativo",
+      "aulaIds": [
+        "medio-portugues-adjetivo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "A frase “Carla é a menos experiente da equipe” apresenta:",
+      "alternativas": {
+        "A": "comparativo de superioridade",
+        "B": "comparativo de igualdade",
+        "C": "superlativo absoluto sintético",
+        "D": "superlativo relativo de superioridade",
+        "E": "superlativo relativo de inferioridade"
+      },
+      "respostaCorreta": "E",
+      "explicacao": "A qualidade de Carla é comparada ao conjunto “equipe”, destacando-a pelo menor grau de experiência: superlativo relativo de inferioridade."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0056",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "preposicao",
+      "subtemaId": "valores-semanticos-meio",
+      "aulaIds": [
+        "medio-portugues-preposicao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Em “A servidora foi ao arquivo de elevador”, a preposição “de” expressa principalmente ideia de:",
+      "alternativas": {
+        "A": "causa",
+        "B": "meio",
+        "C": "posse",
+        "D": "assunto",
+        "E": "oposição"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "A expressão “de elevador” indica o meio utilizado para o deslocamento. A mesma preposição pode assumir outros valores em contextos diferentes."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0057",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "preposicao",
+      "subtemaId": "valores-semanticos-causa",
+      "aulaIds": [
+        "medio-portugues-preposicao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Na frase “O equipamento parou de superaquecimento”, considerando apenas o valor semântico da preposição destacada, a relação predominante é de:",
+      "alternativas": {
+        "A": "origem",
+        "B": "companhia",
+        "C": "causa",
+        "D": "destino",
+        "E": "matéria"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "O superaquecimento é apresentado como causa da parada. O valor semântico da preposição depende do contexto, não apenas da forma “de”."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0058",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "preposicao",
+      "subtemaId": "preposicoes-essenciais",
+      "aulaIds": [
+        "medio-portugues-preposicao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa em que a palavra destacada é uma preposição essencial.",
+      "alternativas": {
+        "A": "Conforme o regulamento, a entrada será liberada.",
+        "B": "Durante a reunião, ninguém saiu.",
+        "C": "A equipe trabalhou com atenção.",
+        "D": "Exceto Carlos, todos compareceram.",
+        "E": "Segundo a chefia, o prazo termina hoje."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“Com” pertence ao conjunto tradicional das preposições essenciais. Conforme, durante, exceto e segundo podem funcionar como preposições acidentais."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0059",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "preposicao",
+      "subtemaId": "locucao-prepositiva",
+      "aulaIds": [
+        "medio-portugues-preposicao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Em qual alternativa há uma locução prepositiva?",
+      "alternativas": {
+        "A": "O documento ficou sobre a mesa.",
+        "B": "A equipe chegou após o almoço.",
+        "C": "O servidor agiu de acordo com a orientação.",
+        "D": "Todos saíram sem atraso.",
+        "E": "O aluno caminhou até a sala."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“De acordo com” é uma locução prepositiva: um grupo de palavras que funciona como preposição e termina, em regra, por uma preposição."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0060",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "preposicao",
+      "subtemaId": "contracao-preposicao",
+      "aulaIds": [
+        "medio-portugues-preposicao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Em “O relatório está no arquivo”, a forma “no” resulta da contração de:",
+      "alternativas": {
+        "A": "na + o",
+        "B": "em + o",
+        "C": "de + o",
+        "D": "por + o",
+        "E": "a + o"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "“No” resulta de “em + o”. A contração reúne a preposição com o artigo em uma única forma."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0061",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "preposicao",
+      "subtemaId": "a-ha-tempo",
+      "aulaIds": [
+        "medio-portugues-preposicao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a frase correta segundo a norma-padrão.",
+      "alternativas": {
+        "A": "A dois anos trabalho neste setor.",
+        "B": "Daqui há duas semanas haverá treinamento.",
+        "C": "Há três meses o sistema foi atualizado.",
+        "D": "O concurso ocorrerá daqui há alguns dias.",
+        "E": "Estamos esperando a uma hora."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Para tempo decorrido, usa-se “há” (verbo haver). Para tempo futuro, usa-se a preposição “a”: “daqui a duas semanas”."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0062",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "preposicao",
+      "subtemaId": "pronome-apos-preposicao",
+      "aulaIds": [
+        "medio-portugues-preposicao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Entre eu e você não há pendências.",
+        "B": "Este documento é para mim assinar.",
+        "C": "O chefe falou com eu sobre o processo.",
+        "D": "Entre mim e você não há pendências.",
+        "E": "Para mim concluir o serviço, preciso do sistema."
+      },
+      "respostaCorreta": "D",
+      "explicacao": "Após a preposição “entre”, usa-se o pronome oblíquo tônico “mim”. Quando o pronome funciona como sujeito de um infinitivo, usa-se “eu”: “para eu assinar”."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0063",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "preposicao",
+      "subtemaId": "com-nos-conosco",
+      "aulaIds": [
+        "medio-portugues-preposicao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a construção adequada à norma-padrão sem elemento de reforço.",
+      "alternativas": {
+        "A": "Ela viajará com nós amanhã.",
+        "B": "Ela viajará conosco amanhã.",
+        "C": "Ela viajará com nós próprio amanhã.",
+        "D": "Ela viajará de nós amanhã.",
+        "E": "Ela viajará entre nós todos amanhã."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "Sem reforço, a forma usual é “conosco”. “Com nós” é admitido em construções como “com nós dois”, “com nós todos”, “com nós mesmos”."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0064",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "preposicao",
+      "subtemaId": "preposicao-a-crase",
+      "aulaIds": [
+        "medio-portugues-preposicao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Na expressão “A servidora entregou o processo à diretora”, o acento grave ocorre porque há:",
+      "alternativas": {
+        "A": "apenas artigo feminino",
+        "B": "apenas preposição",
+        "C": "preposição “a” + artigo feminino “a”",
+        "D": "pronome oblíquo + artigo",
+        "E": "preposição “de” + artigo"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "A crase representa a fusão da preposição “a”, exigida pela relação estabelecida, com o artigo feminino “a” que antecede “diretora”."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0065",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "preposicao",
+      "subtemaId": "preposicao-e-funcao",
+      "aulaIds": [
+        "medio-portugues-preposicao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a afirmação correta.",
+      "alternativas": {
+        "A": "Todo termo iniciado por preposição é objeto indireto.",
+        "B": "Toda preposição indica causa.",
+        "C": "A presença de preposição, sozinha, não determina a função sintática do termo.",
+        "D": "Preposições variam em gênero e número.",
+        "E": "Locuções prepositivas nunca expressam circunstância."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "A preposição pode introduzir objeto indireto, complemento nominal, adjunto adverbial, agente da passiva, objeto direto preposicionado e outras estruturas. É preciso analisar a relação sintática e semântica."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0066",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "conjuncao",
+      "subtemaId": "classificacao-conclusiva",
+      "aulaIds": [
+        "medio-portugues-conjuncao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Em “O prazo terminou, logo o sistema não aceita novas inscrições”, a conjunção “logo” estabelece relação de:",
+      "alternativas": {
+        "A": "adição",
+        "B": "oposição",
+        "C": "conclusão",
+        "D": "alternância",
+        "E": "explicação"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "A segunda oração decorre logicamente da primeira; “logo” equivale a “portanto”, sendo conjunção coordenativa conclusiva."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0067",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "conjuncao",
+      "subtemaId": "adversativa",
+      "aulaIds": [
+        "medio-portugues-conjuncao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa em que a conjunção destacada expressa oposição.",
+      "alternativas": {
+        "A": "O servidor chegou cedo e organizou os documentos.",
+        "B": "O servidor chegou cedo, mas não conseguiu concluir o atendimento.",
+        "C": "O servidor saiu porque estava doente.",
+        "D": "O servidor estudou para que fosse aprovado.",
+        "E": "O servidor aguardou até que o sistema voltasse."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "“Mas” introduz contraste/oposição entre chegar cedo e não conseguir concluir o atendimento; é conjunção coordenativa adversativa."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0068",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "conjuncao",
+      "subtemaId": "alternativa",
+      "aulaIds": [
+        "medio-portugues-conjuncao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Em “Ou você entrega o requerimento hoje, ou deverá aguardar o próximo prazo”, a relação expressa é de:",
+      "alternativas": {
+        "A": "conclusão",
+        "B": "explicação",
+        "C": "adição",
+        "D": "alternância",
+        "E": "causa"
+      },
+      "respostaCorreta": "D",
+      "explicacao": "A correlação “ou... ou...” apresenta possibilidades alternativas e corresponde à coordenação alternativa."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0069",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "conjuncao",
+      "subtemaId": "explicativa",
+      "aulaIds": [
+        "medio-portugues-conjuncao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a frase em que “porque” tem valor explicativo em relação a uma ordem ou recomendação.",
+      "alternativas": {
+        "A": "Feche a janela, porque vai chover.",
+        "B": "A rua alagou porque choveu muito.",
+        "C": "Ele estudou porque desejava aprender.",
+        "D": "A reunião atrasou porque faltou energia.",
+        "E": "A criança chorou porque sentiu medo."
+      },
+      "respostaCorreta": "A",
+      "explicacao": "Em “Feche a janela, porque vai chover”, a segunda oração apresenta a explicação/justificativa para a ordem. Nas demais, predomina relação causal."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0070",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "conjuncao",
+      "subtemaId": "temporal",
+      "aulaIds": [
+        "medio-portugues-conjuncao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Na frase “Quando o sinal tocar, os alunos deverão retornar à sala”, a oração iniciada por “quando” expressa circunstância de:",
+      "alternativas": {
+        "A": "condição",
+        "B": "causa",
+        "C": "concessão",
+        "D": "finalidade",
+        "E": "tempo"
+      },
+      "respostaCorreta": "E",
+      "explicacao": "“Quando” situa temporalmente o retorno à sala, introduzindo oração subordinada adverbial temporal."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0071",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "conjuncao",
+      "subtemaId": "condicional",
+      "aulaIds": [
+        "medio-portugues-conjuncao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa em que a conjunção introduz uma condição.",
+      "alternativas": {
+        "A": "Embora estivesse cansado, continuou estudando.",
+        "B": "Como estava chovendo, ficou em casa.",
+        "C": "Se houver vaga, o candidato será convocado.",
+        "D": "Enquanto aguardava, revisou o conteúdo.",
+        "E": "Conforme o edital determina, o documento deve ser enviado."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“Se” introduz hipótese necessária para que a consequência se realize; é conjunção subordinativa condicional."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0072",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "conjuncao",
+      "subtemaId": "concessiva",
+      "aulaIds": [
+        "medio-portugues-conjuncao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Em “Embora o sistema estivesse lento, o atendimento foi concluído”, a conjunção “embora” indica:",
+      "alternativas": {
+        "A": "causa",
+        "B": "concessão",
+        "C": "conclusão",
+        "D": "comparação",
+        "E": "proporção"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "A lentidão poderia impedir o atendimento, mas não impediu; “embora” introduz uma concessão."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0073",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "conjuncao",
+      "subtemaId": "integrante",
+      "aulaIds": [
+        "medio-portugues-conjuncao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Em “A diretora informou que a reunião foi adiada”, a palavra “que” funciona como:",
+      "alternativas": {
+        "A": "pronome relativo, retomando “diretora”",
+        "B": "preposição",
+        "C": "advérbio de intensidade",
+        "D": "conjunção integrante, introduzindo oração substantiva",
+        "E": "conjunção adversativa"
+      },
+      "respostaCorreta": "D",
+      "explicacao": "O “que” não retoma antecedente; ele introduz o conteúdo informado (“que a reunião foi adiada”), atuando como conjunção integrante."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0074",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "conjuncao",
+      "subtemaId": "pontuacao-porem",
+      "aulaIds": [
+        "medio-portugues-conjuncao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa com pontuação adequada para a conjunção adversativa intercalada.",
+      "alternativas": {
+        "A": "O relatório porém foi entregue no prazo.",
+        "B": "O relatório, porém foi entregue no prazo.",
+        "C": "O relatório, porém, foi entregue no prazo.",
+        "D": "O relatório porém, foi entregue no prazo.",
+        "E": "O relatório; porém, foi entregue no prazo, e."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Quando “porém” está intercalado no interior da oração, fica isolado por vírgulas: “O relatório, porém, foi entregue no prazo.”"
+    },
+    {
+      "id": "q-inedita-medio-portugues-0075",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "conjuncao",
+      "subtemaId": "valor-contextual-como",
+      "aulaIds": [
+        "medio-portugues-conjuncao-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Em qual alternativa “como” introduz uma comparação?",
+      "alternativas": {
+        "A": "Como estava doente, faltou ao trabalho.",
+        "B": "Fez tudo como o regulamento determina.",
+        "C": "Como você sabe, o prazo foi prorrogado.",
+        "D": "Como não houve recurso, o resultado foi homologado.",
+        "E": "A criança correu como um atleta."
+      },
+      "respostaCorreta": "E",
+      "explicacao": "Em “correu como um atleta”, “como” estabelece semelhança entre a maneira de correr da criança e a de um atleta. Nos demais exemplos, o valor é causal, conformativo ou discursivo conforme o contexto."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0076",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adverbio",
+      "subtemaId": "modo",
+      "aulaIds": [
+        "medio-portugues-adverbio-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa em que a palavra destacada exerce função de advérbio de modo.",
+      "alternativas": {
+        "A": "O relatório chegou ontem.",
+        "B": "A servidora respondeu calmamente.",
+        "C": "Talvez o resultado saia hoje.",
+        "D": "Os documentos estão aqui.",
+        "E": "O candidato não compareceu."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "“Calmamente” modifica o verbo “respondeu” e indica a maneira como a ação foi realizada, sendo advérbio de modo."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0077",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adverbio",
+      "subtemaId": "intensidade",
+      "aulaIds": [
+        "medio-portugues-adverbio-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "Na frase “O procedimento é muito simples”, a palavra “muito” é classificada como:",
+      "alternativas": {
+        "A": "substantivo.",
+        "B": "adjetivo.",
+        "C": "advérbio de intensidade.",
+        "D": "pronome pessoal.",
+        "E": "conjunção."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“Muito” intensifica o adjetivo “simples”; por isso, funciona como advérbio de intensidade."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0078",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adverbio",
+      "subtemaId": "meio-invariavel",
+      "aulaIds": [
+        "medio-portugues-adverbio-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa adequada à norma-padrão.",
+      "alternativas": {
+        "A": "As candidatas ficaram meias preocupadas.",
+        "B": "As candidatas ficaram meias nervosas.",
+        "C": "As candidatas ficaram meio preocupada.",
+        "D": "As candidatas ficaram meio preocupadas.",
+        "E": "As candidatas ficaram meios preocupadas."
+      },
+      "respostaCorreta": "D",
+      "explicacao": "Com sentido de “um pouco”, “meio” funciona como advérbio e permanece invariável: “meio preocupadas”."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0079",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adverbio",
+      "subtemaId": "bastante",
+      "aulaIds": [
+        "medio-portugues-adverbio-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Em qual alternativa “bastante” NÃO funciona como advérbio?",
+      "alternativas": {
+        "A": "Bastantes candidatos apresentaram recurso.",
+        "B": "Os candidatos estavam bastante atentos.",
+        "C": "Ela estudou bastante.",
+        "D": "O documento chegou bastante cedo.",
+        "E": "A atividade era bastante simples."
+      },
+      "respostaCorreta": "A",
+      "explicacao": "Em “Bastantes candidatos”, a palavra acompanha o substantivo “candidatos” e varia no plural; nas demais alternativas, modifica verbo, adjetivo ou advérbio."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0080",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adverbio",
+      "subtemaId": "adjetivo-adverbiado",
+      "aulaIds": [
+        "medio-portugues-adverbio-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa em que “forte” apresenta valor adverbial.",
+      "alternativas": {
+        "A": "O vento forte derrubou a placa.",
+        "B": "Ele deu um forte abraço.",
+        "C": "A equipe demonstrou forte preocupação.",
+        "D": "A porta recebeu uma forte pancada.",
+        "E": "O aluno bateu forte na mesa."
+      },
+      "respostaCorreta": "E",
+      "explicacao": "Em “bateu forte”, “forte” modifica o verbo “bateu” e expressa modo; nas demais, caracteriza substantivos."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0081",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adverbio",
+      "subtemaId": "locucao-adverbial",
+      "aulaIds": [
+        "medio-portugues-adverbio-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "Em “À noite, o sistema será atualizado”, a expressão “à noite” é:",
+      "alternativas": {
+        "A": "locução adjetiva.",
+        "B": "locução adverbial de tempo.",
+        "C": "objeto indireto.",
+        "D": "locução conjuntiva.",
+        "E": "complemento nominal."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "“À noite” é uma locução adverbial que indica a circunstância temporal em que ocorrerá a atualização."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0082",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adverbio",
+      "subtemaId": "interrogativo",
+      "aulaIds": [
+        "medio-portugues-adverbio-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa que apresenta advérbio interrogativo em uma interrogação indireta.",
+      "alternativas": {
+        "A": "Onde está o arquivo?",
+        "B": "Quando começa a prova?",
+        "C": "Não sei onde o arquivo foi guardado.",
+        "D": "Como você chegou aqui?",
+        "E": "Talvez ele saiba a resposta."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Em “Não sei onde o arquivo foi guardado”, há uma pergunta indireta sobre lugar. “Onde” conserva valor interrogativo mesmo sem ponto de interrogação."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0083",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adverbio",
+      "subtemaId": "demais-de-mais",
+      "aulaIds": [
+        "medio-portugues-adverbio-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Na frase “O candidato falou demais durante a entrevista”, a palavra “demais” significa:",
+      "alternativas": {
+        "A": "os outros.",
+        "B": "sem motivo.",
+        "C": "de maneira correta.",
+        "D": "excessivamente.",
+        "E": "com antecedência."
+      },
+      "respostaCorreta": "D",
+      "explicacao": "Nesse contexto, “demais” intensifica o verbo “falou” e equivale a “excessivamente”, funcionando como advérbio de intensidade."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0084",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adverbio",
+      "subtemaId": "logo-contextual",
+      "aulaIds": [
+        "medio-portugues-adverbio-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "medio",
+      "textoBase": null,
+      "enunciado": "Em qual alternativa “logo” apresenta valor temporal?",
+      "alternativas": {
+        "A": "Voltarei logo para concluir o atendimento.",
+        "B": "Estudou bastante, logo foi aprovado.",
+        "C": "O prazo terminou, logo o pedido é intempestivo.",
+        "D": "A equipe conferiu os dados, logo enviou o relatório como conclusão lógica.",
+        "E": "Houve recurso, logo o resultado ainda não é definitivo."
+      },
+      "respostaCorreta": "A",
+      "explicacao": "Em “Voltarei logo”, “logo” equivale a “em breve” e indica tempo. Nas demais, estabelece conclusão entre ideias."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0085",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "adverbio",
+      "subtemaId": "mal-mau",
+      "aulaIds": [
+        "medio-portugues-adverbio-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "textoBase": null,
+      "enunciado": "Assinale a alternativa em que “mal” funciona como advérbio.",
+      "alternativas": {
+        "A": "O mal pode causar grandes prejuízos.",
+        "B": "Ele teme o mal.",
+        "C": "O mal foi combatido pela equipe.",
+        "D": "Falava-se sobre o mal daquela decisão.",
+        "E": "O candidato respondeu mal à pergunta."
+      },
+      "respostaCorreta": "E",
+      "explicacao": "Em “respondeu mal”, “mal” modifica o verbo “respondeu” e se opõe a “bem”, funcionando como advérbio."
+    },
+    {
+      "id": "q-inedita-medio-portugues-0086",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "verbo",
+      "subtemaId": "tempos-indicativo",
+      "aulaIds": [
+        "medio-portugues-verbo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Na frase “Os servidores conferiram os documentos antes do atendimento”, a forma verbal “conferiram” está no:",
+      "alternativas": {
+        "A": "presente do indicativo.",
+        "B": "pretérito perfeito do indicativo.",
+        "C": "pretérito imperfeito do indicativo.",
+        "D": "futuro do presente do indicativo.",
+        "E": "presente do subjuntivo."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "“Conferiram” apresenta uma ação concluída no passado, por isso está no pretérito perfeito do indicativo.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0087",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "verbo",
+      "subtemaId": "futuro-subjuntivo-ver-vir",
+      "aulaIds": [
+        "medio-portugues-verbo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Assinale a alternativa que completa corretamente: “Quando eu ___ o relatório final, avisarei a chefia.”",
+      "alternativas": {
+        "A": "ver",
+        "B": "vir",
+        "C": "vier",
+        "D": "vi",
+        "E": "vejo"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "O verbo é VER e a oração introduzida por “quando” indica fato futuro ainda não realizado. O futuro do subjuntivo de VER é “vir”: quando eu vir.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos",
+        "src-inepam-doiscorregos-2023-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0088",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "verbo",
+      "subtemaId": "imperativo-afirmativo",
+      "aulaIds": [
+        "medio-portugues-verbo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Considerando a norma-padrão, assinale a forma adequada de uma ordem dirigida a “tu”:",
+      "alternativas": {
+        "A": "Falas com o responsável.",
+        "B": "Fale tu com o responsável.",
+        "C": "Fala tu com o responsável.",
+        "D": "Fales tu com o responsável.",
+        "E": "Falaria tu com o responsável."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "No imperativo afirmativo, a forma de “tu” vem do presente do indicativo sem o -s: tu falas → fala tu.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-itajuba-2024-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0089",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "verbo",
+      "subtemaId": "formas-nominais",
+      "aulaIds": [
+        "medio-portugues-verbo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Na oração “Concluído o atendimento, a equipe organizou os registros”, a palavra “Concluído” corresponde a uma forma nominal denominada:",
+      "alternativas": {
+        "A": "infinitivo.",
+        "B": "gerúndio.",
+        "C": "particípio.",
+        "D": "imperativo.",
+        "E": "subjuntivo."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“Concluído” é particípio do verbo concluir. As formas nominais do verbo são infinitivo, gerúndio e particípio.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-santaisabel-2026-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0090",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "verbo",
+      "subtemaId": "verbos-abundantes",
+      "aulaIds": [
+        "medio-portugues-verbo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "O verbo “exprimir” é tradicionalmente classificado como abundante porque apresenta, no particípio, as formas:",
+      "alternativas": {
+        "A": "exprimido e expresso.",
+        "B": "exprimindo e expresso.",
+        "C": "exprimir e exprimido.",
+        "D": "exprime e expresso.",
+        "E": "exprimira e exprimido."
+      },
+      "respostaCorreta": "A",
+      "explicacao": "A abundância verbal ocorre quando há mais de uma forma aceita em determinada flexão. “Exprimir” apresenta os particípios “exprimido” e “expresso”.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-luminarias-2023-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0091",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "verbo",
+      "subtemaId": "voz-passiva-analitica",
+      "aulaIds": [
+        "medio-portugues-verbo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "A oração “A comissão analisou os requerimentos” passa corretamente para a voz passiva analítica em:",
+      "alternativas": {
+        "A": "Os requerimentos analisaram a comissão.",
+        "B": "Os requerimentos foram analisados pela comissão.",
+        "C": "Analisaram-se a comissão pelos requerimentos.",
+        "D": "A comissão foi analisada pelos requerimentos.",
+        "E": "Os requerimentos eram analisar pela comissão."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "O objeto direto “os requerimentos” torna-se sujeito paciente; usa-se SER no mesmo tempo do verbo original (“foram”) + particípio (“analisados”) + agente da passiva (“pela comissão”).",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-barradochapeu-2023-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0092",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "verbo",
+      "subtemaId": "voz-passiva-sintetica",
+      "aulaIds": [
+        "medio-portugues-verbo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "dificil",
+      "enunciado": "Assinale a alternativa correta segundo a norma-padrão:",
+      "alternativas": {
+        "A": "Publicou-se os resultados ontem.",
+        "B": "Publicaram-se os resultados ontem.",
+        "C": "Publicou-se as listas ontem.",
+        "D": "Publicaram-se o resultado ontem.",
+        "E": "Se publicou os resultados ontem, obrigatoriamente no singular."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "Na passiva sintética, “os resultados” é sujeito paciente plural; por isso o verbo deve concordar: “Publicaram-se os resultados”.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-itajuba-2024-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0093",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "verbo",
+      "subtemaId": "verbos-impessoais",
+      "aulaIds": [
+        "medio-portugues-verbo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Assinale a frase correta quanto ao verbo HAVER com sentido de existir:",
+      "alternativas": {
+        "A": "Haviam muitos candidatos na sala.",
+        "B": "Houveram dúvidas durante a reunião.",
+        "C": "Há documentos pendentes no setor.",
+        "D": "Haverão novas orientações amanhã.",
+        "E": "Haviam ocorrido um problema."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "HAVER com sentido de existir é impessoal e permanece na 3ª pessoa do singular: há, havia, houve, haverá. A alternativa E tem outra estrutura: “ocorrer” possui sujeito e, com auxiliar, exigiria análise própria; como escrita, também está incorreta.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-anhembi-2023-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0094",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "verbo",
+      "subtemaId": "locucao-verbal",
+      "aulaIds": [
+        "medio-portugues-verbo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Em “Os monitores devem acompanhar os alunos até a saída”, a expressão verbal “devem acompanhar” é:",
+      "alternativas": {
+        "A": "uma locução verbal.",
+        "B": "um verbo no gerúndio.",
+        "C": "uma voz passiva.",
+        "D": "um verbo defectivo.",
+        "E": "um particípio abundante."
+      },
+      "respostaCorreta": "A",
+      "explicacao": "Há verbo auxiliar/modal flexionado (“devem”) seguido do verbo principal no infinitivo (“acompanhar”), formando locução verbal.",
+      "sourceRefs": [
+        "src-edital-rincao-2026"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0095",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "verbo",
+      "subtemaId": "reaver-preterito-perfeito",
+      "aulaIds": [
+        "medio-portugues-verbo-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "dificil",
+      "enunciado": "Assinale a alternativa que completa corretamente: “Após apresentar o comprovante, o candidato ___ o documento que havia entregue.”",
+      "alternativas": {
+        "A": "reaveu",
+        "B": "reaviu",
+        "C": "reouve",
+        "D": "reaveria-se",
+        "E": "reavê"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "No pretérito perfeito do indicativo, “reaver” acompanha a conjugação de HAVER nas formas em que é empregado: ele houve → ele reouve.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0096",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "pronome",
+      "subtemaId": "eu-mim-sujeito-infinitivo",
+      "aulaIds": [
+        "medio-portugues-pronome-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Assinale a alternativa que completa corretamente a frase: “O diretor entregou os formulários para ___ conferir antes da reunião.”",
+      "alternativas": {
+        "A": "mim",
+        "B": "eu",
+        "C": "me",
+        "D": "si",
+        "E": "lhe"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "O pronome é sujeito do infinitivo “conferir”. Por isso, usa-se a forma reta EU: “para eu conferir”. “Para mim” seria adequado se não houvesse um verbo do qual o pronome fosse sujeito.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-embudasartes-2025-sme-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0097",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "pronome",
+      "subtemaId": "mim-apos-preposicao",
+      "aulaIds": [
+        "medio-portugues-pronome-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Segundo a norma-padrão, assinale a frase correta.",
+      "alternativas": {
+        "A": "Entre eu e você não existe divergência.",
+        "B": "Entre mim e você não existe divergência.",
+        "C": "Entre me e você não existe divergência.",
+        "D": "Entre eu e ti não existe divergências.",
+        "E": "Entre mim e tu não existe divergências."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "Depois da preposição “entre”, sem função de sujeito de infinitivo, emprega-se a forma oblíqua tônica MIM: “entre mim e você”.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-barradochapeu-2023-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0098",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "pronome",
+      "subtemaId": "conosco-com-nos",
+      "aulaIds": [
+        "medio-portugues-pronome-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Assinale a alternativa em que o emprego do pronome está de acordo com a norma-padrão.",
+      "alternativas": {
+        "A": "O servidor irá com nós amanhã.",
+        "B": "O servidor irá conosco amanhã.",
+        "C": "O servidor irá com nós, sem qualquer reforço, amanhã.",
+        "D": "O servidor irá com eu amanhã.",
+        "E": "O servidor irá consigo nós amanhã."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "A forma usual de “com + nós” é CONOSCO. “Com nós” ocorre quando há reforço, como em “com nós dois” ou “com nós mesmos”.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-embudasartes-2026-sme-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0099",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "pronome",
+      "subtemaId": "o-lhe-objeto",
+      "aulaIds": [
+        "medio-portugues-pronome-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Na frase “Encontrei o candidato na recepção”, a substituição correta de “o candidato”, segundo a norma-padrão, é:",
+      "alternativas": {
+        "A": "Encontrei-lhe na recepção.",
+        "B": "Lhe encontrei na recepção.",
+        "C": "Encontrei-o na recepção.",
+        "D": "Encontrei ele na recepção.",
+        "E": "Encontrei-no na recepção."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“Encontrar” é transitivo direto nesse contexto; “o candidato” é objeto direto. A forma oblíqua correspondente é O: “encontrei-o”.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-embudasartes-2025-sme-recursos",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0100",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "pronome",
+      "subtemaId": "lhe-objeto-indireto",
+      "aulaIds": [
+        "medio-portugues-pronome-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Assinale a alternativa em que “lhe” substitui adequadamente um complemento verbal.",
+      "alternativas": {
+        "A": "Vi-lhe no corredor.",
+        "B": "Encontrei-lhe ontem.",
+        "C": "Entreguei-lhe o documento.",
+        "D": "Convidei-lhe para a reunião.",
+        "E": "Cumprimentei-lhe na entrada."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Em “entregar algo a alguém”, o destinatário é objeto indireto; por isso, “lhe” pode substituir “a ele/a ela”: “entreguei-lhe o documento”.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0101",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "pronome",
+      "subtemaId": "pronome-tratamento-concordancia",
+      "aulaIds": [
+        "medio-portugues-pronome-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a alternativa correta quanto à concordância com pronome de tratamento.",
+      "alternativas": {
+        "A": "Vossa Excelência decidireis amanhã.",
+        "B": "Vossa Excelência decidirás amanhã.",
+        "C": "Vossa Excelência decidirá amanhã.",
+        "D": "Vossa Excelência decidiremos amanhã.",
+        "E": "Vossa Excelência decidirei amanhã."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Pronomes de tratamento exigem concordância verbal na 3ª pessoa: “Vossa Excelência decidirá”.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-embudasartes-2025-sme-recursos",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0102",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "pronome",
+      "subtemaId": "pronome-relativo-cujo",
+      "aulaIds": [
+        "medio-portugues-pronome-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "dificil",
+      "enunciado": "Assinale a alternativa em que o pronome relativo “cujo” está empregado corretamente.",
+      "alternativas": {
+        "A": "Conheci o servidor cujo o relatório foi aprovado.",
+        "B": "Conheci o servidor cujo relatório foi aprovado.",
+        "C": "Conheci o servidor que cujo relatório foi aprovado.",
+        "D": "Conheci o servidor cujo seu relatório foi aprovado.",
+        "E": "Conheci o servidor de cujo o relatório foi aprovado."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "CUJO indica posse e concorda com a coisa possuída. Não se usa artigo depois de “cujo”: “o servidor cujo relatório...”. Também se evita repetir a posse com “seu”.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0103",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "pronome",
+      "subtemaId": "pronome-relativo-que",
+      "aulaIds": [
+        "medio-portugues-pronome-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Na frase “O relatório que foi aprovado será publicado”, o termo “que” é:",
+      "alternativas": {
+        "A": "conjunção integrante, sem antecedente",
+        "B": "pronome relativo que retoma “relatório”",
+        "C": "pronome pessoal oblíquo",
+        "D": "pronome demonstrativo",
+        "E": "advérbio interrogativo"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "“Que” retoma o antecedente “relatório” e introduz uma oração que o caracteriza; portanto, é pronome relativo.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0104",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "pronome",
+      "subtemaId": "demais-pronome-indefinido",
+      "aulaIds": [
+        "medio-portugues-pronome-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Em qual alternativa “demais” funciona como pronome indefinido, com sentido de “os outros”?",
+      "alternativas": {
+        "A": "O candidato estudou demais.",
+        "B": "A sala estava demais barulhenta.",
+        "C": "Os demais servidores chegaram no horário.",
+        "D": "Ele falou demais durante a reunião.",
+        "E": "O trabalho ficou bom demais."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Em “os demais servidores”, “demais” equivale a “os outros” e funciona como pronome indefinido. Nas demais ocorrências, tem valor intensificador/adverbial.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-anhembi-2023-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0105",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "pronome",
+      "subtemaId": "demonstrativos-referencia-textual",
+      "aulaIds": [
+        "medio-portugues-pronome-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "enunciado": "Considere: “A comissão decidiu adiar a reunião. Essa decisão foi comunicada aos servidores.” O pronome “essa” retoma:",
+      "alternativas": {
+        "A": "apenas a palavra “comissão”",
+        "B": "apenas a palavra “reunião”",
+        "C": "a decisão de adiar a reunião, mencionada anteriormente",
+        "D": "uma decisão que ainda será apresentada",
+        "E": "o termo “servidores”"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "No encadeamento textual, “essa decisão” retoma uma informação já apresentada: o adiamento da reunião. É um uso anafórico do demonstrativo.",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-sarutaia-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0106",
+      "subtemaId": "classificacao-cardinal",
+      "enunciado": "Na frase “A secretaria recebeu três requerimentos pela manhã”, o vocábulo “três” é classificado como:",
+      "alternativas": {
+        "A": "numeral ordinal",
+        "B": "numeral cardinal",
+        "C": "numeral fracionário",
+        "D": "numeral multiplicativo",
+        "E": "artigo indefinido"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "“Três” expressa quantidade numérica exata. Por isso, é numeral cardinal.",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "numeral",
+      "aulaIds": [
+        "medio-portugues-numeral-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0107",
+      "subtemaId": "ordinal-fracionario",
+      "enunciado": "Assinale a alternativa em que o termo destacado expressa ordem ou posição, e não divisão.",
+      "alternativas": {
+        "A": "Ele ficou com um terço do material.",
+        "B": "A equipe utilizou metade do estoque.",
+        "C": "O candidato chegou em terceiro lugar.",
+        "D": "Recebeu meio salário de adiantamento.",
+        "E": "Foi necessário o dobro do tempo."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“Terceiro” indica posição em uma sequência e é ordinal. “Um terço”, “metade” e “meio” exprimem fração; “dobro” exprime multiplicação.",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "numeral",
+      "aulaIds": [
+        "medio-portugues-numeral-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0108",
+      "subtemaId": "um-artigo-ou-numeral",
+      "enunciado": "Em qual alternativa “um” funciona apenas como artigo indefinido, sem expressar quantidade numérica exata?",
+      "alternativas": {
+        "A": "O setor recebeu um computador e poderá receber dois amanhã.",
+        "B": "Um servidor faltou; dois compareceram depois.",
+        "C": "Aguarde um momento, por favor.",
+        "D": "Há um processo sobre a mesa e três no armário.",
+        "E": "Comprei um caderno e dois blocos de notas."
+      },
+      "respostaCorreta": "C",
+      "explicacao": "Em “aguarde um momento”, “um” apenas indetermina o substantivo; a substituição por dois/três não preserva naturalmente o sentido da expressão. Nas demais, há contraste quantitativo.",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "numeral",
+      "aulaIds": [
+        "medio-portugues-numeral-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-setebarras-2026-ps001-recursos",
+        "src-inepam-mongagua-2026-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0109",
+      "subtemaId": "meio-classes",
+      "enunciado": "Na frase “O servidor leu meio relatório antes do intervalo”, a palavra “meio” é:",
+      "alternativas": {
+        "A": "advérbio de intensidade",
+        "B": "substantivo",
+        "C": "numeral fracionário",
+        "D": "preposição",
+        "E": "conjunção"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“Meio relatório” significa metade do relatório; portanto, “meio” expressa fração e funciona como numeral fracionário.",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "numeral",
+      "aulaIds": [
+        "medio-portugues-numeral-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0110",
+      "subtemaId": "meio-invariavel-adverbio",
+      "enunciado": "Assinale a alternativa correta segundo a norma-padrão.",
+      "alternativas": {
+        "A": "As alunas ficaram meias preocupadas.",
+        "B": "As alunas ficaram meio preocupadas.",
+        "C": "As alunas ficaram meios preocupadas.",
+        "D": "As alunas ficaram meia preocupada.",
+        "E": "As alunas ficaram meio preocupada."
+      },
+      "respostaCorreta": "B",
+      "explicacao": "Em “meio preocupadas”, “meio” significa “um pouco” e é advérbio, portanto invariável. O adjetivo “preocupadas” concorda com “alunas”.",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "numeral",
+      "aulaIds": [
+        "medio-portugues-numeral-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0111",
+      "subtemaId": "duodecimo-ordinal",
+      "enunciado": "O numeral “duodécimo” indica:",
+      "alternativas": {
+        "A": "a quantidade doze",
+        "B": "doze vezes uma quantidade",
+        "C": "uma parte dividida por doze, obrigatoriamente",
+        "D": "a décima segunda posição",
+        "E": "um conjunto de doze elementos"
+      },
+      "respostaCorreta": "D",
+      "explicacao": "“Duodécimo” é numeral ordinal e equivale a “décimo segundo”, indicando posição ou ordem.",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "numeral",
+      "aulaIds": [
+        "medio-portugues-numeral-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-ariranha-2025-recursos",
+        "src-inepam-guariba-2024-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0112",
+      "subtemaId": "multiplicativos",
+      "enunciado": "Em “O novo procedimento exigiu o dobro do tempo”, “dobro” expressa:",
+      "alternativas": {
+        "A": "ordem",
+        "B": "quantidade imprecisa",
+        "C": "multiplicação por dois",
+        "D": "divisão por dois",
+        "E": "posição numa sequência"
+      },
+      "respostaCorreta": "C",
+      "explicacao": "“Dobro” é forma multiplicativa: representa duas vezes uma quantidade.",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "numeral",
+      "aulaIds": [
+        "medio-portugues-numeral-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0113",
+      "subtemaId": "fracionarios",
+      "enunciado": "Em qual alternativa há numeral fracionário?",
+      "alternativas": {
+        "A": "O segundo candidato entrou na sala.",
+        "B": "Três servidores concluíram o atendimento.",
+        "C": "O trabalho exigiu o triplo do esforço.",
+        "D": "A equipe concluiu metade das tarefas.",
+        "E": "A décima candidata foi chamada."
+      },
+      "respostaCorreta": "D",
+      "explicacao": "“Metade” representa uma parte obtida por divisão e, na classificação tradicional cobrada em concursos, é numeral fracionário.",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "numeral",
+      "aulaIds": [
+        "medio-portugues-numeral-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-guariba-2026-recursos",
+        "src-inepam-clementina-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0114",
+      "subtemaId": "ordinal-nomes-e-seculos",
+      "enunciado": "Segundo a convenção gramatical tradicional para nomes de reis, papas, séculos e capítulos, quando o numeral vem depois do nome, costuma-se usar:",
+      "alternativas": {
+        "A": "sempre cardinal, inclusive até dez",
+        "B": "ordinal até dez e cardinal a partir de onze",
+        "C": "sempre ordinal, sem exceção",
+        "D": "fracionário até dez e cardinal depois",
+        "E": "multiplicativo até dez e ordinal depois"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "A convenção tradicional, também citada em julgamento oficial da INEPAM, usa ordinais até décimo e, depois disso, cardinais quando o numeral está posposto: João Paulo II; Luís XV (lê-se quinze).",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "numeral",
+      "aulaIds": [
+        "medio-portugues-numeral-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    },
+    {
+      "id": "q-inedita-medio-portugues-0115",
+      "subtemaId": "formacao-ordinais",
+      "enunciado": "Assinale a forma ordinal registrada na norma-padrão para 200º.",
+      "alternativas": {
+        "A": "duzentésimo",
+        "B": "ducentésimo",
+        "C": "duzentavo",
+        "D": "duplocentésimo",
+        "E": "duocentésimo"
+      },
+      "respostaCorreta": "B",
+      "explicacao": "A forma normativa é “ducentésimo”. A INEPAM já registrou em julgamento oficial que “duzentésimo” não consta das gramáticas e dicionários consultados pela banca.",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "temaId": "numeral",
+      "aulaIds": [
+        "medio-portugues-numeral-001"
+      ],
+      "tipo": "inedita_estilo_inepam",
+      "dificuldade": "media",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-creamt-2025-recursos"
+      ]
+    }
+  ]
+}

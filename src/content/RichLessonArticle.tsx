@@ -5,8 +5,6 @@ import remarkGfm from 'remark-gfm'
 import type { RichLesson } from './editorial'
 import { createStudentLessonMarkdown } from './studentContent'
 
-const primarySectionNumbers = new Set([1, 2, 4, 17, 18, 19, 21, 22, 23, 24, 25, 27])
-
 function plainText(children: ReactNode): string {
   if (typeof children === 'string' || typeof children === 'number') return String(children)
   if (Array.isArray(children)) return children.map(plainText).join('')
@@ -33,13 +31,38 @@ function StudentMarkdown({ markdown }: { markdown: string }) {
   )
 }
 
+type LessonHeading = { id: string; label: string }
+
+const tocCategories = [
+  /o que o edital cobra/i,
+  /objetivos?/i,
+  /(?:o que é|conceitos? fundamentais?|regra geral|teoria)/i,
+  /(?:inepam|padrões? observados?)/i,
+  /questão real/i,
+  /exemplos?/i,
+  /(?:pegadinhas?|erros?)/i,
+  /(?:quadro-?resumo|resumo)/i,
+  /(?:revisão|o que memorizar)/i,
+  /flashcards?/i,
+  /questões? (?:para praticar|de fixação|inéditas?)/i,
+  /gabarito/i,
+  /fontes?/i,
+]
+
 function primaryHeadings(markdown: string, questionCount: number) {
   const { mainBody, sourcesBody } = createStudentLessonMarkdown(markdown, questionCount)
-  return `${mainBody}\n${sourcesBody}`.split('\n').flatMap((line) => {
-    const match = line.match(/^##\s+(\d+)\.\s+(.+)$/)
-    if (!match || !primarySectionNumbers.has(Number(match[1]))) return []
-    return [{ id: lessonHeadingId(`${match[1]}. ${match[2]}`), label: match[2] }]
+  const headings = `${mainBody}\n${sourcesBody}`.split('\n').flatMap((line): LessonHeading[] => {
+    const match = line.match(/^##\s+(.+)$/)
+    if (!match) return []
+    return [{ id: lessonHeadingId(match[1]), label: match[1].replace(/^\d+\.\s+/, '') }]
   })
+  const selected: LessonHeading[] = []
+  for (const category of tocCategories) {
+    const heading = headings.find((candidate) => category.test(candidate.label))
+    if (heading && !selected.some((candidate) => candidate.id === heading.id)) selected.push(heading)
+  }
+  if (!selected.length) return headings.slice(0, 12)
+  return selected.slice(0, 14)
 }
 
 export function RichLessonToc({ lesson }: { lesson: RichLesson }) {
@@ -56,28 +79,26 @@ export function RichLessonToc({ lesson }: { lesson: RichLesson }) {
 
 function RichLessonArticleComponent({ lesson }: { lesson: RichLesson }) {
   const { mainBody, sourcesBody } = createStudentLessonMarkdown(lesson.markdown, lesson.questionCount)
+  const disciplineLabel = lesson.discipline === 'portugues' ? 'Português' : 'Matemática'
 
   return (
     <div className="rich-lesson-document">
       <section className="editorial-identity">
-        <header><FileCheck2 size={20} /><div><span>Aula completa</span><strong>Português · Ensino Médio</strong></div></header>
-        <p>Conteúdo compartilhado por Agente Administrativo e Monitor de Educação, alinhado ao tema Fonema previsto no edital.</p>
+        <header><FileCheck2 size={20} /><div><span>Aula completa</span><strong>{disciplineLabel} · Ensino Médio</strong></div></header>
+        <p>Conteúdo compartilhado por Agente Administrativo e Monitor de Educação, alinhado ao edital e organizado para estudo completo.</p>
       </section>
 
       <div className="rich-markdown"><StudentMarkdown markdown={mainBody} /></div>
 
       <section className="editorial-practice-panel" aria-labelledby="practice-title">
         <BookOpenText size={22} />
-        <div><span>Questões para praticar</span><strong id="practice-title">Esta aula possui {lesson.questionCount} questões inéditas no estilo INEPAM, com gabarito comentado.</strong><p>As resoluções aparecem após cada resposta. A aula também analisa {lesson.realQuestionReferenceCount} questões anteriores da INEPAM relacionadas ao tema.</p></div>
-        <a href={`#/questoes?topico=${lesson.topicId}`}>Praticar este assunto <ArrowRight size={16} /></a>
+        {lesson.questionCount ? <>
+          <div><span>Questões para praticar</span><strong id="practice-title">Esta aula possui {lesson.questionCount} questões inéditas no estilo INEPAM, com gabarito comentado.</strong>{lesson.realQuestionReferenceCount ? <p>A aula também inclui questões anteriores da INEPAM resolvidas e comentadas, preservadas como evidência pedagógica.</p> : null}</div>
+          <a href={`#/questoes?topico=${lesson.topicId}`}>Praticar este assunto <ArrowRight size={16} /></a>
+        </> : <div><span>Prática na própria aula</span><strong id="practice-title">A aula inclui questões de fixação e gabarito comentado no próprio material.</strong>{lesson.realQuestionReferenceCount ? <p>Também há questões anteriores da INEPAM resolvidas e comentadas, preservadas com sua classificação correta.</p> : null}</div>}
       </section>
 
       {sourcesBody ? <div className="rich-markdown rich-markdown-sources"><StudentMarkdown markdown={sourcesBody} /></div> : null}
-
-      <section className="official-source-links">
-        <header><span>Fontes oficiais</span><h2>Links para consulta</h2></header>
-        <div>{lesson.sources.map((source) => source.url ? <a href={source.url} key={source.id} target="_blank" rel="noreferrer"><span>{source.orgao}</span><strong>{source.titulo}</strong><small>{source.uso}</small><ArrowRight size={16} /></a> : <article key={source.id}><span>{source.orgao}</span><strong>{source.titulo}</strong><small>{source.referencia ?? source.uso}</small></article>)}</div>
-      </section>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { richLessonsByTopicId } from './editorial'
+import { richLessons, richLessonsByTopicId } from './editorial'
 import { containsInternalMetadata, createStudentLessonMarkdown } from './studentContent'
 
 describe('apresentação estudantil do conteúdo editorial', () => {
@@ -32,6 +32,13 @@ describe('apresentação estudantil do conteúdo editorial', () => {
     expect(sourcesBody).toContain('Concurso Público nº 001/2026 da Prefeitura Municipal de Rincão-SP')
   })
 
+  it('não deixa metadados internos visíveis em nenhuma das 34 aulas', () => {
+    for (const item of richLessons) {
+      const { mainBody, sourcesBody } = createStudentLessonMarkdown(item.markdown, item.questionCount)
+      expect(containsInternalMetadata(`${mainBody}\n${sourcesBody}`), item.stableItemId).toBe(false)
+    }
+  })
+
   it('reconhece as famílias de identificadores que não podem chegar à interface', () => {
     for (const metadata of [
       'manifest.json',
@@ -41,8 +48,10 @@ describe('apresentação estudantil do conteúdo editorial', () => {
       'lessonId',
       'topicId',
       'sourceId',
+      'stableItemId',
       'q-inedita-medio-portugues-0006',
       'MED-PORT-001',
+      'MED-MAT-001',
       'AGADM-001',
       'MON-ESP-001',
       'AJG-ESP-001',

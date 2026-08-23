@@ -1,4 +1,4 @@
-import { editorialQuestions } from './content/editorial'
+import { editorialQuestions, topicEditorialIdByTopicId } from './content/editorial'
 import type { Cargo, CargoId, DisciplineId, Question, SourceLink, Topic } from './types'
 
 const EDITAL_URL = 'https://www.inepam.org.br/'
@@ -270,7 +270,7 @@ export const topics: Topic[] = [
   ...ajudanteSpecific,
   ...agentSpecific,
   ...monitorSpecific,
-].map((topic) => topic.id === 'mp-fonema' ? { ...topic, editorialId: 'medio-portugues-fonema-001' } : topic)
+].map((topic) => topicEditorialIdByTopicId[topic.id] ? { ...topic, editorialId: topicEditorialIdByTopicId[topic.id] } : topic)
 
 export const disciplineLabels: Record<DisciplineId, string> = {
   portugues: 'Língua Portuguesa',
@@ -323,9 +323,11 @@ function questionsForCargo(cargoId: CargoId): Question[] {
   return selected.map((topic, index) => questionFromTopic(topic, cargoId, index, cargoTopics.filter((candidate) => candidate.discipline === topic.discipline)))
 }
 
+const editorialQuestionTopicIds = new Set(editorialQuestions.map((question) => question.topicId))
+
 export const questions: Question[] = [
-  ...questionsForCargo('monitor').filter((question) => question.topicId !== 'mp-fonema'),
-  ...questionsForCargo('agente').filter((question) => question.topicId !== 'mp-fonema'),
+  ...questionsForCargo('monitor').filter((question) => !editorialQuestionTopicIds.has(question.topicId)),
+  ...questionsForCargo('agente').filter((question) => !editorialQuestionTopicIds.has(question.topicId)),
   ...questionsForCargo('ajudante'),
   ...editorialQuestions,
 ]

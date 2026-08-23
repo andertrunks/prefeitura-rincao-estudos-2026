@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-23T13:30:00-03:00",
+  "rectifications": [
+    {
+      "id": "rerratificacao-edital-abertura-2026-08-13",
+      "publishedAt": "2026-08-13T00:00:00-03:00",
+      "identificacao": "Rerratificação do Edital de Abertura das Inscrições",
+      "cargosAfetadosNoEdital": [
+        "nutricionista",
+        "psicologo"
+      ],
+      "cargoIdsAfetadosNoProjeto": [],
+      "resumo": "Acrescenta ao Anexo I as atribuições de Nutricionista e Psicólogo e ao Anexo II os conteúdos programáticos desses dois cargos. Os demais itens do edital foram ratificados.",
+      "mudancas": [
+        "Anexo I: inclusão das atribuições de Nutricionista.",
+        "Anexo I: inclusão das atribuições de Psicólogo.",
+        "Anexo II: inclusão do conteúdo programático de Nutricionista.",
+        "Anexo II: inclusão do conteúdo programático de Psicólogo.",
+        "Demais itens do edital ratificados."
+      ],
+      "impactoCandidato": "Sem impacto para Agente Administrativo, Monitor de Educação e Ajudante Geral.",
+      "impactoEstudo": "Sem alteração nas 21 aulas de Português Médio, 13 aulas de Matemática Médio, estrutura 10/5/15, prova prática de Ajudante Geral, requisitos ou calendário do projeto.",
+      "itensEditalAfetados": [
+        "Anexo I — Nutricionista e Psicólogo",
+        "Anexo II — Nutricionista e Psicólogo"
+      ],
+      "materiaisAfetados": [],
+      "statusEditorial": "auditado_sem_impacto_nos_cargos_do_projeto",
+      "fonteOficial": "Prefeitura Municipal de Rincão-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2681",
+      "sourceRefs": [
+        "src-rerratificacao-rincao-2026"
+      ],
+      "lastVerifiedAt": "2026-08-23T13:30:00-03:00",
+      "publish": true,
+      "observacoes": "Documento oficial lido integralmente (2 páginas) e comparado com o edital original de 45 páginas."
+    }
+  ]
+}
+

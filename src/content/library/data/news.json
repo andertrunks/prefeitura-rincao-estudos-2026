@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-22T21:02:00-03:00",
+  "news": [
+    {
+      "id": "noticia-inscricoes-concurso-001-2026",
+      "publishedAt": "2026-08-03T00:00:00-03:00",
+      "titulo": "Concurso Público nº 001/2026: inscrições de 10 de agosto a 3 de setembro",
+      "resumo": "A Prefeitura de Rincão divulgou o Concurso Público nº 001/2026. As inscrições estão previstas das 10h de 10/08/2026 às 16h de 03/09/2026, conforme edital e página oficial.",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta",
+      "fonteOficial": "Prefeitura Municipal de Rincão",
+      "url": "https://www.rincao.sp.gov.br/noticia/concurso-publico-001-2026",
+      "sourceRefs": [
+        "src-rincao-pagina-prefeitura-001-2026",
+        "src-rincao-edital-001-2026"
+      ],
+      "lastVerifiedAt": "2026-08-22T21:02:00-03:00",
+      "publish": true
+    },
+    {
+      "id": "noticia-rerratificacao-abertura-2026-08-13",
+      "publishedAt": "2026-08-13T00:00:00-03:00",
+      "titulo": "Rerratificação inclui dados de Nutricionista e Psicólogo",
+      "resumo": "O documento oficial acrescentou atribuições e conteúdos programáticos de Nutricionista e Psicólogo e ratificou os demais itens. Não houve alteração para Agente Administrativo, Monitor de Educação ou Ajudante Geral.",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "media",
+      "fonteOficial": "Prefeitura Municipal de Rincão-SP / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2681",
+      "sourceRefs": [
+        "src-rerratificacao-rincao-2026"
+      ],
+      "lastVerifiedAt": "2026-08-23T13:30:00-03:00",
+      "publish": true
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "timezone": "America/Sao_Paulo",
+  "generatedAt": "2026-08-22T21:02:00-03:00",
+  "sourceRefs": [
+    "src-rincao-edital-001-2026"
+  ],
+  "events": [
+    {
+      "id": "edital-publicacao",
+      "titulo": "Publicação do edital",
+      "startAt": "2026-07-31T00:00:00-03:00",
+      "dateOnly": true,
+      "tipo": "publicacao",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": "inscricoes",
+      "titulo": "Período de inscrições e disponibilização do boleto",
+      "startAt": "2026-08-10T10:00:00-03:00",
+      "endAt": "2026-09-03T16:00:00-03:00",
+      "tipo": "inscricao",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "critica"
+    },
+    {
+      "id": "isencao-solicitacao",
+      "titulo": "Prazo para solicitação de isenção",
+      "startAt": "2026-08-10T10:00:00-03:00",
+      "endAt": "2026-08-12T16:00:00-03:00",
+      "tipo": "isencao",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": "isencao-divulgacao",
+      "titulo": "Divulgação dos pedidos de isenção deferidos e indeferidos",
+      "startAt": "2026-08-20T00:00:00-03:00",
+      "dateOnly": true,
+      "tipo": "resultado",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "media"
+    },
+    {
+      "id": "isencao-recursos",
+      "titulo": "Prazo de recurso dos pedidos de isenção",
+      "dates": [
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25"
+      ],
+      "tipo": "recurso",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": "isencao-homologacao",
+      "titulo": "Homologação dos deferimentos e indeferimentos dos pedidos de isenção",
+      "startAt": "2026-09-01T00:00:00-03:00",
+      "dateOnly": true,
+      "tipo": "homologacao",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "media"
+    },
+    {
+      "id": "pagamento-boleto-limite",
+      "titulo": "Data limite para pagamento do boleto da taxa de inscrição",
+      "startAt": "2026-09-03T00:00:00-03:00",
+      "dateOnly": true,
+      "deadlineTimeSpecified": false,
+      "tipo": "pagamento",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "critica"
+    },
+    {
+      "id": "inscritos-divulgacao",
+      "titulo": "Divulgação da relação de candidatos inscritos",
+      "startAt": "2026-09-08T00:00:00-03:00",
+      "dateOnly": true,
+      "tipo": "divulgacao",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": "inscritos-recursos",
+      "titulo": "Prazo de recursos com relação aos candidatos inscritos",
+      "startAt": "2026-09-09T00:00:00-03:00",
+      "endAt": "2026-09-11T23:59:59-03:00",
+      "timeWindowEditorial": true,
+      "tipo": "recurso",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta",
+      "observacoes": "O edital informa apenas os dias 09, 10 e 11/09/2026, sem horário específico neste cronograma."
+    },
+    {
+      "id": "convocacao-prova-objetiva",
+      "titulo": "Convocação com dia, local e horário da prova objetiva / eventual retificação da relação de inscritos",
+      "startAt": "2026-09-14T00:00:00-03:00",
+      "dateOnly": true,
+      "tipo": "convocacao",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "critica"
+    },
+    {
+      "id": "prova-objetiva",
+      "titulo": "Prova objetiva",
+      "startAt": "2026-09-27T08:00:00-03:00",
+      "tipo": "prova",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "critica",
+      "observacoes": "Item 4.9: prova prevista a partir das 08h00, horário de fechamento dos portões; data sujeita a confirmação/alteração por convocação oficial."
+    },
+    {
+      "id": "gabaritos-objetiva",
+      "titulo": "Divulgação dos gabaritos das provas objetivas",
+      "startAt": "2026-09-28T00:00:00-03:00",
+      "dateOnly": true,
+      "tipo": "gabarito",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": "gabaritos-recursos",
+      "titulo": "Prazo de recurso em relação aos gabaritos",
+      "dates": [
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01"
+      ],
+      "tipo": "recurso",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": "recursos-julgamento",
+      "titulo": "Divulgação do julgamento dos recursos",
+      "startAt": "2026-10-08T00:00:00-03:00",
+      "dateOnly": true,
+      "tipo": "resultado",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "media"
+    },
+    {
+      "id": "classificacao-nota-objetiva",
+      "titulo": "Retificação/homologação do gabarito e divulgação da classificação e nota da prova objetiva",
+      "startAt": "2026-10-15T00:00:00-03:00",
+      "dateOnly": true,
+      "tipo": "resultado",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": "classificacao-recursos",
+      "titulo": "Prazo de recursos em relação à classificação e nota da prova objetiva",
+      "dates": [
+        "2026-10-16",
+        "2026-10-19",
+        "2026-10-20"
+      ],
+      "tipo": "recurso",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": "classificacao-homologacao-pratica",
+      "titulo": "Homologação da classificação/nota objetiva e convocação para prova prática",
+      "startAt": "2026-10-26T00:00:00-03:00",
+      "dateOnly": true,
+      "tipo": "convocacao",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "importancia": "critica",
+      "observacoes": "Para os cargos do projeto, a prova prática aplica-se apenas a Ajudante Geral."
+    },
+    {
+      "id": "prova-pratica",
+      "titulo": "Prova prática — Ajudante Geral",
+      "startAt": "2026-11-01T00:00:00-03:00",
+      "dateOnly": true,
+      "tipo": "prova_pratica",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "importancia": "critica"
+    },
+    {
+      "id": "prova-pratica-nota",
+      "titulo": "Divulgação da nota da prova prática",
+      "startAt": "2026-11-09T00:00:00-03:00",
+      "dateOnly": true,
+      "tipo": "resultado",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": "prova-pratica-recursos",
+      "titulo": "Prazo de recurso da classificação com a nota da prova prática",
+      "dates": [
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12"
+      ],
+      "tipo": "recurso",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": "homologacao-final",
+      "titulo": "Publicação da retificação e/ou homologação da classificação final e homologação do concurso",
+      "startAt": "2026-11-16T00:00:00-03:00",
+      "dateOnly": true,
+      "tipo": "homologacao",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta"
+    }
+  ]
+}
