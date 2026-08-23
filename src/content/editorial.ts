@@ -36,6 +36,7 @@ type EditorialManifest = {
   generatedAt: string
   lessonIds: string[]
   questionIds: string[]
+  realQuestionReferenceIds: string[]
   editorialStatus: string
 }
 
@@ -47,6 +48,7 @@ export interface RichLesson {
   markdown: string
   sources: EditorialSource[]
   questionCount: number
+  realQuestionReferenceCount: number
 }
 
 const questionPackage = JSON.parse(questionsRaw) as { questions: EditorialQuestion[] }
@@ -90,9 +92,9 @@ const fonemaLesson: RichLesson = {
   markdown: lessonMarkdown,
   sources: sourcePackage.sources,
   questionCount: manifest.questionIds.length,
+  realQuestionReferenceCount: manifest.realQuestionReferenceIds.length,
 }
 
 export const richLessonsByTopicId: Record<string, RichLesson> = {
   [fonemaLesson.topicId]: fonemaLesson,
 }
-

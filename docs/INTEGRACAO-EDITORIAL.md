@@ -18,7 +18,11 @@ O ID local continua sendo usado por progresso, favoritos e revisões. O ID edito
 
 ## Renderização
 
-O arquivo Markdown é importado com `?raw`, processado localmente e renderizado com suporte a tabelas GFM. O frontmatter aparece em um quadro de identificação; o corpo integral permanece visível. Um índice interno usa rolagem na própria rota do `HashRouter`, sem alterar o hash de navegação. Links oficiais do `sources.json` são apresentados ao final.
+O arquivo Markdown é importado com `?raw`, processado localmente e renderizado com suporte a tabelas GFM. O frontmatter, IDs, nomes de arquivos, versões de schema e status editoriais permanecem disponíveis somente para integração e rastreabilidade. A interface apresenta uma identificação pedagógica da aula, sem expor esses campos ao estudante.
+
+Referências técnicas dentro do corpo editorial são adaptadas apenas na camada de apresentação. Por exemplo, a ligação com o banco interno de questões vira “10 questões inéditas no estilo INEPAM, com gabarito comentado”. O Markdown original e todos os IDs permanecem inalterados. Um teste automatizado impede que as famílias conhecidas de metadados voltem à apresentação pública.
+
+Um índice interno usa rolagem na própria rota do `HashRouter`, sem alterar o hash de navegação. As fontes são exibidas ao final com órgão e título compreensíveis; seus IDs continuam sendo usados apenas como chaves internas.
 
 ## Questões e simulados
 

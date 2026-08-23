@@ -1,6 +1,6 @@
 # Status do projeto
 
-Atualizado em 22/08/2026.
+Atualizado em 23/08/2026.
 
 ## Concluído
 
@@ -39,6 +39,7 @@ Atualizado em 22/08/2026.
 - recomendações determinísticas por erro, amostra mínima e revisão vencida;
 - questões preparadas para `cargoIds[]`, com compatibilidade dos IDs existentes;
 - página de conta e página de privacidade;
+- login opcional com Google validado em produção, mantendo o modo visitante disponível;
 - cache PWA v2 com atualização de navegação e limpeza de versões antigas;
 - testes automatizados para migração, isolamento local, conflitos, recomendações e questões compartilhadas.
 - auditoria de dependências de produção sem vulnerabilidades conhecidas.
@@ -46,14 +47,15 @@ Atualizado em 22/08/2026.
 - aula `medio-portugues-fonema-001.md` incorporada integralmente como conteúdo estático, mantendo o ID local `mp-fonema`;
 - 10 questões inéditas — estilo INEPAM do pacote integradas e compartilhadas por Agente Administrativo e Monitor de Educação;
 - cinco referências reais da banca preservadas como análise pedagógica, sem classificação indevida como questões reais do banco;
-- renderização de Markdown longo com índice interno, tabelas responsivas, metadados editoriais e links oficiais;
-- cache PWA atualizado para `rincao-estudos-v4`, com recarga automática quando uma nova versão assume o controle.
+- renderização de Markdown longo com índice interno, tabelas responsivas e links oficiais;
+- separação entre metadados editoriais internos e linguagem pública: IDs, nomes de arquivos, schemas e status permanecem no pacote, mas não aparecem para o estudante;
+- apresentação amigável das questões relacionadas e das fontes, preservando a classificação pedagógica real/inédita;
+- cache PWA atualizado para `rincao-estudos-v5`, com recarga automática quando uma nova versão assume o controle.
 
 ## Pendências externas
 
 - conferir eventuais retificações do edital após 21/08/2026;
 - conferir emendas posteriores à versão oficial disponibilizada da Lei Orgânica (arquivo declara atualização até 2007).
-- configurar as credenciais do Google OAuth no painel do Supabase e validar o primeiro login real.
 
 ## Decisão de custo
 
