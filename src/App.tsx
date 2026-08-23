@@ -462,12 +462,21 @@ function LessonPage({ data, setData }: AppState) {
     </article>
   )
 
+  const lessonCatalog = byCargo(data.selectedCargo)
+  const lessonIndex = lessonCatalog.findIndex((item) => item.id === richLesson.topicId)
+  const previousLesson = lessonIndex > 0 ? lessonCatalog[lessonIndex - 1] : undefined
+  const nextLesson = lessonIndex >= 0 ? lessonCatalog[lessonIndex + 1] : undefined
+
   return (
     <article className="lesson-page">
       <Link className="back-link" to="/estudo"><ArrowLeft size={16} /> Voltar ao material</Link>
       <header className="lesson-header"><div><span className={`origin-chip ${topic.origin}`}>{originLabels[topic.origin]}</span><small>{disciplineLabels[topic.discipline]}</small><h1>{richLesson.title}</h1><p>{topic.summary}</p></div><div className="lesson-actions"><button className={favorite ? 'active' : ''} onClick={() => toggleArray('favoriteTopics')}><Heart size={18} fill={favorite ? 'currentColor' : 'none'} /> {favorite ? 'Favorito' : 'Favoritar'}</button><button className={completed ? 'complete' : ''} onClick={() => toggleArray('completedTopics')}>{completed ? <CheckCircle2 size={18} /> : <BookCheck size={18} />}{completed ? 'Concluída' : 'Marcar como concluída'}</button></div></header>
       <div className="lesson-layout"><div className="lesson-content">
         <RichLessonArticle lesson={richLesson} />
+        <nav className="lesson-sequence" aria-label="Navegação entre aulas">
+          {previousLesson ? <Link to={`/aula/${previousLesson.id}`}><ArrowLeft size={17} /><span><small>Aula anterior</small><strong>{richLessonsByTopicId[previousLesson.id]?.title ?? previousLesson.title}</strong></span></Link> : <span />}
+          {nextLesson ? <Link className="next" to={`/aula/${nextLesson.id}`}><span><small>Próxima aula</small><strong>{richLessonsByTopicId[nextLesson.id]?.title ?? nextLesson.title}</strong></span><ArrowRight size={17} /></Link> : <Link className="next" to="/estudo"><span><small>Fim da sequência</small><strong>Voltar ao material</strong></span><ArrowRight size={17} /></Link>}
+        </nav>
       </div><aside className="lesson-aside"><RichLessonToc lesson={richLesson} /><div className="aside-card"><span>Revisão espaçada</span><h3>Agendar esta aula</h3><div className="review-buttons">{([1, 7, 15, 30] as const).map((days) => <button key={days} onClick={() => scheduleReview(days)}>{days} {days === 1 ? 'dia' : 'dias'}</button>)}</div></div><div className="aside-card"><span>Sobre esta aula</span><h3>Material completo</h3><p>Conteúdo de {disciplineLabels[topic.discipline]} do Ensino Médio compartilhado pelos cargos compatíveis e organizado para estudo.</p>{relatedQuestions.length ? <small>{relatedQuestions.length} questões interativas vinculadas.</small> : null}</div></aside></div>
     </article>
   )
