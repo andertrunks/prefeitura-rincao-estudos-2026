@@ -50,7 +50,7 @@ Atualizado em 23/08/2026.
 - renderização de Markdown longo com índice interno, tabelas responsivas e links oficiais;
 - separação entre metadados editoriais internos e linguagem pública: IDs, nomes de arquivos, schemas e status permanecem no pacote, mas não aparecem para o estudante;
 - apresentação amigável das questões relacionadas e das fontes, preservando a classificação pedagógica real/inédita;
-- cache PWA atualizado para `rincao-estudos-v6`, com recarga automática quando uma nova versão assume o controle.
+- cache PWA atualizado para `rincao-estudos-v7`, com recarga automática quando uma nova versão assume o controle.
 - rerratificação oficial de 13/08/2026 recuperada, lida integralmente e comparada ao edital; alterações restritas a Nutricionista e Psicólogo, sem impacto nos três cargos do projeto;
 - 21 aulas revisadas de Português do Ensino Médio e 13 de Matemática do Ensino Médio integradas como arquivos Markdown estáticos;
 - duplicatas históricas do Drive resolvidas na publicação por ID editorial, sem exclusão ou reorganização da fonte editorial;

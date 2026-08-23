@@ -7,7 +7,7 @@ const internalMetadataPatterns = [
 ]
 
 const outdatedPublicationControl = /rerratifica(?:ção|cao).*(?:pendente|bloque|condicion|não deve|nao deve|libera(?:ção|cao) global)|(?:pendente|bloque|condicion|não deve|nao deve|libera(?:ção|cao) global).*rerratifica(?:ção|cao)/i
-const editorialSectionHeading = /^#{2,3}\s+(?:\d+\.\s+)?(?:situação editorial(?: e rerratificação)?|status editorial|controle editorial|próxima sequência do edital)\s*$/i
+const editorialSectionHeading = /^#{1,3}\s+(?:(?:parte\s+[ivxlcdm]+\s+—\s+)?(?:\d+\.\s+)?)?(?:auditoria editorial(?: do (?:lote|item))?|checklist editorial(?: da aula)?|situação editorial(?: .+)?|status editorial|controle editorial|próxim[oa] (?:item|sequência) do edital)\s*$/i
 
 function removeFrontmatter(markdown: string) {
   const normalized = markdown.replace(/\r\n/g, '\n')
@@ -69,6 +69,7 @@ export function createStudentLessonMarkdown(markdown: string, questionCount: num
       if (/^O comentário completo de cada item/i.test(line)) {
         return questionCount ? 'O comentário completo de cada item aparece após a confirmação da resposta na área de prática.' : ''
       }
+      if (/\bstatus editorial\b/i.test(line)) return ''
       if (outdatedPublicationControl.test(line)) return ''
       return containsInternalMetadata(line) ? '' : line
     })

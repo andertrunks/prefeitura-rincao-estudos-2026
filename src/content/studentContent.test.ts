@@ -35,7 +35,9 @@ describe('apresentação estudantil do conteúdo editorial', () => {
   it('não deixa metadados internos visíveis em nenhuma das 34 aulas', () => {
     for (const item of richLessons) {
       const { mainBody, sourcesBody } = createStudentLessonMarkdown(item.markdown, item.questionCount)
-      expect(containsInternalMetadata(`${mainBody}\n${sourcesBody}`), item.stableItemId).toBe(false)
+      const studentText = `${mainBody}\n${sourcesBody}`
+      expect(containsInternalMetadata(studentText), item.stableItemId).toBe(false)
+      expect(studentText, item.stableItemId).not.toMatch(/auditoria editorial|checklist editorial|controle editorial|status editorial|próxim[oa] (?:item|sequência) do edital/i)
     }
   })
 
