@@ -49,7 +49,7 @@ import { AuthModal } from './auth/AuthModal'
 import { useAuth } from './auth/useAuth'
 import { GuestImportModal } from './auth/GuestImportModal'
 import { RichLessonArticle, RichLessonToc } from './content/RichLessonArticle'
-import { richLessonsByTopicId } from './content/editorial'
+import { primaryTopicIdByTopicId, richLessonsByTopicId } from './content/editorial'
 import {
   HashRouter,
   Link,
@@ -128,8 +128,28 @@ const originLabels = {
   banca: 'Padrão verificado da INEPAM',
 }
 
+function studyCatalogByCargo(cargoId: CargoId) {
+  const seenLessons = new Set<string>()
+  return topics.filter((topic) => {
+    if (!topic.cargoIds.includes(cargoId)) return false
+    const lesson = richLessonsByTopicId[topic.id]
+    if (!lesson) return true
+    if (seenLessons.has(lesson.editorialId) || primaryTopicIdByTopicId[topic.id] !== topic.id) return false
+    seenLessons.add(lesson.editorialId)
+    return true
+  })
+}
+
 function byCargo(cargoId: CargoId) {
-  return topics.filter((topic) => topic.cargoIds.includes(cargoId))
+  return studyCatalogByCargo(cargoId).filter((topic) => Boolean(richLessonsByTopicId[topic.id]))
+}
+
+function lessonStateIds(topicId: string) {
+  return richLessonsByTopicId[topicId]?.topicIds ?? [topicId]
+}
+
+function includesLessonState(ids: string[], topicId: string) {
+  return lessonStateIds(topicId).some((id) => ids.includes(id))
 }
 
 function accuracy(records: AnswerRecord[]) {
@@ -238,8 +258,8 @@ function Sidebar({ data, onOpenAuth, syncMessage, syncStatus }: ConnectedAppStat
   const { user } = useAuth()
   const cargo = cargos.find((item) => item.id === data.selectedCargo)!
   const cargoTopics = byCargo(data.selectedCargo)
-  const completed = cargoTopics.filter((topic) => data.completedTopics.includes(topic.id)).length
-  const progress = Math.round((completed / cargoTopics.length) * 100)
+  const completed = cargoTopics.filter((topic) => includesLessonState(data.completedTopics, topic.id)).length
+  const progress = cargoTopics.length ? Math.round((completed / cargoTopics.length) * 100) : 0
   return (
     <aside className="sidebar">
       <nav aria-label="Navegação da plataforma">
@@ -262,6 +282,12 @@ function Sidebar({ data, onOpenAuth, syncMessage, syncStatus }: ConnectedAppStat
 function AppLayout(props: ConnectedAppState) {
   const { data, setData, onSync, syncMessage, syncStatus } = props
   const { user } = useAuth()
+  const location = useLocation()
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [location.pathname])
+
   return (
     <div className="app-shell">
       <Header {...props} />
@@ -300,10 +326,10 @@ function Dashboard({ data }: AppState) {
   const cargoTopics = byCargo(data.selectedCargo)
   const cargoQuestions = questions.filter((question) => questionMatchesCargo(question, data.selectedCargo))
   const latest = latestAnswers(data.answers.filter((answer) => answer.cargoId === data.selectedCargo && cargoQuestions.some((question) => question.id === answer.questionId)))
-  const completed = cargoTopics.filter((topic) => data.completedTopics.includes(topic.id)).length
-  const coverage = Math.round((completed / cargoTopics.length) * 100)
+  const completed = cargoTopics.filter((topic) => includesLessonState(data.completedTopics, topic.id)).length
+  const coverage = cargoTopics.length ? Math.round((completed / cargoTopics.length) * 100) : 0
   const recommendations = getStudyRecommendations(data, data.selectedCargo)
-  const nextTopic = cargoTopics.find((topic) => !data.completedTopics.includes(topic.id))
+  const nextTopic = cargoTopics.find((topic) => !includesLessonState(data.completedTopics, topic.id))
 
   return (
     <>
@@ -352,12 +378,14 @@ function CargoPage({ data, setData }: AppState) {
       <PageHeader eyebrow="Área 1 · Cargos" title="Escolha seu cargo" description="Requisitos, estrutura da prova e atribuições confirmados diretamente no edital." />
       <div className="cargo-grid full">
         {cargos.map((cargo) => {
-          const count = byCargo(cargo.id).length
+          const catalog = studyCatalogByCargo(cargo.id)
+          const completeCount = catalog.filter((topic) => Boolean(richLessonsByTopicId[topic.id])).length
+          const preparingCount = catalog.length - completeCount
           const selected = data.selectedCargo === cargo.id
           return <article key={cargo.id} className={`cargo-card ${cargo.color} ${selected ? 'selected' : ''}`}>
             <span className="card-status">{selected ? 'Cargo selecionado' : 'Edital auditado'}</span>
             <h2>{cargo.name}</h2><p className="schooling">{cargo.schooling}</p><p className="detail">{cargo.vacancies} · {cargo.workload} · {cargo.salary}</p>
-            <div className="cargo-facts"><div><span>Requisito</span><p>{cargo.requirements}</p></div><div><span>Prova</span><p>10 Português + 5 Matemática + 15 Específicos</p></div><div><span>Conteúdo</span><p>{count} aulas rastreadas no edital</p></div></div>
+            <div className="cargo-facts"><div><span>Requisito</span><p>{cargo.requirements}</p></div><div><span>Prova</span><p>10 Português + 5 Matemática + 15 Específicos</p></div><div><span>Conteúdo</span><p>{completeCount} aulas completas · {preparingCount} em preparação</p></div></div>
             {cargo.practicalExam && <div className="practical-badge"><HardHat size={17} /> Possui prova prática</div>}
             <ul>{cargo.attributes.map((attribute) => <li key={attribute}>{attribute}</li>)}</ul>
             <div className="card-actions"><button onClick={() => setData((current) => ({ ...current, selectedCargo: cargo.id, cargoIds: [...new Set([...current.cargoIds, cargo.id])] }))}>{selected ? <><Check size={17} /> Selecionado</> : 'Selecionar cargo'}</button><Link to="/estudo">Ver conteúdo <ArrowRight size={16} /></Link></div>
@@ -372,20 +400,32 @@ function StudyPage({ data }: AppState) {
   const [discipline, setDiscipline] = useState<DisciplineId | 'todas'>('todas')
   const [query, setQuery] = useState('')
   const cargo = cargos.find((item) => item.id === data.selectedCargo)!
-  const cargoTopics = byCargo(data.selectedCargo)
-  const filtered = cargoTopics.filter((topic) => (discipline === 'todas' || topic.discipline === discipline) && `${topic.title} ${topic.summary}`.toLocaleLowerCase('pt-BR').includes(query.toLocaleLowerCase('pt-BR')))
+  const cargoTopics = studyCatalogByCargo(data.selectedCargo)
+  const availableTopics = cargoTopics.filter((topic) => Boolean(richLessonsByTopicId[topic.id]))
+  const completedAvailable = availableTopics.filter((topic) => includesLessonState(data.completedTopics, topic.id)).length
+  const coverage = cargoTopics.length ? Math.round((availableTopics.length / cargoTopics.length) * 100) : 0
+  const filtered = cargoTopics.filter((topic) => {
+    const lesson = richLessonsByTopicId[topic.id]
+    return (discipline === 'todas' || topic.discipline === discipline) && `${lesson?.title ?? topic.title} ${topic.summary}`.toLocaleLowerCase('pt-BR').includes(query.toLocaleLowerCase('pt-BR'))
+  })
 
   return (
     <>
       <PageHeader eyebrow="Área 2 · Material para estudo" title={`Plano de ${cargo.name}`} description="Cada aula mostra o que o edital cobra, explicação, pontos de prova, exemplos, pegadinhas, revisão e fontes." />
-      <section className="coverage-banner"><ShieldCheck size={22} /><div><span>Cobertura estrutural do edital</span><strong>{cargoTopics.length} de {cargoTopics.length} tópicos mapeados possuem material</strong><small>As páginas e itens de origem aparecem em cada aula. Atualizações e retificações oficiais devem ser conferidas continuamente.</small></div><b>100%</b></section>
+      <section className="coverage-banner"><ShieldCheck size={22} /><div><span>Cobertura editorial comprovada</span><strong>{availableTopics.length} aulas completas disponíveis · {cargoTopics.length - availableTopics.length} conteúdos em preparação</strong><small>{completedAvailable} {completedAvailable === 1 ? 'aula completa já concluída' : 'aulas completas já concluídas'} por você. O percentual não representa cobertura integral do cargo enquanto os Conhecimentos Específicos permanecerem pendentes.</small></div><b>{coverage}%</b></section>
       <div className="study-toolbar"><div className="segmented"><button className={discipline === 'todas' ? 'active' : ''} onClick={() => setDiscipline('todas')}>Todas</button>{(Object.keys(disciplineLabels) as DisciplineId[]).map((id) => <button className={discipline === id ? 'active' : ''} key={id} onClick={() => setDiscipline(id)}>{disciplineLabels[id]}</button>)}</div><label className="inline-search"><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Filtrar aulas" /></label></div>
       <div className="topic-groups">
         {(Object.keys(disciplineLabels) as DisciplineId[]).map((id) => {
           const group = filtered.filter((topic) => topic.discipline === id)
           if (!group.length) return null
-          const done = group.filter((topic) => data.completedTopics.includes(topic.id)).length
-          return <section className="topic-section" key={id}><header><div><span>{disciplineLabels[id]}</span><h2>{group.length} aulas</h2></div><small>{done} concluídas</small></header><div className="topic-list">{group.map((topic, index) => <Link to={`/aula/${topic.id}`} key={topic.id} className={data.completedTopics.includes(topic.id) ? 'done' : ''}><span className="topic-number">{data.completedTopics.includes(topic.id) ? <Check size={15} /> : String(index + 1).padStart(2, '0')}</span><span className="topic-copy"><strong>{topic.title}</strong><small>{topic.summary}</small></span><span className={`origin-chip ${topic.origin}`}>{originLabels[topic.origin]}</span><ChevronRight size={18} /></Link>)}</div></section>
+          const available = group.filter((topic) => Boolean(richLessonsByTopicId[topic.id]))
+          const done = available.filter((topic) => includesLessonState(data.completedTopics, topic.id)).length
+          return <section className="topic-section" key={id}><header><div><span>{disciplineLabels[id]}</span><h2>{available.length} completas · {group.length - available.length} em preparação</h2></div><small>{done} concluídas</small></header><div className="topic-list">{group.map((topic, index) => {
+            const lesson = richLessonsByTopicId[topic.id]
+            const done = includesLessonState(data.completedTopics, topic.id)
+            const content = <><span className="topic-number">{done ? <Check size={15} /> : String(index + 1).padStart(2, '0')}</span><span className="topic-copy"><strong>{lesson?.title ?? topic.title}</strong><small>{lesson ? topic.summary : 'Conteúdo em preparação'}</small></span><span className={`origin-chip ${lesson ? topic.origin : 'preparing'}`}>{lesson ? 'Aula completa' : 'Em preparação'}</span>{lesson ? <ChevronRight size={18} /> : <Clock3 size={18} />}</>
+            return lesson ? <Link to={`/aula/${topic.id}`} key={topic.id} className={done ? 'done' : ''}>{content}</Link> : <div key={topic.id} className="topic-preparing" aria-label={`${topic.title}: conteúdo em preparação`}>{content}</div>
+          })}</div></section>
         })}
       </div>
     </>
@@ -396,44 +436,41 @@ function LessonPage({ data, setData }: AppState) {
   const { topicId } = useParams()
   const topic = topics.find((item) => item.id === topicId)
   if (!topic || !topic.cargoIds.includes(data.selectedCargo)) return <Navigate to="/estudo" replace />
-  const completed = data.completedTopics.includes(topic.id)
-  const favorite = data.favoriteTopics.includes(topic.id)
   const richLesson = richLessonsByTopicId[topic.id]
-  const relatedQuestions = questions.filter((question) => questionMatchesCargo(question, data.selectedCargo) && question.topicId === topic.id)
-  const toggleArray = (key: 'completedTopics' | 'favoriteTopics') => setData((current) => ({ ...current, [key]: current[key].includes(topic.id) ? current[key].filter((id) => id !== topic.id) : [...current[key], topic.id] }))
+  const stateIds = lessonStateIds(topic.id)
+  const completed = stateIds.some((id) => data.completedTopics.includes(id))
+  const favorite = stateIds.some((id) => data.favoriteTopics.includes(id))
+  const relatedQuestions = questions.filter((question) => questionMatchesCargo(question, data.selectedCargo) && stateIds.includes(question.topicId))
+  const toggleArray = (key: 'completedTopics' | 'favoriteTopics') => setData((current) => {
+    const active = stateIds.some((id) => current[key].includes(id))
+    return { ...current, [key]: active ? current[key].filter((id) => !stateIds.includes(id)) : [...current[key], richLesson?.topicId ?? topic.id] }
+  })
   const scheduleReview = (days: 1 | 7 | 15 | 30) => {
     setData((current) => {
-      const existing = current.reviews.find((review) => review.topicId === topic.id && review.cargoId === data.selectedCargo)
+      const reviewTopicId = richLesson?.topicId ?? topic.id
+      const existing = current.reviews.find((review) => stateIds.includes(review.topicId) && review.cargoId === data.selectedCargo)
       const updatedAt = nextUpdatedAt(current.updatedAt, existing?.updatedAt)
-      return { ...current, reviews: [...current.reviews.filter((review) => !(review.topicId === topic.id && review.cargoId === data.selectedCargo)), { cargoId: data.selectedCargo, topicId: topic.id, intervalDays: days, dueAt: new Date(Date.now() + days * 86400000).toISOString(), status: 'pending', updatedAt }] }
+      return { ...current, reviews: [...current.reviews.filter((review) => !(stateIds.includes(review.topicId) && review.cargoId === data.selectedCargo)), { cargoId: data.selectedCargo, topicId: reviewTopicId, intervalDays: days, dueAt: new Date(Date.now() + days * 86400000).toISOString(), status: 'pending', updatedAt }] }
     })
   }
+
+  if (!richLesson) return (
+    <article className="lesson-page">
+      <Link className="back-link" to="/estudo"><ArrowLeft size={16} /> Voltar ao material</Link>
+      <header className="lesson-header"><div><span className="origin-chip preparing">Conteúdo em preparação</span><small>{disciplineLabels[topic.discipline]}</small><h1>{topic.title}</h1><p>Este item está mapeado no edital, mas ainda não recebeu uma aula editorial completa e revisada.</p></div></header>
+      <section className="preparing-panel"><Clock3 size={24} /><div><span>Em produção</span><h2>O conteúdo completo será publicado após revisão editorial.</h2><p>Para não confundir um resumo provisório com material final, esta página não apresenta uma aula superficial como se estivesse concluída.</p><blockquote>“{topic.editalText}” — {topic.editalItem}, página {topic.editalPage}.</blockquote></div></section>
+    </article>
+  )
 
   return (
     <article className="lesson-page">
       <Link className="back-link" to="/estudo"><ArrowLeft size={16} /> Voltar ao material</Link>
-      <header className="lesson-header"><div><span className={`origin-chip ${topic.origin}`}>{originLabels[topic.origin]}</span><small>{disciplineLabels[topic.discipline]}</small><h1>{topic.title}</h1><p>{topic.summary}</p></div><div className="lesson-actions"><button className={favorite ? 'active' : ''} onClick={() => toggleArray('favoriteTopics')}><Heart size={18} fill={favorite ? 'currentColor' : 'none'} /> {favorite ? 'Favorito' : 'Favoritar'}</button><button className={completed ? 'complete' : ''} onClick={() => toggleArray('completedTopics')}>{completed ? <CheckCircle2 size={18} /> : <BookCheck size={18} />}{completed ? 'Concluída' : 'Marcar como concluída'}</button></div></header>
+      <header className="lesson-header"><div><span className={`origin-chip ${topic.origin}`}>{originLabels[topic.origin]}</span><small>{disciplineLabels[topic.discipline]}</small><h1>{richLesson.title}</h1><p>{topic.summary}</p></div><div className="lesson-actions"><button className={favorite ? 'active' : ''} onClick={() => toggleArray('favoriteTopics')}><Heart size={18} fill={favorite ? 'currentColor' : 'none'} /> {favorite ? 'Favorito' : 'Favoritar'}</button><button className={completed ? 'complete' : ''} onClick={() => toggleArray('completedTopics')}>{completed ? <CheckCircle2 size={18} /> : <BookCheck size={18} />}{completed ? 'Concluída' : 'Marcar como concluída'}</button></div></header>
       <div className="lesson-layout"><div className="lesson-content">
-        {richLesson ? <RichLessonArticle lesson={richLesson} /> : <>
-        <LessonSection number="01" title="O que o edital cobra"><blockquote>“{topic.editalText}”</blockquote><p>Edital, {topic.editalItem}, página {topic.editalPage} do PDF.</p></LessonSection>
-        <LessonSection number="02" title="Explicação completa"><p>{topic.summary}</p><p>Para resolver questões, primeiro identifique o conceito solicitado, depois elimine alternativas que omitem condições essenciais ou aplicam regra de outro assunto. O nível e os exemplos desta aula foram ajustados às atribuições de {cargos.find((cargo) => cargo.id === data.selectedCargo)?.name}.</p></LessonSection>
-        <LessonSection number="03" title="O mais importante para a prova"><ul>{topic.keyPoints.map((point) => <li key={point}>{point}</li>)}</ul></LessonSection>
-        <LessonSection number="04" title="Como a INEPAM pode cobrar"><div className="notice neutral">Não há amostra suficiente de questões integrais e verificadas para afirmar um padrão específico da banca neste tópico.</div><p>Treine definições, aplicação prática e identificação da alternativa que troca uma condição central.</p></LessonSection>
-        <LessonSection number="05" title="Exemplo"><div className="example-box">{topic.example}</div></LessonSection>
-        <LessonSection number="06" title="Pegadinha comum"><div className="notice warning"><AlertTriangle size={18} />{topic.pitfall}</div></LessonSection>
-        <LessonSection number="07" title="Quadro-resumo"><div className="summary-grid">{topic.keyPoints.map((point, index) => <div key={point}><span>{String(index + 1).padStart(2, '0')}</span><p>{point}</p></div>)}</div></LessonSection>
-        <LessonSection number="08" title="Revisão rápida"><p><strong>Em uma frase:</strong> {topic.summary}</p><p><strong>Checklist:</strong> releia os três pontos centrais, explique o conceito em voz alta e resolva ao menos uma questão relacionada.</p></LessonSection>
-        <LessonSection number="09" title="Flashcards"><div className="flashcards"><details><summary>O que define {topic.title.toLowerCase()}?</summary><p>{topic.summary}</p></details>{topic.keyPoints.slice(0, 2).map((point, index) => <details key={point}><summary>Qual é o ponto-chave {index + 1}?</summary><p>{point}</p></details>)}</div></LessonSection>
-        <LessonSection number="10" title="Questões relacionadas"><p>{relatedQuestions.length ? `${relatedQuestions.length} questão(ões) inédita(s) vinculada(s) a esta aula.` : 'O banco será ampliado sem classificar questão não verificada como real.'}</p><Link className="inline-action" to={`/questoes?topico=${topic.id}`}>Praticar este assunto <ArrowRight size={16} /></Link></LessonSection>
-        <LessonSection number="11" title="Fontes utilizadas"><div className="sources-list">{topic.sources.map((source) => <a key={`${source.kind}-${source.label}`} href={source.url} target="_blank" rel="noreferrer"><span>{source.kind}</span><strong>{source.label}</strong><ArrowRight size={16} /></a>)}</div></LessonSection>
-        </>}
-      </div><aside className="lesson-aside">{richLesson && <RichLessonToc lesson={richLesson} />}<div className="aside-card"><span>Revisão espaçada</span><h3>Agendar esta aula</h3><div className="review-buttons">{([1, 7, 15, 30] as const).map((days) => <button key={days} onClick={() => scheduleReview(days)}>{days} {days === 1 ? 'dia' : 'dias'}</button>)}</div></div><div className="aside-card"><span>{richLesson ? 'Sobre esta aula' : 'Referência oficial'}</span><h3>{richLesson ? 'Material completo' : 'Edital confirmado'}</h3><p>{richLesson ? 'Conteúdo de Português do Ensino Médio compartilhado pelos cargos compatíveis e organizado para estudo.' : <>Página {topic.editalPage}<br />{topic.editalItem}</>}</p></div></aside></div>
+        <RichLessonArticle lesson={richLesson} />
+      </div><aside className="lesson-aside"><RichLessonToc lesson={richLesson} /><div className="aside-card"><span>Revisão espaçada</span><h3>Agendar esta aula</h3><div className="review-buttons">{([1, 7, 15, 30] as const).map((days) => <button key={days} onClick={() => scheduleReview(days)}>{days} {days === 1 ? 'dia' : 'dias'}</button>)}</div></div><div className="aside-card"><span>Sobre esta aula</span><h3>Material completo</h3><p>Conteúdo de {disciplineLabels[topic.discipline]} do Ensino Médio compartilhado pelos cargos compatíveis e organizado para estudo.</p>{relatedQuestions.length ? <small>{relatedQuestions.length} questões interativas vinculadas.</small> : null}</div></aside></div>
     </article>
   )
-}
-
-function LessonSection({ number, title, children }: { number: string; title: string; children: ReactNode }) {
-  return <section className="lesson-section"><header><span>{number}</span><h2>{title}</h2></header><div>{children}</div></section>
 }
 
 function QuestionsPage({ data, setData }: AppState) {
@@ -558,7 +595,7 @@ function EmptyState({ icon: Icon, title, text }: { icon: typeof CircleHelp; titl
 }
 
 function Footer() {
-  return <footer className="site-footer"><div><GraduationCap size={20} /><span><strong>Rincão Estudos 2026</strong><small>Projeto gratuito, educacional e não oficial.</small></span></div><p>Dados do edital auditados em 21/08/2026. Verifique convocações e retificações nos canais oficiais da Prefeitura e da INEPAM.</p><Link to="/privacidade">Privacidade</Link></footer>
+  return <footer className="site-footer"><div><GraduationCap size={20} /><span><strong>Rincão Estudos 2026</strong><small>Projeto gratuito, educacional e não oficial.</small></span></div><p>Edital e rerratificação oficial auditados em 23/08/2026. Continue acompanhando convocações e novas publicações da Prefeitura e da INEPAM.</p><Link to="/privacidade">Privacidade</Link></footer>
 }
 
 function App() {

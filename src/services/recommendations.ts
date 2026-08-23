@@ -1,4 +1,5 @@
 import { questions, topics } from '../data'
+import { primaryTopicIdByTopicId, richLessonsByTopicId } from '../content/editorial'
 import type { CargoId, DisciplineId, UserData } from '../types'
 import { questionMatchesCargo } from '../utils/questions'
 
@@ -16,19 +17,24 @@ export interface StudyRecommendation {
 const EXAM_DATE = new Date('2026-09-27T08:00:00-03:00')
 
 export function getStudyRecommendations(data: UserData, cargoId: CargoId, referenceDate = new Date()): StudyRecommendation[] {
-  const cargoTopics = topics.filter((topic) => topic.cargoIds.includes(cargoId))
+  const cargoTopics = topics.filter((topic) => topic.cargoIds.includes(cargoId)
+    && Boolean(richLessonsByTopicId[topic.id])
+    && primaryTopicIdByTopicId[topic.id] === topic.id)
   const cargoQuestions = questions.filter((question) => questionMatchesCargo(question, cargoId))
   const recentThreshold = referenceDate.getTime() - 14 * 86400000
   const daysToExam = Math.ceil((EXAM_DATE.getTime() - referenceDate.getTime()) / 86400000)
 
   return cargoTopics.flatMap((topic): StudyRecommendation[] => {
-    const questionIds = cargoQuestions.filter((question) => question.topicId === topic.id).map((question) => question.id)
+    const lesson = richLessonsByTopicId[topic.id]
+    const topicIds = lesson?.topicIds ?? [topic.id]
+    const title = lesson?.title ?? topic.title
+    const questionIds = cargoQuestions.filter((question) => topicIds.includes(question.topicId)).map((question) => question.id)
     const attempts = data.answers.filter((answer) => answer.cargoId === cargoId && questionIds.includes(answer.questionId))
     const correct = attempts.filter((answer) => answer.correct).length
     const rate = attempts.length ? Math.round((correct / attempts.length) * 100) : 0
     const recentErrors = attempts.filter((answer) => !answer.correct && new Date(answer.answeredAt).getTime() >= recentThreshold).length
     const dueReview = data.reviews.some((review) => review.cargoId === cargoId
-      && review.topicId === topic.id
+      && topicIds.includes(review.topicId)
       && review.status === 'pending'
       && new Date(review.dueAt) <= referenceDate)
     const examBoost = daysToExam >= 0 && daysToExam <= 30 ? 10 : 0
@@ -36,7 +42,7 @@ export function getStudyRecommendations(data: UserData, cargoId: CargoId, refere
     if (attempts.length >= 3 && rate < 60) {
       return [{
         topicId: topic.id,
-        title: topic.title,
+        title,
         discipline: topic.discipline,
         priority: 'alta',
         reason: `${rate}% de acertos em ${attempts.length} tentativas${recentErrors ? `, com ${recentErrors} erro(s) recente(s)` : ''}.`,
@@ -46,7 +52,7 @@ export function getStudyRecommendations(data: UserData, cargoId: CargoId, refere
     if (dueReview) {
       return [{
         topicId: topic.id,
-        title: topic.title,
+        title,
         discipline: topic.discipline,
         priority: 'revisao',
         reason: 'A revisão programada deste assunto está vencida.',
@@ -56,7 +62,7 @@ export function getStudyRecommendations(data: UserData, cargoId: CargoId, refere
     if (attempts.length >= 3 && rate <= 75) {
       return [{
         topicId: topic.id,
-        title: topic.title,
+        title,
         discipline: topic.discipline,
         priority: 'media',
         reason: `${rate}% de acertos em ${attempts.length} tentativas.`,
@@ -66,17 +72,17 @@ export function getStudyRecommendations(data: UserData, cargoId: CargoId, refere
     if (attempts.length > 0 && attempts.length < 3 && recentErrors > 0) {
       return [{
         topicId: topic.id,
-        title: topic.title,
+        title,
         discipline: topic.discipline,
         priority: 'sugestao',
         reason: 'Você pode revisar este assunto; ainda há poucas tentativas para uma conclusão forte.',
         score: 45 + recentErrors * 3 + examBoost,
       }]
     }
-    if (!data.completedTopics.includes(topic.id)) {
+    if (!topicIds.some((topicId) => data.completedTopics.includes(topicId))) {
       return [{
         topicId: topic.id,
-        title: topic.title,
+        title,
         discipline: topic.discipline,
         priority: 'sugestao',
         reason: 'Aula ainda não concluída.',
