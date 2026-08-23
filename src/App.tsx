@@ -33,6 +33,7 @@ import {
   LibraryBig,
   LogIn,
   Menu,
+  Newspaper,
   RefreshCcw,
   Search,
   ShieldCheck,
@@ -50,6 +51,7 @@ import { useAuth } from './auth/useAuth'
 import { GuestImportModal } from './auth/GuestImportModal'
 import { RichLessonArticle, RichLessonToc } from './content/RichLessonArticle'
 import { primaryTopicIdByTopicId, richLessonsByTopicId } from './content/editorial'
+import { calendarEventsForCargo, examCountdown, formatCalendarEvent, newsForCargo, publicationRectifications } from './content/publication'
 import {
   HashRouter,
   Link,
@@ -66,7 +68,6 @@ import {
   disciplineLabels,
   practicalExam,
   questions,
-  schedule,
   simulationQuestionsForCargo,
   topics,
   verifiedQuestionReferences,
@@ -330,6 +331,8 @@ function Dashboard({ data }: AppState) {
   const coverage = cargoTopics.length ? Math.round((completed / cargoTopics.length) * 100) : 0
   const recommendations = getStudyRecommendations(data, data.selectedCargo)
   const nextTopic = cargoTopics.find((topic) => !includesLessonState(data.completedTopics, topic.id))
+  const upcomingEvents = calendarEventsForCargo(data.selectedCargo).slice(0, 4)
+  const latestNews = newsForCargo(data.selectedCargo).slice().sort((left, right) => right.publishedAt.localeCompare(left.publishedAt)).slice(0, 2)
 
   return (
     <>
@@ -343,6 +346,7 @@ function Dashboard({ data }: AppState) {
         <aside className="exam-card">
           <span className="mini-label">Sua prova objetiva</span>
           <strong>30 questões · 3 horas</strong>
+          <em className="exam-countdown"><CalendarClock size={15} />{examCountdown()}</em>
           <div className="exam-row"><span>Língua Portuguesa</span><b>10</b></div>
           <div className="exam-row"><span>Matemática</span><b>05</b></div>
           <div className="exam-row"><span>Conhecimentos Específicos</span><b>15</b></div>
@@ -366,7 +370,12 @@ function Dashboard({ data }: AppState) {
           {!recommendations.length && <p>Responda algumas questões para receber recomendações baseadas no seu desempenho real.</p>}
           {nextTopic && <Link to={`/aula/${nextTopic.id}`}>Continuar plano de estudos <ArrowRight size={17} /></Link>}
         </article>
-        <article className="panel timeline-panel"><div className="panel-title"><CalendarClock size={20} /><div><span>Cronograma oficial</span><h2>Próximas datas</h2></div></div>{schedule.slice(2, 6).map(([label, date]) => <div className="timeline-row" key={label}><i /><span><strong>{label}</strong><small>{date}</small></span></div>)}</article>
+        <article className="panel timeline-panel"><div className="panel-title"><CalendarClock size={20} /><div><span>Cronograma oficial</span><h2>Próximas datas</h2></div></div>{upcomingEvents.map(({ event }) => <div className="timeline-row" key={event.id}><i /><span><strong>{event.titulo}</strong><small>{formatCalendarEvent(event)}</small></span></div>)}</article>
+      </section>
+
+      <section className="publication-grid">
+        <article className="panel publication-panel"><div className="panel-title"><Newspaper size={20} /><div><span>Fontes oficiais</span><h2>Últimas notícias</h2></div></div><div className="publication-list">{latestNews.map((item) => <a href={item.url} target="_blank" rel="noreferrer" key={item.id}><small>{new Date(item.publishedAt).toLocaleDateString('pt-BR')} · {item.fonteOficial}</small><strong>{item.titulo}</strong><p>{item.resumo}</p></a>)}</div></article>
+        <article className="panel publication-panel rectification-panel"><div className="panel-title"><FileText size={20} /><div><span>Documento auditado</span><h2>Rerratificação</h2></div></div><div className="publication-list">{publicationRectifications.map((item) => <a href={item.url} target="_blank" rel="noreferrer" key={item.id}><small>{new Date(item.publishedAt).toLocaleDateString('pt-BR')} · {item.fonteOficial}</small><strong>{item.identificacao}</strong><p>{item.resumo}</p><em>{item.impactoCandidato}</em></a>)}</div></article>
       </section>
     </>
   )

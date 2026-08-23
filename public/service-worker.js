@@ -1,5 +1,5 @@
 const CACHE_PREFIX = 'rincao-estudos-'
-const CACHE = `${CACHE_PREFIX}v8`
+const CACHE = `${CACHE_PREFIX}v9`
 const BASE = '/prefeitura-rincao-estudos-2026/'
 const APP_SHELL = [BASE, `${BASE}index.html`, `${BASE}manifest.webmanifest`]
 
