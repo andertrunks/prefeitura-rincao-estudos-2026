@@ -2,44 +2,33 @@
 
 ## Fluxo
 
-O Google Drive é a fonte editorial. Durante uma atualização autorizada, o pacote é validado e copiado para `src/content/lote-NNN/`. O build do Vite incorpora esses arquivos à aplicação. O site publicado não consulta o Drive em tempo de execução.
+Google Drive é a fonte editorial. Durante uma integração autorizada, os arquivos canônicos são auditados e copiados para `src/content/library`. O site publicado não consulta o Drive em tempo de execução.
 
-## Lote 002 — Fonema
+## Biblioteca atual
 
-- pacote: `rincao-2026-lote-002-portugues-medio-fonema`;
-- aula editorial: `medio-portugues-fonema-001`;
-- ID local preservado: `mp-fonema`;
-- cargos: Agente Administrativo e Monitor de Educação;
-- conteúdo: Markdown integral com frontmatter, 27 seções de nível 2 e 653 linhas no arquivo importado;
-- questões: 10 inéditas — estilo INEPAM, IDs `q-inedita-medio-portugues-0006` a `q-inedita-medio-portugues-0015`;
-- referências reais: cinco análises documentais, exibidas apenas como evidência pedagógica e não cadastradas como questões reais do banco.
+- 21 aulas completas de Português do Ensino Médio;
+- 13 aulas completas de Matemática do Ensino Médio;
+- 115 questões inéditas — estilo INEPAM no banco interativo;
+- fontes, calendário, notícias, rerratificações, manifesto e cobertura versionados no repositório.
 
-O ID local continua sendo usado por progresso, favoritos e revisões. O ID editorial é armazenado como metadado do tópico. Essa associação evita perder dados atuais e permite que pacotes futuros mantenham sua rastreabilidade própria.
+Os arquivos Markdown são carregados estaticamente pelo Vite. O frontmatter permanece disponível para rastreabilidade, mas é removido da apresentação ao estudante.
 
-## Renderização
+## IDs e compatibilidade
 
-O arquivo Markdown é importado com `?raw`, processado localmente e renderizado com suporte a tabelas GFM. O frontmatter, IDs, nomes de arquivos, versões de schema e status editoriais permanecem disponíveis somente para integração e rastreabilidade. A interface apresenta uma identificação pedagógica da aula, sem expor esses campos ao estudante.
+O ID do arquivo editorial e o `stableItemId` nunca dependem do título ou do caminho. Os IDs locais já usados por progresso e sincronização foram preservados. Quando uma aula editorial cobre mais de um ID local antigo, todos os aliases apontam para a mesma aula e a lista mostra apenas uma entrada.
 
-Referências técnicas dentro do corpo editorial são adaptadas apenas na camada de apresentação. Por exemplo, a ligação com o banco interno de questões vira “10 questões inéditas no estilo INEPAM, com gabarito comentado”. O Markdown original e todos os IDs permanecem inalterados. Um teste automatizado impede que as famílias conhecidas de metadados voltem à apresentação pública.
+## Duplicatas do Drive
 
-Um índice interno usa rolagem na própria rota do `HashRouter`, sem alterar o hash de navegação. As fontes são exibidas ao final com órgão e título compreensíveis; seus IDs continuam sendo usados apenas como chaves internas.
+Duplicatas históricas não são removidas do Drive durante a integração. A publicação seleciona uma única versão canônica por ID editorial. Nesta versão, Pronome usa o arquivo mais recente da pasta canônica de Português.
 
-## Questões e simulados
+## Questões
 
-As questões editoriais são convertidas em `Question` sem mudar seus IDs. O mapeamento de cargos é:
+O banco canônico importado contém 115 questões inéditas — estilo INEPAM, todas com A–E, uma resposta correta e comentário. Questões reais analisadas pedagogicamente dentro das aulas permanecem no Markdown e não são promovidas para o banco sem origem e conteúdo integral comprováveis.
 
-- `agente-administrativo` → `agente`;
-- `monitor-educacao` → `monitor`.
+## Portão documental
 
-As antigas questões genéricas de Fonema deixaram de ser exibidas no banco e foram substituídas pelas dez questões editoriais. Registros locais de respostas não são apagados. O banco passa a ter 98 questões ativas, enquanto cada simulado continua selecionando exatamente 10 de Português, 5 de Matemática e 15 de Conhecimentos Específicos.
+Nenhum deploy editorial é liberado antes da leitura integral do edital e de todas as retificações conhecidas. A rerratificação de 13/08/2026 foi auditada em 23/08/2026 e não afeta os três cargos do projeto.
 
-## Validação de pacotes futuros
+## Conteúdo pendente
 
-Antes de integrar outro lote:
-
-1. conferir `manifest.json`, IDs, cargos e disciplina;
-2. preservar o ID local já usado pelo progresso ou declarar uma migração explícita;
-3. importar Markdown e arquivos de rastreabilidade sem resumir o conteúdo;
-4. cadastrar como real somente questão com origem e conteúdo integralmente comprovados;
-5. validar leitura desktop e móvel, tabelas, links, banco de questões, simulado e PWA;
-6. atualizar o cache do service worker e executar lint, testes e build; abas já controladas recarregam uma vez quando a nova versão assume o controle.
+Itens sem pacote canônico completo aparecem como **Conteúdo em preparação**. Eles continuam mapeados internamente, mas não são apresentados como aula concluída.

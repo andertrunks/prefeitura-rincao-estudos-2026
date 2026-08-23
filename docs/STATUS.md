@@ -10,7 +10,7 @@ Atualizado em 23/08/2026.
 - navegação por HashRouter;
 - seleção dos três cargos;
 - 140 unidades curriculares mapeadas no conjunto geral (134 títulos distintos), com recorte por cargo;
-- 98 questões inéditas ativas com cinco alternativas e vínculo Cargo → Disciplina → Tópico;
+- 185 questões inéditas ativas com cinco alternativas e vínculo Cargo → Disciplina → Tópico, das quais 115 vieram do banco editorial canônico;
 - simulados completos 10/5/15 nos modos prova e estudo;
 - correção automática sem revelar gabarito antes da confirmação;
 - Caderno de Erros, favoritos, revisões e desempenho;
@@ -21,7 +21,7 @@ Atualizado em 23/08/2026.
 - transparência sobre questões reais não reproduzidas;
 - fluxo de publicação gratuita no GitHub Pages;
 - build de produção e lint sem erros;
-- integridade validada: 140 unidades curriculares, 98 questões ativas e distribuição 10/5/15 por simulado e cargo;
+- integridade validada: 140 unidades curriculares internas, 34 aulas editoriais completas compartilhadas, 185 questões ativas e distribuição 10/5/15 por simulado e cargo;
 - testes funcionais de estudo, favoritos, revisões, questões, Caderno de Erros, simulado completo, busca, importação e persistência;
 - validação responsiva em viewport móvel de 390 × 844;
 - manifesto e service worker servidos pelo build de produção;
@@ -50,11 +50,24 @@ Atualizado em 23/08/2026.
 - renderização de Markdown longo com índice interno, tabelas responsivas e links oficiais;
 - separação entre metadados editoriais internos e linguagem pública: IDs, nomes de arquivos, schemas e status permanecem no pacote, mas não aparecem para o estudante;
 - apresentação amigável das questões relacionadas e das fontes, preservando a classificação pedagógica real/inédita;
-- cache PWA atualizado para `rincao-estudos-v5`, com recarga automática quando uma nova versão assume o controle.
+- cache PWA atualizado para `rincao-estudos-v6`, com recarga automática quando uma nova versão assume o controle.
+- rerratificação oficial de 13/08/2026 recuperada, lida integralmente e comparada ao edital; alterações restritas a Nutricionista e Psicólogo, sem impacto nos três cargos do projeto;
+- 21 aulas revisadas de Português do Ensino Médio e 13 de Matemática do Ensino Médio integradas como arquivos Markdown estáticos;
+- duplicatas históricas do Drive resolvidas na publicação por ID editorial, sem exclusão ou reorganização da fonte editorial;
+- IDs locais anteriores preservados como aliases quando uma aula canônica reúne mais de um subtópico;
+- cobertura pública corrigida: conteúdos ainda sem pacote completo aparecem como “Conteúdo em preparação” e nenhum cargo é declarado 100% concluído;
+- manifesto, cobertura, calendário, notícias, rerratificações, fontes e banco editorial versionados em `src/content/library/data`.
 
-## Pendências externas
+## Pendências editoriais
 
-- conferir eventuais retificações do edital após 21/08/2026;
+- Conhecimentos Específicos de Agente Administrativo;
+- Conhecimentos Específicos de Monitor de Educação;
+- Português do Ensino Fundamental para Ajudante Geral;
+- Matemática do Ensino Fundamental para Ajudante Geral;
+- Conhecimentos Específicos de Ajudante Geral;
+- pacote editorial canônico de preparação para a prova prática de Ajudante Geral;
+- banco interativo canônico para Interjeição a Interpretação e para as 13 aulas de Matemática;
+- continuar monitorando novas retificações e publicações oficiais posteriores a 23/08/2026;
 - conferir emendas posteriores à versão oficial disponibilizada da Lei Orgânica (arquivo declara atualização até 2007).
 
 ## Decisão de custo
