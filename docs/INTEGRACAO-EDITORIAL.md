@@ -38,4 +38,4 @@ Antes de integrar outro lote:
 3. importar Markdown e arquivos de rastreabilidade sem resumir o conteúdo;
 4. cadastrar como real somente questão com origem e conteúdo integralmente comprovados;
 5. validar leitura desktop e móvel, tabelas, links, banco de questões, simulado e PWA;
-6. atualizar o cache do service worker e executar lint, testes e build.
+6. atualizar o cache do service worker e executar lint, testes e build; abas já controladas recarregam uma vez quando a nova versão assume o controle.

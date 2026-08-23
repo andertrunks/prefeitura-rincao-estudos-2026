@@ -13,6 +13,13 @@ createRoot(document.getElementById('root')!).render(
 )
 
 if ('serviceWorker' in navigator && import.meta.env.PROD) {
+  const shouldReloadOnUpdate = Boolean(navigator.serviceWorker.controller)
+  let reloadingForUpdate = false
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!shouldReloadOnUpdate || reloadingForUpdate) return
+    reloadingForUpdate = true
+    window.location.reload()
+  })
   window.addEventListener('load', () => {
     void navigator.serviceWorker.register(`${import.meta.env.BASE_URL}service-worker.js`, { updateViaCache: 'none' })
       .then((registration) => registration.update())

@@ -47,7 +47,7 @@ Atualizado em 22/08/2026.
 - 10 questões inéditas — estilo INEPAM do pacote integradas e compartilhadas por Agente Administrativo e Monitor de Educação;
 - cinco referências reais da banca preservadas como análise pedagógica, sem classificação indevida como questões reais do banco;
 - renderização de Markdown longo com índice interno, tabelas responsivas, metadados editoriais e links oficiais;
-- cache PWA atualizado para `rincao-estudos-v3`.
+- cache PWA atualizado para `rincao-estudos-v4`, com recarga automática quando uma nova versão assume o controle.
 
 ## Pendências externas
 
