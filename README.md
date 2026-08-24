@@ -11,7 +11,7 @@ Plataforma pública, gratuita e static-first para o Concurso Público nº 001/20
 - conteúdo rastreado por página e item do edital;
 - cobertura estrutural de 74 tópicos para Monitor, 76 para Agente e 36 para Ajudante;
 - aulas divididas por cargo, disciplina e tópico;
-- banco de 98 questões inéditas ativas, sempre identificado como tal;
+- banco editorial com 713 questões: 702 inéditas — estilo INEPAM e 11 reais com origem catalogada;
 - simulados com 30 questões na distribuição 10/5/15;
 - modos prova e estudo;
 - Caderno de Erros, favoritos, revisões e estatísticas;
@@ -22,7 +22,7 @@ Plataforma pública, gratuita e static-first para o Concurso Público nº 001/20
 - recomendações locais baseadas em desempenho, sem IA paga;
 - exportação e importação de backup;
 - PWA com suporte offline;
-- aulas editoriais completas importadas estaticamente de pacotes versionados, com Markdown navegável e fontes rastreáveis;
+- 89 aulas editoriais completas importadas estaticamente de pacotes versionados, com Markdown navegável e fontes rastreáveis;
 - preparação específica para a prova prática do Ajudante Geral;
 - publicação gratuita pelo GitHub Pages.
 
