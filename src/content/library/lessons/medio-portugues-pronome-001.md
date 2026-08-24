@@ -12,6 +12,14 @@ editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Téc
 status: revisado
 versao: "0.1.0"
 revisadoEm: "2026-08-23"
+sourceRefs:
+  - src-edital-rincao-2026
+  - src-inepam-barradochapeu-2023-recursos
+  - src-inepam-embu-artes-001-2025-sme-recursos
+  - src-inepam-embu-artes-003-2026-recursos
+  - src-inepam-crea-mt-001-2025-recursos
+  - src-inepam-anhembi-0001-2023-recursos
+  - src-inepam-sarutaia-001-2025-recursos
 ---
 
 # Pronome — classificação, emprego, referência e usos que mais geram erro

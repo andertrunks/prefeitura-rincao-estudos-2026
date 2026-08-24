@@ -10,14 +10,18 @@ temaId: colocacao-pronominal
 titulo: "Colocação pronominal — próclise, ênclise, mesóclise e palavras atrativas"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Língua Portuguesa: Colocação pronominal"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-inepam-sarutaia-001-2025-recursos
   - src-inepam-ipiranga-norte-001-2025-recursos
   - src-inepam-lambari-001-2025-recursos
   - src-inepam-anhembi-001-2025-recursos
+  - src-inepam-santa-ernestina-001-2025-recursos
 ---
 
 # Colocação pronominal — próclise, ênclise, mesóclise e palavras atrativas
@@ -1496,6 +1500,8 @@ O julgamento oficial de Anhembi/2025 registra explicitamente essa orientação.
 - [x] Uma única alternativa correta em cada questão inédita.
 - [x] Gabarito comentado.
 - [x] Fontes oficiais registradas.
+- [x] Fonte de Santa Ernestina incluída no `sourceRefs` para refletir a evidência complementar já usada no corpo da aula.
+- [x] Rerratificação de Rincão auditada em 23/08/2026 com status `auditado_sem_impacto_nos_cargos_do_projeto`; sem impacto neste item de Português Médio.
 - [x] Status editorial: `revisado`.
 
 ## 70. Próximo item do edital

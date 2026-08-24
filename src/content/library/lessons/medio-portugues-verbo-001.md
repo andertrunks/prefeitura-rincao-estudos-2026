@@ -11,6 +11,15 @@ editalRef: "Anexo II - Conhecimentos Gerais - Cargos de Ensino Médio e Técnico
 status: revisado
 versao: 0.1.0
 ultimaRevisao: 2026-08-23
+sourceRefs:
+  - src-edital-rincao-2026
+  - src-inepam-itajuba-001-2024-recursos
+  - src-inepam-crea-mt-001-2025-recursos
+  - src-inepam-santa-isabel-001-2026-recursos
+  - src-inepam-luminarias-2023-recursos
+  - src-inepam-anhembi-0001-2023-recursos
+  - src-inepam-barradochapeu-2023-recursos
+  - src-inepam-dois-corregos-001-2023-recursos
 ---
 
 # Verbo — estrutura, flexões, tempos, modos, formas nominais, vozes e usos

@@ -1,614 +1,1579 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "2.0",
   "concurso": "Prefeitura Municipal de Rincão-SP — Concurso Público nº 001/2026",
   "sourceRefs": [
     "src-edital-rincao-2026",
-    "src-rerratificacao-rincao-2026"
+    "src-rincao-retificacao-001-2026"
   ],
   "coverageStatus": "em_producao",
   "summary": {
-    "completeLessons": 34,
+    "publishedLessons": 89,
     "portugueseMedium": 21,
     "mathMedium": 13,
-    "interactiveQuestions": 115,
+    "portugueseFundamental": 4,
+    "mathFundamental": 5,
+    "agentSpecificTopics": 30,
+    "ajudanteSpecificLessons": 15,
+    "practicalModules": 1,
+    "interactiveQuestions": 713,
     "wholeProjectComplete": false
   },
   "cargoCoverage": {
     "agente-administrativo": {
-      "sharedMediumContent": "34 aulas revisadas",
-      "specificKnowledge": "pendente",
-      "status": "em_producao"
+      "sharedMediumContent": "34 aulas revisadas com questões",
+      "specificKnowledge": "30 tópicos com aulas revisadas e questões adicionadas",
+      "status": "questoes_adicionadas",
+      "note": "Fontes com metadados parciais impedem declarar concluído."
     },
     "monitor-educacao": {
-      "sharedMediumContent": "34 aulas revisadas",
+      "sharedMediumContent": "34 aulas revisadas com questões",
       "specificKnowledge": "pendente",
       "status": "em_producao"
     },
     "ajudante-geral": {
-      "portugueseFundamental": "pendente",
-      "mathFundamental": "pendente",
-      "specificKnowledge": "pendente",
-      "practicalPreparation": "pendente",
-      "status": "nao_iniciado"
+      "portugueseFundamental": "4 aulas revisadas",
+      "mathFundamental": "5 aulas revisadas",
+      "specificKnowledge": "15 aulas revisadas cobrindo 22 tópicos",
+      "practicalPreparation": "1 módulo revisado",
+      "status": "revisado",
+      "note": "Questões interativas consolidadas e simulados editoriais ainda pendentes."
     }
   },
   "items": [
     {
-      "id": "edital-medio-portugues-fonema",
-      "stableItemId": "MED-PORT-001",
+      "id": "MED-PORT-001",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "fonema",
-      "descricao": "Fonema",
+      "textoEdital": "Fonema",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-fonema-001"
       ],
+      "siteTopicIds": [
+        "mp-fonema"
+      ],
       "questoesVinculadas": 10,
-      "status": "questoes_adicionadas"
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-silaba",
-      "stableItemId": "MED-PORT-002",
+      "id": "MED-PORT-002",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "silaba",
-      "descricao": "Sílaba",
+      "textoEdital": "Sílaba",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-silaba-001"
       ],
+      "siteTopicIds": [
+        "mp-silaba"
+      ],
       "questoesVinculadas": 10,
-      "status": "questoes_adicionadas"
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-ortografia",
-      "stableItemId": "MED-PORT-003",
+      "id": "MED-PORT-003",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "ortografia",
-      "descricao": "Ortografia",
+      "textoEdital": "Ortografia",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-ortografia-001"
       ],
+      "siteTopicIds": [
+        "mp-ortografia"
+      ],
       "questoesVinculadas": 10,
-      "status": "questoes_adicionadas"
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-substantivo",
-      "stableItemId": "MED-PORT-004",
+      "id": "MED-PORT-004",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "substantivo",
-      "descricao": "Substantivo",
+      "textoEdital": "Substantivo",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-substantivo-001"
       ],
+      "siteTopicIds": [
+        "mp-substantivo"
+      ],
       "questoesVinculadas": 10,
-      "status": "questoes_adicionadas"
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-adjetivo",
-      "stableItemId": "MED-PORT-005",
+      "id": "MED-PORT-005",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "adjetivo",
-      "descricao": "Adjetivo",
+      "textoEdital": "Adjetivo",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-adjetivo-001"
       ],
+      "siteTopicIds": [
+        "mp-adjetivo"
+      ],
       "questoesVinculadas": 10,
-      "status": "questoes_adicionadas"
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-preposicao",
-      "stableItemId": "MED-PORT-006",
+      "id": "MED-PORT-006",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "preposicao",
-      "descricao": "Preposição",
+      "textoEdital": "Preposição",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-preposicao-001"
       ],
+      "siteTopicIds": [
+        "mp-preposicao"
+      ],
       "questoesVinculadas": 10,
-      "status": "questoes_adicionadas"
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-conjuncao",
-      "stableItemId": "MED-PORT-007",
+      "id": "MED-PORT-007",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "conjuncao",
-      "descricao": "Conjunção",
+      "textoEdital": "Conjunção",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-conjuncao-001"
       ],
+      "siteTopicIds": [
+        "mp-conjuncao"
+      ],
       "questoesVinculadas": 10,
-      "status": "questoes_adicionadas"
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-adverbio",
-      "stableItemId": "MED-PORT-008",
+      "id": "MED-PORT-008",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "adverbio",
-      "descricao": "Advérbio",
+      "textoEdital": "Advérbio",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-adverbio-001"
       ],
+      "siteTopicIds": [
+        "mp-adverbio"
+      ],
       "questoesVinculadas": 10,
-      "status": "questoes_adicionadas"
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-verbo",
-      "stableItemId": "MED-PORT-009",
+      "id": "MED-PORT-009",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "verbo",
-      "descricao": "Verbo",
+      "textoEdital": "Verbo",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-verbo-001"
       ],
+      "siteTopicIds": [
+        "mp-verbo"
+      ],
       "questoesVinculadas": 10,
-      "status": "questoes_adicionadas"
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-pronome",
-      "stableItemId": "MED-PORT-010",
+      "id": "MED-PORT-010",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "pronome",
-      "descricao": "Pronome",
+      "textoEdital": "Pronome",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-pronome-001"
       ],
+      "siteTopicIds": [
+        "mp-pronome"
+      ],
       "questoesVinculadas": 10,
-      "status": "questoes_adicionadas"
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-numeral",
-      "stableItemId": "MED-PORT-011",
+      "id": "MED-PORT-011",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "numeral",
-      "descricao": "Numeral",
+      "textoEdital": "Numeral",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-numeral-001"
       ],
+      "siteTopicIds": [
+        "mp-numeral"
+      ],
       "questoesVinculadas": 10,
-      "status": "questoes_adicionadas"
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-interjeicao",
-      "stableItemId": "MED-PORT-012",
+      "id": "MED-PORT-012",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "interjeicao",
-      "descricao": "Interjeição",
+      "textoEdital": "Interjeição",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-interjeicao-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mp-interjeicao"
+      ],
+      "questoesVinculadas": 10,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-artigo",
-      "stableItemId": "MED-PORT-013",
+      "id": "MED-PORT-013",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "artigo",
-      "descricao": "Artigo",
+      "textoEdital": "Artigo",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-artigo-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mp-artigo"
+      ],
+      "questoesVinculadas": 12,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-acentuacao",
-      "stableItemId": "MED-PORT-014",
+      "id": "MED-PORT-014",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "acentuacao",
-      "descricao": "Acentuação",
+      "textoEdital": "Acentuação",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-acentuacao-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mp-acentuacao"
+      ],
+      "questoesVinculadas": 12,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-concordancia-nominal-verbal",
-      "stableItemId": "MED-PORT-015",
+      "id": "MED-PORT-015",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "concordancia-nominal-verbal",
-      "descricao": "Concordância nominal e verbal",
+      "textoEdital": "Concordância nominal e verbal",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-concordancia-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mp-concordancia-nominal",
+        "mp-concordancia-verbal"
+      ],
+      "questoesVinculadas": 12,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-pontuacao",
-      "stableItemId": "MED-PORT-016",
+      "id": "MED-PORT-016",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "pontuacao",
-      "descricao": "Pontuação",
+      "textoEdital": "Pontuação",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-pontuacao-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mp-pontuacao"
+      ],
+      "questoesVinculadas": 12,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-crase",
-      "stableItemId": "MED-PORT-017",
+      "id": "MED-PORT-017",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "crase",
-      "descricao": "Crase",
+      "textoEdital": "Crase",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-crase-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mp-crase"
+      ],
+      "questoesVinculadas": 12,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-colocacao-pronominal",
-      "stableItemId": "MED-PORT-018",
+      "id": "MED-PORT-018",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "colocacao-pronominal",
-      "descricao": "Colocação pronominal",
+      "textoEdital": "Colocação pronominal",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-colocacao-pronominal-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mp-colocacao"
+      ],
+      "questoesVinculadas": 12,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-analise-sintatica-periodo-simples-composto",
-      "stableItemId": "MED-PORT-019",
+      "id": "MED-PORT-019",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "analise-sintatica-periodo-simples-composto",
-      "descricao": "Análise sintática — período simples e composto",
+      "textoEdital": "Análise sintática de período simples e composto",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-analise-sintatica-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mp-sintaxe",
+        "mp-periodo-simples",
+        "mp-periodo-composto"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-figuras-de-linguagem",
-      "stableItemId": "MED-PORT-020",
+      "id": "MED-PORT-020",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "figuras-de-linguagem",
-      "descricao": "Figuras de linguagem",
+      "textoEdital": "Figuras de linguagem",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-figuras-linguagem-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mp-figuras"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-portugues-interpretacao-de-textos",
-      "stableItemId": "MED-PORT-021",
+      "id": "MED-PORT-021",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-portugues",
-      "temaId": "interpretacao-de-textos",
-      "descricao": "Interpretação de textos",
+      "textoEdital": "Interpretação de textos",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
       "aulaIds": [
         "medio-portugues-interpretacao-001"
       ],
-      "questoesVinculadas": 5,
-      "status": "questoes_adicionadas"
+      "siteTopicIds": [
+        "mp-interpretacao"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "legacyIds": [
+        "edital-medio-portugues-interpretacao"
+      ],
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-radicais",
-      "stableItemId": "MED-MAT-001",
+      "id": "MED-MAT-001",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "radicais",
-      "descricao": "Radicais",
+      "textoEdital": "Radicais: operações, simplificação, propriedades e racionalização de denominadores",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-radicais-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mm-radicais",
+        "mm-operacoes-radicais",
+        "mm-racionalizacao"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-razao-proporcao",
-      "stableItemId": "MED-MAT-002",
+      "id": "MED-MAT-002",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "razao-proporcao",
-      "descricao": "Razão e proporção",
+      "textoEdital": "Razão e proporção",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-razao-proporcao-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mm-razao",
+        "mm-proporcao"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-porcentagem",
-      "stableItemId": "MED-MAT-003",
+      "id": "MED-MAT-003",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "porcentagem",
-      "descricao": "Porcentagem",
+      "textoEdital": "Porcentagem",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-porcentagem-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mm-porcentagem"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-juros-simples",
-      "stableItemId": "MED-MAT-004",
+      "id": "MED-MAT-004",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "juros-simples",
-      "descricao": "Juros simples",
+      "textoEdital": "Juros simples",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-juros-simples-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mm-juros"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-numeros-reais",
-      "stableItemId": "MED-MAT-005",
+      "id": "MED-MAT-005",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "numeros-reais",
-      "descricao": "Números reais",
+      "textoEdital": "Números reais",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-numeros-reais-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mm-reais"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-fatoracao-expressao-algebrica",
-      "stableItemId": "MED-MAT-006",
+      "id": "MED-MAT-006",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "fatoracao-expressao-algebrica",
-      "descricao": "Fatoração de expressão algébrica",
+      "textoEdital": "Fatoração de expressão algébrica",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-fatoracao-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mm-fatoracao"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-expressoes-algebricas-operacoes",
-      "stableItemId": "MED-MAT-007",
+      "id": "MED-MAT-007",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "expressoes-algebricas-operacoes",
-      "descricao": "Operações com expressões algébricas",
+      "textoEdital": "Operações com expressões algébricas",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-expressoes-algebricas-operacoes-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mm-expressoes"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-expressoes-algebricas-fracionarias",
-      "stableItemId": "MED-MAT-008",
+      "id": "MED-MAT-008",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "expressoes-algebricas-fracionarias",
-      "descricao": "Expressões algébricas fracionárias",
+      "textoEdital": "Expressões algébricas fracionárias: operações e simplificação",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-expressoes-algebricas-fracionarias-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mm-fracoes-algebricas"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-mdc-mmc",
-      "stableItemId": "MED-MAT-009",
+      "id": "MED-MAT-009",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "mdc-mmc",
-      "descricao": "MDC e MMC",
+      "textoEdital": "MDC e MMC",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-mdc-mmc-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mm-mdc",
+        "mm-mmc"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-sistema-medidas",
-      "stableItemId": "MED-MAT-010",
+      "id": "MED-MAT-010",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "sistema-medidas",
-      "descricao": "Sistema de medidas",
+      "textoEdital": "Sistema de medidas: comprimento, superfície, massa, capacidade, tempo e volume; transformações",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-sistema-medidas-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mm-medidas",
+        "mm-conversoes"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-estatistica",
-      "stableItemId": "MED-MAT-011",
+      "id": "MED-MAT-011",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "estatistica",
-      "descricao": "Estatística",
+      "textoEdital": "Estatística: noções básicas, razão, proporção, interpretação e construção de tabelas e gráficos",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-estatistica-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mm-estatistica",
+        "mm-tabelas",
+        "mm-graficos"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-geometria-elementos-basicos",
-      "stableItemId": "MED-MAT-012",
+      "id": "MED-MAT-012",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "geometria-elementos-basicos",
-      "descricao": "Geometria",
+      "textoEdital": "Geometria: elementos básicos, conceitos primitivos e representação geométrica no plano",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-geometria-001"
       ],
-      "questoesVinculadas": 0,
-      "status": "revisado"
+      "siteTopicIds": [
+        "mm-geometria",
+        "mm-plano"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
     },
     {
-      "id": "edital-medio-matematica-probabilidade-analise-combinatoria",
-      "stableItemId": "MED-MAT-013",
+      "id": "MED-MAT-013",
       "cargoIds": [
         "agente-administrativo",
         "monitor-educacao"
       ],
       "disciplinaId": "medio-matematica",
-      "temaId": "probabilidade-analise-combinatoria",
-      "descricao": "Probabilidade e análise combinatória",
+      "textoEdital": "Probabilidade e análise combinatória",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
       "aulaIds": [
         "medio-matematica-probabilidade-analise-combinatoria-001"
       ],
+      "siteTopicIds": [
+        "mm-probabilidade",
+        "mm-combinatoria"
+      ],
+      "questoesVinculadas": 15,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[]."
+      ]
+    },
+    {
+      "id": "AGE-ESP-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Redação Oficial; aspectos gerais; identidade visual;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-redacao-oficial-001"
+      ],
+      "siteTopicIds": [
+        "aa-redacao"
+      ],
+      "questoesVinculadas": 5,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AGE-ESP-002",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Atos oficiais; medidas; sistemática dos instrumentos normativos: artigos, parágrafos, incisos, alíneas, observações e encaminhamento;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-atos-oficiais-001"
+      ],
+      "siteTopicIds": [
+        "aa-atos"
+      ],
+      "questoesVinculadas": 5,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AGE-ESP-003",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Elaboração de documentos; siglas, acrônimos, vícios de linguagem, hífen, destaques, maiúsculas/minúsculas, enumerações, numerais, fechos, signatário, formas de tratamento, vocativo, destinatário e envelope;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-elaboracao-normas-gerais-001",
+        "agente-especificos-siglas-vicios-linguagem-001",
+        "agente-especificos-hifen-destaques-001",
+        "agente-especificos-enumeracoes-numerais-001",
+        "agente-especificos-fecho-signatario-001",
+        "agente-especificos-formas-tratamento-001"
+      ],
+      "siteTopicIds": [
+        "aa-elaboracao",
+        "aa-siglas",
+        "aa-hifen-destaques",
+        "aa-numerais",
+        "aa-fecho",
+        "aa-tratamento"
+      ],
+      "questoesVinculadas": 78,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Arquivo-mestre agente-especificos-elaboracao-documentos-001.md preservado como fonte editorial interna; não publicar duplicadamente."
+      ]
+    },
+    {
+      "id": "AGE-ESP-004",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Modelos de comunicações: apostila, ata, carta, cartão de visita, circular, comunicação interna, contrato, convênio, correio eletrônico, despacho, instrução normativa, nota informativa, nota técnica, ofício, ordem de serviço, parecer, portaria, regimento interno e resolução;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-ata-apostila-001",
+        "agente-especificos-carta-circular-comunicacao-interna-001",
+        "agente-especificos-contrato-convenio-001",
+        "agente-especificos-correio-eletronico-001",
+        "agente-especificos-despacho-parecer-notas-001",
+        "agente-especificos-oficio-aviso-memorando-exposicao-001",
+        "agente-especificos-portaria-resolucao-instrucao-001"
+      ],
+      "siteTopicIds": [
+        "aa-ata-apostila",
+        "aa-carta-circular",
+        "aa-contrato-convenio",
+        "aa-email",
+        "aa-despacho-parecer",
+        "aa-oficio",
+        "aa-portaria-resolucao"
+      ],
+      "questoesVinculadas": 93,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Arquivo-mestre agente-especificos-modelos-comunicacoes-001.md preservado como fonte editorial interna. As 19 espécies do edital estão distribuídas nas sete subaulas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-005",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Padrão ofício; aviso e ofício; memorando; exposição de motivos;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-oficio-aviso-memorando-exposicao-001"
+      ],
+      "siteTopicIds": [
+        "aa-oficio",
+        "aa-fecho"
+      ],
+      "questoesVinculadas": 6,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Item transversal ao AGE-ESP-004. Arquivo-mestre agente-especificos-padrao-oficio-001.md preservado para rastreabilidade."
+      ]
+    },
+    {
+      "id": "AGE-ESP-006",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Noções básicas de arquivo;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-nocoes-arquivo-001",
+        "agente-especificos-classificacao-arquivamento-001"
+      ],
+      "siteTopicIds": [
+        "aa-arquivo",
+        "aa-classificacao"
+      ],
+      "questoesVinculadas": 19,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Arquivo-mestre agente-especificos-arquivo-001.md preservado como índice/fonte editorial interna."
+      ]
+    },
+    {
+      "id": "AGE-ESP-007",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Princípios básicos da Administração Pública e servidores;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-administracao-publica-servidores-001",
+        "agente-especificos-servidores-hierarquia-001"
+      ],
+      "siteTopicIds": [
+        "aa-principios",
+        "aa-servidores"
+      ],
+      "questoesVinculadas": 18,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AGE-ESP-008",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Hierarquia no serviço público;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-servidores-hierarquia-001"
+      ],
+      "siteTopicIds": [
+        "aa-servidores"
+      ],
+      "questoesVinculadas": 13,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Arquivo-mestre agente-especificos-hierarquia-001.md permanece como fonte editorial; a publicação é consolidada em aa-servidores."
+      ]
+    },
+    {
+      "id": "AGE-ESP-009",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Constituição Federal: art. 37 e arts. 39 a 41;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-constituicao-administracao-publica-001"
+      ],
+      "siteTopicIds": [
+        "aa-cf-37-41"
+      ],
+      "questoesVinculadas": 6,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AGE-ESP-010",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Manual de Redação e de Atos Oficiais e Manual de Redação da Presidência da República;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-manuais-redacao-001"
+      ],
+      "siteTopicIds": [],
+      "questoesVinculadas": 5,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Item bibliográfico transversal sem siteTopicId próprio; serve de referência e revisão integrada para os tópicos de redação oficial."
+      ]
+    },
+    {
+      "id": "AGE-ESP-011",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Informática: Windows XP ou mais recente; Bloco de Notas, Calculadora, Paint, WordPad; periféricos; Office 2010 ou mais recente — Word, Excel, PowerPoint, Outlook; Adobe Reader; Internet, navegadores, configurações e navegação;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-informatica-windows-001",
+        "agente-especificos-informatica-aplicativos-windows-001",
+        "agente-especificos-informatica-perifericos-001",
+        "agente-especificos-informatica-word-001",
+        "agente-especificos-informatica-excel-001",
+        "agente-especificos-informatica-powerpoint-001",
+        "agente-especificos-informatica-outlook-001",
+        "agente-especificos-informatica-adobe-reader-001",
+        "agente-especificos-informatica-internet-001"
+      ],
+      "siteTopicIds": [
+        "aa-windows",
+        "aa-aplicativos",
+        "aa-perifericos",
+        "aa-word",
+        "aa-excel",
+        "aa-powerpoint",
+        "aa-outlook",
+        "aa-adobe",
+        "aa-internet"
+      ],
+      "questoesVinculadas": 45,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Arquivo-mestre agente-especificos-informatica-001.md preservado como índice editorial."
+      ]
+    },
+    {
+      "id": "AGE-ESP-012",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Atividades e atribuições específicas do cargo.",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-atribuicoes-cargo-001"
+      ],
+      "siteTopicIds": [
+        "aa-atribuicoes"
+      ],
+      "questoesVinculadas": 7,
+      "status": "questoes_adicionadas",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-001",
+      "stableItemId": "AJU-ESP-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Higiene pessoal e no trabalho",
+      "descricao": "Higiene pessoal e no trabalho",
+      "aulaIds": [
+        "ajudante-especificos-higiene-pessoal-trabalho-001"
+      ],
+      "siteTopicIds": [
+        "ag-higiene"
+      ],
       "questoesVinculadas": 0,
-      "status": "revisado"
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-002",
+      "stableItemId": "AJU-ESP-002",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Manuseio e utilização de ferramentas, produtos e materiais de trabalho",
+      "descricao": "Manuseio e utilização de ferramentas, produtos e materiais de trabalho",
+      "aulaIds": [
+        "ajudante-especificos-manuseio-ferramentas-produtos-materiais-001"
+      ],
+      "siteTopicIds": [
+        "ag-ferramentas"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-003",
+      "stableItemId": "AJU-ESP-003",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Equipamentos de Proteção Individual — EPI",
+      "descricao": "Equipamentos de Proteção Individual — EPI",
+      "aulaIds": [
+        "ajudante-especificos-epi-001"
+      ],
+      "siteTopicIds": [
+        "ag-epi"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-004",
+      "stableItemId": "AJU-ESP-004",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Primeiros socorros — proteção da cena, acionamento do socorro e condutas iniciais",
+      "descricao": "Primeiros socorros — proteção da cena, acionamento do socorro e condutas iniciais",
+      "aulaIds": [
+        "ajudante-especificos-primeiros-socorros-001"
+      ],
+      "siteTopicIds": [
+        "ag-primeiros-socorros"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-005",
+      "stableItemId": "AJU-ESP-005",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Qualidade no atendimento ao público",
+      "descricao": "Qualidade no atendimento ao público",
+      "aulaIds": [
+        "ajudante-especificos-qualidade-atendimento-publico-001"
+      ],
+      "siteTopicIds": [
+        "ag-atendimento"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-006",
+      "stableItemId": "AJU-ESP-006",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Relações humanas no trabalho",
+      "descricao": "Relações humanas no trabalho",
+      "aulaIds": [
+        "ajudante-especificos-relacoes-humanas-trabalho-001"
+      ],
+      "siteTopicIds": [
+        "ag-relacoes"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-007",
+      "stableItemId": "AJU-ESP-007",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Segurança no trabalho — prevenção, riscos e condutas seguras",
+      "descricao": "Segurança no trabalho — prevenção, riscos e condutas seguras",
+      "aulaIds": [
+        "ajudante-especificos-seguranca-trabalho-001"
+      ],
+      "siteTopicIds": [
+        "ag-seguranca"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-008",
+      "stableItemId": "AJU-ESP-008",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Importância do serviço de limpeza urbana",
+      "descricao": "Importância do serviço de limpeza urbana",
+      "aulaIds": [
+        "ajudante-especificos-importancia-limpeza-urbana-001"
+      ],
+      "siteTopicIds": [
+        "ag-limpeza-urbana"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-009",
+      "stableItemId": "AJU-ESP-009",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Reciclagem de materiais recuperáveis — papel, plástico, metal, vidro e aspectos econômico-financeiro e social",
+      "descricao": "Reciclagem de materiais recuperáveis — papel, plástico, metal, vidro e aspectos econômico-financeiro e social",
+      "aulaIds": [
+        "ajudante-especificos-reciclagem-aspectos-economico-social-001"
+      ],
+      "siteTopicIds": [
+        "ag-reciclagem",
+        "ag-reciclagem-impactos"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-010",
+      "stableItemId": "AJU-ESP-010",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Limpeza de logradouros — objetivos e atribuições",
+      "descricao": "Limpeza de logradouros — objetivos e atribuições",
+      "aulaIds": [
+        "ajudante-especificos-limpeza-logradouros-001"
+      ],
+      "siteTopicIds": [
+        "ag-logradouros"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-011",
+      "stableItemId": "AJU-ESP-011",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Varrição — métodos, utensílios e equipamentos",
+      "descricao": "Varrição — métodos, utensílios e equipamentos",
+      "aulaIds": [
+        "ajudante-especificos-varricao-metodos-utensilios-equipamentos-001"
+      ],
+      "siteTopicIds": [
+        "ag-varricao",
+        "ag-utensilios"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-012",
+      "stableItemId": "AJU-ESP-012",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Equipamentos auxiliares de remoção de lixo — carrocinha, carrinhos e cestas coletoras",
+      "descricao": "Equipamentos auxiliares de remoção de lixo — carrocinha, carrinhos e cestas coletoras",
+      "aulaIds": [
+        "ajudante-especificos-equipamentos-auxiliares-remocao-lixo-001"
+      ],
+      "siteTopicIds": [
+        "ag-carrinhos",
+        "ag-cestas"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-013",
+      "stableItemId": "AJU-ESP-013",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Plano de varrição — nível de serviço, frequência, tipos, velocidade, extensão de sarjeta, remoção, itinerário, implantação e fiscalização",
+      "descricao": "Plano de varrição — nível de serviço, frequência, tipos, velocidade, extensão de sarjeta, remoção, itinerário, implantação e fiscalização",
+      "aulaIds": [
+        "ajudante-especificos-plano-varricao-001"
+      ],
+      "siteTopicIds": [
+        "ag-plano-varricao",
+        "ag-nivel-servico",
+        "ag-produtividade",
+        "ag-rota",
+        "ag-fiscalizacao"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-014",
+      "stableItemId": "AJU-ESP-014",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Limpeza de bocas de lobo ou caixas de ralo",
+      "descricao": "Limpeza de bocas de lobo ou caixas de ralo",
+      "aulaIds": [
+        "ajudante-especificos-limpeza-bocas-lobo-caixas-ralo-001"
+      ],
+      "siteTopicIds": [
+        "ag-drenagem"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-ESP-015",
+      "stableItemId": "AJU-ESP-015",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "textoEdital": "Atividades e atribuições específicas do cargo — Ajudante Geral",
+      "descricao": "Atividades e atribuições específicas do cargo — Ajudante Geral",
+      "aulaIds": [
+        "ajudante-especificos-atividades-atribuicoes-cargo-001"
+      ],
+      "siteTopicIds": [
+        "ag-atribuicoes"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "AJU-PRAT-001",
+      "stableItemId": "AJU-PRAT-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-pratica",
+      "textoEdital": "Preparação para a Prova Prática — Ajudante Geral",
+      "descricao": "Preparação para a Prova Prática — Ajudante Geral",
+      "aulaIds": [
+        "ajudante-pratica-preparacao-prova-pratica-001"
+      ],
+      "siteTopicIds": [
+        "aj-pratica"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "FUND-MAT-001",
+      "stableItemId": "FUND-MAT-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-matematica",
+      "textoEdital": "Operações fundamentais — adição, subtração, multiplicação e divisão",
+      "descricao": "Operações fundamentais — adição, subtração, multiplicação e divisão",
+      "aulaIds": [
+        "fundamental-matematica-operacoes-fundamentais-001"
+      ],
+      "siteTopicIds": [
+        "fm-adicao",
+        "fm-subtracao",
+        "fm-multiplicacao",
+        "fm-divisao"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "FUND-MAT-002",
+      "stableItemId": "FUND-MAT-002",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-matematica",
+      "textoEdital": "Juros simples — capital, taxa, tempo, juros e montante",
+      "descricao": "Juros simples — capital, taxa, tempo, juros e montante",
+      "aulaIds": [
+        "fundamental-matematica-juros-simples-001"
+      ],
+      "siteTopicIds": [
+        "fm-juros"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "FUND-MAT-003",
+      "stableItemId": "FUND-MAT-003",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-matematica",
+      "textoEdital": "Sistema métrico decimal — comprimento, massa e capacidade",
+      "descricao": "Sistema métrico decimal — comprimento, massa e capacidade",
+      "aulaIds": [
+        "fundamental-matematica-sistema-metrico-decimal-001"
+      ],
+      "siteTopicIds": [
+        "fm-sistema-metrico",
+        "fm-medidas"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "FUND-MAT-004",
+      "stableItemId": "FUND-MAT-004",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-matematica",
+      "textoEdital": "Transformações de unidades — comprimento, massa e capacidade",
+      "descricao": "Transformações de unidades — comprimento, massa e capacidade",
+      "aulaIds": [
+        "fundamental-matematica-transformacoes-unidades-001"
+      ],
+      "siteTopicIds": [
+        "fm-conversoes"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "FUND-MAT-005",
+      "stableItemId": "FUND-MAT-005",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-matematica",
+      "textoEdital": "Razão e proporção — comparação, simplificação, proporcionalidade e regra de três simples",
+      "descricao": "Razão e proporção — comparação, simplificação, proporcionalidade e regra de três simples",
+      "aulaIds": [
+        "fundamental-matematica-razao-proporcao-001"
+      ],
+      "siteTopicIds": [
+        "fm-razao",
+        "fm-proporcao"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "FUND-PORT-001",
+      "stableItemId": "FUND-PORT-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-portugues",
+      "textoEdital": "Interpretação de textos — compreensão, inferência, ideia central e análise de alternativas",
+      "descricao": "Interpretação de textos — compreensão, inferência, ideia central e análise de alternativas",
+      "aulaIds": [
+        "fundamental-portugues-interpretacao-001"
+      ],
+      "siteTopicIds": [
+        "fp-interpretacao"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "FUND-PORT-002",
+      "stableItemId": "FUND-PORT-002",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-portugues",
+      "textoEdital": "Significado das palavras — contexto, sinônimos, antônimos, sentido literal e figurado",
+      "descricao": "Significado das palavras — contexto, sinônimos, antônimos, sentido literal e figurado",
+      "aulaIds": [
+        "fundamental-portugues-significado-palavras-001"
+      ],
+      "siteTopicIds": [
+        "fp-significado"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "FUND-PORT-003",
+      "stableItemId": "FUND-PORT-003",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-portugues",
+      "textoEdital": "Identificação de vogais e consoantes — letras, fonemas, encontros vocálicos e dígrafos",
+      "descricao": "Identificação de vogais e consoantes — letras, fonemas, encontros vocálicos e dígrafos",
+      "aulaIds": [
+        "fundamental-portugues-vogais-consoantes-001"
+      ],
+      "siteTopicIds": [
+        "fp-vogais-consoantes"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
+    },
+    {
+      "id": "FUND-PORT-004",
+      "stableItemId": "FUND-PORT-004",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-portugues",
+      "textoEdital": "Escritas corretas — ortografia, escolha de letras e palavras de grafia parecida",
+      "descricao": "Escritas corretas — ortografia, escolha de letras e palavras de grafia parecida",
+      "aulaIds": [
+        "fundamental-portugues-escritas-corretas-001"
+      ],
+      "siteTopicIds": [
+        "fp-grafia"
+      ],
+      "questoesVinculadas": 0,
+      "status": "revisado",
+      "retificacaoImpacto": "nenhum"
     }
   ],
-  "pendingAreas": [
-    {
-      "cargoId": "agente-administrativo",
-      "area": "Conhecimentos Específicos",
-      "status": "em_producao"
-    },
-    {
-      "cargoId": "monitor-educacao",
-      "area": "Conhecimentos Específicos",
-      "status": "em_producao"
-    },
-    {
-      "cargoId": "ajudante-geral",
-      "area": "Português — Ensino Fundamental",
-      "status": "nao_iniciado"
-    },
-    {
-      "cargoId": "ajudante-geral",
-      "area": "Matemática — Ensino Fundamental",
-      "status": "nao_iniciado"
-    },
-    {
-      "cargoId": "ajudante-geral",
-      "area": "Conhecimentos Específicos",
-      "status": "nao_iniciado"
-    },
-    {
-      "cargoId": "ajudante-geral",
-      "area": "Preparação para Prova Prática",
-      "status": "em_producao"
-    }
+  "notes": [
+    "A publicação progressiva não representa 100% do edital.",
+    "Conhecimentos Específicos do Monitor de Educação permanecem pendentes.",
+    "Nenhum simulado editorial canônico foi encontrado em 04_Simulados; o modo de simulado existente continua gerado pela aplicação.",
+    "99 referências do catálogo consolidado permanecem com metadados parciais; IDs e vínculos foram preservados."
   ]
 }
 

@@ -10,10 +10,13 @@ temaId: numeros-reais
 titulo: "Números reais — conjuntos numéricos, operações, dízimas, intervalos e valor absoluto"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Matemática: Números Reais"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-inepam-arceburgo-0001-2023-recursos
   - src-inepam-divinolandia-0001-2023-recursos
   - src-inepam-tarabai-001-2025-recursos
@@ -63,7 +66,7 @@ Há ainda questões de provas da banca em que números racionais aparecem associ
 
 ### Situação editorial
 
-O material está **revisado** para estudo. A liberação global do pacote continua condicionada ao controle de retificações do projeto, especialmente à análise integral da rerratificação já registrada no controle editorial.
+O material está **revisado** para estudo. A rerratificação oficial de Rincão foi auditada em 23/08/2026 e **não altera este item de Matemática nem os cargos do projeto**. O bloqueio editorial específico de auditoria da rerratificação está encerrado.
 
 ---
 
@@ -1582,6 +1585,9 @@ E) `0,333...`
 
 **Gabarito: D.**
 
+**Comentário:**  
+`√5` é irracional porque 5 não é quadrado perfeito. Já `0,25`, `3/7`, `√49=7` e `0,333...=1/3` são racionais.
+
 ---
 
 ## 77. Questão 3
@@ -1596,6 +1602,9 @@ E) nenhum conjunto real
 
 **Gabarito: C.**
 
+**Comentário:**  
+`0,125=125/1000=1/8`, portanto é racional. Todo racional também é real.
+
 ---
 
 ## 78. Questão 4
@@ -1609,6 +1618,9 @@ D) `4/10`
 E) `44/100`
 
 **Gabarito: C.**
+
+**Comentário:**  
+Se `x=0,444...`, então `10x=4,444...`. Subtraindo, `9x=4`; logo, `x=4/9`.
 
 ---
 
@@ -1652,6 +1664,9 @@ E) Nenhum inteiro é real.
 
 **Gabarito: D.**
 
+**Comentário:**  
+A inclusão `N ⊂ Z ⊂ Q ⊂ R` mostra que todo número natural também é racional. As demais afirmações negam ou invertem inclusões que não são verdadeiras.
+
 ---
 
 ## 81. Questão 7
@@ -1683,6 +1698,9 @@ E) `2 < 0 < -1 < -3`
 
 **Gabarito: B.**
 
+**Comentário:**  
+Entre negativos, o número mais distante de zero para a esquerda é o menor: `-3<-1`. Depois vêm `0` e `2`.
+
 ---
 
 ## 83. Questão 9
@@ -1696,6 +1714,9 @@ D) `-1 < x ≤ 4`
 E) `x<-1 ou x≥4`
 
 **Gabarito: C.**
+
+**Comentário:**  
+O colchete em `-1` indica inclusão (`x≥-1`) e o parêntese em `4` indica exclusão (`x<4`). Portanto, `-1≤x<4`.
 
 ---
 
@@ -1729,6 +1750,9 @@ D) `(-3)²`
 E) `|-4|`
 
 **Gabarito: B.**
+
+**Comentário:**  
+A divisão por zero não é definida. Em `0/5`, por outro lado, o denominador é diferente de zero e o resultado é `0`.
 
 ---
 
@@ -1769,6 +1793,9 @@ D) `√5`, `√7`, `2`
 E) `π`, `√4`, `1/2`
 
 **Gabarito: C.**
+
+**Comentário:**  
+`√9=3`, `0,25=1/4` e `0,777...=7/9`; os três são racionais. Nas demais alternativas aparece pelo menos um irracional, como `√2`, `π`, `√5` ou `√7`.
 
 ---
 

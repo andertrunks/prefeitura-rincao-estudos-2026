@@ -10,8 +10,18 @@ temaId: artigo
 titulo: "Artigo — definição, uso, contrações, substantivação e efeitos de sentido"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Língua Portuguesa: Classes de Palavras — artigo"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
+sourceRefs:
+  - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
+  - src-inepam-sete-barras-001-2026-recursos
+  - src-inepam-adamantina-001-2025-recursos
+  - src-inepam-tarabai-001-2025-recursos
+  - src-inepam-sarutaia-001-2025-recursos
+  - src-inepam-dumont-001-2025-recursos
 ---
 
 # Artigo — definição, uso, contrações, substantivação e efeitos de sentido
@@ -24,7 +34,9 @@ A aula é compartilhada pelos dois cargos por meio de `cargoIds[]` e cobre o tem
 
 ### Situação editorial da fonte oficial
 
-Na data desta revisão, a página oficial do concurso da INEPAM lista o **Edital Concurso Público nº 001/2026** e também uma **Rerratificação do Edital de Abertura**. O projeto já mantém bloqueio de publicação até que essa rerratificação seja recuperada e analisada integralmente. A produção desta aula pode avançar porque o mapa editorial vigente contém expressamente **artigo** entre as classes de palavras; entretanto, a publicação final do pacote continua condicionada à auditoria da rerratificação.
+A página oficial do concurso da INEPAM lista o **Edital Concurso Público nº 001/2026** e uma **Rerratificação do Edital de Abertura**. A auditoria central do projeto foi concluída em **23/08/2026**, com status `auditado_sem_impacto_nos_cargos_do_projeto`.
+
+Para **Agente Administrativo**, **Monitor de Educação** e **Ajudante Geral**, a rerratificação não alterou o conteúdo programático nem exige refazer aulas ou questões. Portanto, o bloqueio específico relacionado à auditoria da rerratificação foi removido. Permanecem apenas as validações normais de integração, IDs, referências e duplicações do pacote.
 
 A pesquisa de banca foi realizada antes da revisão. Foram localizados julgamentos oficiais da INEPAM em que a banca tratou diretamente de:
 
@@ -880,18 +892,41 @@ Artigo pode interferir em **concordância**, não apenas em classificação morf
 
 ---
 
-## Questão real 5 — INEPAM — crase e artigo definido feminino
+## Questão real 5 — INEPAM — Dumont/SP — 2025
 
-Em julgamentos oficiais de concursos da banca, a INEPAM utilizou a admissão ou não de **artigo definido feminino** diante de nomes geográficos para decidir o emprego da crase.
+**Processo Seletivo nº 001/2025**  
+**Português — Questão 02**  
+**Fonte:** julgamento oficial dos recursos referentes aos gabaritos.
 
-Um raciocínio registrado pela banca é comparar:
+### O que a banca comprovou
 
-- **voltar da Europa** → presença de artigo feminino → possibilidade de **à Europa** quando a regência exige preposição a;
-- **voltar de** determinado lugar → ausência de artigo → não ocorre a fusão a + a.
+A INEPAM analisou o uso da crase diante de nome geográfico e explicou que **Roma**, na construção não especificada, não admitia artigo:
+
+> Voltei de Roma.
+
+Por isso, na construção correspondente:
+
+> fui a Roma
+
+não ocorre a fusão `a + a`.
+
+O julgamento também registrou que, quando o nome aparece especificado:
+
+> Fomos à antiga Roma.
+
+a presença do determinante favorece o artigo feminino e, com a preposição `a`, ocorre crase.
+
+### Resolução passo a passo
+
+1. Verifique se o termo anterior exige preposição `a`.
+2. Teste se o nome geográfico admite artigo no contexto.
+3. `Voltei de Roma` indica ausência de artigo na leitura não especificada.
+4. Sem artigo, não há fusão: `a Roma`.
+5. Com especificação (`a antiga Roma`), o artigo pode aparecer; então `a + a antiga Roma = à antiga Roma`.
 
 ### Lição para Rincão
 
-Mesmo quando o comando da questão disser “crase”, o candidato pode precisar identificar primeiro se existe **artigo**.
+Mesmo quando o comando da questão tratar de crase, o candidato pode precisar identificar primeiro se existe **artigo** diante do nome geográfico.
 
 ---
 
@@ -1449,12 +1484,12 @@ A alternativa reproduz a análise contextual defendida em julgamentos reais da I
 
 ### INEPAM — Prefeitura Municipal de Rincão/SP — Concurso Público nº 001/2026
 
-Página oficial do concurso. Na data de revisão, lista o edital de abertura e uma rerratificação.
+Página oficial do concurso, que lista o edital de abertura e a rerratificação.
 
 URL:
 https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94
 
-**Uso nesta aula:** confirmação do concurso, cargos e situação documental oficial. A rerratificação permanece com análise integral pendente no controle do projeto; por isso o pacote de publicação continua bloqueado.
+**Uso nesta aula:** confirmação do concurso, cargos e situação documental oficial. A auditoria central da rerratificação foi concluída em 23/08/2026 e não identificou impacto nos três cargos do projeto.
 
 ---
 
@@ -1512,16 +1547,16 @@ https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2067
 
 ---
 
-## 45. Fontes oficiais INEPAM — artigo e crase
+## 45. Fonte oficial INEPAM — Dumont/SP — artigo e crase
 
-A pesquisa também consultou julgamentos oficiais da banca em que a presença de artigo definido feminino diante de nomes geográficos foi utilizada para justificar ou afastar crase.
+**Prefeitura Municipal de Dumont — Processo Seletivo nº 001/2025 — Julgamento dos Recursos referentes aos Gabaritos das Provas Objetivas.**
 
-Exemplos de documentos consultados:
+Documento oficial INEPAM, Questão 02 de Português.
 
-- julgamento oficial em que a banca explica que **Europa** admite artigo feminino e utiliza o teste “voltar da Europa”;
-- julgamento oficial em que a banca considera incorreta a crase diante de nome geográfico que não admite artigo no contexto.
+URL:
+https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1318
 
-Essas evidências são usadas apenas para mostrar a relação entre **artigo e crase**; a aula específica de crase fará tratamento sistemático do assunto.
+**Evidência utilizada:** relação entre artigo e crase diante de nome geográfico; `Roma` sem especificação não admite artigo no contexto analisado (`voltei de Roma`), enquanto a forma especificada `a antiga Roma` admite artigo e permite `à antiga Roma`.
 
 ---
 
@@ -1548,7 +1583,7 @@ Essas evidências são usadas apenas para mostrar a relação entre **artigo e c
 - [x] Revisão rápida incluída.
 - [x] Flashcards incluídos.
 - [x] Fontes oficiais registradas.
-- [ ] Rerratificação do Edital de Abertura de Rincão recuperada e auditada integralmente — bloqueio global de publicação permanece.
+- [x] Rerratificação do Edital de Abertura de Rincão auditada no controle central — sem impacto nos cargos do projeto.
 
 ---
 
@@ -1556,5 +1591,5 @@ Essas evidências são usadas apenas para mostrar a relação entre **artigo e c
 
 **Status editorial desta aula: revisado.**
 
-A aula está pronta como conteúdo editorial, mas **não deve ser considerada liberada para publicação do pacote mestre** enquanto a rerratificação oficial de Rincão listada pela INEPAM não tiver sido recuperada e auditada conforme o controle central do projeto.
+A aula está pronta como conteúdo editorial. O bloqueio específico da rerratificação foi removido após a auditoria central concluir que ela não afeta os cargos do projeto. A publicação continua sujeita às validações normais de integração do pacote: cobertura, questões, fontes, IDs, referências e duplicações.
 

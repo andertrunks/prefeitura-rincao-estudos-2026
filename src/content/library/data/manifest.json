@@ -1,10 +1,13 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "2.0",
   "libraryId": "rincao-2026-conteudo-master",
-  "version": "1.0.0",
-  "updatedAt": "2026-08-23T13:30:00-03:00",
+  "version": "2.0.0",
+  "updatedAt": "2026-08-24T10:56:29.623Z",
   "timezone": "America/Sao_Paulo",
   "editorialStatus": "em_producao",
+  "editorialAliases": {
+    "agente-especificos-manuais-redacao-001": "agente-especificos-atos-oficiais-001"
+  },
   "scope": {
     "concurso": "Prefeitura Municipal de Rincão-SP — Concurso Público nº 001/2026",
     "banca": "INEPAM",
@@ -18,308 +21,977 @@
     "status": "auditado_sem_impacto_nos_cargos_do_projeto",
     "documentId": "rerratificacao-edital-abertura-2026-08-13",
     "publishedAt": "2026-08-13",
-    "sourceUrl": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2681"
+    "sourceUrl": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2681",
+    "lastVerifiedAt": "2026-08-24"
+  },
+  "summary": {
+    "publishedLessons": 89,
+    "portugueseMedium": 21,
+    "mathMedium": 13,
+    "portugueseFundamental": 4,
+    "mathFundamental": 5,
+    "agentSpecificTopics": 30,
+    "ajudanteSpecificLessons": 15,
+    "practicalModules": 1,
+    "interactiveQuestions": 713,
+    "realInepam": 11,
+    "ineditasEstiloInepam": 702,
+    "simulationsPackages": 0,
+    "wholeProjectComplete": false
   },
   "lessons": [
     {
-      "stableItemId": "MED-PORT-001",
-      "id": "medio-portugues-fonema-001",
-      "temaId": "fonema",
-      "titulo": "Fonema",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-fonema-001.md",
+      "stableItemId": "AGE-ESP-001",
+      "id": "agente-especificos-redacao-oficial-001",
+      "temaId": "redacao-oficial-aspectos-gerais-identidade-visual",
+      "titulo": "Redação Oficial — aspectos gerais e identidade visual",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-redacao-oficial-001.md",
       "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "questoes_adicionadas",
-      "questionCount": 10
-    },
-    {
-      "stableItemId": "MED-PORT-002",
-      "id": "medio-portugues-silaba-001",
-      "temaId": "silaba",
-      "titulo": "Sílaba",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-silaba-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "questoes_adicionadas",
-      "questionCount": 10
-    },
-    {
-      "stableItemId": "MED-PORT-003",
-      "id": "medio-portugues-ortografia-001",
-      "temaId": "ortografia",
-      "titulo": "Ortografia",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-ortografia-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "questoes_adicionadas",
-      "questionCount": 10
-    },
-    {
-      "stableItemId": "MED-PORT-004",
-      "id": "medio-portugues-substantivo-001",
-      "temaId": "substantivo",
-      "titulo": "Substantivo",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-substantivo-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "questoes_adicionadas",
-      "questionCount": 10
-    },
-    {
-      "stableItemId": "MED-PORT-005",
-      "id": "medio-portugues-adjetivo-001",
-      "temaId": "adjetivo",
-      "titulo": "Adjetivo",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-adjetivo-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "questoes_adicionadas",
-      "questionCount": 10
-    },
-    {
-      "stableItemId": "MED-PORT-006",
-      "id": "medio-portugues-preposicao-001",
-      "temaId": "preposicao",
-      "titulo": "Preposição",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-preposicao-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "questoes_adicionadas",
-      "questionCount": 10
-    },
-    {
-      "stableItemId": "MED-PORT-007",
-      "id": "medio-portugues-conjuncao-001",
-      "temaId": "conjuncao",
-      "titulo": "Conjunção",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-conjuncao-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "questoes_adicionadas",
-      "questionCount": 10
-    },
-    {
-      "stableItemId": "MED-PORT-008",
-      "id": "medio-portugues-adverbio-001",
-      "temaId": "adverbio",
-      "titulo": "Advérbio",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-adverbio-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "questoes_adicionadas",
-      "questionCount": 10
-    },
-    {
-      "stableItemId": "MED-PORT-009",
-      "id": "medio-portugues-verbo-001",
-      "temaId": "verbo",
-      "titulo": "Verbo",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-verbo-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "questoes_adicionadas",
-      "questionCount": 10
-    },
-    {
-      "stableItemId": "MED-PORT-010",
-      "id": "medio-portugues-pronome-001",
-      "temaId": "pronome",
-      "titulo": "Pronome",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-pronome-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "questoes_adicionadas",
-      "questionCount": 10
-    },
-    {
-      "stableItemId": "MED-PORT-011",
-      "id": "medio-portugues-numeral-001",
-      "temaId": "numeral",
-      "titulo": "Numeral",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-numeral-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "questoes_adicionadas",
-      "questionCount": 10
-    },
-    {
-      "stableItemId": "MED-PORT-012",
-      "id": "medio-portugues-interjeicao-001",
-      "temaId": "interjeicao",
-      "titulo": "Interjeição",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-interjeicao-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
+        "agente-administrativo"
       ],
       "status": "revisado",
-      "questionCount": 0
-    },
-    {
-      "stableItemId": "MED-PORT-013",
-      "id": "medio-portugues-artigo-001",
-      "temaId": "artigo",
-      "titulo": "Artigo",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-artigo-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "aa-redacao"
       ],
-      "status": "revisado",
-      "questionCount": 0
-    },
-    {
-      "stableItemId": "MED-PORT-014",
-      "id": "medio-portugues-acentuacao-001",
-      "temaId": "acentuacao",
-      "titulo": "Acentuação",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-acentuacao-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "revisado",
-      "questionCount": 0
-    },
-    {
-      "stableItemId": "MED-PORT-015",
-      "id": "medio-portugues-concordancia-001",
-      "temaId": "concordancia-nominal-verbal",
-      "titulo": "Concordância nominal e verbal",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-concordancia-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "revisado",
-      "questionCount": 0
-    },
-    {
-      "stableItemId": "MED-PORT-016",
-      "id": "medio-portugues-pontuacao-001",
-      "temaId": "pontuacao",
-      "titulo": "Pontuação",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-pontuacao-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "revisado",
-      "questionCount": 0
-    },
-    {
-      "stableItemId": "MED-PORT-017",
-      "id": "medio-portugues-crase-001",
-      "temaId": "crase",
-      "titulo": "Crase",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-crase-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "revisado",
-      "questionCount": 0
-    },
-    {
-      "stableItemId": "MED-PORT-018",
-      "id": "medio-portugues-colocacao-pronominal-001",
-      "temaId": "colocacao-pronominal",
-      "titulo": "Colocação pronominal",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-colocacao-pronominal-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "revisado",
-      "questionCount": 0
-    },
-    {
-      "stableItemId": "MED-PORT-019",
-      "id": "medio-portugues-analise-sintatica-001",
-      "temaId": "analise-sintatica-periodo-simples-composto",
-      "titulo": "Análise sintática — período simples e composto",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-analise-sintatica-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "revisado",
-      "questionCount": 0
-    },
-    {
-      "stableItemId": "MED-PORT-020",
-      "id": "medio-portugues-figuras-linguagem-001",
-      "temaId": "figuras-de-linguagem",
-      "titulo": "Figuras de linguagem",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-figuras-linguagem-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "revisado",
-      "questionCount": 0
-    },
-    {
-      "stableItemId": "MED-PORT-021",
-      "id": "medio-portugues-interpretacao-001",
-      "temaId": "interpretacao-de-textos",
-      "titulo": "Interpretação de textos",
-      "disciplinaId": "medio-portugues",
-      "path": "src/content/library/lessons/medio-portugues-interpretacao-001.md",
-      "cargoIds": [
-        "agente-administrativo",
-        "monitor-educacao"
-      ],
-      "status": "questoes_adicionadas",
       "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-002",
+      "id": "agente-especificos-atos-oficiais-001",
+      "temaId": "atos-oficiais-medidas-sistematica-instrumentos-normativos",
+      "titulo": "Atos oficiais — medidas e sistemática dos instrumentos normativos",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-atos-oficiais-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "aa-atos"
+      ],
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-003-01",
+      "id": "agente-especificos-elaboracao-normas-gerais-001",
+      "temaId": "elaboracao-documentos-normas-gerais",
+      "titulo": "Elaboração de documentos — normas gerais",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-elaboracao-normas-gerais-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-elaboracao"
+      ],
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-003-02",
+      "id": "agente-especificos-siglas-vicios-linguagem-001",
+      "temaId": "siglas-acronimos-vicios-linguagem",
+      "titulo": "Siglas, acrônimos e vícios de linguagem",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-siglas-vicios-linguagem-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-siglas"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "AGE-ESP-003-03",
+      "id": "agente-especificos-hifen-destaques-001",
+      "temaId": "hifen-destaques-maiusculas-minusculas",
+      "titulo": "Hífen, destaques, maiúsculas e minúsculas",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-hifen-destaques-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-hifen-destaques"
+      ],
+      "questionCount": 15
+    },
+    {
+      "stableItemId": "AGE-ESP-003-04",
+      "id": "agente-especificos-enumeracoes-numerais-001",
+      "temaId": "enumeracoes-grafia-numerais",
+      "titulo": "Enumerações e grafia de numerais",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-enumeracoes-numerais-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-numerais"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "AGE-ESP-003-05",
+      "id": "agente-especificos-fecho-signatario-001",
+      "temaId": "fecho-identificacao-signatario",
+      "titulo": "Fecho e identificação do signatário",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-fecho-signatario-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-fecho"
+      ],
+      "questionCount": 15
+    },
+    {
+      "stableItemId": "AGE-ESP-003-06",
+      "id": "agente-especificos-formas-tratamento-001",
+      "temaId": "formas-tratamento-vocativo-destinatario-envelope",
+      "titulo": "Formas de tratamento, vocativo, destinatário e envelope",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-formas-tratamento-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-tratamento"
+      ],
+      "questionCount": 15
+    },
+    {
+      "stableItemId": "AGE-ESP-004-01",
+      "id": "agente-especificos-ata-apostila-001",
+      "temaId": "ata-apostila",
+      "titulo": "Ata e Apostila",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-ata-apostila-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-ata-apostila"
+      ],
+      "questionCount": 16
+    },
+    {
+      "stableItemId": "AGE-ESP-004-02",
+      "id": "agente-especificos-carta-circular-comunicacao-interna-001",
+      "temaId": "carta-cartao-visita-circular-comunicacao-interna",
+      "titulo": "Carta, Cartão de Visita, Circular e Comunicação Interna",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-carta-circular-comunicacao-interna-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-carta-circular"
+      ],
+      "questionCount": 16
+    },
+    {
+      "stableItemId": "AGE-ESP-004-03",
+      "id": "agente-especificos-contrato-convenio-001",
+      "temaId": "contrato-convenio",
+      "titulo": "Contrato e Convênio",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-contrato-convenio-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-contrato-convenio"
+      ],
+      "questionCount": 16
+    },
+    {
+      "stableItemId": "AGE-ESP-004-04",
+      "id": "agente-especificos-correio-eletronico-001",
+      "temaId": "correio-eletronico-oficial",
+      "titulo": "Correio eletrônico oficial",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-correio-eletronico-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-email"
+      ],
+      "questionCount": 15
+    },
+    {
+      "stableItemId": "AGE-ESP-004-05",
+      "id": "agente-especificos-despacho-parecer-notas-001",
+      "temaId": "despacho-parecer-nota-informativa-nota-tecnica",
+      "titulo": "Despacho, Parecer, Nota Informativa e Nota Técnica",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-despacho-parecer-notas-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-despacho-parecer"
+      ],
+      "questionCount": 16
+    },
+    {
+      "stableItemId": "AGE-ESP-004-06",
+      "id": "agente-especificos-oficio-aviso-memorando-exposicao-001",
+      "temaId": "padrao-oficio-aviso-oficio-memorando-exposicao-motivos",
+      "titulo": "Padrão Ofício, Aviso, Ofício, Memorando e Exposição de Motivos",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-oficio-aviso-memorando-exposicao-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "aa-oficio"
+      ],
+      "questionCount": 6
+    },
+    {
+      "stableItemId": "AGE-ESP-004-07",
+      "id": "agente-especificos-portaria-resolucao-instrucao-001",
+      "temaId": "portaria-resolucao-instrucao-normativa-ordem-servico-regimento-interno",
+      "titulo": "Portaria, Resolução e Instrução Normativa — com Ordem de Serviço e Regimento Interno",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-portaria-resolucao-instrucao-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-portaria-resolucao"
+      ],
+      "questionCount": 8
+    },
+    {
+      "stableItemId": "AGE-ESP-006-01",
+      "id": "agente-especificos-nocoes-arquivo-001",
+      "temaId": "nocoes-arquivo-gestao-documental-ciclo-vida",
+      "titulo": "Noções de arquivo — gestão documental e teoria das três idades",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-nocoes-arquivo-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-arquivo"
+      ],
+      "questionCount": 8
+    },
+    {
+      "stableItemId": "AGE-ESP-006-02",
+      "id": "agente-especificos-classificacao-arquivamento-001",
+      "temaId": "classificacao-ordenacao-arquivamento-documentos",
+      "titulo": "Classificação e arquivamento — planos, métodos de ordenação e temporalidade",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-classificacao-arquivamento-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "aa-classificacao"
+      ],
+      "questionCount": 11
+    },
+    {
+      "stableItemId": "AGE-ESP-007",
+      "id": "agente-especificos-administracao-publica-servidores-001",
+      "temaId": "principios-basicos-administracao-publica-servidores",
+      "titulo": "Princípios básicos da Administração Pública e servidores",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-administracao-publica-servidores-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "aa-principios"
+      ],
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-007-01",
+      "id": "agente-especificos-servidores-hierarquia-001",
+      "temaId": "servidores-dever-funcional-competencia-hierarquia-responsabilidade",
+      "titulo": "Servidores e hierarquia — dever funcional, competência, subordinação e responsabilidade",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-servidores-hierarquia-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "aa-servidores"
+      ],
+      "questionCount": 13
+    },
+    {
+      "stableItemId": "AGE-ESP-009",
+      "id": "agente-especificos-constituicao-administracao-publica-001",
+      "temaId": "constituicao-federal-art37-39-41",
+      "titulo": "Constituição Federal — art. 37 e arts. 39 a 41",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-constituicao-administracao-publica-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "aa-cf-37-41"
+      ],
+      "questionCount": 6
+    },
+    {
+      "stableItemId": "AGE-ESP-011-01",
+      "id": "agente-especificos-informatica-windows-001",
+      "temaId": "windows",
+      "titulo": "Windows — utilização, arquivos, pastas, atalhos e configurações",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-informatica-windows-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-windows"
+      ],
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-011-02",
+      "id": "agente-especificos-informatica-aplicativos-windows-001",
+      "temaId": "aplicativos-windows",
+      "titulo": "Aplicativos do Windows — Bloco de Notas, Calculadora, Paint e WordPad",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-informatica-aplicativos-windows-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-aplicativos"
+      ],
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-011-03",
+      "id": "agente-especificos-informatica-perifericos-001",
+      "temaId": "perifericos",
+      "titulo": "Periféricos — impressoras, monitores e dispositivos de entrada e saída",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-informatica-perifericos-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-perifericos"
+      ],
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-011-04",
+      "id": "agente-especificos-informatica-word-001",
+      "temaId": "microsoft-word",
+      "titulo": "Microsoft Word — edição, formatação, tabelas, revisão e impressão",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-informatica-word-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-word"
+      ],
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-011-05",
+      "id": "agente-especificos-informatica-excel-001",
+      "temaId": "microsoft-excel",
+      "titulo": "Microsoft Excel — células, fórmulas, referências, funções, filtros e gráficos",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-informatica-excel-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-excel"
+      ],
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-011-06",
+      "id": "agente-especificos-informatica-powerpoint-001",
+      "temaId": "microsoft-powerpoint",
+      "titulo": "Microsoft PowerPoint — slides, layouts, temas, transições e apresentação",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-informatica-powerpoint-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-powerpoint"
+      ],
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-011-07",
+      "id": "agente-especificos-informatica-outlook-001",
+      "temaId": "microsoft-outlook",
+      "titulo": "Microsoft Outlook — e-mail, anexos, contatos, calendário e organização",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-informatica-outlook-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-outlook"
+      ],
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-011-08",
+      "id": "agente-especificos-informatica-adobe-reader-001",
+      "temaId": "adobe-reader-pdf",
+      "titulo": "Adobe Acrobat Reader — PDF, navegação, pesquisa, impressão e formulários",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-informatica-adobe-reader-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-adobe"
+      ],
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-011-09",
+      "id": "agente-especificos-informatica-internet-001",
+      "temaId": "internet-navegadores",
+      "titulo": "Internet e navegadores — URL, abas, pesquisa, downloads, cookies e segurança",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-informatica-internet-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-internet"
+      ],
+      "questionCount": 5
+    },
+    {
+      "stableItemId": "AGE-ESP-012",
+      "id": "agente-especificos-atribuicoes-cargo-001",
+      "temaId": "atividades-atribuicoes-especificas-cargo",
+      "titulo": "Atividades e atribuições específicas do Agente Administrativo",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-atribuicoes-cargo-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "aa-atribuicoes"
+      ],
+      "questionCount": 7
+    },
+    {
+      "stableItemId": "AJU-ESP-001",
+      "id": "ajudante-especificos-higiene-pessoal-trabalho-001",
+      "temaId": "higiene-pessoal-trabalho",
+      "titulo": "Higiene pessoal e no trabalho",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-higiene-pessoal-trabalho-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-higiene"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-002",
+      "id": "ajudante-especificos-manuseio-ferramentas-produtos-materiais-001",
+      "temaId": "manuseio-ferramentas-produtos-materiais",
+      "titulo": "Manuseio e utilização de ferramentas, produtos e materiais de trabalho",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-manuseio-ferramentas-produtos-materiais-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-ferramentas"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-003",
+      "id": "ajudante-especificos-epi-001",
+      "temaId": "equipamentos-protecao-individual",
+      "titulo": "Equipamentos de Proteção Individual — EPI",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-epi-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-epi"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-004",
+      "id": "ajudante-especificos-primeiros-socorros-001",
+      "temaId": "primeiros-socorros",
+      "titulo": "Primeiros socorros — proteção da cena, acionamento do socorro e condutas iniciais",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-primeiros-socorros-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-primeiros-socorros"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-005",
+      "id": "ajudante-especificos-qualidade-atendimento-publico-001",
+      "temaId": "qualidade-atendimento-publico",
+      "titulo": "Qualidade no atendimento ao público",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-qualidade-atendimento-publico-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-atendimento"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-006",
+      "id": "ajudante-especificos-relacoes-humanas-trabalho-001",
+      "temaId": "relacoes-humanas-trabalho",
+      "titulo": "Relações humanas no trabalho",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-relacoes-humanas-trabalho-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-relacoes"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-007",
+      "id": "ajudante-especificos-seguranca-trabalho-001",
+      "temaId": "seguranca-trabalho",
+      "titulo": "Segurança no trabalho — prevenção, riscos e condutas seguras",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-seguranca-trabalho-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-seguranca"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-008",
+      "id": "ajudante-especificos-importancia-limpeza-urbana-001",
+      "temaId": "importancia-limpeza-urbana",
+      "titulo": "Importância do serviço de limpeza urbana",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-importancia-limpeza-urbana-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-limpeza-urbana"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-009",
+      "id": "ajudante-especificos-reciclagem-aspectos-economico-social-001",
+      "temaId": "reciclagem-aspectos-economico-social",
+      "titulo": "Reciclagem de materiais recuperáveis — papel, plástico, metal, vidro e aspectos econômico-financeiro e social",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-reciclagem-aspectos-economico-social-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-reciclagem",
+        "ag-reciclagem-impactos"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-010",
+      "id": "ajudante-especificos-limpeza-logradouros-001",
+      "temaId": "limpeza-logradouros",
+      "titulo": "Limpeza de logradouros — objetivos e atribuições",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-limpeza-logradouros-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-logradouros"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-011",
+      "id": "ajudante-especificos-varricao-metodos-utensilios-equipamentos-001",
+      "temaId": "varricao-metodos-utensilios-equipamentos",
+      "titulo": "Varrição — métodos, utensílios e equipamentos",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-varricao-metodos-utensilios-equipamentos-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-varricao",
+        "ag-utensilios"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-012",
+      "id": "ajudante-especificos-equipamentos-auxiliares-remocao-lixo-001",
+      "temaId": "equipamentos-auxiliares-remocao-lixo",
+      "titulo": "Equipamentos auxiliares de remoção de lixo — carrocinha, carrinhos e cestas coletoras",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-equipamentos-auxiliares-remocao-lixo-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-carrinhos",
+        "ag-cestas"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-013",
+      "id": "ajudante-especificos-plano-varricao-001",
+      "temaId": "plano-varricao",
+      "titulo": "Plano de varrição — nível de serviço, frequência, tipos, velocidade, extensão de sarjeta, remoção, itinerário, implantação e fiscalização",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-plano-varricao-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-plano-varricao",
+        "ag-nivel-servico",
+        "ag-produtividade",
+        "ag-rota",
+        "ag-fiscalizacao"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-014",
+      "id": "ajudante-especificos-limpeza-bocas-lobo-caixas-ralo-001",
+      "temaId": "limpeza-bocas-lobo-caixas-ralo",
+      "titulo": "Limpeza de bocas de lobo ou caixas de ralo",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-limpeza-bocas-lobo-caixas-ralo-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-drenagem"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-ESP-015",
+      "id": "ajudante-especificos-atividades-atribuicoes-cargo-001",
+      "temaId": "atividades-atribuicoes-cargo",
+      "titulo": "Atividades e atribuições específicas do cargo — Ajudante Geral",
+      "disciplinaId": "ajudante-especificos",
+      "path": "src/content/library/lessons/ajudante-especificos-atividades-atribuicoes-cargo-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "ag-atribuicoes"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "AJU-PRAT-001",
+      "id": "ajudante-pratica-preparacao-prova-pratica-001",
+      "temaId": "preparacao-prova-pratica",
+      "titulo": "Preparação para a Prova Prática — Ajudante Geral",
+      "disciplinaId": "ajudante-pratica",
+      "path": "src/content/library/lessons/ajudante-pratica-preparacao-prova-pratica-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "aj-pratica"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "FUND-MAT-001",
+      "id": "fundamental-matematica-operacoes-fundamentais-001",
+      "temaId": "operacoes-fundamentais",
+      "titulo": "Operações fundamentais — adição, subtração, multiplicação e divisão",
+      "disciplinaId": "fundamental-matematica",
+      "path": "src/content/library/lessons/fundamental-matematica-operacoes-fundamentais-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "fm-adicao",
+        "fm-subtracao",
+        "fm-multiplicacao",
+        "fm-divisao"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "FUND-MAT-002",
+      "id": "fundamental-matematica-juros-simples-001",
+      "temaId": "juros-simples",
+      "titulo": "Juros simples — capital, taxa, tempo, juros e montante",
+      "disciplinaId": "fundamental-matematica",
+      "path": "src/content/library/lessons/fundamental-matematica-juros-simples-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "fm-juros"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "FUND-MAT-003",
+      "id": "fundamental-matematica-sistema-metrico-decimal-001",
+      "temaId": "sistema-metrico-decimal",
+      "titulo": "Sistema métrico decimal — comprimento, massa e capacidade",
+      "disciplinaId": "fundamental-matematica",
+      "path": "src/content/library/lessons/fundamental-matematica-sistema-metrico-decimal-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "fm-sistema-metrico",
+        "fm-medidas"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "FUND-MAT-004",
+      "id": "fundamental-matematica-transformacoes-unidades-001",
+      "temaId": "transformacoes-unidades",
+      "titulo": "Transformações de unidades — comprimento, massa e capacidade",
+      "disciplinaId": "fundamental-matematica",
+      "path": "src/content/library/lessons/fundamental-matematica-transformacoes-unidades-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "fm-conversoes"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "FUND-MAT-005",
+      "id": "fundamental-matematica-razao-proporcao-001",
+      "temaId": "razao-proporcao",
+      "titulo": "Razão e proporção — comparação, simplificação, proporcionalidade e regra de três simples",
+      "disciplinaId": "fundamental-matematica",
+      "path": "src/content/library/lessons/fundamental-matematica-razao-proporcao-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "fm-razao",
+        "fm-proporcao"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "FUND-PORT-001",
+      "id": "fundamental-portugues-interpretacao-001",
+      "temaId": "interpretacao-de-textos",
+      "titulo": "Interpretação de textos — compreensão, inferência, ideia central e análise de alternativas",
+      "disciplinaId": "fundamental-portugues",
+      "path": "src/content/library/lessons/fundamental-portugues-interpretacao-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "fp-interpretacao"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "FUND-PORT-002",
+      "id": "fundamental-portugues-significado-palavras-001",
+      "temaId": "significado-das-palavras",
+      "titulo": "Significado das palavras — contexto, sinônimos, antônimos, sentido literal e figurado",
+      "disciplinaId": "fundamental-portugues",
+      "path": "src/content/library/lessons/fundamental-portugues-significado-palavras-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "fp-significado"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "FUND-PORT-003",
+      "id": "fundamental-portugues-vogais-consoantes-001",
+      "temaId": "identificacao-vogais-consoantes",
+      "titulo": "Identificação de vogais e consoantes — letras, fonemas, encontros vocálicos e dígrafos",
+      "disciplinaId": "fundamental-portugues",
+      "path": "src/content/library/lessons/fundamental-portugues-vogais-consoantes-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "fp-vogais-consoantes"
+      ],
+      "questionCount": 0
+    },
+    {
+      "stableItemId": "FUND-PORT-004",
+      "id": "fundamental-portugues-escritas-corretas-001",
+      "temaId": "escritas-corretas",
+      "titulo": "Escritas corretas — ortografia, escolha de letras e palavras de grafia parecida",
+      "disciplinaId": "fundamental-portugues",
+      "path": "src/content/library/lessons/fundamental-portugues-escritas-corretas-001.md",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "fp-grafia"
+      ],
+      "questionCount": 0
     },
     {
       "stableItemId": "MED-MAT-001",
       "id": "medio-matematica-radicais-001",
       "temaId": "radicais",
-      "titulo": "Radicais",
+      "titulo": "Radicais — operações, simplificação, propriedades e racionalização de denominadores",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-radicais-001.md",
       "cargoIds": [
@@ -327,13 +999,19 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mm-radicais",
+        "mm-operacoes-radicais",
+        "mm-racionalizacao"
+      ],
+      "questionCount": 15
     },
     {
       "stableItemId": "MED-MAT-002",
       "id": "medio-matematica-razao-proporcao-001",
       "temaId": "razao-proporcao",
-      "titulo": "Razão e proporção",
+      "titulo": "Razão e proporção — comparação, propriedades, divisão proporcional e regra de três",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-razao-proporcao-001.md",
       "cargoIds": [
@@ -341,13 +1019,18 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mm-razao",
+        "mm-proporcao"
+      ],
+      "questionCount": 15
     },
     {
       "stableItemId": "MED-MAT-003",
       "id": "medio-matematica-porcentagem-001",
       "temaId": "porcentagem",
-      "titulo": "Porcentagem",
+      "titulo": "Porcentagem — cálculo percentual, aumentos, descontos e variações sucessivas",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-porcentagem-001.md",
       "cargoIds": [
@@ -355,13 +1038,17 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mm-porcentagem"
+      ],
+      "questionCount": 15
     },
     {
       "stableItemId": "MED-MAT-004",
       "id": "medio-matematica-juros-simples-001",
       "temaId": "juros-simples",
-      "titulo": "Juros simples",
+      "titulo": "Juros simples — capital, taxa, tempo, juros e montante",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-juros-simples-001.md",
       "cargoIds": [
@@ -369,13 +1056,17 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mm-juros"
+      ],
+      "questionCount": 15
     },
     {
       "stableItemId": "MED-MAT-005",
       "id": "medio-matematica-numeros-reais-001",
       "temaId": "numeros-reais",
-      "titulo": "Números reais",
+      "titulo": "Números reais — conjuntos numéricos, operações, dízimas, intervalos e valor absoluto",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-numeros-reais-001.md",
       "cargoIds": [
@@ -383,13 +1074,17 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mm-reais"
+      ],
+      "questionCount": 15
     },
     {
       "stableItemId": "MED-MAT-006",
       "id": "medio-matematica-fatoracao-001",
       "temaId": "fatoracao-expressao-algebrica",
-      "titulo": "Fatoração de expressão algébrica",
+      "titulo": "Fatoração de expressões algébricas — fator comum, agrupamento, produtos notáveis e trinômios",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-fatoracao-001.md",
       "cargoIds": [
@@ -397,13 +1092,17 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mm-fatoracao"
+      ],
+      "questionCount": 15
     },
     {
       "stableItemId": "MED-MAT-007",
       "id": "medio-matematica-expressoes-algebricas-operacoes-001",
       "temaId": "expressoes-algebricas-operacoes",
-      "titulo": "Operações com expressões algébricas",
+      "titulo": "Expressões algébricas — termos, redução, operações, distributiva e produtos notáveis",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-expressoes-algebricas-operacoes-001.md",
       "cargoIds": [
@@ -411,13 +1110,17 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mm-expressoes"
+      ],
+      "questionCount": 15
     },
     {
       "stableItemId": "MED-MAT-008",
       "id": "medio-matematica-expressoes-algebricas-fracionarias-001",
       "temaId": "expressoes-algebricas-fracionarias",
-      "titulo": "Expressões algébricas fracionárias",
+      "titulo": "Expressões algébricas fracionárias — domínio, operações, fatoração e simplificação",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-expressoes-algebricas-fracionarias-001.md",
       "cargoIds": [
@@ -425,13 +1128,17 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mm-fracoes-algebricas"
+      ],
+      "questionCount": 15
     },
     {
       "stableItemId": "MED-MAT-009",
       "id": "medio-matematica-mdc-mmc-001",
       "temaId": "mdc-mmc",
-      "titulo": "MDC e MMC",
+      "titulo": "MDC e MMC — divisibilidade, decomposição em primos e aplicações",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-mdc-mmc-001.md",
       "cargoIds": [
@@ -439,13 +1146,18 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mm-mdc",
+        "mm-mmc"
+      ],
+      "questionCount": 15
     },
     {
       "stableItemId": "MED-MAT-010",
       "id": "medio-matematica-sistema-medidas-001",
       "temaId": "sistema-medidas",
-      "titulo": "Sistema de medidas",
+      "titulo": "Sistema de medidas — comprimento, superfície, massa, capacidade, tempo, volume e transformações",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-sistema-medidas-001.md",
       "cargoIds": [
@@ -453,13 +1165,18 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mm-medidas",
+        "mm-conversoes"
+      ],
+      "questionCount": 15
     },
     {
       "stableItemId": "MED-MAT-011",
       "id": "medio-matematica-estatistica-001",
       "temaId": "estatistica",
-      "titulo": "Estatística",
+      "titulo": "Estatística — noções básicas, razão, proporção, tabelas, gráficos e medidas de tendência central",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-estatistica-001.md",
       "cargoIds": [
@@ -467,13 +1184,19 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mm-estatistica",
+        "mm-tabelas",
+        "mm-graficos"
+      ],
+      "questionCount": 15
     },
     {
       "stableItemId": "MED-MAT-012",
       "id": "medio-matematica-geometria-001",
       "temaId": "geometria-elementos-basicos",
-      "titulo": "Geometria",
+      "titulo": "Geometria — elementos básicos, conceitos primitivos e representação geométrica no plano",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-geometria-001.md",
       "cargoIds": [
@@ -481,13 +1204,18 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mm-geometria",
+        "mm-plano"
+      ],
+      "questionCount": 15
     },
     {
       "stableItemId": "MED-MAT-013",
       "id": "medio-matematica-probabilidade-analise-combinatoria-001",
       "temaId": "probabilidade-analise-combinatoria",
-      "titulo": "Probabilidade e análise combinatória",
+      "titulo": "Probabilidade e análise combinatória — espaço amostral, contagem, permutações, arranjos e combinações",
       "disciplinaId": "medio-matematica",
       "path": "src/content/library/lessons/medio-matematica-probabilidade-analise-combinatoria-001.md",
       "cargoIds": [
@@ -495,133 +1223,397 @@
         "monitor-educacao"
       ],
       "status": "revisado",
-      "questionCount": 0
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "mm-probabilidade",
+        "mm-combinatoria"
+      ],
+      "questionCount": 15
+    },
+    {
+      "stableItemId": "MED-PORT-001",
+      "id": "medio-portugues-fonema-001",
+      "temaId": "fonema",
+      "titulo": "Fonema — letras, sons, dígrafos e contagem de fonemas",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-fonema-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "mp-fonema"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-002",
+      "id": "medio-portugues-silaba-001",
+      "temaId": "silaba",
+      "titulo": "Sílaba — estrutura, separação, classificação e tonicidade",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-silaba-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "mp-silaba"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-003",
+      "id": "medio-portugues-ortografia-001",
+      "temaId": "ortografia",
+      "titulo": "Ortografia — escrita correta, emprego de letras, homônimos, parônimos e Acordo Ortográfico",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-ortografia-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "mp-ortografia"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-004",
+      "id": "medio-portugues-substantivo-001",
+      "temaId": "substantivo",
+      "titulo": "Substantivo — classificação, gênero, número, grau e uso em contexto",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-substantivo-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "mp-substantivo"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-005",
+      "id": "medio-portugues-adjetivo-001",
+      "temaId": "adjetivo",
+      "titulo": "Adjetivo — classificação, flexões, locuções, adjetivos pátrios, grau e uso em contexto",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-adjetivo-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "mp-adjetivo"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-006",
+      "id": "medio-portugues-preposicao-001",
+      "temaId": "preposicao",
+      "titulo": "Preposição — classificação, locuções, contrações, valores semânticos e uso em contexto",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-preposicao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "mp-preposicao"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-007",
+      "id": "medio-portugues-conjuncao-001",
+      "temaId": "conjuncao",
+      "titulo": "Conjunção — coordenação, subordinação, valores semânticos, locuções e pontuação",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-conjuncao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "mp-conjuncao"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-008",
+      "id": "medio-portugues-adverbio-001",
+      "temaId": "adverbio",
+      "titulo": "Advérbio — classificação, sentido, emprego e análise em contexto",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-adverbio-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "mp-adverbio"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-009",
+      "id": "medio-portugues-verbo-001",
+      "temaId": "verbo",
+      "titulo": "Verbo — estrutura, flexões, tempos, modos, formas nominais, vozes e usos",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-verbo-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "mp-verbo"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-010",
+      "id": "medio-portugues-pronome-001",
+      "temaId": "pronome",
+      "titulo": "Pronome — classificação, emprego, referência e usos que mais geram erro",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-pronome-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "mp-pronome"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-011",
+      "id": "medio-portugues-numeral-001",
+      "temaId": "numeral",
+      "titulo": "Numeral — quantidade, ordem, multiplicação, fração e usos em contexto",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-numeral-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "mp-numeral"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-012",
+      "id": "medio-portugues-interjeicao-001",
+      "temaId": "interjeicao",
+      "titulo": "Interjeição — sentidos, contexto, locuções interjetivas e emprego em prova",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-interjeicao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "mp-interjeicao"
+      ],
+      "questionCount": 10
+    },
+    {
+      "stableItemId": "MED-PORT-013",
+      "id": "medio-portugues-artigo-001",
+      "temaId": "artigo",
+      "titulo": "Artigo — definição, uso, contrações, substantivação e efeitos de sentido",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-artigo-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mp-artigo"
+      ],
+      "questionCount": 12
+    },
+    {
+      "stableItemId": "MED-PORT-014",
+      "id": "medio-portugues-acentuacao-001",
+      "temaId": "acentuacao",
+      "titulo": "Acentuação gráfica — tonicidade, regras, hiatos, ditongos e acento diferencial",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-acentuacao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mp-acentuacao"
+      ],
+      "questionCount": 12
+    },
+    {
+      "stableItemId": "MED-PORT-015",
+      "id": "medio-portugues-concordancia-001",
+      "temaId": "concordancia-nominal-verbal",
+      "titulo": "Concordância nominal e verbal — regras, casos especiais e aplicação em prova",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-concordancia-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mp-concordancia-nominal",
+        "mp-concordancia-verbal"
+      ],
+      "questionCount": 12
+    },
+    {
+      "stableItemId": "MED-PORT-016",
+      "id": "medio-portugues-pontuacao-001",
+      "temaId": "pontuacao",
+      "titulo": "Pontuação — vírgula, ponto e vírgula, dois-pontos, travessão e efeitos de sentido",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-pontuacao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mp-pontuacao"
+      ],
+      "questionCount": 12
+    },
+    {
+      "stableItemId": "MED-PORT-017",
+      "id": "medio-portugues-crase-001",
+      "temaId": "crase",
+      "titulo": "Crase — regência, artigo, locuções, pronomes, lugares e casos facultativos",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-crase-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mp-crase"
+      ],
+      "questionCount": 12
+    },
+    {
+      "stableItemId": "MED-PORT-018",
+      "id": "medio-portugues-colocacao-pronominal-001",
+      "temaId": "colocacao-pronominal",
+      "titulo": "Colocação pronominal — próclise, ênclise, mesóclise e palavras atrativas",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-colocacao-pronominal-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mp-colocacao"
+      ],
+      "questionCount": 12
+    },
+    {
+      "stableItemId": "MED-PORT-019",
+      "id": "medio-portugues-analise-sintatica-001",
+      "temaId": "analise-sintatica-periodo-simples-composto",
+      "titulo": "Análise sintática — período simples e composto, termos da oração e relações entre orações",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-analise-sintatica-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mp-sintaxe",
+        "mp-periodo-simples",
+        "mp-periodo-composto"
+      ],
+      "questionCount": 15
+    },
+    {
+      "stableItemId": "MED-PORT-020",
+      "id": "medio-portugues-figuras-linguagem-001",
+      "temaId": "figuras-de-linguagem",
+      "titulo": "Figuras de linguagem — sentido figurado, comparação, metáfora, metonímia e efeitos expressivos",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-figuras-linguagem-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "mp-figuras"
+      ],
+      "questionCount": 15
+    },
+    {
+      "stableItemId": "MED-PORT-021",
+      "id": "medio-portugues-interpretacao-001",
+      "temaId": "interpretacao-de-textos",
+      "titulo": "Interpretação de textos — compreensão, inferência, relações de sentido e análise de alternativas",
+      "disciplinaId": "medio-portugues",
+      "path": "src/content/library/lessons/medio-portugues-interpretacao-001.md",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "status": "revisado",
+      "version": "0.3.0",
+      "siteTopicIds": [
+        "mp-interpretacao"
+      ],
+      "questionCount": 15
     }
   ],
-  "questionBank": {
-    "path": "src/content/library/data/questions.json",
-    "total": 115,
-    "realInepam": 0,
-    "ineditaEstiloInepam": 115,
-    "questionIds": [
-      "q-inedita-medio-portugues-0001",
-      "q-inedita-medio-portugues-0002",
-      "q-inedita-medio-portugues-0003",
-      "q-inedita-medio-portugues-0004",
-      "q-inedita-medio-portugues-0005",
-      "q-inedita-medio-portugues-0006",
-      "q-inedita-medio-portugues-0007",
-      "q-inedita-medio-portugues-0008",
-      "q-inedita-medio-portugues-0009",
-      "q-inedita-medio-portugues-0010",
-      "q-inedita-medio-portugues-0011",
-      "q-inedita-medio-portugues-0012",
-      "q-inedita-medio-portugues-0013",
-      "q-inedita-medio-portugues-0014",
-      "q-inedita-medio-portugues-0015",
-      "q-inedita-medio-portugues-0016",
-      "q-inedita-medio-portugues-0017",
-      "q-inedita-medio-portugues-0018",
-      "q-inedita-medio-portugues-0019",
-      "q-inedita-medio-portugues-0020",
-      "q-inedita-medio-portugues-0021",
-      "q-inedita-medio-portugues-0022",
-      "q-inedita-medio-portugues-0023",
-      "q-inedita-medio-portugues-0024",
-      "q-inedita-medio-portugues-0025",
-      "q-inedita-medio-portugues-0026",
-      "q-inedita-medio-portugues-0027",
-      "q-inedita-medio-portugues-0028",
-      "q-inedita-medio-portugues-0029",
-      "q-inedita-medio-portugues-0030",
-      "q-inedita-medio-portugues-0031",
-      "q-inedita-medio-portugues-0032",
-      "q-inedita-medio-portugues-0033",
-      "q-inedita-medio-portugues-0034",
-      "q-inedita-medio-portugues-0035",
-      "q-inedita-medio-portugues-0036",
-      "q-inedita-medio-portugues-0037",
-      "q-inedita-medio-portugues-0038",
-      "q-inedita-medio-portugues-0039",
-      "q-inedita-medio-portugues-0040",
-      "q-inedita-medio-portugues-0041",
-      "q-inedita-medio-portugues-0042",
-      "q-inedita-medio-portugues-0043",
-      "q-inedita-medio-portugues-0044",
-      "q-inedita-medio-portugues-0045",
-      "q-inedita-medio-portugues-0046",
-      "q-inedita-medio-portugues-0047",
-      "q-inedita-medio-portugues-0048",
-      "q-inedita-medio-portugues-0049",
-      "q-inedita-medio-portugues-0050",
-      "q-inedita-medio-portugues-0051",
-      "q-inedita-medio-portugues-0052",
-      "q-inedita-medio-portugues-0053",
-      "q-inedita-medio-portugues-0054",
-      "q-inedita-medio-portugues-0055",
-      "q-inedita-medio-portugues-0056",
-      "q-inedita-medio-portugues-0057",
-      "q-inedita-medio-portugues-0058",
-      "q-inedita-medio-portugues-0059",
-      "q-inedita-medio-portugues-0060",
-      "q-inedita-medio-portugues-0061",
-      "q-inedita-medio-portugues-0062",
-      "q-inedita-medio-portugues-0063",
-      "q-inedita-medio-portugues-0064",
-      "q-inedita-medio-portugues-0065",
-      "q-inedita-medio-portugues-0066",
-      "q-inedita-medio-portugues-0067",
-      "q-inedita-medio-portugues-0068",
-      "q-inedita-medio-portugues-0069",
-      "q-inedita-medio-portugues-0070",
-      "q-inedita-medio-portugues-0071",
-      "q-inedita-medio-portugues-0072",
-      "q-inedita-medio-portugues-0073",
-      "q-inedita-medio-portugues-0074",
-      "q-inedita-medio-portugues-0075",
-      "q-inedita-medio-portugues-0076",
-      "q-inedita-medio-portugues-0077",
-      "q-inedita-medio-portugues-0078",
-      "q-inedita-medio-portugues-0079",
-      "q-inedita-medio-portugues-0080",
-      "q-inedita-medio-portugues-0081",
-      "q-inedita-medio-portugues-0082",
-      "q-inedita-medio-portugues-0083",
-      "q-inedita-medio-portugues-0084",
-      "q-inedita-medio-portugues-0085",
-      "q-inedita-medio-portugues-0086",
-      "q-inedita-medio-portugues-0087",
-      "q-inedita-medio-portugues-0088",
-      "q-inedita-medio-portugues-0089",
-      "q-inedita-medio-portugues-0090",
-      "q-inedita-medio-portugues-0091",
-      "q-inedita-medio-portugues-0092",
-      "q-inedita-medio-portugues-0093",
-      "q-inedita-medio-portugues-0094",
-      "q-inedita-medio-portugues-0095",
-      "q-inedita-medio-portugues-0096",
-      "q-inedita-medio-portugues-0097",
-      "q-inedita-medio-portugues-0098",
-      "q-inedita-medio-portugues-0099",
-      "q-inedita-medio-portugues-0100",
-      "q-inedita-medio-portugues-0101",
-      "q-inedita-medio-portugues-0102",
-      "q-inedita-medio-portugues-0103",
-      "q-inedita-medio-portugues-0104",
-      "q-inedita-medio-portugues-0105",
-      "q-inedita-medio-portugues-0106",
-      "q-inedita-medio-portugues-0107",
-      "q-inedita-medio-portugues-0108",
-      "q-inedita-medio-portugues-0109",
-      "q-inedita-medio-portugues-0110",
-      "q-inedita-medio-portugues-0111",
-      "q-inedita-medio-portugues-0112",
-      "q-inedita-medio-portugues-0113",
-      "q-inedita-medio-portugues-0114",
-      "q-inedita-medio-portugues-0115"
-    ]
-  },
-  "data": {
+  "dataFiles": {
+    "questions": "src/content/library/data/questions.json",
     "coverage": "src/content/library/data/cobertura-edital.json",
     "calendar": "src/content/library/data/calendar.json",
     "news": "src/content/library/data/news.json",
@@ -629,4 +1621,3 @@
     "sources": "src/content/library/data/sources.json"
   }
 }
-

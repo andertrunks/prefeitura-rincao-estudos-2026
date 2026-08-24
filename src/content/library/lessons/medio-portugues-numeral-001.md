@@ -12,6 +12,15 @@ editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Téc
 status: revisado
 versao: 0.1.0
 revisadoEm: 2026-08-23
+sourceRefs:
+  - src-edital-rincao-2026
+  - src-inepam-sete-barras-001-2026-recursos
+  - src-inepam-clementina-2025-recursos
+  - src-inepam-crea-mt-001-2025-recursos
+  - src-inepam-ariranha-001-2025-recursos
+  - src-inepam-guariba-004-2024-recursos
+  - src-inepam-guariba-001-2026-recursos
+  - src-inepam-mongagua-001-2026-recursos
 ---
 
 # Numeral — quantidade, ordem, multiplicação, fração e usos em contexto

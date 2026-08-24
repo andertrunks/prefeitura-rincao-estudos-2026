@@ -10,12 +10,16 @@ temaId: radicais
 titulo: "Radicais — operações, simplificação, propriedades e racionalização de denominadores"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Matemática: Radicais: operações, simplificação, propriedades e racionalização de denominadores"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-inepam-bofete-0001-2023-recursos
   - src-inepam-anhembi-0001-2023-recursos
+  - src-inepam-dumont-001-2025-recursos
 ---
 
 # Radicais — operações, simplificação, propriedades e racionalização de denominadores
@@ -42,7 +46,7 @@ Foram encontradas **duas questões antigas com resolução oficial completa e ve
 
 ### Situação editorial
 
-O material está **revisado** para estudo. A liberação global do pacote continua condicionada ao controle de retificações do projeto, especialmente à conferência integral da rerratificação já registrada no controle editorial. Isso não impede a produção ou o uso desta aula para estudo.
+A auditoria da **Rerratificação do Edital de Abertura** de Rincão foi concluída em 23/08/2026, com status `auditado_sem_impacto_nos_cargos_do_projeto`. Não houve alteração deste item de Matemática, nem necessidade de refazer a aula ou suas questões. O bloqueio específico de rerratificação foi removido; permanecem apenas as validações editoriais normais de integração e publicação.
 
 ---
 
@@ -972,7 +976,9 @@ Esse é um excelente roteiro para Rincão.
 
 A pesquisa desta aula foi feita em julgamentos, editais e documentos oficiais indexados da INEPAM.
 
-Foram encontrados **dois exemplos reais com resolução oficial completa e inequívoca** diretamente relacionados a radicais. Também foram encontrados vários editais recentes que mantêm o mesmo conteúdo programático, inclusive para cargos de nível médio e escriturário, mas sem questão real reproduzida nos documentos pesquisáveis.
+Foram encontrados **dois exemplos reais com resolução oficial completa e inequívoca** diretamente relacionados a radicais. A busca complementar também localizou **Dumont/SP — Processo Seletivo nº 001/2025 — Professor de Educação Básica II (Matemática), questão 23**. O julgamento oficial registra `1323 = 3·3·3·7·7`, simplifica `√1323` para `21√3` e conclui a racionalização em `√3/3`, com alteração do gabarito para a alternativa E. Como o julgamento não reproduz integralmente o enunciado nem todas as alternativas, essa ocorrência é usada apenas como **evidência complementar oficial**, sem reconstrução do texto original.
+
+Também foram encontrados vários editais recentes que mantêm o mesmo conteúdo programático, inclusive para cargos de nível médio e escriturário, mas sem outra questão real integralmente reproduzida nos documentos pesquisáveis.
 
 Por isso:
 
@@ -1512,6 +1518,9 @@ E) `5 - √7`
 
 **Gabarito: B.**
 
+**Comentário:**  
+O conjugado de um binômio com radical é obtido trocando apenas o sinal entre os termos. Assim, o conjugado de `5 - √7` é `5 + √7`.
+
 ---
 
 ## 63. Questão 10
@@ -1793,6 +1802,12 @@ URL oficial:
 ## 74. Limite de evidência
 
 A pesquisa oficial desta versão localizou **duas questões antigas com resolução completa e verificável** especificamente sobre radicais.
+
+Como evidência complementar, foi localizado o julgamento oficial de **Dumont/SP — Processo Seletivo nº 001/2025**, função **Professor de Educação Básica II (PEB II) — Matemática**, questão 23. O documento registra a fatoração de `1323`, a simplificação `√1323 = 21√3` e a racionalização que resulta em `√3/3`, alterando o gabarito para a alternativa E. Como o enunciado e as alternativas não aparecem integralmente no julgamento, o material não os reconstrói.
+
+URL oficial:
+
+`https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1318`
 
 Outros documentos recentes da INEPAM confirmam a presença recorrente do item `Radicais: operações – simplificação, propriedade – racionalização de denominadores` nos conteúdos programáticos de nível médio, mas não fornecem, nos resultados pesquisáveis utilizados nesta aula, outra resolução oficial completa de questão desse tema.
 

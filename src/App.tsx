@@ -50,7 +50,7 @@ import { AuthModal } from './auth/AuthModal'
 import { useAuth } from './auth/useAuth'
 import { GuestImportModal } from './auth/GuestImportModal'
 import { RichLessonArticle, RichLessonToc } from './content/RichLessonArticle'
-import { primaryTopicIdByTopicId, richLessonsByTopicId } from './content/editorial'
+import { practicalLesson, primaryTopicIdByTopicId, richLessonsByTopicId } from './content/editorial'
 import { calendarEventsForCargo, examCountdown, formatCalendarEvent, newsForCargo, publicationRectifications } from './content/publication'
 import {
   HashRouter,
@@ -66,7 +66,6 @@ import {
 import {
   cargos,
   disciplineLabels,
-  practicalExam,
   questions,
   simulationQuestionsForCargo,
   topics,
@@ -421,7 +420,7 @@ function StudyPage({ data }: AppState) {
   return (
     <>
       <PageHeader eyebrow="Área 2 · Material para estudo" title={`Plano de ${cargo.name}`} description="Cada aula mostra o que o edital cobra, explicação, pontos de prova, exemplos, pegadinhas, revisão e fontes." />
-      <section className="coverage-banner"><ShieldCheck size={22} /><div><span>Cobertura editorial comprovada</span><strong>{availableTopics.length} aulas completas disponíveis · {cargoTopics.length - availableTopics.length} conteúdos em preparação</strong><small>{completedAvailable} {completedAvailable === 1 ? 'aula completa já concluída' : 'aulas completas já concluídas'} por você. O percentual não representa cobertura integral do cargo enquanto os Conhecimentos Específicos permanecerem pendentes.</small></div><b>{coverage}%</b></section>
+      <section className="coverage-banner"><ShieldCheck size={22} /><div><span>Cobertura editorial comprovada</span><strong>{availableTopics.length} aulas completas disponíveis · {cargoTopics.length - availableTopics.length} conteúdos em preparação</strong><small>{completedAvailable} {completedAvailable === 1 ? 'aula completa já concluída' : 'aulas completas já concluídas'} por você. O percentual mede somente os materiais publicados e não declara conclusão integral do edital.</small></div><b>{coverage}%</b></section>
       <div className="study-toolbar"><div className="segmented"><button className={discipline === 'todas' ? 'active' : ''} onClick={() => setDiscipline('todas')}>Todas</button>{(Object.keys(disciplineLabels) as DisciplineId[]).map((id) => <button className={discipline === id ? 'active' : ''} key={id} onClick={() => setDiscipline(id)}>{disciplineLabels[id]}</button>)}</div><label className="inline-search"><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Filtrar aulas" /></label></div>
       <div className="topic-groups">
         {(Object.keys(disciplineLabels) as DisciplineId[]).map((id) => {
@@ -486,7 +485,7 @@ function LessonPage({ data, setData }: AppState) {
           {previousLesson ? <Link to={`/aula/${previousLesson.id}`}><ArrowLeft size={17} /><span><small>Aula anterior</small><strong>{richLessonsByTopicId[previousLesson.id]?.title ?? previousLesson.title}</strong></span></Link> : <span />}
           {nextLesson ? <Link className="next" to={`/aula/${nextLesson.id}`}><span><small>Próxima aula</small><strong>{richLessonsByTopicId[nextLesson.id]?.title ?? nextLesson.title}</strong></span><ArrowRight size={17} /></Link> : <Link className="next" to="/estudo"><span><small>Fim da sequência</small><strong>Voltar ao material</strong></span><ArrowRight size={17} /></Link>}
         </nav>
-      </div><aside className="lesson-aside"><RichLessonToc lesson={richLesson} /><div className="aside-card"><span>Revisão espaçada</span><h3>Agendar esta aula</h3><div className="review-buttons">{([1, 7, 15, 30] as const).map((days) => <button key={days} onClick={() => scheduleReview(days)}>{days} {days === 1 ? 'dia' : 'dias'}</button>)}</div></div><div className="aside-card"><span>Sobre esta aula</span><h3>Material completo</h3><p>Conteúdo de {disciplineLabels[topic.discipline]} do Ensino Médio compartilhado pelos cargos compatíveis e organizado para estudo.</p>{relatedQuestions.length ? <small>{relatedQuestions.length} questões interativas vinculadas.</small> : null}</div></aside></div>
+      </div><aside className="lesson-aside"><RichLessonToc lesson={richLesson} /><div className="aside-card"><span>Revisão espaçada</span><h3>Agendar esta aula</h3><div className="review-buttons">{([1, 7, 15, 30] as const).map((days) => <button key={days} onClick={() => scheduleReview(days)}>{days} {days === 1 ? 'dia' : 'dias'}</button>)}</div></div><div className="aside-card"><span>Sobre esta aula</span><h3>Material completo</h3><p>Conteúdo de {disciplineLabels[topic.discipline]} · {richLesson.level}, organizado para {richLesson.cargoIds.length > 1 ? 'os cargos compatíveis' : 'este cargo'}.</p>{relatedQuestions.length ? <small>{relatedQuestions.length} questões interativas vinculadas.</small> : null}</div></aside></div>
     </article>
   )
 }
@@ -605,7 +604,14 @@ function PerformancePage({ data, setData }: AppState) {
 
 function PracticalPage({ data }: AppState) {
   if (data.selectedCargo !== 'ajudante') return <Navigate to="/cargos" replace />
-  return <><PageHeader eyebrow="Ajudante Geral · Prova prática" title="Preparação prática sem inventar testes" description="As exigências do edital estão separadas das orientações complementares de treino." /><div className="practical-grid"><section className="requirement-card"><span><FileText size={20} /> Exigência expressa no edital</span><h2>O que será avaliado</h2><ul>{practicalExam.expressRequirements.map((item) => <li key={item}><Check size={17} />{item}</li>)}</ul><footer>{practicalExam.source}</footer></section><section className="guidance-card"><span><HardHat size={20} /> Orientação complementar</span><h2>Como se preparar com segurança</h2><ul>{practicalExam.complementaryGuidance.map((item) => <li key={item}><ArrowRight size={17} />{item}</li>)}</ul><div className="notice warning"><AlertTriangle size={18} />Estas orientações não substituem avaliação médica ou treinamento profissional. O edital não prevê testes adicionais.</div></section></div></>
+  if (!practicalLesson) return <EmptyState icon={HardHat} title="Conteúdo em preparação" text="O módulo de Prova Prática ainda não está disponível." />
+  return <>
+    <PageHeader eyebrow="Ajudante Geral · Prova prática" title={practicalLesson.title} description="Módulo editorial completo, exclusivo para Ajudante Geral e alinhado às exigências oficiais." />
+    <div className="lesson-layout practical-lesson-layout">
+      <div className="lesson-content"><RichLessonArticle lesson={practicalLesson} /></div>
+      <aside className="lesson-aside"><RichLessonToc lesson={practicalLesson} /><div className="aside-card"><span>Escopo</span><h3>Exclusivo do cargo</h3><p>Esta preparação aparece somente para Ajudante Geral.</p></div></aside>
+    </div>
+  </>
 }
 
 function EmptyState({ icon: Icon, title, text }: { icon: typeof CircleHelp; title: string; text: string }) {
@@ -613,7 +619,7 @@ function EmptyState({ icon: Icon, title, text }: { icon: typeof CircleHelp; titl
 }
 
 function Footer() {
-  return <footer className="site-footer"><div><GraduationCap size={20} /><span><strong>Rincão Estudos 2026</strong><small>Projeto gratuito, educacional e não oficial.</small></span></div><p>Edital e rerratificação oficial auditados em 23/08/2026. Continue acompanhando convocações e novas publicações da Prefeitura e da INEPAM.</p><Link to="/privacidade">Privacidade</Link></footer>
+  return <footer className="site-footer"><div><GraduationCap size={20} /><span><strong>Rincão Estudos 2026</strong><small>Projeto gratuito, educacional e não oficial.</small></span></div><p>Edital e rerratificação oficial auditados em 24/08/2026. Continue acompanhando convocações e novas publicações da Prefeitura e da INEPAM.</p><Link to="/privacidade">Privacidade</Link></footer>
 }
 
 function App() {

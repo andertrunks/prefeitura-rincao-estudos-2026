@@ -10,10 +10,13 @@ temaId: mdc-mmc
 titulo: "MDC e MMC — divisibilidade, decomposição em primos e aplicações"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Matemática: MDC e MMC"
 status: revisado
-versao: "0.1.0"
-revisadoEm: "2026-08-23"
+versao: "0.1.1"
+revisadoEm: "2026-08-24"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-inepam-campo-limpo-paulista-001-2026-recursos
   - src-inepam-adamantina-0001-2023-recursos
   - src-inepam-aguas-sao-pedro-001-2025-recursos
@@ -64,7 +67,7 @@ Há evidência particularmente próxima do cargo de Rincão:
 
 ### Situação editorial
 
-O material está **revisado** para estudo. A liberação global do pacote continua condicionada ao controle de retificações do projeto.
+O material está **revisado** para estudo. A rerratificação do Concurso Público nº 001/2026 de Rincão foi auditada em 23/08/2026 e classificada como **sem impacto** sobre este item, sobre os cargos deste projeto e sobre as questões desta aula. O bloqueio editorial específico relacionado à rerratificação está encerrado.
 
 ---
 
@@ -843,7 +846,7 @@ A banca pode cobrar MDC de forma bastante direta, sem problema textual longo.
 
 ---
 
-## 41. QUESTÃO REAL — INEPAM 3 — Adamantina/SP — pacotes
+## 41. EVIDÊNCIA COMPLEMENTAR REAL — INEPAM — Adamantina/SP — pacotes
 
 **Origem:** Prefeitura Municipal de Adamantina/SP.  
 **Processo Seletivo:** nº 0001/2023.  
@@ -891,7 +894,7 @@ A captura visual dessa página foi tentada duas vezes no portal oficial, mas o s
 
 ---
 
-## 42. QUESTÃO REAL — INEPAM 4 — Águas de São Pedro/SP
+## 42. QUESTÃO REAL — INEPAM 3 — Águas de São Pedro/SP
 
 **Origem:** Prefeitura Municipal de Águas de São Pedro/SP.  
 **Processo Seletivo:** nº 001/2025.  
@@ -931,7 +934,7 @@ O MMC pode envolver mais de dois números.
 
 ---
 
-## 43. QUESTÃO REAL — INEPAM 5 — São Sebastião do Rio Verde/MG
+## 43. QUESTÃO REAL — INEPAM 4 — São Sebastião do Rio Verde/MG
 
 **Origem:** Prefeitura Municipal de São Sebastião do Rio Verde/MG.  
 **Concurso:** Concurso Público nº 001/2024.  
@@ -975,7 +978,7 @@ Depois do MMC, ainda pode ser necessário converter a unidade pedida.
 
 ---
 
-## 44. QUESTÃO REAL — INEPAM 6 — Mongaguá/SP — Técnico de Secretaria
+## 44. QUESTÃO REAL — INEPAM 5 — Mongaguá/SP — Técnico de Secretaria
 
 **Origem:** Câmara Municipal de Mongaguá/SP.  
 **Concurso:** Concurso Público nº 001/2026.  
@@ -1015,9 +1018,17 @@ O MMC pode resolver não apenas “quantos dias”, mas também qual será o dia
 
 ---
 
-## 45. QUESTÃO REAL COMPLEMENTAR — Mongaguá/SP — horas
+## 45. QUESTÃO REAL — INEPAM 6 — Mongaguá/SP — Procurador Jurídico
 
-No mesmo julgamento, para Procurador Jurídico, a banca registra:
+**Origem:** Câmara Municipal de Mongaguá/SP.  
+**Concurso:** Concurso Público nº 001/2026.  
+**Cargo:** Procurador Jurídico.  
+**Disciplina:** Matemática.  
+**Questão:** 12.  
+**Gabarito oficial:** alternativa **C**.  
+**Recurso:** indeferido.
+
+No julgamento oficial, a banca registra:
 
 `MMC(16,22)=176`.
 
@@ -1032,6 +1043,10 @@ temos:
 Alternativa C.
 
 Esse exemplo reforça a necessidade de converter a unidade depois de calcular o MMC.
+
+### Lição
+
+Quando o resultado está em horas e ultrapassa 24, faça a divisão por 24 e interprete quociente e resto como dias e horas.
 
 ---
 
@@ -1386,6 +1401,9 @@ E) 120
 
 **Gabarito: C.**
 
+**Comentário:**  
+`12=2²·3` e `15=3·5`. Para o MMC, usamos todos os fatores com o maior expoente: `2²·3·5=60`.
+
 ---
 
 ## 64. Questão 3
@@ -1399,6 +1417,9 @@ D) 45 dias
 E) 150 dias
 
 **Gabarito: C.**
+
+**Comentário:**  
+Como as atividades são periódicas e começaram juntas, usamos MMC: `MMC(10,15)=30`. Portanto, voltam a coincidir após 30 dias.
 
 ---
 
@@ -1431,6 +1452,9 @@ E) 25
 
 **Gabarito: C.**
 
+**Comentário:**  
+`45=3²·5`, `60=2²·3·5` e `75=3·5²`. Os fatores comuns aos três, com menores expoentes, são `3·5=15`.
+
 ---
 
 ## 67. Questão 6
@@ -1444,6 +1468,9 @@ D) 120
 E) 240
 
 **Gabarito: D.**
+
+**Comentário:**  
+`8=2³`, `12=2²·3` e `20=2²·5`. O MMC é `2³·3·5=120`.
 
 ---
 
@@ -1459,6 +1486,9 @@ E) `2³·3·5`
 
 **Gabarito: A.**
 
+**Comentário:**  
+`180=18·10=(2·3²)(2·5)=2²·3²·5`. Logo, a alternativa A apresenta a decomposição correta.
+
 ---
 
 ## 69. Questão 8
@@ -1472,6 +1502,9 @@ D) Descobrir o maior número que divide duas quantidades.
 E) Dividir objetos em caixas idênticas sem sobras usando a maior capacidade possível.
 
 **Gabarito: C.**
+
+**Comentário:**  
+MMC é usado para descobrir a primeira nova coincidência de eventos periódicos. Por isso, a situação dos dois alarmes é a adequada.
 
 ---
 
@@ -1487,6 +1520,9 @@ E) Determinar quando dois relógios sincronizarão novamente.
 
 **Gabarito: C.**
 
+**Comentário:**  
+A expressão “partes iguais de maior comprimento possível, sem sobrar” indica MDC. Nesse caso, `MDC(84,126)=42`.
+
 ---
 
 ## 71. Questão 10
@@ -1500,6 +1536,9 @@ D) 72
 E) 96
 
 **Gabarito: D.**
+
+**Comentário:**  
+`18=2·3²` e `24=2³·3`. Para o MMC, tomamos `2³·3²=72`.
 
 ---
 
@@ -1532,6 +1571,9 @@ E) 189 dias
 
 **Gabarito: C.**
 
+**Comentário:**  
+`9=3²` e `21=3·7`. Assim, `MMC(9,21)=3²·7=63`; os procedimentos voltam a coincidir após 63 dias.
+
 ---
 
 ## 74. Questão 13
@@ -1546,6 +1588,9 @@ E) 12 semanas
 
 **Gabarito: C.**
 
+**Comentário:**  
+Uma semana tem 7 dias. Portanto, `63/7=9` semanas.
+
 ---
 
 ## 75. Questão 14
@@ -1559,6 +1604,9 @@ D) 14
 E) 28
 
 **Gabarito: D.**
+
+**Comentário:**  
+`112=2⁴·7` e `70=2·5·7`. Os fatores comuns com menores expoentes são `2·7=14`; logo, `MDC(112,70)=14`.
 
 ---
 
@@ -1655,14 +1703,22 @@ Refaça:
 
 1. Campo Limpo Paulista: `MMC(6,8)=24`;
 2. Campo Limpo Paulista: `MDC(84,126)=42`;
-3. Adamantina: `MDC(112,70)=14`;
-4. Águas de São Pedro: `MMC(40,50,15)=600`;
-5. São Sebastião: `MMC(50,38,84)=39900`;
-6. Mongaguá: `MMC(9,21)=63`.
+3. Águas de São Pedro: `MMC(40,50,15)=600`;
+4. São Sebastião: `MMC(50,38,84)=39900`;
+5. Mongaguá — Técnico de Secretaria: `MMC(9,21)=63`;
+6. Mongaguá — Procurador Jurídico: `MMC(16,22)=176`.
+
+Como evidência complementar real, refaça também o caso de Adamantina: `MDC(112,70)=14`, seguido de `112/14=8`, `70/14=5` e total de 13 pacotes.
 
 ---
 
 # PARTE XXIV — FONTES E RASTREABILIDADE
+
+### Auditoria da rerratificação de Rincão
+
+A página oficial do concurso, a rerratificação e o registro interno `auditoria-rerratificacao-rincao-001-2026.md` foram confrontados. O resultado é `auditado_sem_impacto_nos_cargos_do_projeto`: **Agente Administrativo, Monitor de Educação e Ajudante Geral não tiveram conteúdo programático alterado por essa rerratificação**. Neste item, nenhuma cobertura, explicação, questão ou referência de MDC/MMC precisou ser removida ou refeita por esse motivo.
+
+---
 
 ## 79. Fonte do edital
 

@@ -10,13 +10,17 @@ temaId: geometria-elementos-basicos
 titulo: "Geometria — elementos básicos, conceitos primitivos e representação geométrica no plano"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Matemática: Geometria: elementos básicos, conceitos primitivos e representação geométrica no plano"
 status: revisado
-versao: "0.1.0"
-revisadoEm: "2026-08-23"
+versao: "0.1.1"
+revisadoEm: "2026-08-24"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-inepam-pardinho-001-2025-recursos
   - src-inepam-dumont-camara-001-2025-recursos
   - src-inepam-guariba-001-2026-recursos
+  - src-inepam-guariba-001-2026-gabarito
   - src-inepam-guariba-006-2025-recursos
   - src-seduc-ce-geometria-plana
   - src-capes-geometria-nocoes-basicas
@@ -72,7 +76,7 @@ A pesquisa oficial da INEPAM encontrou evidência direta para:
 
 ### Situação editorial
 
-O material está **revisado** para estudo. A liberação global do pacote continua condicionada ao controle de retificações do projeto.
+O material está **revisado** para estudo. A rerratificação do Concurso Público nº 001/2026 de Rincão foi auditada em 23/08/2026 e classificada como **sem impacto** sobre este item, sobre os cargos deste projeto e sobre as questões desta aula.
 
 ---
 
@@ -1440,6 +1444,9 @@ E) é definido formalmente como um retângulo infinito.
 
 **Gabarito: C.**
 
+**Comentário:**  
+Um plano geométrico ideal contém infinitos pontos. A alternativa C expressa uma propriedade correta do plano; as demais atribuem quantidades finitas ou uma definição formal inadequada a um conceito primitivo.
+
 ---
 
 ## 78. Questão 3
@@ -1453,6 +1460,9 @@ D) exatamente um plano e nenhuma reta;
 E) infinitas retas.
 
 **Gabarito: B.**
+
+**Comentário:**  
+Na Geometria Euclidiana, por dois pontos distintos passa uma única reta. Portanto, a alternativa B é a correta.
 
 ---
 
@@ -1468,6 +1478,9 @@ E) pertencem a uma mesma semirreta.
 
 **Gabarito: D.**
 
+**Comentário:**  
+Três pontos distintos determinam um único plano somente quando não são colineares. Se forem colineares, pertencem à mesma reta e essa reta pode estar contida em infinitos planos.
+
 ---
 
 ## 80. Questão 5
@@ -1481,6 +1494,9 @@ D) Toda semirreta possui duas extremidades.
 E) Reta e segmento são o mesmo objeto.
 
 **Gabarito: C.**
+
+**Comentário:**  
+A semirreta tem um ponto de origem e prolonga-se indefinidamente em apenas um sentido. Reta não tem extremidades e segmento tem duas.
 
 ---
 
@@ -1496,6 +1512,9 @@ E) semirretas.
 
 **Gabarito: D.**
 
+**Comentário:**  
+Retas perpendiculares são retas concorrentes que formam ângulos retos de 90°. Por isso, a alternativa D é a correta.
+
 ---
 
 ## 82. Questão 7
@@ -1509,6 +1528,9 @@ D) 4º quadrante;
 E) eixo x.
 
 **Gabarito: B.**
+
+**Comentário:**  
+No ponto `(-3,5)`, a coordenada x é negativa e y é positiva. O padrão `(-,+)` corresponde ao 2º quadrante.
 
 ---
 
@@ -1524,6 +1546,9 @@ E) eixo y.
 
 **Gabarito: D.**
 
+**Comentário:**  
+No ponto `(4,-7)`, x é positivo e y é negativo. O padrão `(+,-)` corresponde ao 4º quadrante.
+
 ---
 
 ## 84. Questão 9
@@ -1537,6 +1562,9 @@ D) no eixo y;
 E) na origem.
 
 **Gabarito: D.**
+
+**Comentário:**  
+Todo ponto com `x=0` pertence ao eixo y. Como `(0,6)` não é a origem, a alternativa correta é D.
 
 ---
 
@@ -1570,6 +1598,9 @@ E) 12
 
 **Gabarito: D.**
 
+**Comentário:**  
+Os pontos têm a mesma coordenada y, então a distância é horizontal: `|6-(-4)|=|10|=10`. Alternativa D.
+
 ---
 
 ## 87. Questão 12
@@ -1602,6 +1633,9 @@ E) `(10,14)`
 
 **Gabarito: C.**
 
+**Comentário:**  
+O ponto médio é obtido pela média das coordenadas: `((2+8)/2,(4+10)/2)=(5,7)`. Alternativa C.
+
 ---
 
 ## 89. Questão 14
@@ -1615,6 +1649,9 @@ D) 120°
 E) 180°
 
 **Gabarito: D.**
+
+**Comentário:**  
+Ângulo obtuso mede mais de 90° e menos de 180°. Entre as alternativas, apenas 120° satisfaz essa condição.
 
 ---
 

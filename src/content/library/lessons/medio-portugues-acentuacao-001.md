@@ -10,8 +10,22 @@ temaId: acentuacao
 titulo: "Acentuação gráfica — tonicidade, regras, hiatos, ditongos e acento diferencial"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Língua Portuguesa: Acentuação"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
+sourceRefs:
+  - src-edital-rincao-2026
+  - src-decreto-6583-2008-acordo-ortografico
+  - src-abl-volp-2025-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
+  - src-inepam-santa-isabel-002-2024-recursos
+  - src-inepam-anhembi-0001-2023-recursos
+  - src-inepam-sao-sebastiao-rio-verde-001-2024-recursos
+  - src-inepam-crea-mt-001-2025-recursos
+  - src-inepam-iacri-001-2025-recursos
+  - src-inepam-campo-limpo-paulista-001-2026-recursos
+  - src-inepam-nova-monte-verde-001-2025-recursos
 ---
 
 # Acentuação gráfica — tonicidade, regras, hiatos, ditongos e acento diferencial
@@ -1515,5 +1529,5 @@ E) herói
 - Alternativas ausentes de cadernos oficiais: **não reconstruídas**.
 - Questões inéditas: **12**, todas com cinco alternativas A-E e uma resposta correta.
 - Status editorial: **revisado**.
-- Publicação final: deve continuar submetida à auditoria geral das retificações/rerratificações oficiais do Concurso Público nº 001/2026 de Rincão antes de qualquer declaração de cobertura integral.
+- Rerratificação de Rincão: auditoria central concluída em 23/08/2026 com status `auditado_sem_impacto_nos_cargos_do_projeto`; não há impacto neste item de Português Médio. Permanecem apenas as validações normais de integração, IDs, referências e duplicações.
 

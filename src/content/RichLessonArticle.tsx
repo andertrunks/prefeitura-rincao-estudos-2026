@@ -1,5 +1,5 @@
 import { isValidElement, memo, type ReactNode } from 'react'
-import { ArrowRight, BookOpenText, FileCheck2, ListTree } from 'lucide-react'
+import { ArrowRight, BookOpenText, ExternalLink, FileCheck2, ListTree } from 'lucide-react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import type { RichLesson } from './editorial'
@@ -79,13 +79,25 @@ export function RichLessonToc({ lesson }: { lesson: RichLesson }) {
 
 function RichLessonArticleComponent({ lesson }: { lesson: RichLesson }) {
   const { mainBody, sourcesBody } = createStudentLessonMarkdown(lesson.markdown, lesson.questionCount)
-  const disciplineLabel = lesson.discipline === 'portugues' ? 'Português' : 'Matemática'
+  const linkedSources = [...new Map(lesson.sources.filter((source) => source.url).map((source) => [source.url, source])).values()]
+  const disciplineLabel = lesson.disciplineId === 'agente-especificos'
+    ? 'Conhecimentos Específicos · Agente Administrativo'
+    : lesson.disciplineId === 'ajudante-especificos'
+      ? 'Conhecimentos Específicos · Ajudante Geral'
+      : lesson.disciplineId === 'ajudante-pratica'
+        ? 'Preparação para a Prova Prática'
+        : lesson.discipline === 'portugues' ? 'Português' : 'Matemática'
+  const audience = lesson.cargoIds.length > 1
+    ? 'Conteúdo compartilhado por Agente Administrativo e Monitor de Educação.'
+    : lesson.cargoIds[0] === 'agente'
+      ? 'Conteúdo exclusivo para Agente Administrativo.'
+      : 'Conteúdo exclusivo para Ajudante Geral.'
 
   return (
     <div className="rich-lesson-document">
       <section className="editorial-identity">
-        <header><FileCheck2 size={20} /><div><span>Aula completa</span><strong>{disciplineLabel} · Ensino Médio</strong></div></header>
-        <p>Conteúdo compartilhado por Agente Administrativo e Monitor de Educação, alinhado ao edital e organizado para estudo completo.</p>
+        <header><FileCheck2 size={20} /><div><span>{lesson.level === 'Prova prática' ? 'Módulo completo' : 'Aula completa'}</span><strong>{disciplineLabel} · {lesson.level}</strong></div></header>
+        <p>{audience} Material alinhado ao edital e organizado para estudo completo.</p>
       </section>
 
       <div className="rich-markdown"><StudentMarkdown markdown={mainBody} /></div>
@@ -93,12 +105,18 @@ function RichLessonArticleComponent({ lesson }: { lesson: RichLesson }) {
       <section className="editorial-practice-panel" aria-labelledby="practice-title">
         <BookOpenText size={22} />
         {lesson.questionCount ? <>
-          <div><span>Questões para praticar</span><strong id="practice-title">Esta aula possui {lesson.questionCount} questões inéditas no estilo INEPAM, com gabarito comentado.</strong>{lesson.realQuestionReferenceCount ? <p>A aula também inclui questões anteriores da INEPAM resolvidas e comentadas, preservadas como evidência pedagógica.</p> : null}</div>
+          <div><span>Questões para praticar</span><strong id="practice-title">Esta aula possui {lesson.originalQuestionCount ? `${lesson.originalQuestionCount} ${lesson.originalQuestionCount === 1 ? 'questão inédita' : 'questões inéditas'} no estilo INEPAM` : ''}{lesson.originalQuestionCount && lesson.realQuestionCount ? ' e ' : ''}{lesson.realQuestionCount ? `${lesson.realQuestionCount} ${lesson.realQuestionCount === 1 ? 'questão real' : 'questões reais'} da INEPAM` : ''}, com gabarito comentado.</strong>{lesson.realQuestionReferenceCount ? <p>A aula também inclui questões anteriores da INEPAM resolvidas e comentadas, preservadas como evidência pedagógica.</p> : null}</div>
           <a href={`#/questoes?topico=${lesson.topicId}`}>Praticar este assunto <ArrowRight size={16} /></a>
         </> : <div><span>Prática na própria aula</span><strong id="practice-title">A aula inclui questões de fixação e gabarito comentado no próprio material.</strong>{lesson.realQuestionReferenceCount ? <p>Também há questões anteriores da INEPAM resolvidas e comentadas, preservadas com sua classificação correta.</p> : null}</div>}
       </section>
 
       {sourcesBody ? <div className="rich-markdown rich-markdown-sources"><StudentMarkdown markdown={sourcesBody} /></div> : null}
+      {linkedSources.length ? <section className="official-source-links" aria-label="Links oficiais da aula"><header><span>Links oficiais</span><h2>Consulte as fontes</h2></header><div>{linkedSources.map((source) => {
+        const title = source.tituloExatoConfirmado === false || /referência editorial/i.test(source.titulo)
+          ? `${source.orgao.split('/')[0].trim()} — documento oficial${source.ano ? ` (${source.ano})` : ''}`
+          : source.titulo
+        return <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><span>{source.orgao}</span><strong>{title}</strong><small>{source.uso}</small><ExternalLink size={15} /></a>
+      })}</div></section> : null}
     </div>
   )
 }

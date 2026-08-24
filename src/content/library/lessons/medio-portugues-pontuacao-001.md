@@ -10,8 +10,17 @@ temaId: pontuacao
 titulo: "Pontuação — vírgula, ponto e vírgula, dois-pontos, travessão e efeitos de sentido"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Língua Portuguesa: Pontuação"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
+sourceRefs:
+  - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
+  - src-inepam-pradopolis-003-2025-recursos
+  - src-inepam-guariba-006-2025-recursos
+  - src-inepam-magda-002-2025-recursos
+  - src-inepam-santa-isabel-001-2024-recursos
 ---
 
 # Pontuação — vírgula, ponto e vírgula, dois-pontos, travessão e efeitos de sentido
@@ -1361,7 +1370,7 @@ Trata-se de pergunta indireta, integrada como complemento de `perguntou`; não r
 
 ## 71. Fonte do edital de Rincão
 
-- Concurso Público nº 001/2026 — Prefeitura Municipal de Rincão-SP — INEPAM. O projeto utiliza o edital oficial e suas retificações/rerratificações como fonte de verdade. A publicação final permanece subordinada à auditoria integral das retificações oficiais já registradas no controle do projeto.
+- Concurso Público nº 001/2026 — Prefeitura Municipal de Rincão-SP — INEPAM. O projeto utiliza o edital oficial e suas retificações/rerratificações como fonte de verdade. A auditoria central da rerratificação foi concluída em 23/08/2026 com status `auditado_sem_impacto_nos_cargos_do_projeto`; não houve alteração de cobertura ou necessidade de refazer esta aula. O bloqueio específico da rerratificação foi removido, permanecendo apenas a validação normal de integração/publicação.
 
 ## 72. Documentos oficiais da INEPAM usados na pesquisa de banca
 

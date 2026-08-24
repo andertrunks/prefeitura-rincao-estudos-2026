@@ -10,11 +10,15 @@ temaId: crase
 titulo: "Crase — regência, artigo, locuções, pronomes, lugares e casos facultativos"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Língua Portuguesa: Crase"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-inepam-embu-001-2023-recursos
+  - src-inepam-embu-003-2023-recursos
   - src-inepam-juruaia-001-2023-recursos
   - src-inepam-nova-ubirata-001-2024-recursos
   - src-inepam-dumont-001-2025-recursos
@@ -1711,7 +1715,7 @@ E) Já está á venda aquela apostila.
 
 - Concurso Público nº 001/2026 — Prefeitura Municipal de Rincão-SP — INEPAM.
 - Anexo II — Conhecimentos Gerais — Língua Portuguesa — item **Crase**.
-- O mapa editorial oficial do projeto permanece condicionado à auditoria integral das rerratificações do edital antes de publicação final.
+- A rerratificação oficial do Concurso Público nº 001/2026 foi auditada em 23/08/2026. A auditoria central do projeto concluiu **sem impacto nos cargos e conteúdos estudados**, inclusive no item `Crase`; portanto, não há bloqueio específico de rerratificação para este material.
 
 ## 55. Documentos oficiais da INEPAM usados para perfil de banca
 
@@ -1766,7 +1770,8 @@ https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2381
 - Cargo(s): `agente-administrativo`, `monitor-educacao`.
 - Status da aula: `revisado`.
 - Pesquisa de questões reais: realizada.
-- Questões/julgamentos reais documentados incorporados: 7 blocos.
+- Questões/julgamentos reais principais documentados incorporados: 7 blocos.
+- Evidência complementar oficial da INEPAM: 1 (Embu das Artes — Processo Seletivo nº 003/2023 — plural `a/às`).
 - Questões inéditas de fixação: 12.
 - Próximo item previsto na sequência de Português do Ensino Médio: **Colocação pronominal**.
 

@@ -10,7 +10,7 @@ temaId: figuras-de-linguagem
 titulo: "Figuras de linguagem — sentido figurado, comparação, metáfora, metonímia e efeitos expressivos"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Língua Portuguesa: Figuras de linguagem"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
 sourceRefs:
   - src-edital-rincao-2026
@@ -21,6 +21,11 @@ sourceRefs:
   - src-inepam-pradopolis-recursos
   - src-inepam-nova-monte-verde-001-2025-recursos
   - src-inepam-carlinda-001-2025-recursos
+  - src-inepam-embu-artes-001-2023-recursos
+  - src-inepam-santa-isabel-001-2026-recursos
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
 ---
 
 # Figuras de linguagem — sentido figurado, comparação, metáfora, metonímia e efeitos expressivos
@@ -53,7 +58,7 @@ A amostra contém casos muito próximos dos cargos de Rincão. Em **Itajubá/MG 
 
 ### Situação editorial
 
-O material está **revisado**. A liberação global do pacote continua subordinada às validações editoriais e ao controle de retificações do projeto; a produção da aula não altera esse bloqueio de publicação.
+O material está **revisado**. A auditoria central da **Rerratificação do Edital de Abertura** foi concluída em 23/08/2026 com status `auditado_sem_impacto_nos_cargos_do_projeto`. Portanto, não há bloqueio específico de rerratificação para este item; permanecem apenas as validações normais de integração, IDs, referências e ausência de duplicação.
 
 ---
 
@@ -1650,15 +1655,15 @@ Julgamento oficial — antítese na oposição `bem × mal`, em prova de grupo d
 
 https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=213
 
-### Embu das Artes/SP — julgamento de recursos
+### Embu das Artes/SP — Concurso Público nº 001/2023
 
 Julgamento oficial — distinção explícita entre metáfora e comparação, com análise de conectivo comparativo.
 
 https://www.app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=543
 
-### Documento adicional recente da INEPAM
+### Santa Isabel/SP — Concurso Público nº 001/2026
 
-Julgamento oficial em que a banca registra questão de identificação de **eufemismo** para grupo que inclui **Agente de Administração Pública** e **Diretor de Unidade Escolar**, reforçando que a leitura deve considerar o sentido conotativo.
+Julgamento oficial — Questão 05 de Português para grupo que inclui **Agente de Administração Pública** e **Diretor de Unidade Escolar**. A banca registra que o enunciado pede identificação de **eufemismo** e que as alternativas devem ser lidas em sentido conotativo.
 
 https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2150
 
@@ -1723,5 +1728,4 @@ Essa prioridade é uma **inferência editorial apoiada na amostra**, não inform
 - [x] Flashcards e revisão rápida incluídos.
 - [x] Fontes e rastreabilidade incluídas.
 - [x] Status editorial: `revisado`.
-
 

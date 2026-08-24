@@ -10,15 +10,19 @@ temaId: analise-sintatica-periodo-simples-composto
 titulo: "Análise sintática — período simples e composto, termos da oração e relações entre orações"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Língua Portuguesa: Análise sintática — período simples e composto"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-inepam-mongagua-001-2026-recursos
   - src-inepam-itamogi-001-2024-recursos
   - src-inepam-emilianopolis-0001-2023-recursos
   - src-inepam-santa-isabel-001-2024-recursos
   - src-inepam-bom-jardim-serra-01-2023-recursos
+  - src-inepam-luminarias-001-2023-recursos
 ---
 
 # Análise sintática — período simples e composto, termos da oração e relações entre orações
@@ -45,13 +49,13 @@ A pesquisa da banca foi realizada antes da revisão final. Foram localizados jul
 - partícula expletiva;
 - relação entre sintaxe, regência, concordância e pontuação.
 
-A amostra é particularmente pertinente ao concurso de Rincão. Em **Itamogi/SP — Concurso Público nº 001/2024**, a mesma prova de Português abrangia **Agente Administrativo I-A, Agente Administrativo II-A e Monitor Escolar**, entre outros cargos. Em **Emilianópolis/SP — Concurso Público nº 0001/2023**, o grupo abrangia **Assistente Administrativo, Diretor de Escola e Escriturário**. Em **Bom Jardim da Serra/SC — Concurso Público nº 01/2023**, havia **Técnico Administrativo**.
+A amostra é particularmente pertinente ao concurso de Rincão. Em **Itamogi/MG — Concurso Público nº 001/2024**, a mesma prova de Português abrangia **Agente Administrativo I-A, Agente Administrativo II-A e Monitor Escolar**, entre outros cargos. Em **Emilianópolis/SP — Concurso Público nº 0001/2023**, o grupo abrangia **Assistente Administrativo, Diretor de Escola e Escriturário**. Em **Bom Jardim da Serra/SC — Concurso Público nº 01/2023**, havia **Técnico Administrativo**.
 
 > **Regra de ouro:** em análise sintática, não classifique uma palavra isoladamente. Descubra **que função ela exerce naquela oração**.
 
 ### Situação editorial
 
-O material está **revisado**, mas a liberação global para publicação continua dependente da análise integral da **Rerratificação do Edital de Abertura** já registrada no controle editorial do projeto. Essa pendência não impede a produção e a revisão das aulas, mas impede declarar o pacote como definitivamente pronto para publicação.
+O material está **revisado**. A auditoria central da **Rerratificação do Edital de Abertura** foi concluída em 23/08/2026 com status `auditado_sem_impacto_nos_cargos_do_projeto`; não há impacto neste item de Português Médio. Permanecem apenas as validações normais de integração, IDs, referências e duplicações.
 
 ---
 
@@ -1098,7 +1102,7 @@ A oração explica `uma coisa`.
 
 ## 49. Evidência INEPAM — oração substantiva fora da ordem direta
 
-Em Itamogi/SP — mesma prova que abrangia **Agente Administrativo e Monitor Escolar** — a INEPAM analisou:
+Em Itamogi/MG — mesma prova que abrangia **Agente Administrativo e Monitor Escolar** — a INEPAM analisou:
 
 > Que ele é mentiroso, todos sabem.
 
@@ -1313,7 +1317,7 @@ Não se deve dizer que a INEPAM “sempre cobra” um subtipo apenas porque apar
 
 ## 59. QUESTÃO REAL — INEPAM 1 — período composto e oração substantiva
 
-**Origem:** Prefeitura Municipal de Itamogi/SP — Concurso Público nº 001/2024.  
+**Origem:** Prefeitura Municipal de Itamogi/MG — Concurso Público nº 001/2024.  
 **Grupo:** incluía Agente Administrativo I-A, Agente Administrativo II-A e Monitor Escolar, além de outros cargos.  
 **Questão:** Português, questão 07, conforme julgamento oficial.
 
@@ -2237,6 +2241,17 @@ Evidências utilizadas:
 - Questão 07: sujeito simples; adjunto adverbial de lugar x objeto indireto;
 - Questão 08: objeto direto e objeto indireto; substituição por pronomes oblíquos.
 
+### 6. Prefeitura Municipal de Luminárias/MG — Concurso Público nº 001/2023
+
+**Documento:** Edital de Divulgação do Julgamento dos Recursos.  
+**URL oficial:** https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=814
+
+**Pertinência:** o grupo de Português incluía **Auxiliar Administrativo** e **Monitor de Educação**, além de outros cargos.
+
+Evidência utilizada:
+
+- Questão 07: ordem indireta em `Lá vem aquele maluco com sua moto`; reorganização para a ordem direta; identificação de `aquele maluco` como sujeito simples e `maluco` como núcleo.
+
 ## 103. Referências gramaticais citadas nos julgamentos da própria INEPAM
 
 Os documentos oficiais consultados recorrem, entre outras, às seguintes gramáticas:
@@ -2272,7 +2287,7 @@ Nesta aula, essas referências são usadas como apoio pedagógico por serem expl
 - [x] flashcards incluídos;
 - [x] fontes oficiais registradas;
 - [x] status editorial: `revisado`;
-- [ ] publicação liberada: **não**, enquanto permanecer a pendência global de análise da rerratificação oficial do concurso de Rincão.
+- [x] auditoria da rerratificação de Rincão concluída em 23/08/2026 sem impacto neste item; bloqueio específico removido; permanecem as validações normais de integração.
 
 ---
 

@@ -10,10 +10,13 @@ temaId: razao-proporcao
 titulo: "Razão e proporção — comparação, propriedades, divisão proporcional e regra de três"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Matemática: Razão e Proporção"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-inepam-santa-isabel-001-2026-recursos
   - src-inepam-santo-anastacio-001-2023-recursos
   - src-inepam-arceburgo-0001-2023-recursos
@@ -49,7 +52,7 @@ Há evidência particularmente próxima dos cargos de Rincão:
 
 ### Situação editorial
 
-O material está **revisado** para estudo. A liberação global do pacote continua condicionada ao controle de retificações do projeto, especialmente à conferência integral da rerratificação já registrada no controle editorial.
+A auditoria da **Rerratificação do Edital de Abertura** foi concluída em 23/08/2026 com status `auditado_sem_impacto_nos_cargos_do_projeto`. Não houve alteração da cobertura deste item, da aula ou das questões por causa da rerratificação. O bloqueio específico de auditoria da rerratificação está removido; permanecem apenas as validações editoriais e de integração normais do projeto.
 
 ---
 
@@ -578,7 +581,7 @@ Convertendo:
 
 `3750 m = 3,75 km`.
 
-A INEPAM já publicou questão com esse raciocínio em julgamento oficial; a questão foi anulada por erro de unidade na alternativa.
+Este exemplo é uma **aplicação pedagógica** de razão, proporção e conversão de unidades. Na auditoria deste lote, não foi localizada fonte oficial suficiente para atribuir especificamente este enunciado à INEPAM; por isso, ele não é apresentado como questão real da banca.
 
 ---
 
@@ -1235,6 +1238,9 @@ E) `15/10`
 
 **Gabarito: B.**
 
+**Comentário:**  
+`15/25` pode ser simplificado dividindo numerador e denominador por 5: `15/25=3/5`.
+
 ---
 
 ## 54. Questão 3
@@ -1345,6 +1351,9 @@ E) 42 L de água
 
 **Gabarito: C.**
 
+**Comentário:**  
+A razão água/concentrado é `4/1`. Para 7 litros de concentrado: `4·7=28` litros de água.
+
 ---
 
 ## 60. Questão 9
@@ -1375,6 +1384,9 @@ D) Quantidade de caixas e número total de objetos, com mesma quantidade por cai
 E) Comprimento de tecido e preço, com preço por metro fixo.
 
 **Gabarito: C.**
+
+**Comentário:**  
+Para a mesma tarefa, mais trabalhadores implicam menos tempo; portanto, as grandezas são inversamente proporcionais.
 
 ---
 
@@ -1696,13 +1708,14 @@ Nesta aula:
 - [x] escala;
 - [x] misturas;
 - [x] exemplos resolvidos passo a passo;
-- [x] 5 blocos de evidências reais INEPAM;
+- [x] 5 blocos de evidências reais INEPAM documentadas;
 - [x] questão anulada devidamente identificada;
 - [x] 15 questões inéditas A–E;
 - [x] gabarito comentado;
 - [x] 24 flashcards;
 - [x] revisão rápida;
 - [x] fontes registradas;
+- [x] auditoria da rerratificação registrada sem impacto;
 - [x] status `revisado`.
 
 ---

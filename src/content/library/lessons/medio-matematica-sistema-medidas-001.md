@@ -10,10 +10,13 @@ temaId: sistema-medidas
 titulo: "Sistema de medidas — comprimento, superfície, massa, capacidade, tempo, volume e transformações"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Matemática: Sistema de medidas: comprimento, superfície, massa, capacidade, tempo e volume; transformações"
 status: revisado
-versao: "0.1.0"
-revisadoEm: "2026-08-23"
+versao: "0.1.1"
+revisadoEm: "2026-08-24"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-inepam-mongagua-001-2026-recursos
   - src-inepam-clementina-001-2026-recursos
   - src-inepam-bofete-0001-2023-recursos
@@ -54,7 +57,7 @@ A fonte técnica oficial utilizada para as relações entre unidades é o **Inme
 
 ### Situação editorial
 
-O material está **revisado** para estudo. A liberação global do pacote continua condicionada ao controle de retificações do projeto.
+O material está **revisado** para estudo. A rerratificação do Concurso Público nº 001/2026 de Rincão foi auditada em 23/08/2026 e classificada como **sem impacto** sobre este item, sobre os cargos deste projeto e sobre as questões desta aula.
 
 ---
 
@@ -1326,6 +1329,9 @@ E) 40.000 hm
 
 **Gabarito: B.**
 
+**Comentário:**  
+`1 km = 10 hm`. Portanto, `4 km = 4×10 = 40 hm`.
+
 ---
 
 ## 71. Questão 2
@@ -1339,6 +1345,9 @@ D) 25.000 m
 E) 250.000 m
 
 **Gabarito: C.**
+
+**Comentário:**  
+`1 km = 1000 m`. Assim, `2,5×1000 = 2500`, logo `2,5 km = 2.500 m`.
 
 ---
 
@@ -1371,6 +1380,9 @@ E) 240.000 g
 
 **Gabarito: C.**
 
+**Comentário:**  
+`1 kg = 1000 g`. Logo, `2,4×1000 = 2400 g`.
+
 ---
 
 ## 74. Questão 5
@@ -1384,6 +1396,9 @@ D) 17.500 mL
 E) 175.000 mL
 
 **Gabarito: C.**
+
+**Comentário:**  
+`1 L = 1000 mL`. Portanto, `1,75×1000 = 1750 mL`.
 
 ---
 
@@ -1399,6 +1414,9 @@ E) 30.000 L
 
 **Gabarito: D.**
 
+**Comentário:**  
+`1 m³ = 1000 L`. Assim, `3×1000 = 3000 L`.
+
 ---
 
 ## 76. Questão 7
@@ -1412,6 +1430,9 @@ D) 850 mL
 E) 8.500 mL
 
 **Gabarito: D.**
+
+**Comentário:**  
+Como `1 cm³ = 1 mL`, então `850 cm³ = 850 mL`.
 
 ---
 
@@ -1444,6 +1465,9 @@ E) 2 h 55 min
 
 **Gabarito: C.**
 
+**Comentário:**  
+`2,5 h = 2 h + 0,5 h`. Como `0,5×60 = 30`, temos `2 h 30 min`.
+
 ---
 
 ## 79. Questão 10
@@ -1457,6 +1481,9 @@ D) 18.000 m²
 E) 180.000 m²
 
 **Gabarito: D.**
+
+**Comentário:**  
+`1 ha = 10.000 m²`. Logo, `1,8×10.000 = 18.000 m²`.
 
 ---
 
@@ -1472,6 +1499,9 @@ E) `1 m³ = 100 L`
 
 **Gabarito: C.**
 
+**Comentário:**  
+A equivalência oficial é `1 L = 1 dm³`. As demais opções confundem volume, capacidade ou massa.
+
 ---
 
 ## 81. Questão 12
@@ -1486,6 +1516,9 @@ E) `6 m³`
 
 **Gabarito: C.**
 
+**Comentário:**  
+Volume de paralelepípedo retângulo: `V = comprimento×largura×altura`. Então `2×1,5×1 = 3 m³`.
+
 ---
 
 ## 82. Questão 13
@@ -1499,6 +1532,9 @@ D) `24 m³`
 E) `48 m²`
 
 **Gabarito: C.**
+
+**Comentário:**  
+Área do retângulo: `A = base×altura = 6×4 = 24 m²`.
 
 ---
 
@@ -1530,6 +1566,9 @@ D) 3,75 kg
 E) 4,25 kg
 
 **Gabarito: D.**
+
+**Comentário:**  
+Converta `750 g` para quilogramas: `750 g = 0,75 kg`. Depois, `3 + 0,75 = 3,75 kg`.
 
 ---
 

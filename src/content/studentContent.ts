@@ -3,17 +3,21 @@ const internalMetadataPatterns = [
   /\b[^\s`/]+\.md\b/i,
   /\b(?:cargoIds|questionId|lessonId|topicId|sourceId|sourceRefs|stableItemId|editorialId|editalItemId|schemaVersion)\b/i,
   /\bq-(?:inedita|real)-[\w-]+\b/i,
-  /\b(?:MED-PORT|MED-MAT|AGADM|MON-ESP|AJG-ESP)-[\w-]+\b/i,
+  /\bsrc-[a-z0-9-]+\b/i,
+  /\b(?:MED-PORT|MED-MAT|FUND-PORT|FUND-MAT|AGE-ESP|AJU-ESP|AJU-PRAT|AGADM|MON-ESP|AJG-ESP)-[\w-]+\b/i,
+  /(?:^|[\s`])(?:aa|ag|fp|fm|mp|mm|me)-[a-z0-9-]+(?:$|[\s`.,;:)])/i,
 ]
 
 const outdatedPublicationControl = /rerratifica(?:ção|cao).*(?:pendente|bloque|condicion|não deve|nao deve|libera(?:ção|cao) global)|(?:pendente|bloque|condicion|não deve|nao deve|libera(?:ção|cao) global).*rerratifica(?:ção|cao)/i
-const editorialSectionHeading = /^#{1,3}\s+(?:(?:parte\s+[ivxlcdm]+\s+—\s+)?(?:\d+\.\s+)?)?(?:auditoria editorial(?: do (?:lote|item))?|checklist editorial(?: da aula)?|situação editorial(?: .+)?|status editorial|controle editorial|próxim[oa] (?:item|sequência) do edital)\s*$/i
+const editorialSectionHeading = /^#{1,3}\s+(?:(?:parte\s+[ivxlcdm]+\s+—\s+)?(?:\d+\.\s+)?)?(?:auditoria editorial(?: do (?:lote|item))?|checklist editorial(?: da aula)?|situação editorial(?: .+)?|status editorial|controle editorial(?: .+)?|nota de rastreabilidade|rastreabilidade editorial|próxim[oa] (?:item|sequência) do edital)\s*$/i
 
 function removeFrontmatter(markdown: string) {
-  const normalized = markdown.replace(/\r\n/g, '\n')
-  if (!normalized.startsWith('---\n')) return normalized
-  const end = normalized.indexOf('\n---\n', 4)
-  return end < 0 ? normalized : normalized.slice(end + 5)
+  const normalized = markdown.replace(/^\uFEFF/, '').replace(/\r\n/g, '\n')
+  const opening = normalized.match(/^\s*---\s*\n/)
+  if (!opening) return normalized
+  const contentStart = opening[0].length
+  const closing = normalized.slice(contentStart).match(/\n\s*---\s*(?:\n|$)/)
+  return closing ? normalized.slice(contentStart + closing.index! + closing[0].length) : normalized
 }
 
 function removeEditorialSections(markdown: string) {
@@ -57,6 +61,11 @@ export function createStudentLessonMarkdown(markdown: string, questionCount: num
   const studentBody = removeEmptySections(removeEditorialSections(removeFrontmatter(markdown)
     .split('\n')
     .map((line) => {
+      if (/^(#{1,3}\s+(?:\d+\.\s+)?)Fontes oficiais e de controle editorial\s*$/i.test(line)) {
+        return line.replace(/Fontes oficiais e de controle editorial/i, 'Fontes oficiais')
+      }
+      if (/^###\s+Edital e controle do projeto\s*$/i.test(line)) return '### Edital oficial'
+      if (/Mapa de Cargos e Cobertura do Edital/i.test(line)) return ''
       if (/^##\s+(?:\d+\.\s+)?Questões de fixação\s*$/i.test(line)) {
         const prefix = line.match(/^##\s+(\d+\.\s+)/)?.[1] ?? ''
         return `## ${prefix}Questões para praticar`
@@ -69,7 +78,7 @@ export function createStudentLessonMarkdown(markdown: string, questionCount: num
       if (/^O comentário completo de cada item/i.test(line)) {
         return questionCount ? 'O comentário completo de cada item aparece após a confirmação da resposta na área de prática.' : ''
       }
-      if (/\bstatus editorial\b/i.test(line)) return ''
+      if (/\b(?:status|controle) editorial\b/i.test(line)) return ''
       if (outdatedPublicationControl.test(line)) return ''
       return containsInternalMetadata(line) ? '' : line
     })

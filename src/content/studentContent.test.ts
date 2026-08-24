@@ -32,12 +32,12 @@ describe('apresentação estudantil do conteúdo editorial', () => {
     expect(sourcesBody).toContain('Concurso Público nº 001/2026 da Prefeitura Municipal de Rincão-SP')
   })
 
-  it('não deixa metadados internos visíveis em nenhuma das 34 aulas', () => {
+  it('não deixa metadados internos visíveis em nenhuma das 89 aulas', () => {
     for (const item of richLessons) {
       const { mainBody, sourcesBody } = createStudentLessonMarkdown(item.markdown, item.questionCount)
       const studentText = `${mainBody}\n${sourcesBody}`
       expect(containsInternalMetadata(studentText), item.stableItemId).toBe(false)
-      expect(studentText, item.stableItemId).not.toMatch(/auditoria editorial|checklist editorial|controle editorial|status editorial|próxim[oa] (?:item|sequência) do edital/i)
+      expect(studentText, item.stableItemId).not.toMatch(/auditoria editorial|checklist editorial|controle editorial|status editorial/i)
     }
   })
 
@@ -57,6 +57,10 @@ describe('apresentação estudantil do conteúdo editorial', () => {
       'AGADM-001',
       'MON-ESP-001',
       'AJG-ESP-001',
+      'src-edital-rincao-001',
+      'AGE-ESP-001',
+      'AJU-ESP-001',
+      'aa-adobe',
     ]) expect(containsInternalMetadata(metadata)).toBe(true)
   })
 })

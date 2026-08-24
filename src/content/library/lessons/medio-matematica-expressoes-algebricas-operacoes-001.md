@@ -10,11 +10,16 @@ temaId: expressoes-algebricas-operacoes
 titulo: "Expressões algébricas — termos, redução, operações, distributiva e produtos notáveis"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Matemática: Expressão algébrica — operações"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
 sourceRefs:
   - src-edital-rincao-2026
-  - src-inepam-embu-artes-001-2023-recursos
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
+  - src-inepam-embu-001-2023-recursos-gabaritos-anexo-543
+  - src-inepam-camara-dumont-001-2025-edital
+  - src-inepam-cruzeiro-001-2024-edital
 ---
 
 # Expressões algébricas — termos, redução, operações, distributiva e produtos notáveis
@@ -54,11 +59,18 @@ Na pesquisa de julgamentos de recursos, foi localizada **uma questão real integ
 
 Foram pesquisados também julgamentos com os termos `termos semelhantes`, `distributiva`, `polinômio`, `produto de polinômios` e equivalentes. Não foi localizada outra questão integral suficientemente verificável para ser apresentada como real. Por isso, esta aula **não inventa uma amostra maior**.
 
+Como evidência complementar de recorrência programática, foram conferidos também editais oficiais da própria INEPAM:
+
+- **Câmara Municipal de Dumont/SP — Concurso Público nº 001/2025 — Escriturário (Ensino Médio):** o Anexo II lista literalmente `Expressão algébrica – operações`;
+- **Câmara Municipal de Cruzeiro/SP — Concurso Público nº 001/2024:** o mesmo bloco aparece para os cargos de Ensino Médio, incluindo **Técnico Legislativo**, e também no bloco de Ensino Superior, no certame que inclui **Coordenador Administrativo**.
+
+Esses documentos comprovam recorrência do tópico em programas da banca e proximidade com funções administrativas, mas **não são questões de prova** e não entram na contagem de questões reais.
+
 > **Regra de ouro:** só podemos somar ou subtrair diretamente **termos semelhantes**.
 
 ### Situação editorial
 
-O material está **revisado** para estudo. A liberação global do pacote continua condicionada ao controle de retificações do projeto.
+O material está **revisado** para estudo. A rerratificação do Concurso Público nº 001/2026 de Rincão-SP foi auditada no controle editorial do projeto e **não altera este item, os cargos abrangidos por esta aula nem a cobertura prevista**.
 
 ---
 
@@ -1296,6 +1308,9 @@ E) `a²` e `a³`
 
 **Gabarito: C.**
 
+**Comentário:**  
+Termos semelhantes precisam ter exatamente a mesma parte literal, com as mesmas letras e expoentes. `5xy` e `-7xy` satisfazem essa condição; portanto, a alternativa correta é C.
+
 ---
 
 ## 69. Questão 3
@@ -1311,6 +1326,9 @@ D) `6x²+9x`
 E) `x³+9x`
 
 **Gabarito: A.**
+
+**Comentário:**  
+Agrupe os termos semelhantes: `3x²-2x²=x²` e `5x+4x=9x`. Logo, a expressão reduzida é `x²+9x`.
 
 ---
 
@@ -1330,6 +1348,9 @@ E) `7x²+5x+3`
 
 **Gabarito: B.**
 
+**Comentário:**  
+O sinal de menos antes do segundo parêntese troca todos os sinais: `5x²+2x-1-2x²+3x-4`. Reduzindo os semelhantes: `3x²+5x-5`.
+
 ---
 
 ## 71. Questão 5
@@ -1345,6 +1366,9 @@ D) `x-12`
 E) `12x-4`
 
 **Gabarito: C.**
+
+**Comentário:**  
+Aplique a distributiva em todos os termos: `4·x + 4·(-3) = 4x-12`.
 
 ---
 
@@ -1364,6 +1388,9 @@ E) `6x`
 
 **Gabarito: B.**
 
+**Comentário:**  
+Multiplique os coeficientes e some os expoentes da mesma base: `3·2=6` e `x²·x³=x⁵`. Resultado: `6x⁵`.
+
 ---
 
 ## 73. Questão 7
@@ -1382,6 +1409,9 @@ E) `x²+6`
 
 **Gabarito: A.**
 
+**Comentário:**  
+Pela distributiva dupla: `(x+4)(x+2)=x²+2x+4x+8=x²+6x+8`.
+
 ---
 
 ## 74. Questão 8
@@ -1399,6 +1429,9 @@ D) `x²-5x+25`
 E) `x²+25`
 
 **Gabarito: B.**
+
+**Comentário:**  
+Use `(a-b)²=a²-2ab+b²`: `(x-5)²=x²-10x+25`.
 
 ---
 
@@ -1446,6 +1479,9 @@ E) `a-b`
 
 **Gabarito: D.**
 
+**Comentário:**  
+Este é o produto da soma pela diferença: `(a+b)(a-b)=a²-b²`.
+
 ---
 
 ## 77. Questão 11
@@ -1488,6 +1524,9 @@ E) `12a⁷`
 
 **Gabarito: B.**
 
+**Comentário:**  
+Divida os coeficientes e subtraia os expoentes: `18/6=3` e `a⁵/a²=a³`. Assim, `18a⁵/6a²=3a³`, com `a≠0`.
+
 ---
 
 ## 79. Questão 13
@@ -1506,6 +1545,9 @@ E) `x(x+10)+25x`
 
 **Gabarito: A.**
 
+**Comentário:**  
+`x²+10x+25` tem a forma `a²+2ab+b²`, pois `25=5²` e `10x=2·x·5`. Portanto, é `(x+5)²`.
+
 ---
 
 ## 80. Questão 14
@@ -1519,6 +1561,9 @@ D) `3x+2y=5xy`
 E) `x²·x³=x⁵`
 
 **Gabarito: E.**
+
+**Comentário:**  
+Na multiplicação de potências de mesma base, somam-se os expoentes: `x²·x³=x^(2+3)=x⁵`. As demais alternativas aplicam propriedades incorretamente.
 
 ---
 
@@ -1664,11 +1709,16 @@ A página da resolução foi também conferida visualmente no PDF oficial.
 
 ## 86. Evidência do conteúdo em editais INEPAM
 
-Editais oficiais recentes da banca reproduzem o bloco:
+Editais oficiais da banca reproduzem o bloco:
 
 > Fatoração de expressão algébrica. Expressão algébrica – operações. Expressões algébricas fracionárias – operações – simplificação.
 
-Essa evidência comprova que o conteúdo faz parte do modelo programático utilizado pela INEPAM em concursos de nível médio, mas não substitui uma questão real.
+Foram conferidos, entre outros:
+
+- **Câmara Municipal de Dumont/SP — Concurso Público nº 001/2025 — Escriturário (Ensino Médio)** — Anexo II do edital de abertura, `idAnexo=1663`;
+- **Câmara Municipal de Cruzeiro/SP — Concurso Público nº 001/2024** — Anexo II do edital de abertura, `idAnexo=1057`; o certame inclui **Técnico Legislativo** no Ensino Médio e **Coordenador Administrativo** no Ensino Superior.
+
+Essa evidência comprova recorrência programática do conteúdo em certames oficiais da INEPAM, inclusive em funções administrativas. Ela **não substitui questão real** nem autoriza inferir frequência estatística de cobrança.
 
 ---
 

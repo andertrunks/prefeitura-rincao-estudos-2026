@@ -10,12 +10,16 @@ temaId: expressoes-algebricas-fracionarias
 titulo: "Expressões algébricas fracionárias — domínio, operações, fatoração e simplificação"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Matemática: Expressões algébricas fracionárias — operações — simplificação"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-inepam-embu-artes-001-2023-recursos
   - src-inepam-santa-isabel-001-2026-edital
+  - src-inepam-sao-goncalo-sapucai-001-2024-edital
 ---
 
 # Expressões algébricas fracionárias — domínio, operações, fatoração e simplificação
@@ -56,7 +60,7 @@ O portal oficial da INEPAM também confirma, em edital de 2026, a redação prog
 
 ### Situação editorial
 
-O material está **revisado** para estudo. A liberação global do pacote continua condicionada ao controle de retificações do projeto.
+O material está **revisado** para estudo. A rerratificação do Concurso Público nº 001/2026 de Rincão foi auditada em 23/08/2026 e classificada como **sem impacto** sobre este item, sobre os cargos deste projeto e sobre as questões desta aula.
 
 ---
 
@@ -903,6 +907,15 @@ A documentação oficial comprova que:
 5. fator comum apareceu diretamente;
 6. o resultado final foi obtido por cancelamento de fatores.
 
+### Evidência programática complementar
+
+Além das duas questões reais, foram verificados dois editais oficiais da INEPAM que repetem literalmente o tópico **“Expressões algébricas fracionárias – operações – simplificação”**:
+
+- **Santa Isabel/SP — Processo Seletivo Simplificado nº 001/2026**, no Anexo II, em Matemática;
+- **São Gonçalo do Sapucaí/MG — Processo Seletivo nº 001/2024**, no conteúdo de Matemática das funções de Ensino Médio e/ou Técnico; o certame inclui **Recepcionista** entre as funções de Ensino Médio.
+
+Esses registros demonstram recorrência programática do conteúdo, mas **não são questões reais** e não entram na contagem de questões resolvidas da banca.
+
 ---
 
 ## 37. O que não podemos afirmar
@@ -1285,6 +1298,9 @@ E) 0
 
 **Gabarito: D.**
 
+**Comentário:**  
+`x+7` deve ser diferente de zero. Assim, `x≠-7`; portanto, o valor proibido é `-7`.
+
 ---
 
 ## 57. Questão 3
@@ -1300,6 +1316,9 @@ D) `2x+4`
 E) `1/2`
 
 **Gabarito: A.**
+
+**Comentário:**  
+`4x+8=4(x+2)` e `2x+4=2(x+2)`. Para `x≠-2`, cancela-se o fator `(x+2)` e o resultado é `2`.
 
 ---
 
@@ -1319,6 +1338,9 @@ E) `6/x`
 
 **Gabarito: B.**
 
+**Comentário:**  
+Os denominadores são iguais. Somamos apenas os numeradores: `(2+3)/x=5/x`, com `x≠0`.
+
 ---
 
 ## 59. Questão 5
@@ -1337,6 +1359,9 @@ E) `(x-y)/(xy)`
 
 **Gabarito: C.**
 
+**Comentário:**  
+O denominador comum é `xy`: `1/x=y/(xy)` e `1/y=x/(xy)`. Logo, a soma é `(x+y)/(xy)`, com `x≠0` e `y≠0`.
+
 ---
 
 ## 60. Questão 6
@@ -1353,6 +1378,9 @@ E) `1`
 
 **Gabarito: C.**
 
+**Comentário:**  
+`x²-4=(x-2)(x+2)`. No produto, cancelam-se `(x+1)` e `(x-2)`, respeitando `x≠-1` e `x≠2`; sobra `x+2`.
+
 ---
 
 ## 61. Questão 7
@@ -1366,6 +1394,9 @@ D) `x=-2` e `x=2`
 E) nenhum
 
 **Gabarito: C.**
+
+**Comentário:**  
+Na expressão original aparecem os denominadores `x+1` e `x-2`. Portanto, são proibidos `x=-1` e `x=2`, mesmo que esses fatores desapareçam após a simplificação.
 
 ---
 
@@ -1382,6 +1413,9 @@ D) `x²+3`
 E) `1`
 
 **Gabarito: B.**
+
+**Comentário:**  
+`x²+6x+9=(x+3)²`. Assim, `(x+3)²/(x+3)=x+3`, mas a expressão original exige `x≠-3`.
 
 ---
 
@@ -1401,6 +1435,9 @@ E) `1/x²`
 
 **Gabarito: B.**
 
+**Comentário:**  
+Dividir por `x²/8` é multiplicar por seu inverso: `(x/4)·(8/x²)=2/x`. É necessário `x≠0`, inclusive porque a segunda fração não pode ser zero.
+
 ---
 
 ## 64. Questão 10
@@ -1417,6 +1454,9 @@ E) `1/(2x)`
 
 **Gabarito: B.**
 
+**Comentário:**  
+O denominador comum é `(x-2)(x+2)=x²-4`. O numerador fica `(x+2)+(x-2)=2x`; logo, `2x/(x²-4)`, com `x≠±2`.
+
 ---
 
 ## 65. Questão 11
@@ -1432,6 +1472,9 @@ D) `1/(x²-4)`
 E) `4/(x²+4)`
 
 **Gabarito: A.**
+
+**Comentário:**  
+Com o mesmo denominador comum, o numerador é `(x+2)-(x-2)=4`. Portanto, o resultado é `4/(x²-4)`, com `x≠±2`.
 
 ---
 
@@ -1451,6 +1494,9 @@ E) `1/(x+2)`, com única restrição `x≠-2`
 
 **Gabarito: B.**
 
+**Comentário:**  
+`x²-4=(x-2)(x+2)`. Cancela-se o fator `(x-2)`, obtendo `1/(x+2)`, mas permanecem as restrições originais `x≠2` e `x≠-2`.
+
 ---
 
 ## 67. Questão 13
@@ -1464,6 +1510,9 @@ D) Cancelamento válido ocorre entre fatores multiplicativos.
 E) `1/x+1/y=2/(x+y)`.
 
 **Gabarito: D.**
+
+**Comentário:**  
+Cancelamento só é válido entre **fatores multiplicativos**. Não se pode cancelar uma parcela que participa de soma ou subtração.
 
 ---
 
@@ -1595,6 +1644,22 @@ URL oficial:
 
 `https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2285`
 
+### Evidência complementar — São Gonçalo do Sapucaí/MG
+
+**Prefeitura Municipal de São Gonçalo do Sapucaí/MG — Processo Seletivo nº 001/2024 — INEPAM.**
+
+O Anexo II, para funções de Ensino Médio e/ou Técnico, inclui literalmente:
+
+> `Expressões algébricas fracionárias – operações – simplificação.`
+
+O quadro de funções do mesmo edital inclui **Recepcionista**, com exigência de Ensino Médio completo.
+
+URL oficial:
+
+`https://www.app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=532`
+
+Essa fonte é usada como **evidência complementar de recorrência programática**, não como questão real.
+
 ---
 
 ## 74. Fonte INEPAM — Embu das Artes/SP
@@ -1645,11 +1710,11 @@ O PDF oficial do julgamento de Embu das Artes foi aberto e seu texto integral fo
 
 As resoluções relevantes aparecem nas páginas correspondentes às Questões 14 e 11 do grupo citado.
 
-Foram realizadas tentativas de captura visual dessas páginas, conforme o protocolo de auditoria do projeto, mas o servidor da INEPAM retornou erros temporários de cache/502 nas capturas.
+Na auditoria de 24/08/2026, o PDF oficial de Embu das Artes foi novamente aberto e o texto das resoluções foi confirmado: a Questão 14 aparece na página 12 do PDF (índice visual 11) e a Questão 11 do grupo com Secretário de Escola aparece na página 16 (índice visual 15). Os editais oficiais de Santa Isabel/2026 e São Gonçalo do Sapucaí/2024 também foram abertos e confirmaram a redação programática do tema.
 
-Por isso:
+Foram feitas tentativas de captura visual das páginas relevantes, mas o servidor da INEPAM retornou **cache miss/502**. Portanto:
 
-- o texto oficial foi utilizado;
+- o texto extraído diretamente dos PDFs oficiais foi utilizado;
 - nenhuma alternativa ausente foi reconstruída;
 - a limitação técnica da captura fica registrada.
 
@@ -1665,9 +1730,9 @@ Foram pesquisados, em julgamentos oficiais, os termos:
 - denominador algébrico;
 - MMC algébrico.
 
-A pesquisa encontrou os dois exemplos acima como casos integralmente verificáveis e diretamente pertinentes.
+A pesquisa encontrou os dois exemplos acima como casos diretamente verificáveis e pertinentes, além de dois editais oficiais que repetem o tópico no conteúdo programático.
 
-Não foi encontrada amostra suficiente para afirmar frequência estatística de soma, divisão ou MMC algébrico na banca.
+Não foi encontrada terceira questão real integral com evidência suficiente para ampliar a amostra sem extrapolação. Também não há base para afirmar frequência estatística de soma, divisão ou MMC algébrico na banca.
 
 ---
 
@@ -1694,6 +1759,7 @@ Não foi encontrada amostra suficiente para afirmar frequência estatística de 
 - [x] fração complexa básica;
 - [x] preservação das restrições;
 - [x] 2 questões reais verificáveis INEPAM;
+- [x] 2 evidências complementares programáticas oficiais;
 - [x] 15 questões inéditas A–E;
 - [x] gabarito comentado;
 - [x] 24 flashcards;

@@ -10,10 +10,13 @@ temaId: juros-simples
 titulo: "Juros simples — capital, taxa, tempo, juros e montante"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Matemática: Juros Simples"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-inepam-itajuba-001-2024-recursos
   - src-inepam-bofete-0001-2023-recursos
   - src-inepam-dumont-0001-2024-recursos
@@ -50,7 +53,7 @@ Há evidência especialmente próxima de Rincão:
 
 ### Situação editorial
 
-O material está **revisado** para estudo. A liberação global do pacote continua condicionada ao controle de retificações do projeto, especialmente à conferência integral da rerratificação já registrada no controle editorial.
+O material está **revisado** para estudo. A rerratificação oficial de Rincão foi auditada em 23/08/2026; a auditoria central concluiu **sem impacto nos cargos, na cobertura ou neste conteúdo de Juros Simples**. Portanto, não existe bloqueio específico de rerratificação para este lote.
 
 ---
 
@@ -1383,6 +1386,10 @@ E) R$ 5.600,00
 
 **Gabarito: C.**
 
+**Comentário:**
+
+No problema anterior, `J=400`. Assim, `M=C+J=5000+400=5400`.
+
 ---
 
 ## 52. Questão 3
@@ -1396,6 +1403,10 @@ D) 0,8
 E) 8
 
 **Gabarito: B.**
+
+**Comentário:**
+
+Para converter porcentagem em decimal, divida por 100: `0,8% = 0,8/100 = 0,008`.
 
 ---
 
@@ -1429,6 +1440,10 @@ E) 2%
 
 **Gabarito: C.**
 
+**Comentário:**
+
+`i=J/(C·t)=1200/(10000·12)=0,01`, portanto `1% ao mês`.
+
 ---
 
 ## 55. Questão 6
@@ -1442,6 +1457,10 @@ D) 7 meses
 E) 8 meses
 
 **Gabarito: C.**
+
+**Comentário:**
+
+`t=J/(C·i)=960/(8000·0,02)=960/160=6 meses`.
 
 ---
 
@@ -1477,6 +1496,10 @@ E) 6 anos
 
 **Gabarito: B.**
 
+**Comentário:**
+
+Como a taxa está ao ano, converta 6 meses para anos: `6/12 = 0,5 ano`.
+
 ---
 
 ## 58. Questão 9
@@ -1511,6 +1534,10 @@ E) R$ 13.200,00
 
 **Gabarito: C.**
 
+**Comentário:**
+
+Como `M=C+J`, então `C=M-J=12600-600=12000`.
+
 ---
 
 ## 60. Questão 11
@@ -1524,6 +1551,10 @@ D) Os juros são proporcionais ao capital, à taxa e ao tempo.
 E) A fórmula obrigatória é `M=C(1+i)^t`.
 
 **Gabarito: D.**
+
+**Comentário:**
+
+Nos juros simples, `J=C·i·t`; por isso os juros são proporcionais ao capital, à taxa e ao tempo. As demais alternativas descrevem conceitos incorretos ou juros compostos.
 
 ---
 
@@ -1557,6 +1588,10 @@ E) R$ 2.000,00
 
 **Gabarito: C.**
 
+**Comentário:**
+
+`0,4%=0,004`. Logo, `J=25000·0,004·15=1500`.
+
 ---
 
 ## 63. Questão 14
@@ -1570,6 +1605,10 @@ D) R$ 31.000,00
 E) R$ 33.600,00
 
 **Gabarito: C.**
+
+**Comentário:**
+
+`C=M-J=31800-1800=30000`.
 
 ---
 

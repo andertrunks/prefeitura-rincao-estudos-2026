@@ -10,10 +10,13 @@ temaId: estatistica
 titulo: "Estatística — noções básicas, razão, proporção, tabelas, gráficos e medidas de tendência central"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Matemática: Estatística: noções básicas, razão, proporção, interpretação e construção de tabelas e gráficos"
 status: revisado
-versao: "0.1.0"
-revisadoEm: "2026-08-23"
+versao: "0.1.1"
+revisadoEm: "2026-08-24"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-inepam-clementina-001-2026-recursos
   - src-inepam-bom-jardim-serra-001-2023-recursos
   - src-inepam-santa-isabel-001-2026-recursos
@@ -57,7 +60,7 @@ Para **construção e leitura de tabelas e gráficos**, a complementação pedag
 
 ### Situação editorial
 
-O material está **revisado** para estudo. A liberação global do pacote continua condicionada ao controle de retificações do projeto.
+O material está **revisado** para estudo. A rerratificação do Concurso Público nº 001/2026 de Rincão foi auditada em 23/08/2026 e classificada como **sem impacto** sobre este item, sobre os cargos deste projeto e sobre as questões desta aula.
 
 ---
 
@@ -1453,6 +1456,9 @@ E) 8
 
 **Gabarito: B.**
 
+**Comentário:**  
+Moda é o valor que aparece com maior frequência. O número 5 ocorre três vezes, mais do que qualquer outro valor. Portanto, a moda é `5`.
+
 ---
 
 ## 76. Questão 2
@@ -1470,6 +1476,9 @@ D) 8
 E) 9
 
 **Gabarito: C.**
+
+**Comentário:**  
+Os dados já estão ordenados e há cinco valores. A mediana é o valor central, isto é, o 3º elemento: `7`.
 
 ---
 
@@ -1510,6 +1519,9 @@ E) 8,5
 
 **Gabarito: C.**
 
+**Comentário:**  
+Some os valores: `6+8+7+9=30`. Dividindo pela quantidade de dados, `30/4=7,5`.
+
 ---
 
 ## 79. Questão 5
@@ -1523,6 +1535,9 @@ D) 40%
 E) 50%
 
 **Gabarito: D.**
+
+**Comentário:**  
+Frequência relativa = `20/50=0,4`. Convertendo para porcentagem: `0,4×100=40%`.
 
 ---
 
@@ -1558,6 +1573,9 @@ D) 90°
 E) 120°
 
 **Gabarito: C.**
+
+**Comentário:**  
+Em gráfico de setores, `100% = 360°`. Assim, `20%` corresponde a `0,20×360°=72°`.
 
 ---
 
@@ -1597,6 +1615,9 @@ E) 50
 
 **Gabarito: C.**
 
+**Comentário:**  
+O total é a soma das frequências absolutas: `12+8+5+15=40` observações.
+
 ---
 
 ## 84. Questão 10
@@ -1628,6 +1649,9 @@ E) Nenhuma representação gráfica
 
 **Gabarito: A.**
 
+**Comentário:**  
+Gráficos de linhas são adequados para representar evolução ao longo do tempo, pois facilitam a visualização de crescimento, queda e estabilidade entre períodos sucessivos.
+
 ---
 
 ## 86. Questão 12
@@ -1641,6 +1665,9 @@ D) Média e mediana podem assumir valores diferentes.
 E) Um gráfico não precisa indicar unidade.
 
 **Gabarito: D.**
+
+**Comentário:**  
+A alternativa D é correta: média e mediana são medidas diferentes e podem assumir valores distintos. As demais afirmações contradizem as definições estatísticas básicas.
 
 ---
 
@@ -1706,6 +1733,9 @@ D) obrigatoriamente tornar os dados falsos;
 E) impedir qualquer cálculo percentual.
 
 **Gabarito: B.**
+
+**Comentário:**  
+Quando o eixo vertical começa muito próximo dos valores observados, a diferença visual entre as barras pode ser exagerada. Os dados podem continuar corretos, mas a escala pode induzir a uma percepção distorcida.
 
 ---
 

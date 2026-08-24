@@ -10,8 +10,20 @@ temaId: concordancia-nominal-verbal
 titulo: "Concordância nominal e verbal — regras, casos especiais e aplicação em prova"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Língua Portuguesa: Concordância nominal e verbal"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
+sourceRefs:
+  - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
+  - src-inepam-aguas-sao-pedro-001-2025-recursos
+  - src-inepam-santa-isabel-001-2024-recursos
+  - src-inepam-itajuba-002-2024-recursos
+  - src-inepam-itajuba-001-2024-recursos
+  - src-inepam-canitar-001-2025-recursos
+  - src-inepam-adamantina-001-2024-recursos
+  - src-inepam-crea-mt-001-2025-recursos
 ---
 
 # Concordância nominal e verbal — regras, casos especiais e aplicação em prova
@@ -1515,7 +1527,7 @@ E) A declaração seguem inclusas.
 
 ## Fonte de verdade do concurso
 
-- Concurso Público nº 001/2026 — Prefeitura Municipal de Rincão-SP — edital e documentos oficiais publicados pela INEPAM. O projeto mantém controle separado para rerratificações e bloqueios de publicação até a auditoria integral das alterações oficiais.
+- Concurso Público nº 001/2026 — Prefeitura Municipal de Rincão-SP — edital e documentos oficiais publicados pela INEPAM. A auditoria central da **Rerratificação do Edital de Abertura** foi concluída em 23/08/2026 com status `auditado_sem_impacto_nos_cargos_do_projeto`; não houve alteração do conteúdo programático de Agente Administrativo, Monitor de Educação ou Ajudante Geral.
 
 ## Fontes oficiais INEPAM — questões/julgamentos reais
 
@@ -1555,5 +1567,5 @@ E) A declaração seguem inclusas.
 - **Questões reais documentadas:** 7 blocos de evidência oficial, sem reconstrução de alternativas não comprovadas.
 - **Questões inéditas A–E:** 12.
 - **Status:** `revisado`.
-- **Observação:** a publicação final continua sujeita ao controle de retificações/rerratificações do concurso de Rincão mantido pelo projeto.
+- **Observação:** a rerratificação de Rincão foi auditada e não altera este item. Permanecem apenas as validações normais de integração, IDs, referências e duplicações do pacote.
 

@@ -12,6 +12,15 @@ editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Téc
 status: revisado
 version: 0.1.0
 ultimaRevisao: 2026-08-23
+sourceRefs:
+  - src-edital-rincao-2026
+  - src-inepam-sete-barras-003-2026-recursos
+  - src-inepam-bom-jardim-serra-01-2023-recursos
+  - src-inepam-anhembi-0001-2023-recursos
+  - src-inepam-juara-2023-recursos
+  - src-inepam-itajuba-001-2024-recursos
+  - src-inepam-crea-mt-001-2025-recursos
+  - src-inepam-anhembi-001-2025-recursos
 ---
 
 # Advérbio — classificação, sentido, emprego e análise em contexto

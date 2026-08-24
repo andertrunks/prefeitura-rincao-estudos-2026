@@ -10,11 +10,15 @@ temaId: fatoracao-expressao-algebrica
 titulo: "Fatoração de expressões algébricas — fator comum, agrupamento, produtos notáveis e trinômios"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Matemática: Fatoração de expressão algébrica"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
 sourceRefs:
   - src-edital-rincao-2026
-  - src-inepam-embu-001-2023-recursos
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
+  - src-inepam-embu-001-2023-recursos-gabaritos-anexo-543
+  - src-inepam-aguas-sao-pedro-001-2025-edital
 ---
 
 # Fatoração de expressões algébricas — fator comum, agrupamento, produtos notáveis e trinômios
@@ -54,7 +58,7 @@ A pesquisa adicional por `fatoração`, `fator comum`, `agrupamento`, `diferenç
 
 ### Situação editorial
 
-O material está **revisado** para estudo. A liberação global do pacote continua condicionada ao controle de retificações do projeto.
+O material está **revisado** para estudo. A **rerratificação do Concurso Público nº 001/2026 de Rincão-SP já foi auditada** no controle central do projeto, com resultado **sem impacto** sobre os cargos deste projeto e sobre o item de Fatoração de expressão algébrica. Portanto, não existe bloqueio editorial específico de rerratificação para este lote.
 
 ---
 
@@ -921,7 +925,9 @@ Antes da revisão desta aula foram pesquisados, em documentos oficiais da INEPAM
 
 Foi localizado **um exemplo real integral e inequívoco** em julgamento oficial, o de Embu das Artes/SP — 2023.
 
-Também foram localizados diversos editais recentes da INEPAM que mantêm explicitamente `Fatoração de expressão algébrica` no conteúdo programático de Matemática de nível médio, mas sem resolução de questão real desse tema no material indexado consultado.
+Como evidência complementar de recorrência programática, foi confirmado o **Processo Seletivo nº 001/2025 de Águas de São Pedro/SP**, organizado pela INEPAM. O edital lista, para Matemática de funções de Ensino Médio, a sequência que inclui `Fatoração de expressão algébrica`. Essa evidência comprova presença recente do tópico no repertório programático da banca, **mas não é tratada como questão real**.
+
+Outros editais recentes da INEPAM também mantêm o tópico em programas de Matemática, mas sem resolução de questão real desse tema no material oficial indexado consultado.
 
 ### Consequência editorial
 
@@ -1321,6 +1327,10 @@ E) `18xy(x+y)`
 
 **Gabarito: B.**
 
+**Comentário:**  
+O maior fator comum entre 12 e 18 é 6, e ambos os termos possuem `xy`. Colocando `6xy` em evidência: `12x²y+18xy² = 6xy(2x+3y)`.
+
+
 ---
 
 ## 60. Questão 3
@@ -1334,6 +1344,10 @@ D) `ab(x+y)`
 E) `xy(a+b)`
 
 **Gabarito: C.**
+
+**Comentário:**  
+Agrupando: `ax+ay+bx+by = a(x+y)+b(x+y)`. O binômio `(x+y)` fica comum, resultando em `(a+b)(x+y)`.
+
 
 ---
 
@@ -1349,6 +1363,10 @@ E) não pode ser fatorada nos reais
 
 **Gabarito: D.**
 
+**Comentário:**  
+`x²-49 = x²-7²` é diferença de quadrados. Portanto, `x²-49=(x+7)(x-7)`.
+
+
 ---
 
 ## 62. Questão 5
@@ -1362,6 +1380,10 @@ D) `(x+10)(x+15)`
 E) `(x+5)(x-5)`
 
 **Gabarito: A.**
+
+**Comentário:**  
+Os extremos são `x²` e `25=5²`, e o termo do meio é `2·x·5=10x`. Logo, é trinômio quadrado perfeito: `(x+5)²`.
+
 
 ---
 
@@ -1377,6 +1399,10 @@ E) `(x-3)(4x-3)`
 
 **Gabarito: B.**
 
+**Comentário:**  
+`4x²=(2x)²` e `9=3²`; o termo central é `-2·2x·3=-12x`. Assim, `4x²-12x+9=(2x-3)²`.
+
+
 ---
 
 ## 64. Questão 7
@@ -1391,6 +1417,10 @@ E) `(x-2)(x-10)`
 
 **Gabarito: B.**
 
+**Comentário:**  
+Procure dois números cuja soma seja 9 e o produto 20: 4 e 5. Logo, `x²+9x+20=(x+4)(x+5)`.
+
+
 ---
 
 ## 65. Questão 8
@@ -1404,6 +1434,10 @@ D) `(x+3)(x+5)`
 E) `(x-1)(x+15)`
 
 **Gabarito: B.**
+
+**Comentário:**  
+Precisamos de dois números com soma `-2` e produto `-15`: 3 e -5. Portanto, `x²-2x-15=(x+3)(x-5)`.
+
 
 ---
 
@@ -1438,6 +1472,10 @@ E) `(x-3)(x²-3x+9)`
 
 **Gabarito: A.**
 
+**Comentário:**  
+`27=3³`. Pela diferença de cubos, `x³-3³=(x-3)(x²+3x+9)`.
+
+
 ---
 
 ## 68. Questão 11
@@ -1452,6 +1490,10 @@ E) `49m²-n²`
 
 **Gabarito: D.**
 
+**Comentário:**  
+Diferença de quadrados exige subtração: `a²-b²`. A expressão `x²+36` é soma de quadrados, portanto não se enquadra nesse caso nos números reais.
+
+
 ---
 
 ## 69. Questão 12
@@ -1465,6 +1507,10 @@ D) `(3x-2)(x-3)`
 E) `(x+2)(x+3)`
 
 **Gabarito: A.**
+
+**Comentário:**  
+Como `3·6=18`, decompomos `11x` em `9x+2x`: `3x²+9x+2x+6 = 3x(x+3)+2(x+3) = (3x+2)(x+3)`.
+
 
 ---
 
@@ -1504,6 +1550,10 @@ E) `x²+25`
 
 **Gabarito: C.**
 
+**Comentário:**  
+Desenvolvendo: `(x-5)²=x²-2·x·5+25=x²-10x+25`.
+
+
 ---
 
 ## 72. Questão 15
@@ -1521,6 +1571,10 @@ D) `18a(a+b)`
 E) `6ab(a+3)`
 
 **Gabarito: C.**
+
+**Comentário:**  
+O MDC de 6 e 18 é 6 e ambos os termos possuem `a`. Assim, `6a²+18ab=6a(a+3b)`, que é a forma mais completa entre as alternativas.
+
 
 ---
 
@@ -1652,15 +1706,19 @@ A página correspondente foi também conferida visualmente no PDF oficial durant
 
 ---
 
-## 77. Evidência de recorrência programática
+## 77. Evidência complementar oficial — Águas de São Pedro/SP
 
-Além da questão real acima, foram consultados editais oficiais recentes organizados pela INEPAM que listam explicitamente:
+**Prefeitura Municipal da Estância Hidromineral de Águas de São Pedro/SP — Processo Seletivo nº 001/2025.**
+
+O edital oficial, organizado pela INEPAM, inclui função de **Inspetor de Aluno** no grupo de Ensino Médio e, no conteúdo de Matemática das funções de Ensino Médio, lista:
 
 > Fatoração de expressão algébrica.
 
-A presença do item em outros programas comprova que o conteúdo faz parte do repertório utilizado pela banca em provas de Matemática de nível médio/superior.
+URL oficial:
 
-Essa evidência **não é apresentada como questão real**, pois conteúdo programático e questão efetivamente aplicada são categorias diferentes.
+`https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1336`
+
+Essa evidência mostra **recorrência programática recente** do tópico na banca. Ela **não é apresentada como questão real**, pois conteúdo previsto em edital e questão efetivamente aplicada são categorias diferentes.
 
 ---
 
@@ -1715,6 +1773,7 @@ Portanto:
 - [x] 24 flashcards;
 - [x] revisão rápida;
 - [x] fontes oficiais;
+- [x] auditoria da rerratificação concluída sem impacto;
 - [x] status `revisado`.
 
 ---

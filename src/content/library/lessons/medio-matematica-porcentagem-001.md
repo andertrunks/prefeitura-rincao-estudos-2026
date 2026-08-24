@@ -10,14 +10,18 @@ temaId: porcentagem
 titulo: "Porcentagem — cálculo percentual, aumentos, descontos e variações sucessivas"
 editalRef: "Anexo II — Conhecimentos Gerais — Cargos de Ensino Médio e Técnico — Matemática: Porcentagem"
 status: revisado
-versao: "0.1.0"
+versao: "0.1.1"
 revisadoEm: "2026-08-23"
 sourceRefs:
   - src-edital-rincao-2026
-  - src-inepam-juruaia-0001-2023-recursos
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
+  - src-inepam-juruaia-001-2023-recursos
   - src-inepam-anhembi-001-2025-recursos
   - src-inepam-canitar-001-2025-recursos
   - src-inepam-adamantina-0001-2023-recursos
+  - src-inepam-camara-nova-ubirata-001-2024-recursos
 ---
 
 # Porcentagem — cálculo percentual, aumentos, descontos e variações sucessivas
@@ -42,6 +46,7 @@ A pesquisa de banca foi realizada antes da revisão final. Foram localizados jul
 Há evidência especialmente próxima dos cargos de Rincão:
 
 - **Juruaia/MG — Concurso Público nº 0001/2023**: grupo de Matemática com **Assistente Administrativo**;
+- **Câmara Municipal de Nova Ubiratã/MT — Concurso Público nº 001/2024**: grupo de Matemática com **Auxiliar Administrativo** e **Coordenador Administrativo de Recursos Humanos**;
 - **Anhembi/SP — Concurso Público nº 001/2025**: grupo com **Diretor de Unidade Escolar**;
 - **Canitar/SP — Processo Seletivo nº 001/2025**: funções educacionais e professores.
 
@@ -57,7 +62,7 @@ Nesta aula, a evidência oficial é preservada, mas o cálculo é ensinado corre
 
 ### Situação editorial
 
-O material está **revisado** para estudo. A liberação global do pacote continua condicionada ao controle de retificações do projeto.
+O material está **revisado** para estudo. A **Rerratificação do Edital de Abertura** de Rincão foi auditada em 23/08/2026 e o controle editorial central concluiu que **não há impacto nos cargos do projeto nem no conteúdo de Porcentagem**. Portanto, este item não possui bloqueio específico por rerratificação.
 
 ---
 
@@ -936,9 +941,43 @@ Não some nem subtraia percentuais sucessivos mecanicamente. Trabalhe com fatore
 
 ---
 
+## 40. QUESTÃO REAL — INEPAM 6 — Câmara Municipal de Nova Ubiratã/MT — Auxiliar Administrativo
+
+**Origem:** Câmara Municipal de Nova Ubiratã/MT.  
+**Concurso:** Concurso Público nº 001/2024.  
+**Disciplina:** Matemática.  
+**Grupo:** **Auxiliar Administrativo**, Coordenador Administrativo de Recursos Humanos, Ouvidor Geral e Procurador Jurídico.  
+**Questão:** 13.  
+**Gabarito:** alternativa **A**.  
+**Recurso:** indeferido.
+
+O julgamento oficial registra que **R$ 80,91 correspondem a 93% do valor sem desconto**.
+
+### Resolução
+
+Se `x` é o valor original:
+
+`0,93x = 80,91`.
+
+Logo:
+
+`x = 80,91/0,93`.
+
+`x = 87`.
+
+### Resultado
+
+R$ 87,00.
+
+### Lição para Rincão
+
+Esta é uma evidência particularmente útil para **Agente Administrativo**, porque a mesma prova de Matemática abrangia cargos administrativos. O padrão é o mesmo observado em Juruaia, Canitar e Adamantina: identificar o percentual restante e **dividir pelo fator**, em vez de aplicar novamente o desconto.
+
+---
+
 # PARTE XV — EXEMPLOS RESOLVIDOS
 
-## 40. Exemplo 1 — porcentagem simples
+## 41. Exemplo 1 — porcentagem simples
 
 Calcule 12% de 450.
 
@@ -946,7 +985,7 @@ Calcule 12% de 450.
 
 ---
 
-## 41. Exemplo 2 — descobrir percentual
+## 42. Exemplo 2 — descobrir percentual
 
 45 é quantos por cento de 180?
 
@@ -958,7 +997,7 @@ Calcule 12% de 450.
 
 ---
 
-## 42. Exemplo 3 — aumento
+## 43. Exemplo 3 — aumento
 
 Salário de R$ 2.000 com aumento de 8%.
 
@@ -972,7 +1011,7 @@ Novo salário:
 
 ---
 
-## 43. Exemplo 4 — desconto
+## 44. Exemplo 4 — desconto
 
 Produto de R$ 600 com desconto de 15%.
 
@@ -986,7 +1025,7 @@ Preço final:
 
 ---
 
-## 44. Exemplo 5 — valor original
+## 45. Exemplo 5 — valor original
 
 Preço final de R$ 340 após desconto de 15%.
 
@@ -1002,7 +1041,7 @@ Resta:
 
 ---
 
-## 45. Exemplo 6 — dois aumentos sucessivos
+## 46. Exemplo 6 — dois aumentos sucessivos
 
 Valor inicial:
 
@@ -1028,7 +1067,7 @@ Não 30%.
 
 ---
 
-## 46. Exemplo 7 — aumento e desconto iguais
+## 47. Exemplo 7 — aumento e desconto iguais
 
 Valor:
 
@@ -1058,7 +1097,7 @@ Percentual de perda:
 
 # PARTE XVI — PEGADINHAS E ERROS FREQUENTES
 
-## 47. Erro 1 — usar percentual em vez do fator restante
+## 48. Erro 1 — usar percentual em vez do fator restante
 
 Desconto de 20%.
 
@@ -1074,7 +1113,7 @@ Preço final:
 
 ---
 
-## 48. Erro 2 — recuperar preço original multiplicando pelo fator restante
+## 49. Erro 2 — recuperar preço original multiplicando pelo fator restante
 
 Se:
 
@@ -1090,7 +1129,7 @@ Faça:
 
 ---
 
-## 49. Erro 3 — somar descontos sucessivos
+## 50. Erro 3 — somar descontos sucessivos
 
 20% e depois 10% não produzem 30% de redução.
 
@@ -1106,7 +1145,7 @@ Produzem:
 
 ---
 
-## 50. Erro 4 — achar que aumento e desconto iguais se anulam
+## 51. Erro 4 — achar que aumento e desconto iguais se anulam
 
 +20% e -20%:
 
@@ -1116,7 +1155,7 @@ Redução líquida de 4%.
 
 ---
 
-## 51. Erro 5 — esquecer qual é a base
+## 52. Erro 5 — esquecer qual é a base
 
 De 80 para 100:
 
@@ -1134,7 +1173,7 @@ Mesmo intervalo absoluto, percentuais diferentes.
 
 ---
 
-## 52. Erro 6 — confundir decimal e porcentagem
+## 53. Erro 6 — confundir decimal e porcentagem
 
 `0,13 = 13%`.
 
@@ -1144,7 +1183,7 @@ Não são iguais.
 
 ---
 
-## 53. Erro 7 — interpretar 7% como 0,7
+## 54. Erro 7 — interpretar 7% como 0,7
 
 `7% = 0,07`.
 
@@ -1154,7 +1193,7 @@ Não são iguais.
 
 # PARTE XVII — RESUMO
 
-## 54. Quadro-resumo
+## 55. Quadro-resumo
 
 | Situação | Cálculo |
 |---|---|
@@ -1173,7 +1212,7 @@ Não são iguais.
 
 # PARTE XVIII — REVISÃO RÁPIDA — 5 MINUTOS
 
-## 55. O que lembrar
+## 56. O que lembrar
 
 1. `%` significa dividir por 100.
 2. Descubra qual valor representa 100%.
@@ -1190,7 +1229,7 @@ Não são iguais.
 
 # PARTE XIX — FLASHCARDS
 
-## 56. Flashcards
+## 57. Flashcards
 
 **1. O que significa 25%?**  
 25 por 100; `0,25`.
@@ -1272,7 +1311,7 @@ Todas as questões são:
 
 > **QUESTÃO INÉDITA — ESTILO INEPAM**
 
-## 57. Questão 1
+## 58. Questão 1
 
 20% de 350 é:
 
@@ -1289,7 +1328,7 @@ E) 80
 
 ---
 
-## 58. Questão 2
+## 59. Questão 2
 
 O número decimal correspondente a 7,5% é:
 
@@ -1301,9 +1340,12 @@ E) 75
 
 **Gabarito: B.**
 
+**Comentário:**  
+`7,5% = 7,5/100 = 0,075`.
+
 ---
 
-## 59. Questão 3
+## 60. Questão 3
 
 45 representa quantos por cento de 180?
 
@@ -1315,9 +1357,12 @@ E) 35%
 
 **Gabarito: C.**
 
+**Comentário:**  
+`45/180 = 0,25 = 25%`.
+
 ---
 
-## 60. Questão 4
+## 61. Questão 4
 
 Um produto de R$ 800 recebe desconto de 15%. O preço final será:
 
@@ -1334,7 +1379,7 @@ E) R$ 720
 
 ---
 
-## 61. Questão 5
+## 62. Questão 5
 
 Um salário de R$ 2.500 recebe aumento de 8%. O novo valor é:
 
@@ -1351,7 +1396,7 @@ E) R$ 2.750
 
 ---
 
-## 62. Questão 6
+## 63. Questão 6
 
 Após desconto de 20%, um produto custa R$ 360. O preço original era:
 
@@ -1370,7 +1415,7 @@ E) R$ 480
 
 ---
 
-## 63. Questão 7
+## 64. Questão 7
 
 Um valor recebe dois descontos sucessivos de 10%. A redução total é:
 
@@ -1389,7 +1434,7 @@ Resta 81%; redução de 19%.
 
 ---
 
-## 64. Questão 8
+## 65. Questão 8
 
 Um preço aumenta 20% e depois diminui 20%. Em relação ao valor inicial, o valor final:
 
@@ -1406,7 +1451,7 @@ E) diminui 4%
 
 ---
 
-## 65. Questão 9
+## 66. Questão 9
 
 Um número passa de 240 para 300. O aumento percentual é:
 
@@ -1418,9 +1463,12 @@ E) 35%
 
 **Gabarito: C.**
 
+**Comentário:**  
+A variação foi `300 - 240 = 60`. Assim, `60/240 = 0,25 = 25%`.
+
 ---
 
-## 66. Questão 10
+## 67. Questão 10
 
 Um número passa de 300 para 240. A redução percentual é:
 
@@ -1432,9 +1480,12 @@ E) 35%
 
 **Gabarito: B.**
 
+**Comentário:**  
+A redução foi `300 - 240 = 60`. A base é o valor inicial: `60/300 = 0,20 = 20%`.
+
 ---
 
-## 67. Questão 11
+## 68. Questão 11
 
 Um produto recebe desconto de 25% e passa a custar R$ 600. O preço original é:
 
@@ -1453,7 +1504,7 @@ Resta 75%.
 
 ---
 
-## 68. Questão 12
+## 69. Questão 12
 
 Um valor sofre redução de 20% e, sobre o resultado, nova redução de 25%. O valor final corresponde a:
 
@@ -1470,7 +1521,7 @@ E) 75% do original
 
 ---
 
-## 69. Questão 13
+## 70. Questão 13
 
 O número decimal 0,004 equivale a:
 
@@ -1482,9 +1533,12 @@ E) 400%
 
 **Gabarito: B.**
 
+**Comentário:**  
+Para converter decimal em porcentagem, multiplique por 100: `0,004 × 100% = 0,4%`.
+
 ---
 
-## 70. Questão 14
+## 71. Questão 14
 
 Uma escola tinha 800 alunos e passou a ter 920. O crescimento percentual foi:
 
@@ -1503,7 +1557,7 @@ Aumento: `120`.
 
 ---
 
-## 71. Questão 15
+## 72. Questão 15
 
 Após aumento de 50%, um valor sofre redução de 20%. O valor final corresponde a:
 
@@ -1522,7 +1576,7 @@ E) 130% do inicial
 
 # PARTE XXI — GABARITO RÁPIDO
 
-## 72. Gabarito
+## 73. Gabarito
 
 1. D  
 2. B  
@@ -1544,7 +1598,7 @@ E) 130% do inicial
 
 # PARTE XXII — COMO ESTUDAR ESTE TEMA
 
-## 73. Roteiro de treino
+## 74. Roteiro de treino
 
 ### Bloco 1 — conversões
 
@@ -1584,13 +1638,16 @@ Refaça:
 2. R$ 325,50 = 93% do original;
 3. R$ 128,74 = 82% do original;
 4. -22% e depois -18%;
-5. +60% e depois -37,5%.
+5. +60% e depois -37,5%;
+6. R$ 80,91 = 93% do valor original.  
+
+As evidências complementares sobre conversão percentual também devem ser revistas: Juruaia Q14 (`7/133 = 5,263%`) e Adamantina Q13 (`0,0013 = 0,13%`).
 
 ---
 
 # PARTE XXIII — FONTES E RASTREABILIDADE
 
-## 74. Fonte do edital
+## 75. Fonte do edital
 
 **Prefeitura Municipal de Rincão-SP — Concurso Público nº 001/2026 — INEPAM.**
 
@@ -1602,7 +1659,7 @@ Fonte oficial: edital/página do concurso no portal da INEPAM e mapa mestre do p
 
 ---
 
-## 75. Fonte INEPAM — Juruaia/MG
+## 76. Fonte INEPAM — Juruaia/MG
 
 **Prefeitura Municipal de Juruaia/MG — Concurso Público nº 0001/2023.**
 
@@ -1631,7 +1688,7 @@ URL oficial:
 
 ---
 
-## 76. Fonte INEPAM — Canitar/SP
+## 77. Fonte INEPAM — Canitar/SP
 
 **Prefeitura Municipal de Canitar/SP — Processo Seletivo nº 001/2025.**
 
@@ -1651,7 +1708,7 @@ URL:
 
 ---
 
-## 77. Fonte INEPAM — Anhembi/SP
+## 78. Fonte INEPAM — Anhembi/SP
 
 **Prefeitura Municipal de Anhembi/SP — Concurso Público nº 001/2025.**
 
@@ -1678,7 +1735,7 @@ URL:
 
 ---
 
-## 78. Fonte INEPAM — Adamantina/SP
+## 79. Fonte INEPAM — Adamantina/SP
 
 **Prefeitura Municipal de Adamantina/SP — Concurso Público nº 0001/2023.**
 
@@ -1698,9 +1755,26 @@ URL:
 
 `https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=481`
 
+### Fonte INEPAM — Câmara Municipal de Nova Ubiratã/MT
+
+**Câmara Municipal de Nova Ubiratã/MT — Concurso Público nº 001/2024.**
+
+Matemática — grupo com **Auxiliar Administrativo** e **Coordenador Administrativo de Recursos Humanos** — Questão 13.
+
+O julgamento registra:
+
+- R$ 80,91 correspondem a 93% do valor sem desconto;
+- `80,91/0,93 = 87`;
+- alternativa A;
+- recurso indeferido.
+
+URL oficial:
+
+`https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=745`
+
 ---
 
-## 79. Limite da evidência
+## 80. Limite da evidência
 
 A pesquisa comprova ocorrência real de porcentagem em diferentes concursos da INEPAM e em perfis administrativos e educacionais.
 
@@ -1716,7 +1790,7 @@ As questões inéditas desta aula são identificadas como inéditas.
 
 # PARTE XXIV — CHECKLIST EDITORIAL
 
-## 80. Checklist
+## 81. Checklist
 
 - [x] item do edital identificado;
 - [x] cargoIds compartilhados;
@@ -1732,7 +1806,8 @@ As questões inéditas desta aula são identificadas como inéditas.
 - [x] variação percentual;
 - [x] base de cálculo;
 - [x] exemplos passo a passo;
-- [x] 5 blocos de evidências reais INEPAM;
+- [x] 6 questões reais principais INEPAM;
+- [x] 2 evidências complementares INEPAM;
 - [x] questões anuladas identificadas;
 - [x] erro textual oficial auditado pedagogicamente;
 - [x] 15 questões inéditas A–E;
@@ -1744,7 +1819,7 @@ As questões inéditas desta aula são identificadas como inéditas.
 
 ---
 
-## 81. Próxima sequência do edital
+## 82. Próxima sequência do edital
 
 Após **Porcentagem**, o próximo item de Matemática no mapa mestre é:
 
