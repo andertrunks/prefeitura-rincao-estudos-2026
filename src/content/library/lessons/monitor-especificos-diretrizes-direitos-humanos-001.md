@@ -1,6 +1,7 @@
 ---
 id: monitor-especificos-diretrizes-direitos-humanos-001
 stableItemId: MON-ESP-005
+titulo: Diretrizes Nacionais para a Educação em Direitos Humanos — Resolução CNE/CP nº 1/2012
 coverageStableItemIds:
   - MON-ESP-005
   - MON-ESP-006
@@ -1266,5 +1267,4 @@ A resposta combina dignidade, igualdade, valorização das diferenças e atuaç�
 8. Material legado do projeto: `01_Diretrizes_Nacionais_Educacao_Direitos_Humanos.docx`, reaproveitado apenas como base pedagógica e revalidado contra a fonte normativa oficial.
 
 **Nota editorial:** a página oficial da INEPAM de Rincão consultada em 26/08/2026 continua exibindo apenas o edital e a rerratificação já auditada, sem nova alteração localizada para o conteúdo destes cargos.
-
 

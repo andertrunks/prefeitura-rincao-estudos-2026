@@ -54,4 +54,9 @@ describe('biblioteca editorial revisada', () => {
     expect(practicalLesson.stableItemId).toBe('AJU-PRAT-001')
     expect(practicalLesson.cargoIds).toEqual(['ajudante'])
   })
+
+  it('mantém títulos pedagógicos nas recomendações e listas', () => {
+    expect(richLessonsByTopicId['me-direitos-humanos'].title).toBe('Diretrizes Nacionais para a Educação em Direitos Humanos — Resolução CNE/CP nº 1/2012')
+    expect(richLessons.every((lesson) => !/^\d+\.\s+Identificação e referência ao edital$/i.test(lesson.title))).toBe(true)
+  })
 })
