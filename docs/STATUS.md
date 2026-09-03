@@ -1,6 +1,6 @@
 # Status do projeto
 
-Atualizado em 24/08/2026.
+Atualizado em 02/09/2026.
 
 ## Concluído
 
@@ -9,8 +9,8 @@ Atualizado em 24/08/2026.
 - aplicação React + TypeScript + Vite compatível com GitHub Pages;
 - navegação por HashRouter;
 - seleção dos três cargos;
-- 140 unidades curriculares mapeadas no conjunto geral (134 títulos distintos), com recorte por cargo;
-- 713 questões editoriais canônicas com cinco alternativas e vínculo Cargo → Disciplina → Tópico: 702 inéditas — estilo INEPAM e 11 reais com origem catalogada;
+- 143 unidades curriculares mapeadas no conjunto geral, com recorte por cargo;
+- 1.307 questões editoriais canônicas com cinco alternativas e vínculo Cargo → Disciplina → Tópico: 1.296 inéditas — estilo INEPAM e 11 reais com origem catalogada;
 - simulados completos 10/5/15 nos modos prova e estudo;
 - correção automática sem revelar gabarito antes da confirmação;
 - Caderno de Erros, favoritos, revisões e desempenho;
@@ -21,7 +21,7 @@ Atualizado em 24/08/2026.
 - transparência sobre questões reais não reproduzidas;
 - fluxo de publicação gratuita no GitHub Pages;
 - build de produção e lint sem erros;
-- integridade validada: 140 unidades curriculares internas, 89 aulas editoriais canônicas, 713 questões editoriais e distribuição 10/5/15 por simulado e cargo;
+- integridade validada: 143 unidades curriculares internas, 112 aulas editoriais canônicas, 1.307 questões editoriais e distribuição 10/5/15 por simulado e cargo;
 - testes funcionais de estudo, favoritos, revisões, questões, Caderno de Erros, simulado completo, busca, importação e persistência;
 - validação responsiva em viewport móvel de 390 × 844;
 - manifesto e service worker servidos pelo build de produção;
@@ -50,7 +50,7 @@ Atualizado em 24/08/2026.
 - renderização de Markdown longo com índice interno, tabelas responsivas e links oficiais;
 - separação entre metadados editoriais internos e linguagem pública: IDs, nomes de arquivos, schemas e status permanecem no pacote, mas não aparecem para o estudante;
 - apresentação amigável das questões relacionadas e das fontes, preservando a classificação pedagógica real/inédita;
-- cache PWA atualizado para `rincao-estudos-v10`, com recarga automática quando uma nova versão assume o controle.
+- cache PWA atualizado para `rincao-estudos-v11`, com recarga automática quando uma nova versão assume o controle.
 - dashboard conectado aos arquivos estáticos de calendário, notícias e rerratificação, com contagem regressiva calculada e filtro por cargo.
 - rerratificação oficial de 13/08/2026 recuperada, lida integralmente e comparada ao edital; alterações restritas a Nutricionista e Psicólogo, sem impacto nos três cargos do projeto;
 - 21 aulas revisadas de Português do Ensino Médio e 13 de Matemática do Ensino Médio integradas como arquivos Markdown estáticos;
@@ -59,22 +59,25 @@ Atualizado em 24/08/2026.
 - cobertura pública corrigida: conteúdos ainda sem pacote completo aparecem como “Conteúdo em preparação” e nenhum cargo é declarado 100% concluído;
 - manifesto, cobertura, calendário, notícias, rerratificações, fontes e banco editorial versionados em `src/content/library/data`.
 - 4 aulas de Português Fundamental e 5 de Matemática Fundamental publicadas para Ajudante Geral;
-- 30 aulas canônicas de Conhecimentos Específicos de Agente Administrativo publicadas, sem duplicar os antigos blocos-pai;
+- lotes editoriais 060 a 093 integrados: 33 arquivos de aula novos ou atualizados e 594 questões inéditas novas;
+- Conhecimentos Específicos de Monitor publicados em 17 aulas canônicas, cobrindo 19 itens estáveis e 30 tópicos do site;
+- Direitos Humanos de Monitor preserva uma aula para `MON-ESP-005/006`, e `MON-ESP-018` reutiliza a LDB de `MON-ESP-004` sem duplicação;
+- 36 arquivos canônicos de Conhecimentos Específicos de Agente Administrativo no manifesto, com 31 tópicos no site e os novos mestres consolidados de redação, documentos, arquivo, hierarquia, Constituição, manuais e Informática até PowerPoint;
 - 15 aulas canônicas de Conhecimentos Específicos de Ajudante Geral cobrindo 22 tópicos locais;
 - módulo editorial completo de preparação para a Prova Prática publicado exclusivamente para Ajudante Geral;
 - alias histórico de Redação Oficial preservado para cinco questões antigas, sem alterar IDs de aula, questão ou progresso;
-- catálogo de 180 fontes integrado; 99 referências ainda possuem metadados parciais e impedem declarar conclusão editorial;
+- catálogo de 379 fontes integrado;
 - nenhum pacote canônico de simulado foi encontrado; o simulado funcional existente permanece gerado localmente na distribuição oficial 10/5/15.
-- comentários malformados do consolidado não vazam `---` para a interface: 105 resoluções foram recuperadas das aulas Markdown e 26 questões sem comentário editorial detalhado encaminham honestamente o estudante à resolução da aula.
+- comentários malformados do consolidado não vazam `---` para a interface: 103 resoluções são recuperadas das aulas Markdown, 2 comentários históricos foram consolidados diretamente no banco e 26 questões sem comentário editorial detalhado encaminham honestamente o estudante à resolução da aula.
 
 ## Pendências editoriais
 
-- Conhecimentos Específicos de Monitor de Educação;
+- concluir no fluxo editorial atualizado as subunidades de Informática de Agente Administrativo: Outlook, Adobe Reader e Internet;
 - banco interativo canônico para os blocos de Ajudante Geral;
 - pacotes editoriais canônicos de simulados completos;
-- completar os metadados das 99 referências parciais antes de promover os respectivos itens a `concluido`;
+- completar os metadados parciais restantes antes de promover os respectivos itens a `concluido`;
 - completar os comentários editoriais detalhados das 26 questões cujo material canônico registra apenas o gabarito;
-- continuar monitorando novas retificações e publicações oficiais posteriores a 24/08/2026;
+- continuar monitorando novas retificações e publicações oficiais posteriores a 02/09/2026;
 - conferir emendas posteriores à versão oficial disponibilizada da Lei Orgânica (arquivo declara atualização até 2007).
 
 ## Decisão de custo

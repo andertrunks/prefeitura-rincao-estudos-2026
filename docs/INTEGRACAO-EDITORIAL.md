@@ -10,10 +10,11 @@ Google Drive é a fonte editorial. Durante uma integração autorizada, os arqui
 - 13 aulas completas de Matemática do Ensino Médio;
 - 4 aulas completas de Português do Ensino Fundamental;
 - 5 aulas completas de Matemática do Ensino Fundamental;
-- 30 aulas de Conhecimentos Específicos de Agente Administrativo;
+- 36 arquivos canônicos de Conhecimentos Específicos de Agente Administrativo, apresentados em 31 tópicos do site;
+- 17 aulas canônicas de Conhecimentos Específicos de Monitor de Educação, cobrindo 19 itens estáveis e 30 tópicos do site;
 - 15 aulas de Conhecimentos Específicos de Ajudante Geral;
 - 1 módulo completo de preparação para a Prova Prática de Ajudante Geral;
-- 713 questões editoriais no banco interativo: 702 inéditas — estilo INEPAM e 11 reais com origem catalogada;
+- 1.307 questões editoriais no banco interativo: 1.296 inéditas — estilo INEPAM e 11 reais com origem catalogada;
 - fontes, calendário, notícias, rerratificações, manifesto e cobertura versionados no repositório.
 
 Os arquivos Markdown são carregados estaticamente pelo Vite. O frontmatter permanece disponível para rastreabilidade, mas é removido da apresentação ao estudante.
@@ -28,14 +29,14 @@ Duplicatas históricas não são removidas do Drive durante a integração. A pu
 
 ## Questões
 
-O banco canônico importado contém 713 questões, todas com A–E, uma resposta correta e comentário. As 702 inéditas permanecem identificadas como **QUESTÃO INÉDITA — ESTILO INEPAM**. As 11 questões classificadas como reais possuem origem catalogada; referências parciais analisadas apenas no Markdown não são promovidas automaticamente ao banco.
+O banco canônico importado contém 1.307 questões, todas com A–E, uma resposta correta e comentário. As 1.296 inéditas permanecem identificadas como **QUESTÃO INÉDITA — ESTILO INEPAM**. As 11 questões classificadas como reais possuem origem catalogada; referências parciais analisadas apenas no Markdown não são promovidas automaticamente ao banco.
 
-Cinco questões preservam o antigo vínculo `agente-especificos-manuais-redacao-001`. O manifesto resolve esse ID histórico por alias para a aula canônica de Atos Oficiais, sem alterar IDs permanentes nem duplicar conteúdo.
+O mestre consolidado de Arquivo mantém um alias para o antigo vínculo `agente-especificos-nocoes-arquivo-001`. Em Monitor, `MON-ESP-018` reutiliza a aula e as questões de `MON-ESP-004`, preservando a cobertura 1:1 sem criar uma cópia da LDB.
 
 ## Portão documental
 
-Nenhum deploy editorial é liberado antes da leitura integral do edital e de todas as retificações conhecidas. A rerratificação de 13/08/2026 foi revalidada em 24/08/2026 e não afeta os três cargos do projeto.
+Nenhum deploy editorial é liberado antes da leitura integral do edital e de todas as retificações conhecidas. Em 02/09/2026, a página oficial continuava exibindo apenas a rerratificação de 13/08/2026 (`idAnexo=2681`), já auditada integralmente e sem impacto nos três cargos do projeto.
 
 ## Conteúdo pendente
 
-Itens sem pacote canônico completo aparecem como **Conteúdo em preparação**. Eles continuam mapeados internamente, mas não são apresentados como aula concluída.
+Itens sem pacote canônico completo aparecem como **Conteúdo em preparação**. Eles continuam mapeados internamente, mas não são apresentados como aula concluída. No fluxo editorial atualizado de Agente Administrativo, Informática está produzida até PowerPoint; Outlook, Adobe Reader e Internet aguardam os próximos lotes, embora as versões anteriores do site permaneçam preservadas até a substituição segura.
