@@ -5,7 +5,10 @@ const internalMetadataPatterns = [
   /\bq-(?:inedita|real)-[\w-]+\b/i,
   /\bsrc-[a-z0-9-]+\b/i,
   /\b(?:MED-PORT|MED-MAT|FUND-PORT|FUND-MAT|AGE-ESP|AJU-ESP|AJU-PRAT|AGADM|MON-ESP|AJG-ESP)-[\w-]+\b/i,
+  /\b(?:MED-PORT|MED-MAT|FUND-PORT|FUND-MAT|AGE-ESP|AJU-ESP|AJU-PRAT|AGADM|MON-ESP|AJG-ESP)-\*/i,
   /(?:^|[\s`])(?:aa|ag|fp|fm|mp|mm|me)-[a-z0-9-]+(?:$|[\s`.,;:)])/i,
+  /\b(?:lote editorial|pacote editorial|item estável|item-pai|tópico do site|status relacional|arquivo mestre)\b/i,
+  /\bauditado_sem_impacto_nos_cargos_do_projeto\b/i,
 ]
 
 const outdatedPublicationControl = /rerratifica(?:ção|cao).*(?:pendente|bloque|condicion|não deve|nao deve|libera(?:ção|cao) global)|(?:pendente|bloque|condicion|não deve|nao deve|libera(?:ção|cao) global).*rerratifica(?:ção|cao)/i
@@ -18,6 +21,39 @@ function removeFrontmatter(markdown: string) {
   const contentStart = opening[0].length
   const closing = normalized.slice(contentStart).match(/\n\s*---\s*(?:\n|$)/)
   return closing ? normalized.slice(contentStart + closing.index! + closing[0].length) : normalized
+}
+
+function decodeHtmlEntities(value: string) {
+  return value
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#(?:39|x27);/gi, "'")
+}
+
+function convertLegacyHtmlTables(markdown: string) {
+  return markdown.replace(/<table\b[\s\S]*?<\/table>/gi, (table) => {
+    const content = decodeHtmlEntities(table
+      .replace(/<strong\b[^>]*>/gi, '**')
+      .replace(/<\/strong>/gi, '**')
+      .replace(/<em\b[^>]*>/gi, '*')
+      .replace(/<\/em>/gi, '*')
+      .replace(/<code\b[^>]*>/gi, '`')
+      .replace(/<\/code>/gi, '`')
+      .replace(/<br\s*\/?\s*>/gi, '\n')
+      .replace(/<\/p>/gi, '\n\n')
+      .replace(/<\/li>/gi, '\n')
+      .replace(/<li\b[^>]*>/gi, '- ')
+      .replace(/<[^>]+>/g, ''))
+      .split('\n')
+      .map((line) => line.trim())
+      .filter((line, index, lines) => line || (index > 0 && index < lines.length - 1 && lines[index - 1]))
+
+    if (!content.some(Boolean)) return ''
+    return `\n\n${content.map((line) => line ? `> ${line}` : '>').join('\n')}\n\n`
+  }).replace(/<br\s*\/?\s*>/gi, '  \n')
 }
 
 function removeEditorialSections(markdown: string) {
@@ -58,7 +94,7 @@ export function containsInternalMetadata(value: string) {
 }
 
 export function createStudentLessonMarkdown(markdown: string, questionCount: number) {
-  const studentBody = removeEmptySections(removeEditorialSections(removeFrontmatter(markdown)
+  const studentBody = removeEmptySections(removeEditorialSections(convertLegacyHtmlTables(removeFrontmatter(markdown))
     .split('\n')
     .map((line) => {
       if (/^(#{1,3}\s+(?:\d+\.\s+)?)Fontes oficiais e de controle editorial\s*$/i.test(line)) {
@@ -79,8 +115,11 @@ export function createStudentLessonMarkdown(markdown: string, questionCount: num
         return questionCount ? 'O comentário completo de cada item aparece após a confirmação da resposta na área de prática.' : ''
       }
       if (/\b(?:status|controle) editorial\b/i.test(line)) return ''
+      if (/\bnota editorial\b/i.test(line)) return ''
       if (outdatedPublicationControl.test(line)) return ''
       return containsInternalMetadata(line) ? '' : line
+        .replace(/\s*\(inferência editorial\)/gi, '')
+        .replace(/inferência editorial/gi, 'estratégia de estudo')
     })
     .join('\n')))
     .replace(/\n{3,}/g, '\n\n')

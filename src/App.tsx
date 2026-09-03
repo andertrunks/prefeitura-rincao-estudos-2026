@@ -480,7 +480,7 @@ function LessonPage({ data, setData }: AppState) {
       <Link className="back-link" to="/estudo"><ArrowLeft size={16} /> Voltar ao material</Link>
       <header className="lesson-header"><div><span className={`origin-chip ${topic.origin}`}>{originLabels[topic.origin]}</span><small>{disciplineLabels[topic.discipline]}</small><h1>{richLesson.title}</h1><p>{topic.summary}</p></div><div className="lesson-actions"><button className={favorite ? 'active' : ''} onClick={() => toggleArray('favoriteTopics')}><Heart size={18} fill={favorite ? 'currentColor' : 'none'} /> {favorite ? 'Favorito' : 'Favoritar'}</button><button className={completed ? 'complete' : ''} onClick={() => toggleArray('completedTopics')}>{completed ? <CheckCircle2 size={18} /> : <BookCheck size={18} />}{completed ? 'Concluída' : 'Marcar como concluída'}</button></div></header>
       <div className="lesson-layout"><div className="lesson-content">
-        <RichLessonArticle lesson={richLesson} />
+        <RichLessonArticle lesson={richLesson} practiceTopicId={topic.id} questionStats={{ total: relatedQuestions.length, original: relatedQuestions.filter((question) => question.type === 'inedita').length, real: relatedQuestions.filter((question) => question.type === 'real').length }} />
         <nav className="lesson-sequence" aria-label="Navegação entre aulas">
           {previousLesson ? <Link to={`/aula/${previousLesson.id}`}><ArrowLeft size={17} /><span><small>Aula anterior</small><strong>{richLessonsByTopicId[previousLesson.id]?.title ?? previousLesson.title}</strong></span></Link> : <span />}
           {nextLesson ? <Link className="next" to={`/aula/${nextLesson.id}`}><span><small>Próxima aula</small><strong>{richLessonsByTopicId[nextLesson.id]?.title ?? nextLesson.title}</strong></span><ArrowRight size={17} /></Link> : <Link className="next" to="/estudo"><span><small>Fim da sequência</small><strong>Voltar ao material</strong></span><ArrowRight size={17} /></Link>}
@@ -619,7 +619,7 @@ function EmptyState({ icon: Icon, title, text }: { icon: typeof CircleHelp; titl
 }
 
 function Footer() {
-  return <footer className="site-footer"><div><GraduationCap size={20} /><span><strong>Rincão Estudos 2026</strong><small>Projeto gratuito, educacional e não oficial.</small></span></div><p>Edital e rerratificação oficial auditados em 24/08/2026. Continue acompanhando convocações e novas publicações da Prefeitura e da INEPAM.</p><Link to="/privacidade">Privacidade</Link></footer>
+  return <footer className="site-footer"><div><GraduationCap size={20} /><span><strong>Rincão Estudos 2026</strong><small>Projeto gratuito, educacional e não oficial.</small></span></div><p>Edital e rerratificação oficial revalidados em 02/09/2026. Continue acompanhando convocações e novas publicações da Prefeitura e da INEPAM.</p><Link to="/privacidade">Privacidade</Link></footer>
 }
 
 function App() {

@@ -77,11 +77,16 @@ export function RichLessonToc({ lesson }: { lesson: RichLesson }) {
   )
 }
 
-function RichLessonArticleComponent({ lesson }: { lesson: RichLesson }) {
-  const { mainBody, sourcesBody } = createStudentLessonMarkdown(lesson.markdown, lesson.questionCount)
+type QuestionStats = { total: number; original: number; real: number }
+
+function RichLessonArticleComponent({ lesson, practiceTopicId, questionStats }: { lesson: RichLesson; practiceTopicId?: string; questionStats?: QuestionStats }) {
+  const stats = questionStats ?? { total: lesson.questionCount, original: lesson.originalQuestionCount, real: lesson.realQuestionCount }
+  const { mainBody, sourcesBody } = createStudentLessonMarkdown(lesson.markdown, stats.total)
   const linkedSources = [...new Map(lesson.sources.filter((source) => source.url).map((source) => [source.url, source])).values()]
   const disciplineLabel = lesson.disciplineId === 'agente-especificos'
     ? 'Conhecimentos Específicos · Agente Administrativo'
+    : lesson.disciplineId === 'monitor-especificos'
+      ? 'Conhecimentos Específicos · Monitor de Educação'
     : lesson.disciplineId === 'ajudante-especificos'
       ? 'Conhecimentos Específicos · Ajudante Geral'
       : lesson.disciplineId === 'ajudante-pratica'
@@ -91,7 +96,9 @@ function RichLessonArticleComponent({ lesson }: { lesson: RichLesson }) {
     ? 'Conteúdo compartilhado por Agente Administrativo e Monitor de Educação.'
     : lesson.cargoIds[0] === 'agente'
       ? 'Conteúdo exclusivo para Agente Administrativo.'
-      : 'Conteúdo exclusivo para Ajudante Geral.'
+      : lesson.cargoIds[0] === 'monitor'
+        ? 'Conteúdo exclusivo para Monitor de Educação.'
+        : 'Conteúdo exclusivo para Ajudante Geral.'
 
   return (
     <div className="rich-lesson-document">
@@ -104,9 +111,9 @@ function RichLessonArticleComponent({ lesson }: { lesson: RichLesson }) {
 
       <section className="editorial-practice-panel" aria-labelledby="practice-title">
         <BookOpenText size={22} />
-        {lesson.questionCount ? <>
-          <div><span>Questões para praticar</span><strong id="practice-title">Esta aula possui {lesson.originalQuestionCount ? `${lesson.originalQuestionCount} ${lesson.originalQuestionCount === 1 ? 'questão inédita' : 'questões inéditas'} no estilo INEPAM` : ''}{lesson.originalQuestionCount && lesson.realQuestionCount ? ' e ' : ''}{lesson.realQuestionCount ? `${lesson.realQuestionCount} ${lesson.realQuestionCount === 1 ? 'questão real' : 'questões reais'} da INEPAM` : ''}, com gabarito comentado.</strong>{lesson.realQuestionReferenceCount ? <p>A aula também inclui questões anteriores da INEPAM resolvidas e comentadas, preservadas como evidência pedagógica.</p> : null}</div>
-          <a href={`#/questoes?topico=${lesson.topicId}`}>Praticar este assunto <ArrowRight size={16} /></a>
+        {stats.total ? <>
+          <div><span>Questões para praticar</span><strong id="practice-title">Esta aula possui {stats.original ? `${stats.original} ${stats.original === 1 ? 'questão inédita' : 'questões inéditas'} no estilo INEPAM` : ''}{stats.original && stats.real ? ' e ' : ''}{stats.real ? `${stats.real} ${stats.real === 1 ? 'questão real' : 'questões reais'} da INEPAM` : ''}, com gabarito comentado.</strong>{lesson.realQuestionReferenceCount ? <p>A aula também inclui questões anteriores da INEPAM resolvidas e comentadas, preservadas como evidência pedagógica.</p> : null}</div>
+          <a href={`#/questoes?topico=${practiceTopicId ?? lesson.topicId}`}>Praticar este assunto <ArrowRight size={16} /></a>
         </> : <div><span>Prática na própria aula</span><strong id="practice-title">A aula inclui questões de fixação e gabarito comentado no próprio material.</strong>{lesson.realQuestionReferenceCount ? <p>Também há questões anteriores da INEPAM resolvidas e comentadas, preservadas com sua classificação correta.</p> : null}</div>}
       </section>
 
