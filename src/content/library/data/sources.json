@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-23T20:03:00-03:00",
+  "generatedAt": "2026-09-02T12:00:00-03:00",
   "timezone": "America/Sao_Paulo",
   "scope": {
     "cargoIds": [
@@ -95,10 +95,10 @@
     {
       "id": "src-ana-manual-redacao-atos-oficiais-2007",
       "tipo": "manual_oficial",
-      "titulo": "Referência editorial — ana-manual-redacao-atos-oficiais-2007",
+      "titulo": "Manual de Redação e de Atos Oficiais — ANA (PDF oficial ©2009; vínculo à Resolução ANA nº 480/2007; ID legado preservado)",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "Agência Nacional de Águas e Saneamento Básico",
-      "url": null,
+      "url": "https://www.ana.gov.br/arquivos/institucional/sge/CEDOC/Catalogo/2009/ManualDeRedacaEAtosOficiais.pdf",
       "referenciasDrive": [],
       "ano": 2007,
       "statusVerificacao": "metadados_parciais",
@@ -243,15 +243,21 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "oficial": true,
+      "type": "bibliografia_oficial_edital",
+      "title": "Agência Nacional de Águas — Manual de Redação e de Atos Oficiais",
+      "year": 2007,
+      "historicalUrl": "https://arquivos.ana.gov.br/resolucoes/2007/480-2007-anexo1.pdf",
+      "evidence": "manual institucional citado historicamente pela própria INEPAM e utilizado expressamente em julgamentos oficiais"
     },
     {
       "id": "src-ana-manual-redacao-atos-oficiais-2009",
-      "tipo": "manual_oficial",
-      "titulo": "Referência editorial — ana-manual-redacao-atos-oficiais-2009",
+      "tipo": "manual_oficial_bibliografia_edital",
+      "titulo": "Agência Nacional de Águas — Manual de Redação e de Atos Oficiais — Brasília, 2007",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "Agência Nacional de Águas e Saneamento Básico",
-      "url": null,
+      "url": "https://arquivos.ana.gov.br/resolucoes/2007/480-2007-anexo1.pdf",
       "referenciasDrive": [],
       "ano": 2009,
       "statusVerificacao": "metadados_parciais",
@@ -321,15 +327,17 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "orgao": "Agência Nacional de Águas — ANA",
+      "observacao": "ID legado preservado por compatibilidade. O documento referenciado pelo edital é a edição de 2007, aprovada pela Resolução ANA nº 480/2007."
     },
     {
       "id": "src-arquivo-nacional-codigo-classificacao-ttdd",
-      "tipo": "fonte_arquivistica_oficial",
-      "titulo": "Referência editorial — arquivo-nacional-codigo-classificacao-ttdd",
+      "tipo": "orientacao_oficial",
+      "titulo": "Arquivo Nacional — Código de Classificação e Tabela de Temporalidade e Destinação de Documentos de Arquivo",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "Arquivo Nacional",
-      "url": null,
+      "url": "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/orientacao-tecnica-1/codigo-de-classificacao-e-tabela-de-temporalidade-e-destinacao-de-documentos-de-arquivo/codigo-de-classificacao-e-tabela-de-temporalidade-e-destinacao-de-documentos-de-arquivo-1",
       "referenciasDrive": [],
       "ano": null,
       "statusVerificacao": "metadados_parciais",
@@ -355,12 +363,14 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "oficial": true,
+      "ultimaAtualizacao": "2026-07-07"
     },
     {
       "id": "src-arquivo-nacional-dicionario-terminologia-arquivistica-2005",
-      "tipo": "fonte_arquivistica_oficial",
-      "titulo": "Dicionário Brasileiro de Terminologia Arquivística",
+      "tipo": "referencia_oficial",
+      "titulo": "Arquivo Nacional — Dicionário Brasileiro de Terminologia Arquivística",
       "tituloExatoConfirmado": true,
       "orgaoAutoria": "Arquivo Nacional",
       "url": "https://www.gov.br/arquivonacional/pt-br/servicos/publicacoes/dicionrio_de_terminologia_arquivistica.pdf",
@@ -395,7 +405,8 @@
       ],
       "aliasOf": null,
       "possiveisDuplicatas": [],
-      "observacoes": []
+      "observacoes": [],
+      "oficial": true
     },
     {
       "id": "src-arquivo-nacional-gestao-documentos",
@@ -571,7 +582,7 @@
       "titulo": "Referência editorial — cf1988-compilada-art37",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "Presidência da República / Portal Planalto",
-      "url": "https://planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+      "url": "https://www4.planalto.gov.br/legislacao/legis-federal/constituicao",
       "referenciasDrive": [],
       "ano": 1988,
       "statusVerificacao": "alias_confirmado",
@@ -590,7 +601,11 @@
       "possiveisDuplicatas": [],
       "observacoes": [
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "norma_oficial",
+      "title": "Constituição Federal de 1988 — art. 37",
+      "authority": "Presidência da República",
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "src-cgu-agentes-publicos",
@@ -598,7 +613,7 @@
       "titulo": "Referência editorial — cgu-agentes-publicos",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "CGU",
-      "url": null,
+      "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/perguntas-frequentes/atividade-disciplinar/agentes-publicos-e-agentes-politicos",
       "referenciasDrive": [],
       "ano": null,
       "statusVerificacao": "metadados_parciais",
@@ -618,15 +633,18 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "fonte_pedagogica_oficial",
+      "title": "CGU — Agentes Públicos e Agentes Políticos",
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "src-conarq-resolucao-1-1995",
-      "tipo": "fonte_arquivistica_oficial",
-      "titulo": "Referência editorial — conarq-resolucao-1-1995",
+      "tipo": "norma_oficial",
+      "titulo": "CONARQ — Resolução nº 1, de 18 de outubro de 1995",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "CONARQ",
-      "url": null,
+      "url": "https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes-do-conarq/resolucao-no-1-de-18-de-outubro-de-1995",
       "referenciasDrive": [],
       "ano": 1995,
       "statusVerificacao": "metadados_parciais",
@@ -652,15 +670,16 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "oficial": true
     },
     {
       "id": "src-conarq-resolucao-27-2008",
-      "tipo": "fonte_arquivistica_oficial",
-      "titulo": "Referência editorial — conarq-resolucao-27-2008",
+      "tipo": "norma_oficial",
+      "titulo": "CONARQ — Resolução nº 27, de 16 de junho de 2008",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "CONARQ",
-      "url": null,
+      "url": "https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes-do-conarq/resolucao-no-27-de-16-de-junho-de-2008",
       "referenciasDrive": [],
       "ano": 2008,
       "statusVerificacao": "metadados_parciais",
@@ -686,7 +705,8 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "oficial": true
     },
     {
       "id": "src-decreto-11531-2023",
@@ -729,11 +749,11 @@
     },
     {
       "id": "src-decreto-12002-2024",
-      "tipo": "legislacao_oficial",
-      "titulo": "Decreto nº 12.002, de 22 de abril de 2024",
+      "tipo": "legislacao",
+      "titulo": "Decreto nº 12.002/2024 — elaboração, redação, alteração e consolidação de atos normativos federais",
       "tituloExatoConfirmado": true,
       "orgaoAutoria": "Presidência da República / Portal Planalto",
-      "url": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12002.htm",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12002.htm",
       "referenciasDrive": [],
       "ano": 2024,
       "statusVerificacao": "verificado_oficial",
@@ -788,12 +808,18 @@
       ],
       "aliasOf": null,
       "possiveisDuplicatas": [],
-      "observacoes": []
+      "observacoes": [],
+      "oficial": true,
+      "type": "ato_oficial_atual",
+      "title": "Decreto nº 12.002/2024",
+      "authority": "Presidência da República",
+      "verifiedAt": "2026-08-30",
+      "evidence": "estabelece normas federais de elaboração, redação, alteração e consolidação de atos normativos; revogou o Decreto 9.191/2017"
     },
     {
       "id": "src-decreto-6583-2008-acordo-ortografico",
-      "tipo": "legislacao_oficial",
-      "titulo": "Decreto nº 6.583, de 29 de setembro de 2008 — Acordo Ortográfico",
+      "tipo": "legislacao",
+      "titulo": "Decreto nº 6.583/2008 — Acordo Ortográfico da Língua Portuguesa",
       "tituloExatoConfirmado": true,
       "orgaoAutoria": "Presidência da República / Portal Planalto",
       "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6583.htm",
@@ -824,15 +850,16 @@
       ],
       "aliasOf": null,
       "possiveisDuplicatas": [],
-      "observacoes": []
+      "observacoes": [],
+      "oficial": true
     },
     {
       "id": "src-decreto-9758-2019-tratamento-federal",
-      "tipo": "legislacao_oficial",
-      "titulo": "Decreto nº 9.758, de 11 de abril de 2019",
+      "tipo": "legislacao",
+      "titulo": "Decreto nº 9.758/2019 — formas de tratamento e endereçamento na Administração Pública Federal",
       "tituloExatoConfirmado": true,
       "orgaoAutoria": "Presidência da República / Portal Planalto",
-      "url": "https://planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9758.htm",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9758.htm",
       "referenciasDrive": [],
       "ano": 2019,
       "statusVerificacao": "verificado_oficial",
@@ -859,7 +886,8 @@
       ],
       "aliasOf": null,
       "possiveisDuplicatas": [],
-      "observacoes": []
+      "observacoes": [],
+      "oficial": true
     },
     {
       "id": "src-e-arq-brasil-v2",
@@ -919,7 +947,11 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "emenda_constitucional",
+      "title": "Emenda Constitucional nº 103/2019",
+      "authority": "Congresso Nacional / Planalto",
+      "role": "reforma estrutural do art. 40"
     },
     {
       "id": "src-ec135-2024",
@@ -948,7 +980,11 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "emenda_constitucional",
+      "title": "Emenda Constitucional nº 135/2024",
+      "authority": "Congresso Nacional / Planalto",
+      "role": "redação atual do art. 37 §11"
     },
     {
       "id": "src-ec138-2025",
@@ -956,7 +992,7 @@
       "titulo": "Referência editorial — ec138-2025",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "Presidência da República / Portal Planalto",
-      "url": null,
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc138.htm",
       "referenciasDrive": [],
       "ano": 2025,
       "statusVerificacao": "metadados_parciais",
@@ -977,12 +1013,16 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "emenda_constitucional",
+      "title": "Emenda Constitucional nº 138/2025",
+      "authority": "Congresso Nacional / Planalto",
+      "evidence": "art. 37 XVI b — professor + outro cargo de qualquer natureza"
     },
     {
       "id": "src-edital-rincao-2026",
       "tipo": "edital_oficial",
-      "titulo": "Edital do Concurso Público nº 001/2026 — Prefeitura Municipal de Rincão-SP",
+      "titulo": "Edital Concurso Público nº 001/2026 — Prefeitura de Rincão/SP",
       "tituloExatoConfirmado": true,
       "orgaoAutoria": "INEPAM / órgão promotor",
       "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
@@ -1774,7 +1814,19 @@
       ],
       "aliasOf": null,
       "possiveisDuplicatas": [],
-      "observacoes": []
+      "observacoes": [],
+      "orgao": "Prefeitura Municipal de Rincão / INEPAM",
+      "banca": "INEPAM",
+      "observacao": "Página oficial lista o edital, uma Rerratificação do Edital de Abertura e o cargo Monitor de Educação.",
+      "oficial": true,
+      "type": "official_edital",
+      "title": "Prefeitura de Rincão — Concurso Público nº 001/2026 — Edital de Abertura",
+      "authority": "Prefeitura Municipal de Rincão / INEPAM",
+      "role": "fonte_de_verdade",
+      "verificadoEm": "2026-09-01",
+      "verifiedAt": "2026-09-01",
+      "evidence": "Informática inclui Windows XP ou mais recente e configurações de periféricos, com menção a impressoras e monitores.",
+      "usage": "Fonte de verdade do conteúdo programático de Agente Administrativo."
     },
     {
       "id": "src-enap-administracao-publica",
@@ -2801,7 +2853,11 @@
       "possiveisDuplicatas": [],
       "observacoes": [
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "recurso_inepam",
+      "title": "Bofete/SP — Concurso Público nº 0001/2023 — julgamento de recursos",
+      "evidence": "Lavador de Veículos, Q26 — finalidade e sinais vitais",
+      "screenshot": "cache_miss"
     },
     {
       "id": "src-inepam-bofete-2023-recursos",
@@ -2995,11 +3051,11 @@
     },
     {
       "id": "src-inepam-campo-limpo-paulista-001-2026-edital",
-      "tipo": "documento_inepam",
-      "titulo": "INEPAM — referência editorial campo-limpo-paulista-001-2026-edital",
+      "tipo": "edital_inepam",
+      "titulo": "Campo Limpo Paulista/SP — Concurso Público nº 001/2026 — Edital",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": null,
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1946",
       "referenciasDrive": [],
       "ano": 2026,
       "statusVerificacao": "metadados_parciais",
@@ -3040,7 +3096,8 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "oficial": true
     },
     {
       "id": "src-inepam-campo-limpo-paulista-001-2026-gabarito",
@@ -3048,7 +3105,7 @@
       "titulo": "INEPAM — referência editorial campo-limpo-paulista-001-2026-gabarito",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": null,
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2282",
       "referenciasDrive": [],
       "ano": 2026,
       "statusVerificacao": "metadados_parciais",
@@ -3157,7 +3214,10 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "gabarito_inepam",
+      "title": "Campo Limpo Paulista/SP — Gabarito das Provas Objetivas",
+      "evidence": "gabarito oficial de Escriturário; screenshot tentado e retornou erro interno/cache"
     },
     {
       "id": "src-inepam-campo-limpo-paulista-001-2026-gabarito-homologado",
@@ -3190,8 +3250,8 @@
     },
     {
       "id": "src-inepam-campo-limpo-paulista-001-2026-recursos",
-      "tipo": "documento_inepam",
-      "titulo": "INEPAM — referência editorial campo-limpo-paulista-001-2026-recursos",
+      "tipo": "recursos_inepam",
+      "titulo": "Campo Limpo Paulista/SP — Julgamento dos Recursos das Provas Objetivas",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
       "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2328",
@@ -3315,7 +3375,16 @@
       "possiveisDuplicatas": [],
       "observacoes": [
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "orgao": "Câmara Municipal de Campo Limpo Paulista/SP",
+      "banca": "INEPAM",
+      "observacao": "Assistente Administrativo Q21: Times New Roman, página 37 do Manual; Assistente Jurídico Q16: impessoalidade em situação de favorecimento.",
+      "oficial": true,
+      "type": "recurso_inepam",
+      "title": "Campo Limpo Paulista/SP — Concurso nº 001/2026 — Julgamento dos Recursos",
+      "evidence": "Assistente Administrativo Q16,17,18,19,21,23,25 — Manual da ANA; screenshot p.5 obtido",
+      "screenshot": "ok_p5",
+      "publicationRule": "questoes_reais_parcialmente_documentadas"
     },
     {
       "id": "src-inepam-campo-limpo-paulista-escriturario-questoes-2026",
@@ -3386,7 +3455,7 @@
       "titulo": "INEPAM — referência editorial canitar-001-2025-recursos",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": null,
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2147",
       "referenciasDrive": [],
       "ano": 2025,
       "statusVerificacao": "metadados_parciais",
@@ -3417,15 +3486,19 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "inepam_official_judgment",
+      "title": "INEPAM — Canitar/SP — Concurso 001/2025 — Julgamento de recursos",
+      "verifiedAt": "2026-09-01",
+      "usage": "Escriturário, Q28, atalhos localizados do Word pt-BR; questão real parcialmente documentada."
     },
     {
       "id": "src-inepam-carlinda-001-2025-recursos",
-      "tipo": "documento_inepam",
-      "titulo": "INEPAM — referência editorial carlinda-001-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Prefeitura Municipal de Carlinda/MT — Concurso Público nº 001/2025 — Julgamento dos Recursos dos Gabaritos",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": null,
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2261",
       "referenciasDrive": [],
       "ano": 2025,
       "statusVerificacao": "metadados_parciais",
@@ -3455,7 +3528,17 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "orgao": "Prefeitura Municipal de Carlinda/MT",
+      "banca": "INEPAM",
+      "observacao": "Assistente Previdenciário Q24: Times New Roman, página 37 do Manual de Redação e de Atos Oficiais.",
+      "type": "recurso_inepam",
+      "title": "Carlinda/MT — Concurso Público nº 001/2025 — Julgamento dos Recursos dos Gabaritos",
+      "evidence": "Questão 14 definiu Windows 11 25H2 e comparou a finalidade de OneNote, Paint, Bloco de Notas, Calculadora e Windows Media Player; julgamento manteve B — OneNote.",
+      "screenshot": "ok_page_index_8",
+      "publicationRule": "questao_real_inepam_parcialmente_documentada",
+      "authority": "Prefeitura Municipal de Carlinda / INEPAM",
+      "cargo": "bloco de cargos de nível superior e Professor de Pedagogia"
     },
     {
       "id": "src-inepam-carmodamata-2025-recursos",
@@ -3493,8 +3576,8 @@
     },
     {
       "id": "src-inepam-clementina-001-2026-recursos",
-      "tipo": "documento_inepam",
-      "titulo": "INEPAM — referência editorial clementina-001-2026-recursos",
+      "tipo": "julgamento_recursos_oficial",
+      "titulo": "INEPAM — Clementina/SP 001/2026 — Julgamento dos Recursos",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
       "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2301",
@@ -3684,8 +3767,8 @@
     },
     {
       "id": "src-inepam-crea-mt-001-2025-recursos",
-      "tipo": "documento_inepam",
-      "titulo": "INEPAM — referência editorial crea-mt-001-2025-recursos",
+      "tipo": "julgamento_recursos_oficial",
+      "titulo": "INEPAM — CREA/MT — Concurso Público nº 001/2025 — Julgamento dos Recursos",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
       "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1876",
@@ -3723,7 +3806,16 @@
       "possiveisDuplicatas": [],
       "observacoes": [
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "inepam_official_judgment",
+      "title": "INEPAM — CREA/MT — Concurso 001/2025 — Julgamento de recursos",
+      "authority": "CREA/MT / INEPAM",
+      "cargo": "Assistente Administrativo",
+      "evidence": "Questão 36 tratou de codificação no Bloco de Notas para arquivo .bat; julgamento manteve gabarito E — ANSI. Fonte é julgamento, não caderno integral.",
+      "screenshot": "cache_miss_page_index_23",
+      "publicationRule": "questao_real_inepam_parcialmente_documentada",
+      "verifiedAt": "2026-09-01",
+      "usage": "Assistente Administrativo, Q38, Revisão → Comparar; questão real parcialmente documentada."
     },
     {
       "id": "src-inepam-creamt-2025-recursos",
@@ -4504,7 +4596,7 @@
       "titulo": "INEPAM — referência editorial emilianopolis-001-2023-recursos",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": null,
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=418",
       "referenciasDrive": [],
       "ano": 2023,
       "statusVerificacao": "metadados_parciais",
@@ -4526,7 +4618,12 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "recurso_inepam",
+      "title": "Emilianópolis/SP — Concurso nº 001/2023 — Julgamento dos Recursos",
+      "evidence": "Assistente Administrativo Q19 — página 35 do manual corresponde a Carta",
+      "screenshot": "cache_miss_p3",
+      "publicationRule": "questao_real_parcialmente_documentada"
     },
     {
       "id": "src-inepam-estiva-gerbi-001-2025-recursos",
@@ -4714,8 +4811,8 @@
     },
     {
       "id": "src-inepam-iacri-001-2025-recursos",
-      "tipo": "documento_inepam",
-      "titulo": "INEPAM — referência editorial iacri-001-2025-recursos",
+      "tipo": "julgamento_recursos_inepam_oficial",
+      "titulo": "Iacri/SP — Concurso Público nº 001/2025 — Julgamento dos Recursos dos Gabaritos",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
       "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1684",
@@ -4731,7 +4828,11 @@
       "possiveisDuplicatas": [],
       "observacoes": [
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "orgao": "Prefeitura Municipal de Iacri / INEPAM",
+      "oficial": true,
+      "verificadoEm": "2026-08-25",
+      "observacao": "Questão 26 de Coordenador do CRAS: julgamento afirma transcrição literal do art. 13, §2º, do ECA. Alternativas integrais não reproduzidas; evidência parcial. Screenshot p.3 tentado: cache miss."
     },
     {
       "id": "src-inepam-ipiranga-norte-001-2025-recursos",
@@ -4901,7 +5002,16 @@
       "possiveisDuplicatas": [],
       "observacoes": [
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "inepam_official_judgment",
+      "title": "INEPAM — Itajubá/MG — Concurso 001/2024 — Julgamento de recursos",
+      "cargo": "Agente Administrativo",
+      "evidence": "Questão 20: julgamento oficial confirma que o item para alterar tamanho de texto, apps e outros itens era Escala, em Configurações → Sistema → Tela, e registra Windows 11 23H2 (build 22635.3430).",
+      "screenshot": "cache_miss_page_index_4",
+      "publicationRule": "questao_real_inepam_parcialmente_documentada",
+      "authority": "Prefeitura Municipal de Itajubá / INEPAM",
+      "verifiedAt": "2026-09-01",
+      "usage": "Agente Administrativo, Q24, Marcadores / Parágrafo / Página Inicial; questão real parcialmente documentada."
     },
     {
       "id": "src-inepam-itajuba-002-2024-recursos",
@@ -4975,7 +5085,7 @@
       "titulo": "INEPAM — referência editorial itamogi-001-2024-recursos",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": null,
+      "url": "https://www.app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=981",
       "referenciasDrive": [],
       "ano": 2024,
       "statusVerificacao": "metadados_parciais",
@@ -5021,7 +5131,11 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "recurso_inepam",
+      "title": "Itamogi/MG — Concurso Público nº 001/2024 — Julgamento dos Recursos",
+      "evidence": "Recepcionista, Q19 — bom atendimento ao público exige empatia",
+      "screenshot": "cache_miss"
     },
     {
       "id": "src-inepam-juara-2023-recursos",
@@ -5493,7 +5607,7 @@
       "titulo": "INEPAM — referência editorial mongagua-001-2026-edital",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": null,
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2075",
       "referenciasDrive": [],
       "ano": 2026,
       "statusVerificacao": "metadados_parciais",
@@ -5538,7 +5652,10 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "edital_inepam",
+      "title": "Mongaguá/SP — Câmara — Concurso Público nº 001/2026 — Técnico de Secretaria",
+      "evidence": "edital inclui Regras de hierarquias no serviço público"
     },
     {
       "id": "src-inepam-mongagua-001-2026-gabarito",
@@ -5546,7 +5663,7 @@
       "titulo": "INEPAM — referência editorial mongagua-001-2026-gabarito",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": null,
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2358",
       "referenciasDrive": [],
       "ano": 2026,
       "statusVerificacao": "metadados_parciais",
@@ -5632,7 +5749,10 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "gabarito_inepam",
+      "title": "Mongaguá/SP — Edital de Divulgação dos Gabaritos — Técnico de Secretaria",
+      "evidence": "gabarito oficial localizado; caderno oficial integral não recuperado"
     },
     {
       "id": "src-inepam-mongagua-001-2026-recursos",
@@ -5861,7 +5981,16 @@
       "possiveisDuplicatas": [],
       "observacoes": [
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "inepam_official_judgment",
+      "title": "INEPAM — Nova Monte Verde/MT — Concurso 001/2025 — Julgamento de recursos",
+      "evidence": "Questões 31 a 36: o julgamento repete como conteúdo previsto Windows XP ou mais recente e aplicativos embarcados Bloco de Notas, Calculadora, Paint e WordPad; não reproduz o conteúdo de cada questão.",
+      "screenshot": "cache_miss_page_index_4",
+      "publicationRule": "evidencia_de_escopo_sem_reconstrucao_de_questoes",
+      "authority": "Prefeitura Municipal de Nova Monte Verde / INEPAM",
+      "cargo": "Assistente de Controle Administrativo",
+      "verifiedAt": "2026-09-01",
+      "usage": "Evidência oficial de escopo de Office 2010 ou superior; sem reconstrução de questão."
     },
     {
       "id": "src-inepam-nova-ubirata-001-2024-recursos",
@@ -5953,11 +6082,11 @@
     },
     {
       "id": "src-inepam-pardinho-001-2025-recursos",
-      "tipo": "documento_inepam",
-      "titulo": "INEPAM — referência editorial pardinho-001-2025-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Pardinho-SP — Processo Seletivo nº 001/2025 — Julgamento dos Recursos",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": null,
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1526",
       "referenciasDrive": [],
       "ano": 2025,
       "statusVerificacao": "metadados_parciais",
@@ -5987,7 +6116,10 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "orgao": "INEPAM / Prefeitura de Pardinho-SP",
+      "oficial": true,
+      "observacao": "Auxiliar de Creche, questão 20: julgamento confirma alternativa C e situação ligada ao planejamento da rotina de creche. Fragmento não contém alternativas completas; screenshot tentado e retornou cache miss."
     },
     {
       "id": "src-inepam-pradopolis-001-2023-discursiva",
@@ -5995,7 +6127,7 @@
       "titulo": "INEPAM — referência editorial pradopolis-001-2023-discursiva",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": null,
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=264",
       "referenciasDrive": [],
       "ano": 2023,
       "statusVerificacao": "metadados_parciais",
@@ -6023,7 +6155,11 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "questao_real_oficial_discursiva",
+      "title": "Pradópolis/SP — Concurso nº 001/2023 — Advogado — Questão discursiva 2",
+      "evidence": "poder hierárquico x disciplinar e base de correção oficial",
+      "screenshot": "internal_error"
     },
     {
       "id": "src-inepam-pradopolis-003-2025-recursos",
@@ -6118,7 +6254,7 @@
       "titulo": "INEPAM — referência editorial pradopolis-recursos",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": null,
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=213",
       "referenciasDrive": [],
       "ano": null,
       "statusVerificacao": "metadados_parciais",
@@ -6148,7 +6284,12 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "recurso_inepam",
+      "title": "Pradópolis/SP — Julgamento de Recursos",
+      "evidence": "Questão 30 de Auxiliar de Engenharia fundamentada na NR-6 e informações de EPI",
+      "screenshot": "cache_miss_p9",
+      "publicationRule": "questao_real_parcial"
     },
     {
       "id": "src-inepam-ribeiraodosul-2025-recursos",
@@ -6186,8 +6327,8 @@
     },
     {
       "id": "src-inepam-rincao-concurso-001-2026-pagina",
-      "tipo": "documento_inepam",
-      "titulo": "Página oficial do Concurso Público nº 001/2026 — Rincão-SP",
+      "tipo": "pagina_oficial",
+      "titulo": "Rincão-SP — Concurso Público nº 001/2026",
       "tituloExatoConfirmado": true,
       "orgaoAutoria": "INEPAM / órgão promotor",
       "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
@@ -6201,7 +6342,16 @@
       "usedInQuestionIds": [],
       "aliasOf": null,
       "possiveisDuplicatas": [],
-      "observacoes": []
+      "observacoes": [],
+      "orgao": "INEPAM",
+      "verificadoEm": "2026-08-25",
+      "oficial": true,
+      "observacao": "Arquivos disponíveis continuam sendo Edital e Rerratificação; nenhuma nova retificação localizada.",
+      "type": "pagina_oficial",
+      "title": "Rincão-SP — Concurso Público nº 001/2026",
+      "authority": "INEPAM",
+      "verifiedAt": "2026-08-26",
+      "evidence": "página lista Edital e Rerratificação; Monitor de Educação permanece oferecido"
     },
     {
       "id": "src-inepam-saec-catanduva-2023-recursos",
@@ -6313,7 +6463,7 @@
       "titulo": "INEPAM — referência editorial santa-isabel-001-2026-edital",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2285",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1949",
       "referenciasDrive": [],
       "ano": 2026,
       "statusVerificacao": "resolvido_em_material",
@@ -6342,7 +6492,11 @@
       "possiveisDuplicatas": [],
       "observacoes": [
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "edital_inepam",
+      "title": "Santa Isabel/SP — Concurso Público nº 001/2026 — atribuições educacionais",
+      "evidence": "relações interpessoais escolares associadas a colaboração, solidariedade, respeito mútuo e respeito às diferenças",
+      "screenshot": "cache_miss_p91"
     },
     {
       "id": "src-inepam-santa-isabel-001-2026-recursos",
@@ -6733,7 +6887,7 @@
       "titulo": "INEPAM — referência editorial sarutaia-001-2025-recursos",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "INEPAM / órgão promotor",
-      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2067",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2074",
       "referenciasDrive": [],
       "ano": 2025,
       "statusVerificacao": "resolvido_em_material",
@@ -6761,7 +6915,12 @@
       "possiveisDuplicatas": [],
       "observacoes": [
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "recurso_inepam",
+      "title": "Sarutaiá/SP — CP 001/2025 — Julgamento dos Recursos",
+      "evidence": "RH Q20 — impessoalidade e moralidade",
+      "screenshot": "cache_miss_p6",
+      "publicationRule": "questao_real_parcial"
     },
     {
       "id": "src-inepam-sete-barras-001-2026-recursos",
@@ -6886,11 +7045,11 @@
     },
     {
       "id": "src-lc95-1998-compilada",
-      "tipo": "legislacao_oficial",
-      "titulo": "Lei Complementar nº 95, de 26 de fevereiro de 1998",
+      "tipo": "legislacao",
+      "titulo": "Lei Complementar nº 95/1998 — texto compilado",
       "tituloExatoConfirmado": true,
       "orgaoAutoria": "Presidência da República / Portal Planalto",
-      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95compilado.htm",
       "referenciasDrive": [],
       "ano": 1998,
       "statusVerificacao": "verificado_oficial",
@@ -6916,7 +7075,8 @@
       ],
       "aliasOf": null,
       "possiveisDuplicatas": [],
-      "observacoes": []
+      "observacoes": [],
+      "oficial": true
     },
     {
       "id": "src-lei-14063-2020",
@@ -7029,11 +7189,11 @@
     },
     {
       "id": "src-lei-8159-1991",
-      "tipo": "legislacao_oficial",
-      "titulo": "Lei nº 8.159, de 8 de janeiro de 1991",
+      "tipo": "legislacao",
+      "titulo": "Lei nº 8.159/1991 — Política Nacional de Arquivos Públicos e Privados",
       "tituloExatoConfirmado": true,
       "orgaoAutoria": "Presidência da República / Portal Planalto",
-      "url": "https://planalto.gov.br/ccivil_03/leis/l8159.htm",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8159.htm",
       "referenciasDrive": [],
       "ano": 1991,
       "statusVerificacao": "verificado_oficial",
@@ -7065,7 +7225,8 @@
       ],
       "aliasOf": null,
       "possiveisDuplicatas": [],
-      "observacoes": []
+      "observacoes": [],
+      "oficial": true
     },
     {
       "id": "src-lei-8429-1992-compilada",
@@ -7090,7 +7251,12 @@
       ],
       "aliasOf": null,
       "possiveisDuplicatas": [],
-      "observacoes": []
+      "observacoes": [],
+      "type": "norma_oficial",
+      "title": "Lei nº 8.429/1992 — texto compilado",
+      "authority": "Presidência da República",
+      "verifiedAt": "2026-08-30",
+      "evidence": "art. 2º — conceito amplo de agente público"
     },
     {
       "id": "src-lei-9784-1999",
@@ -7129,7 +7295,14 @@
       ],
       "aliasOf": null,
       "possiveisDuplicatas": [],
-      "observacoes": []
+      "observacoes": [],
+      "type": "referencia_federal_oficial",
+      "title": "Lei nº 9.784/1999",
+      "authority": "Presidência da República",
+      "role": "conceitos de órgão, entidade e processo administrativo federal; sem transposição automática ao Município",
+      "verifiedAt": "2026-08-30",
+      "evidence": "arts. 11 a 15 — competência, delegação e avocação",
+      "limit": "campo de aplicação direto federal"
     },
     {
       "id": "src-microsoft-calculator-support",
@@ -7393,6 +7566,14 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
+      ],
+      "type": "agrupador_editorial",
+      "title": "Microsoft — suporte oficial Windows",
+      "sourceIds": [
+        "src-microsoft-windows-11-release-health",
+        "src-microsoft-windows10-eos",
+        "src-microsoft-keyboard-shortcuts",
+        "src-microsoft-display-settings"
       ]
     },
     {
@@ -7502,10 +7683,10 @@
     {
       "id": "src-mrpr-2018",
       "tipo": "manual_oficial",
-      "titulo": "Referência editorial — mrpr-2018",
+      "titulo": "Manual de Redação da Presidência da República — 3ª edição (2018)",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "Presidência da República",
-      "url": null,
+      "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
       "referenciasDrive": [],
       "ano": 2018,
       "statusVerificacao": "metadados_parciais",
@@ -7629,7 +7810,16 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "orgao": "Presidência da República / Casa Civil",
+      "observacao": "Serviço oficial atualizado; confirma o manual como ferramenta teórico-referencial para comunicações oficiais e atos normativos.",
+      "oficial": true,
+      "type": "bibliografia_oficial_edital",
+      "title": "Manual de Redação da Presidência da República — 3ª edição",
+      "authority": "Presidência da República / Casa Civil",
+      "year": 2018,
+      "verifiedAt": "2026-08-30",
+      "evidence": "serviço oficial atualizado em 15/12/2025 continua oferecendo o MRPR como referência"
     },
     {
       "id": "src-planalto-acordo-ortografico-1990",
@@ -7697,15 +7887,19 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "ato_oficial",
+      "title": "Portaria nº 1.369, de 27 de dezembro de 2018",
+      "authority": "Casa Civil da Presidência da República",
+      "evidence": "aprova e autoriza a distribuição da 3ª edição do MRPR"
     },
     {
       "id": "src-portaria-an-mgi-174-2024",
-      "tipo": "fonte_arquivistica_oficial",
-      "titulo": "Referência editorial — portaria-an-mgi-174-2024",
+      "tipo": "norma_oficial_federal",
+      "titulo": "Portaria AN/MGI nº 174/2024 — instrumentos de atividades-meio do Poder Executivo federal",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "Arquivo Nacional",
-      "url": null,
+      "url": "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/orientacao-tecnica-1/codigo-de-classificacao-e-tabela-de-temporalidade-e-destinacao-de-documentos-de-arquivo/codigo-de-classificacao-e-tabela-de-temporalidade-e-destinacao-de-documentos-relativos-as-atividades-meio-do-poder-executivo-federal",
       "referenciasDrive": [],
       "ano": 2024,
       "statusVerificacao": "metadados_parciais",
@@ -7731,7 +7925,9 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "oficial": true,
+      "observacao": "Referência federal; não tratada como plano municipal obrigatório."
     },
     {
       "id": "src-rerratificacao-rincao-2026-pendente-auditoria",
@@ -7804,7 +8000,7 @@
     {
       "id": "src-rincao-retificacao-001-2026",
       "tipo": "retificacao_oficial",
-      "titulo": "Rerratificação do Edital de Abertura — Concurso Público nº 001/2026 — Rincão-SP",
+      "titulo": "Rerratificação do Edital de Abertura — Rincão 001/2026",
       "tituloExatoConfirmado": true,
       "orgaoAutoria": "INEPAM / órgão promotor",
       "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
@@ -7827,7 +8023,14 @@
       ],
       "aliasOf": null,
       "possiveisDuplicatas": [],
-      "observacoes": []
+      "observacoes": [],
+      "orgao": "Prefeitura Municipal de Rincão-SP / INEPAM",
+      "verificadoEm": "2026-08-24",
+      "oficial": true,
+      "type": "retificacao_oficial",
+      "title": "Rerratificação do Edital de Abertura — Rincão 001/2026",
+      "authority": "INEPAM / Prefeitura de Rincão",
+      "role": "sem_impacto_neste_item"
     },
     {
       "id": "src-seduc-ce-geometria-plana",
@@ -7873,7 +8076,7 @@
       "titulo": "Referência editorial — stf-adi-2135",
       "tituloExatoConfirmado": false,
       "orgaoAutoria": "Supremo Tribunal Federal",
-      "url": null,
+      "url": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=39&abrirBase=CF",
       "referenciasDrive": [],
       "ano": null,
       "statusVerificacao": "metadados_parciais",
@@ -7894,8 +8097,1916 @@
       "observacoes": [
         "URL ou documento de suporte não reextraído neste lote; ID preservado para rastreabilidade.",
         "Título de catálogo derivado do ID editorial; não tratado como título oficial literal."
-      ]
+      ],
+      "type": "decisao_stf",
+      "title": "STF — ADI 2.135",
+      "authority": "Supremo Tribunal Federal",
+      "evidence": "constitucionalidade da supressão da obrigatoriedade de RJU pela EC 19/1998"
+    },
+    {
+      "id": "src-auditoria-rerratificacao-rincao-001-2026",
+      "tipo": "auditoria_projeto",
+      "titulo": "Auditoria da Rerratificação — Rincão 001/2026",
+      "driveFileId": "1cHgGUCLIog9gkQubDhnEuQqJQVdI9zzh",
+      "verificadoEm": "2026-08-24",
+      "driveId": "1cHgGUCLIog9gkQubDhnEuQqJQVdI9zzh",
+      "oficial": false,
+      "observacao": "auditado_sem_impacto_nos_cargos_do_projeto",
+      "type": "auditoria_projeto",
+      "title": "Auditoria da rerratificação de Rincão 001/2026",
+      "role": "sem_impacto_monitor"
+    },
+    {
+      "id": "src-inepam-itanhanga-001-2024-edital",
+      "tipo": "edital_inepam",
+      "titulo": "Itanhangá/MT — Concurso Público nº 001/2024 — Edital",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=670",
+      "orgao": "Prefeitura Municipal de Itanhangá/MT",
+      "banca": "INEPAM",
+      "observacao": "Agente Administrativo II, ensino médio: programa reproduz literalmente Redação Oficial, Aspectos Gerais e Identidade Visual e cita os mesmos manuais.",
+      "oficial": true
+    },
+    {
+      "id": "src-inepam-campo-limpo-paulista-001-2026-pagina",
+      "tipo": "pagina_oficial_concurso",
+      "titulo": "Câmara Municipal de Campo Limpo Paulista/SP — Concurso Público nº 001/2026",
+      "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=1&idInstituicao=78",
+      "orgao": "Câmara Municipal de Campo Limpo Paulista/SP",
+      "banca": "INEPAM"
+    },
+    {
+      "id": "src-inepam-carlinda-001-2025-edital",
+      "tipo": "edital_inepam",
+      "titulo": "Carlinda/MT — Concurso Público nº 001/2025 — Edital",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1926",
+      "oficial": true
+    },
+    {
+      "id": "src-inepam-emilianopolis-001-2023-edital",
+      "tipo": "edital_inepam",
+      "titulo": "Emilianópolis/SP — Concurso Público — Edital",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=292",
+      "oficial": true
+    },
+    {
+      "id": "src-inepam-orindiuva-001-2026-edital",
+      "tipo": "edital_oficial_inepam",
+      "titulo": "INEPAM — Orindiúva/SP 001/2026 — Edital de Abertura",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2329",
+      "oficial": true,
+      "orgao": "Prefeitura Municipal de Orindiúva / INEPAM",
+      "verificadoEm": "2026-08-25",
+      "observacao": "Cargo Monitor inclui Lei Orgânica do Município em bloco praticamente idêntico ao de Rincão.",
+      "type": "inepam_official_edital",
+      "title": "INEPAM — Orindiúva/SP — Concurso 001/2026 — Edital",
+      "verifiedAt": "2026-09-01",
+      "usage": "Evidência oficial de escopo atual para operações de Word/Office em área administrativa."
+    },
+    {
+      "id": "src-inepam-crea-mt-001-2025-2rerratificacao",
+      "tipo": "retificacao_inepam",
+      "titulo": "CREA/MT — Concurso Público nº 001/2025 — 2ª Rerratificação",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1681",
+      "oficial": true
+    },
+    {
+      "id": "src-conarq-resolucao-2-1995",
+      "tipo": "norma_oficial",
+      "titulo": "CONARQ — Resolução nº 2, de 18 de outubro de 1995",
+      "url": "https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes-do-conarq/resolucao-no-2-de-18-de-outubro-de-1995",
+      "oficial": true
+    },
+    {
+      "id": "src-conarq-resolucao-50-2022",
+      "tipo": "norma_oficial",
+      "titulo": "CONARQ — Resolução nº 50/2022 — e-ARQ Brasil Versão 2",
+      "url": "https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes-do-conarq/resolucao-no-50-de-06-de-maio-de-2022",
+      "oficial": true
+    },
+    {
+      "id": "src-inepam-itamogi-001-2024-edital",
+      "tipo": "edital_inepam",
+      "titulo": "Itamogi/MG — Concurso Público nº 001/2024 — Edital",
+      "url": "https://www.app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=640",
+      "oficial": true,
+      "type": "edital_inepam",
+      "title": "Itamogi/MG — Concurso Público nº 001/2024 — Agente Administrativo I-A",
+      "evidence": "mesma sequência princípios/servidores, hierarquia e CF 37/39-41",
+      "screenshot": "cache_miss_p69"
+    },
+    {
+      "id": "src-rincao-rerratificacao-001-2026",
+      "type": "retificacao_oficial",
+      "title": "Rerratificação do Edital de Abertura",
+      "authority": "Prefeitura Municipal de Rincão / INEPAM",
+      "role": "sem_impacto_identificado_nesta_subaula",
+      "tipo": "rerratificacao_oficial",
+      "titulo": "Rerratificação do Edital de Abertura — Concurso Público nº 001/2026",
+      "orgao": "Prefeitura Municipal de Rincão / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+      "oficial": true,
+      "verificadoEm": "2026-08-25",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "id": "src-inepam-rincao-pagina",
+      "type": "official_concurso_page",
+      "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+      "verifiedAt": "2026-09-01",
+      "evidence": "A página oficial listava Edital e Rerratificação; nenhuma nova retificação era exibida na verificação deste lote.",
+      "tipo": "pagina_oficial_concurso",
+      "titulo": "INEPAM — Rincão/SP — Concurso Público nº 001/2026",
+      "title": "INEPAM — Concurso Público nº 001/2026 — Prefeitura Municipal de Rincão",
+      "authority": "INEPAM",
+      "usage": "Verificação de publicações/retificações; sem nova retificação exibida além da rerratificação já conhecida.",
+      "verificadoEm": "2026-09-01",
+      "nota": "Página listava Edital e Rerratificação; nenhuma nova retificação encontrada."
+    },
+    {
+      "id": "src-sublesson-age-esp-007-01",
+      "type": "legado_editorial",
+      "title": "agente-especificos-servidores-hierarquia-001.md",
+      "driveId": "1aTgujkLsz91HeGCsaagmKmHHKJx4VoDz",
+      "stableItemId": "AGE-ESP-007-01",
+      "role": "unidade navegável compartilhada",
+      "tipo": "legado_editorial",
+      "titulo": "agente-especificos-servidores-hierarquia-001.md"
+    },
+    {
+      "id": "src-inepam-administracao-publica-evidencias",
+      "type": "agrupador_editorial",
+      "sourceIds": [
+        "src-inepam-itamogi-001-2024-edital",
+        "src-inepam-campo-limpo-paulista-001-2026-recursos",
+        "src-inepam-nova-monte-verde-001-2025-recursos",
+        "src-inepam-sarutaia-001-2025-recursos"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "src-inepam-administracao-publica-evidencias"
+    },
+    {
+      "id": "src-rincao-rerratificacao-auditoria-projeto",
+      "tipo": "auditoria_projeto",
+      "titulo": "Auditoria da Rerratificação — Concurso Público nº 001/2026 — Rincão-SP",
+      "driveId": "1cHgGUCLIog9gkQubDhnEuQqJQVdI9zzh",
+      "oficial": false,
+      "verificadoEm": "2026-08-25T16:08:00-03:00",
+      "observacao": "Status auditado_sem_impacto_nos_cargos_do_projeto; nova consulta à página oficial não mostrou retificação adicional."
+    },
+    {
+      "id": "src-cf-1988-planalto",
+      "tipo": "legislacao_oficial",
+      "titulo": "Constituição da República Federativa do Brasil de 1988 — texto compilado",
+      "orgao": "Presidência da República — Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+      "oficial": true,
+      "verificadoEm": "2026-08-25T16:08:00-03:00",
+      "observacao": "Conferidos os arts. 5º a 7º, 205 a 214 (incluindo 212-A) e 226 a 230."
+    },
+    {
+      "id": "src-legado-monitor-cf-5-7",
+      "tipo": "legado_editorial",
+      "titulo": "01_Artigos_5_a_7.docx — material anterior de Monitor de Educação",
+      "driveId": "1zMTsfdRxflthjOLUXf7ENd9obutR5K-c",
+      "oficial": false,
+      "observacao": "Reaproveitado apenas como insumo pedagógico; conteúdo normativo foi reconferido em fonte oficial."
+    },
+    {
+      "id": "src-legado-monitor-cf-205-214",
+      "tipo": "legado_editorial",
+      "titulo": "02_Artigos_205_a_214.docx — material anterior de Monitor de Educação",
+      "driveId": "1VSAUz15Bf7ejdGbdpFZ-Vq7CdDud-9Ie",
+      "oficial": false,
+      "observacao": "Reaproveitado apenas como insumo pedagógico; conteúdo normativo foi reconferido em fonte oficial."
+    },
+    {
+      "id": "src-legado-monitor-cf-226-230",
+      "tipo": "legado_editorial",
+      "titulo": "03_Arts_226_a_230.docx — material anterior de Monitor de Educação",
+      "driveId": "1tF3_z3g7d9M_U4kMHlZ4v8QLSjyVsCeT",
+      "oficial": false,
+      "observacao": "Reaproveitado apenas como insumo pedagógico; conteúdo normativo foi reconferido em fonte oficial."
+    },
+    {
+      "id": "src-inepam-carmo-da-mata-003-2024-monitor-apoio",
+      "tipo": "edital_oficial_inepam",
+      "titulo": "Carmo da Mata-MG — Processo Seletivo nº 003/2024 — Edital de Abertura",
+      "orgao": "INEPAM / Prefeitura de Carmo da Mata-MG",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1168",
+      "oficial": true,
+      "observacao": "Monitor de Apoio (PCD e Creche), nível médio, tem no programa exatamente CF arts. 5º a 7º, 205 a 214 e 226 a 230; screenshot tentado e retornou cache miss."
+    },
+    {
+      "id": "src-inepam-luminarias-001-2023-recursos",
+      "tipo": "julgamento_recursos_oficial_inepam",
+      "titulo": "Luminárias-MG — Concurso Público nº 001/2023 — Julgamento dos Recursos",
+      "orgao": "INEPAM / Prefeitura de Luminárias-MG",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=814",
+      "oficial": true,
+      "observacao": "Documento inclui Monitor de Educação entre cargos e apresenta justificativas oficiais de questões; screenshot da p. 1 obtido com sucesso. Não documenta questão constitucional integral do tema."
+    },
+    {
+      "id": "src-inepam-bom-jardim-serra-007-2023-gabarito",
+      "tipo": "gabarito_oficial_inepam",
+      "titulo": "Bom Jardim da Serra-SC — Processo Seletivo nº 007/2023 — Gabarito",
+      "orgao": "INEPAM / Prefeitura de Bom Jardim da Serra-SC",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=541",
+      "oficial": true,
+      "observacao": "Gabarito oficial contém o cargo Monitor de Educação em prova de 30 questões; screenshot tentado e retornou cache miss. Sem caderno integral recuperado."
+    },
+    {
+      "id": "src-rincao-lei-organica-emenda-01-2024-consolidada",
+      "tipo": "legislacao_municipal_oficial",
+      "titulo": "Emenda à Lei Orgânica nº 01/2024 — revisão, atualização, renumeração e consolidação da Lei Orgânica de Rincão",
+      "orgao": "Câmara Municipal de Rincão",
+      "url": "https://app.eddydata.com/SGL/Rincao/attachment/?id=8436",
+      "data": "2024-11-26",
+      "oficial": true,
+      "verificadoEm": "2026-08-25",
+      "observacao": "PDF oficial, 76 páginas. Texto consolidado inicia após o art. 53 da Emenda. Screenshot tentado em páginas 1, 14 e 52: cache miss; texto acessível sem OCR."
+    },
+    {
+      "id": "src-inepam-baependi-001-2026-edital",
+      "tipo": "edital_inepam_oficial",
+      "titulo": "Concurso Público nº 001/2026 — Baependi/MG — Edital",
+      "orgao": "Prefeitura Municipal de Baependi / INEPAM",
+      "url": "https://www.app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2244",
+      "oficial": true,
+      "verificadoEm": "2026-08-25",
+      "observacao": "Monitor Creche/Educação Infantil inclui Lei Orgânica do Município no mesmo núcleo legislativo."
+    },
+    {
+      "id": "src-inepam-cp-001-2024-monitor-escolar-edital",
+      "tipo": "edital_inepam_oficial",
+      "titulo": "Concurso Público nº 001/2024 — edital com cargo Monitor Escolar",
+      "orgao": "INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=976",
+      "oficial": true,
+      "verificadoEm": "2026-08-25",
+      "observacao": "Monitor Escolar inclui Constituição, Lei Orgânica, ECA, LDB e rotinas escolares em estrutura muito próxima."
+    },
+    {
+      "id": "src-inepam-embu-das-artes-001-2023-recursos",
+      "tipo": "julgamento_recursos_inepam_oficial",
+      "titulo": "Embu das Artes/SP — Concurso Público nº 001/2023 — Julgamento dos Recursos dos Gabaritos",
+      "orgao": "Prefeitura de Embu das Artes / INEPAM",
+      "url": "https://www.app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=543",
+      "oficial": true,
+      "verificadoEm": "2026-08-25",
+      "observacao": "Cargo Procurador Jurídico, Questão 15: julgamento informa cobrança do quórum constitucional para aprovação de Lei Orgânica Municipal. Sem alternativas integrais; evidência parcial. Screenshot p. 43 tentado: cache miss."
+    },
+    {
+      "id": "src-drive-legado-lei-organica-rincao-monitor-2026",
+      "tipo": "material_editorial_legado",
+      "titulo": "01_Lei_Organica_Rincao.docx — material legado de estudo",
+      "driveId": "1ziQrwnz7YIxIdUK5iXG9hl0XzMIrvaB7",
+      "oficial": false,
+      "verificadoEm": "2026-08-25",
+      "observacao": "Usado como insumo pedagógico; subordinado ao texto legal oficial consolidado."
+    },
+    {
+      "id": "src-eca-lei-8069-planalto",
+      "tipo": "legislacao_federal_oficial",
+      "titulo": "Lei nº 8.069, de 13 de julho de 1990 — Estatuto da Criança e do Adolescente — texto compilado",
+      "orgao": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm",
+      "oficial": true,
+      "corteEditorial": "2026-07-31",
+      "verificadoEm": "2026-08-25"
+    },
+    {
+      "id": "src-inepam-carmo-mata-003-2024-edital",
+      "tipo": "edital_inepam_oficial",
+      "titulo": "Carmo da Mata/MG — Processo Seletivo nº 003/2024 — Edital",
+      "orgao": "Prefeitura Municipal de Carmo da Mata / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1168",
+      "oficial": true,
+      "verificadoEm": "2026-08-25",
+      "observacao": "Monitor de Apoio (PCD e Creche) cobra Lei nº 9.394/1996 e alterações; screenshot da página 42 tentado: cache miss.",
+      "type": "edital_inepam",
+      "title": "Carmo da Mata/MG — Processo Seletivo nº 003/2024 — Monitor de Apoio (PCD e Creche)",
+      "evidence": "cargo escolar equivalente; mesma sequência temática de Rincão",
+      "screenshot": "cache_miss_p41"
+    },
+    {
+      "id": "src-inepam-itanhanga-001-2024-gabarito-dissertativa",
+      "tipo": "gabarito_inepam_oficial",
+      "titulo": "Itanhangá/MT — Concurso Público nº 001/2024 — Gabarito da Prova Dissertativa",
+      "orgao": "Prefeitura Municipal de Itanhangá / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=870",
+      "oficial": true,
+      "verificadoEm": "2026-08-25",
+      "observacao": "Assistente Social (Educação), Questão 1: cobrança direta dos direitos do art. 53 do ECA, com resposta oficial. Screenshot p.3 tentado: cache miss."
+    },
+    {
+      "id": "src-drive-legado-eca-artigos-1-6",
+      "tipo": "material_editorial_legado",
+      "titulo": "01_Artigos_1_a_6.docx — ECA",
+      "driveId": "1sdPckvBgBKhba_5mPhwsNVRBv0-rYkLu",
+      "oficial": false,
+      "verificadoEm": "2026-08-25",
+      "observacao": "Material pedagógico legado aproveitado nos arts. 1º–6º; subordinado ao texto legal oficial."
+    },
+    {
+      "id": "src-ldb-9394-planalto",
+      "tipo": "legislacao_federal_oficial",
+      "titulo": "Lei nº 9.394, de 20 de dezembro de 1996 — LDB — texto compilado",
+      "orgao": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9394compilado.htm",
+      "oficial": true,
+      "corteEditorial": "2026-07-31",
+      "verificadoEm": "2026-08-25"
+    },
+    {
+      "id": "src-lei-15326-2026",
+      "tipo": "legislacao_federal_oficial",
+      "titulo": "Lei nº 15.326, de 6 de janeiro de 2026",
+      "orgao": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15326.htm",
+      "oficial": true,
+      "impactoLdb": "art. 61, §2º",
+      "verificadoEm": "2026-08-25"
+    },
+    {
+      "id": "src-lei-15360-2026",
+      "tipo": "legislacao_federal_oficial",
+      "titulo": "Lei nº 15.360, de 25 de março de 2026",
+      "orgao": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15360.htm",
+      "oficial": true,
+      "impactoLdb": "art. 25-A",
+      "verificadoEm": "2026-08-25"
+    },
+    {
+      "id": "src-lei-15369-2026",
+      "tipo": "legislacao_federal_oficial",
+      "titulo": "Lei nº 15.369, de 31 de março de 2026",
+      "orgao": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15369.htm",
+      "oficial": true,
+      "impactoLdb": "art. 11, V",
+      "verificadoEm": "2026-08-25"
+    },
+    {
+      "id": "src-lei-15462-2026",
+      "tipo": "legislacao_federal_oficial",
+      "titulo": "Lei nº 15.462, de 8 de julho de 2026",
+      "orgao": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15462.htm",
+      "oficial": true,
+      "impactoLdb": "art. 67, II",
+      "verificadoEm": "2026-08-25"
+    },
+    {
+      "id": "src-lei-15468-2026",
+      "tipo": "legislacao_federal_oficial",
+      "titulo": "Lei nº 15.468, de 13 de julho de 2026",
+      "orgao": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15468.htm",
+      "oficial": true,
+      "impactoLdb": "art. 26, §9º-B",
+      "verificadoEm": "2026-08-25"
+    },
+    {
+      "id": "src-planalto-leis-2026-index",
+      "tipo": "indice_legislacao_oficial",
+      "titulo": "Leis Ordinárias de 2026 — Presidência da República",
+      "orgao": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/_leis2026.htm",
+      "oficial": true,
+      "verificadoEm": "2026-08-25",
+      "observacao": "Usado para conferir as alterações da LDB em 2026 e ausência de nova alteração posterior a 31/07 até a verificação."
+    },
+    {
+      "id": "src-inepam-ribeirao-sul-001-2025-recursos",
+      "tipo": "julgamento_recursos_inepam_oficial",
+      "titulo": "Ribeirão do Sul/SP — Processo Seletivo nº 001/2025 — Julgamento dos Recursos dos Gabaritos",
+      "orgao": "Prefeitura Municipal de Ribeirão do Sul / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2010",
+      "oficial": true,
+      "verificadoEm": "2026-08-25",
+      "observacao": "Professor de Desenvolvimento Infantil, Questão 19: art. 11 da LDB; screenshot p.2 obtido com sucesso."
+    },
+    {
+      "id": "src-inepam-tarabai-001-2025-retif-recursos",
+      "tipo": "retificacao_julgamento_recursos_inepam_oficial",
+      "titulo": "Tarabai/SP — Concurso Público nº 001/2025 — Retificação do Julgamento dos Recursos",
+      "orgao": "Prefeitura Municipal de Tarabai / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1753",
+      "oficial": true,
+      "verificadoEm": "2026-08-25",
+      "observacao": "Questão 21 anulada por ausência de alternativa correta à luz dos arts. 4º, 21 e 30 da LDB; screenshot tentado: cache miss."
+    },
+    {
+      "id": "src-drive-legado-ldb",
+      "tipo": "material_editorial_legado",
+      "titulo": "LDB_Lei_9394_1996.docx",
+      "driveId": "1sdqIIrhwJwDu_L2OoAyHRmiCm5tj8MIf",
+      "oficial": false,
+      "verificadoEm": "2026-08-25",
+      "observacao": "Material pedagógico consolidado reaproveitado, saneado e subordinado às fontes oficiais."
+    },
+    {
+      "id": "SRC-MON-EDH-001",
+      "tipo": "norma_oficial",
+      "titulo": "Resolução CNE/CP nº 1, de 30 de maio de 2012",
+      "orgao": "Conselho Nacional de Educação / MEC",
+      "url": "https://portal.mec.gov.br/dmdocuments/rcp001_12.pdf",
+      "verifiedAt": "2026-08-26",
+      "notes": "Página CNE/MEC atualizada em 10/03/2026 mantém a resolução classificada em Direitos Humanos."
+    },
+    {
+      "id": "SRC-MON-EDH-002",
+      "tipo": "parecer_oficial",
+      "titulo": "Parecer CNE/CP nº 8/2012",
+      "orgao": "Conselho Nacional de Educação / MEC",
+      "url": "https://www.gov.br/mec/pt-br/cne/pdf/normas-classificadas-por-assunto/direitos-humanos-cne/pcp008_12.pdf/view",
+      "verifiedAt": "2026-08-26"
+    },
+    {
+      "id": "SRC-MON-EDH-003",
+      "tipo": "inepam_recurso",
+      "titulo": "Dumont-SP PS 001/2025 — julgamento de recursos",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1318",
+      "verifiedAt": "2026-08-26"
+    },
+    {
+      "id": "SRC-MON-EDH-004",
+      "tipo": "inepam_recurso",
+      "titulo": "Embu das Artes-SP PS 001/2025-SME — julgamento de recursos",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1404",
+      "verifiedAt": "2026-08-26"
+    },
+    {
+      "id": "SRC-MON-EDH-005",
+      "tipo": "inepam_edital_equivalente",
+      "titulo": "Carmo da Mata-MG PS 003/2024 — Monitor de Apoio (PCD e Creche)",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1168",
+      "verifiedAt": "2026-08-26"
+    },
+    {
+      "id": "SRC-MON-EDH-006",
+      "tipo": "inepam_edital_equivalente",
+      "titulo": "Edital INEPAM recente — Monitor de Abrigo/Monitor de Creche",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2329",
+      "verifiedAt": "2026-08-26"
+    },
+    {
+      "id": "SRC-MON-EDH-LEGACY",
+      "tipo": "legado_editorial",
+      "titulo": "01_Diretrizes_Nacionais_Educacao_Direitos_Humanos.docx",
+      "driveId": "1L5rx5FpmDobQrQ18cEUBhMzQRMI2cf5l",
+      "notes": "Base pedagógica reutilizada; não substitui a norma oficial."
+    },
+    {
+      "id": "SRC-MON-SEG-001",
+      "tipo": "edital_oficial",
+      "titulo": "Concurso Público nº 001/2026 — Prefeitura Municipal de Rincão-SP — Edital de Abertura",
+      "orgao": "Prefeitura Municipal de Rincão / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+      "uso": "Fonte de verdade para o item 'Cuidados com a segurança do aluno nas dependências da escola' e para as atribuições do Monitor de Educação."
+    },
+    {
+      "id": "SRC-MON-SEG-002",
+      "tipo": "lei_oficial",
+      "titulo": "Lei nº 14.811, de 12 de janeiro de 2024",
+      "orgao": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14811.htm",
+      "uso": "Referência oficial atual para medidas de proteção contra violência em estabelecimentos educacionais; apoio pedagógico ao item genérico do edital, não lei nominalmente indicada no conteúdo de Rincão."
+    },
+    {
+      "id": "SRC-MON-SEG-003",
+      "tipo": "lei_oficial",
+      "titulo": "Lei nº 14.643, de 2 de agosto de 2023",
+      "orgao": "Presidência da República / MJSP",
+      "url": "https://bibliotecadigital.mj.gov.br/bitstream/1/10716/2/LEI_PR_2023_14643.htm",
+      "uso": "Base do Sistema Nacional de Acompanhamento e Combate à Violência nas Escolas — SNAVE."
+    },
+    {
+      "id": "SRC-MON-SEG-004",
+      "tipo": "decreto_oficial",
+      "titulo": "Decreto nº 12.006, de 24 de abril de 2024",
+      "orgao": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12006.htm",
+      "uso": "Institui o SNAVE e explicita ações de prevenção, resposta, capacitação, planos, monitoramento de ameaças e registro de ocorrências."
+    },
+    {
+      "id": "SRC-MON-SEG-005",
+      "tipo": "ato_oficial",
+      "titulo": "Programa Escola que Protege — Portaria Interministerial MEC/MJSP nº 1/2025, alterada pela nº 3/2026",
+      "orgao": "MEC / MJSP",
+      "url": "https://mecnormas.mec.gov.br/pesquisa/detalhar/9188",
+      "uso": "Referência atual para promoção de ambiente escolar seguro e inclusivo; alteração de 27/03/2026 verificada."
+    },
+    {
+      "id": "SRC-MON-SEG-006",
+      "tipo": "manual_oficial",
+      "titulo": "Recomendações para Proteção e Segurança no Ambiente Escolar",
+      "orgao": "Ministério da Educação",
+      "url": "https://www.gov.br/mec/pt-br/proec/imagens/oficina_ufscar-recomendacoes-para-protecao-e-seguranca-no-ambiente-escolar.pdf",
+      "uso": "Base pedagógica oficial para conceito de segurança escolar, prevenção, convivência, cuidado com o ambiente e organização institucional."
+    },
+    {
+      "id": "SRC-MON-SEG-007",
+      "tipo": "evidencia_inepam",
+      "titulo": "Processo Seletivo nº 007/2023 — Bom Jardim da Serra-SC — edital",
+      "orgao": "INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=363",
+      "uso": "Comprova que Monitor de Educação teve conteúdo praticamente idêntico ao de Rincão, inclusive 'Cuidados com a segurança do aluno nas dependências da escola'."
+    },
+    {
+      "id": "SRC-MON-SEG-008",
+      "tipo": "evidencia_inepam",
+      "titulo": "Concurso Público nº 001/2026 — Santa Isabel-SP — edital",
+      "orgao": "INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1949",
+      "uso": "Cargo equivalente de ensino médio (Agente de Apoio Escolar) com atribuições expressas de zelar pela integridade, cuidar da segurança, controlar entrada/saída e orientar regras; conteúdo programático repete o item de segurança escolar."
+    },
+    {
+      "id": "SRC-MON-SEG-009",
+      "tipo": "evidencia_inepam",
+      "titulo": "Concurso Público nº 001/2024 — Itamogi-MG — julgamento de recursos",
+      "orgao": "INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1097",
+      "uso": "Para cargo equivalente Inspetor de Alunos, evidencia cobrança literal de norma em questão específica; não é questão de segurança escolar e serve apenas como evidência de formato de cobrança."
+    },
+    {
+      "id": "src-lei-13722-2018-lei-lucas",
+      "type": "legislacao_oficial",
+      "title": "Lei nº 13.722, de 4 de outubro de 2018",
+      "authority": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13722.htm",
+      "role": "contexto_oficial_escolar",
+      "tipo": "legislacao_oficial",
+      "titulo": "Lei nº 13.722, de 4 de outubro de 2018"
+    },
+    {
+      "id": "src-ms-samu-192",
+      "type": "orientacao_oficial",
+      "title": "SAMU 192",
+      "authority": "Ministério da Saúde",
+      "url": "https://www.gov.br/saude/pt-br/composicao/saes/samu-192",
+      "tipo": "orientacao_oficial",
+      "titulo": "SAMU 192"
+    },
+    {
+      "id": "src-samu-ce-primeiros-socorros",
+      "type": "orientacao_oficial",
+      "title": "Primeiros Socorros",
+      "authority": "SAMU Ceará",
+      "url": "https://www.samu.ce.gov.br/primeiros-socorros/",
+      "tipo": "orientacao_oficial",
+      "titulo": "Primeiros Socorros"
+    },
+    {
+      "id": "src-bvsms-engasgo",
+      "type": "orientacao_oficial",
+      "title": "Engasgo",
+      "authority": "Biblioteca Virtual em Saúde — Ministério da Saúde",
+      "url": "https://bvsms.saude.gov.br/engasgo/",
+      "tipo": "orientacao_oficial",
+      "titulo": "Engasgo"
+    },
+    {
+      "id": "src-bvsms-convulsoes",
+      "type": "orientacao_oficial",
+      "title": "Convulsões",
+      "authority": "Biblioteca Virtual em Saúde — Ministério da Saúde",
+      "url": "https://bvsms.saude.gov.br/bvs/dicas/57convulcoes.html",
+      "tipo": "orientacao_oficial",
+      "titulo": "Convulsões"
+    },
+    {
+      "id": "src-inepam-carmo-mata-003-2024",
+      "type": "edital_inepam",
+      "title": "Carmo da Mata/MG — Processo Seletivo nº 003/2024 — Monitor de Apoio (PCD e Creche)",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1168",
+      "evidence": "cargo equivalente; mesmo item",
+      "tipo": "edital_inepam",
+      "titulo": "Carmo da Mata/MG — Processo Seletivo nº 003/2024 — Monitor de Apoio (PCD e Creche)",
+      "page": 41,
+      "screenshot": "cache_miss"
+    },
+    {
+      "id": "src-inepam-inspetor-001-2026",
+      "type": "edital_inepam",
+      "title": "Concurso Público nº 001/2026 — Inspetor de Alunos",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2405",
+      "evidence": "cargo escolar equivalente; tema literal",
+      "tipo": "edital_inepam",
+      "titulo": "INEPAM — Concurso Público nº 001/2026 — Inspetor de Alunos",
+      "page": 52,
+      "screenshot": "ok"
+    },
+    {
+      "id": "src-inepam-bom-jardim-2026-monitor-escolar",
+      "type": "edital_inepam",
+      "title": "Bom Jardim da Serra/SC — Monitor Escolar",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2399",
+      "evidence": "programa inclui Noções de primeiros socorros",
+      "tipo": "edital_inepam",
+      "titulo": "Bom Jardim da Serra/SC — Monitor Escolar"
+    },
+    {
+      "id": "src-legado-ajudante-primeiros-socorros",
+      "type": "legado_editorial",
+      "title": "ajudante-especificos-primeiros-socorros-001.md",
+      "driveId": "1qtSPqu2CKvyMfQv-i_dFmL3IWrRRg-Kw",
+      "role": "reuso_de_conceitos_universais_com_nova_auditoria",
+      "tipo": "legado_editorial",
+      "titulo": "ajudante-especificos-primeiros-socorros-001.md"
+    },
+    {
+      "id": "src-lei-13460-2017",
+      "type": "legislacao_oficial_complementar",
+      "title": "Lei nº 13.460, de 26 de junho de 2017",
+      "authority": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm",
+      "role": "apoio_normativo_atendimento_usuario",
+      "tipo": "legislacao_oficial_complementar",
+      "titulo": "Lei nº 13.460, de 26 de junho de 2017"
+    },
+    {
+      "id": "src-lei-15263-2025-linguagem-simples",
+      "type": "legislacao_oficial_complementar",
+      "title": "Lei nº 15.263, de 14 de novembro de 2025",
+      "authority": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15263.htm",
+      "role": "apoio_normativo_linguagem_simples",
+      "tipo": "legislacao_oficial_complementar",
+      "titulo": "Lei nº 15.263, de 14 de novembro de 2025"
+    },
+    {
+      "id": "src-inepam-careacu-001-2023-edital",
+      "type": "edital_inepam",
+      "title": "Careaçu/MG — Processo Seletivo nº 001/2023",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=19",
+      "evidence": "Monitor de Apoio e Monitor de Creche incluem Qualidade no atendimento ao público",
+      "screenshot": "cache_miss",
+      "tipo": "edital_inepam",
+      "titulo": "Careaçu/MG — Processo Seletivo nº 001/2023"
+    },
+    {
+      "id": "src-inepam-neves-paulista-001-2026-edital",
+      "type": "edital_inepam",
+      "title": "Neves Paulista/SP — Concurso Público nº 001/2026",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2405",
+      "evidence": "Inspetor de Alunos, ensino médio — Noção de atendimento ao público no bloco escolar",
+      "screenshot": "success_p52_zero_based",
+      "tipo": "edital_inepam",
+      "titulo": "Neves Paulista/SP — Concurso Público nº 001/2026"
+    },
+    {
+      "id": "src-inepam-bom-jardim-serra-2026-edital",
+      "type": "edital_inepam",
+      "title": "Bom Jardim da Serra/SC — 2026 — Monitor Escolar",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2399",
+      "evidence": "Monitor Escolar inclui Noção de atendimento ao público",
+      "screenshot": "cache_miss",
+      "tipo": "edital_inepam",
+      "titulo": "Bom Jardim da Serra/SC — 2026 — Monitor Escolar"
+    },
+    {
+      "id": "src-legado-ajudante-atendimento-publico-001",
+      "type": "legado_editorial",
+      "title": "ajudante-especificos-qualidade-atendimento-publico-001.md",
+      "driveId": "1kvUNLcR3wD8kwM1e_mrF8cQkDp9pUmKc",
+      "role": "base_pedagogica_revisada_e_adaptada",
+      "tipo": "legado_editorial",
+      "titulo": "ajudante-especificos-qualidade-atendimento-publico-001.md"
+    },
+    {
+      "id": "src-anvisa-higiene-maos",
+      "type": "fonte_oficial_tecnica",
+      "title": "Higiene das mãos",
+      "authority": "Anvisa",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/servicosdesaude/prevencao-e-controle-de-infeccao-e-resistencia-microbiana/higienizacao-das-maos-1/copy_of_higienizacao-das-maos",
+      "role": "apoio_tecnico_higiene_maos",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Higiene das mãos"
+    },
+    {
+      "id": "src-ms-gripe-prevencao",
+      "type": "fonte_oficial_tecnica",
+      "title": "Como se prevenir da gripe?",
+      "authority": "Ministério da Saúde",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19/perguntas-frequentes/faq/campanha-de-vacinacao-contra-a-gripe/como-se-prevenir-da-gripe",
+      "verifiedAt": "2026-08-26",
+      "role": "higiene_maos_etiqueta_respiratoria_objetos_pessoais",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Como se prevenir da gripe?"
+    },
+    {
+      "id": "src-seduc-sp-higiene-maos-criancas",
+      "type": "fonte_oficial_pedagogica",
+      "title": "Currículo Paulista — material do professor — higiene das mãos e unhas",
+      "authority": "Secretaria da Educação do Estado de São Paulo",
+      "url": "https://efape.educacao.sp.gov.br/curriculopaulista/wp-content/uploads/2023/01/EFAI_1ano_1sem_prof_SN-TEC_web.pdf",
+      "role": "apoio_pedagogico_ambiente_escolar",
+      "tipo": "fonte_oficial_pedagogica",
+      "titulo": "Currículo Paulista — material do professor — higiene das mãos e unhas"
+    },
+    {
+      "id": "src-inepam-monitor-educacao-001-2023-edital",
+      "type": "edital_inepam",
+      "title": "Concurso Público nº 001/2023 — programa de Monitor de Educação",
+      "url": "https://www.inepam.org.br/concurso/downloadAnexo.do?idAnexo=469",
+      "evidence": "mesmo cargo; inclui cuidados e higiene pessoal e no trabalho em sequência praticamente idêntica à de Rincão",
+      "tipo": "edital_inepam",
+      "titulo": "Concurso Público nº 001/2023 — programa de Monitor de Educação"
+    },
+    {
+      "id": "src-inepam-dumont-ps01-2023-recursos",
+      "type": "recurso_inepam",
+      "title": "Dumont/SP — Processo Seletivo nº 01/2023 — Julgamento dos Recursos",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=154",
+      "evidence": "Cuidador de Crianças com Necessidades Especiais, Q25 — banca reconhece noções de higiene no trabalho especialmente no ambiente educacional",
+      "screenshot": "cache_miss_p1",
+      "tipo": "recurso_inepam",
+      "titulo": "Dumont/SP — Processo Seletivo nº 01/2023 — Julgamento dos Recursos"
+    },
+    {
+      "id": "src-inepam-sao-goncalo-sapucai-001-2024-edital",
+      "type": "edital_inepam",
+      "title": "São Gonçalo do Sapucaí/MG — Processo Seletivo nº 001/2024",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=817",
+      "evidence": "Visitador do Programa Criança Feliz inclui higiene pessoal e no trabalho",
+      "screenshot": "cache_miss_p23",
+      "tipo": "edital_inepam",
+      "titulo": "São Gonçalo do Sapucaí/MG — Processo Seletivo nº 001/2024"
+    },
+    {
+      "id": "src-legado-ajudante-higiene-001",
+      "type": "legado_editorial",
+      "title": "ajudante-especificos-higiene-pessoal-trabalho-001.md",
+      "driveId": "17xxNOiKNfIN1B1bkwNRYzvcMaHOuq_hP",
+      "role": "base_pedagogica_revisada_e_adaptada",
+      "tipo": "legado_editorial",
+      "titulo": "ajudante-especificos-higiene-pessoal-trabalho-001.md"
+    },
+    {
+      "id": "src-eca-8069-compilado",
+      "type": "legislacao_oficial",
+      "title": "Lei nº 8.069/1990 — ECA — texto compilado",
+      "authority": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069compilado.htm",
+      "role": "apoio_direitos_respeito_dignidade",
+      "tipo": "legislacao_oficial",
+      "titulo": "Lei nº 8.069/1990 — Estatuto da Criança e do Adolescente — texto compilado",
+      "evidence": "proteção contra negligência/discriminação e direito à liberdade, respeito e dignidade"
+    },
+    {
+      "id": "src-cne-cp-01-2012-direitos-humanos",
+      "type": "norma_oficial",
+      "title": "Resolução CNE/CP nº 1/2012 — Diretrizes Nacionais para a Educação em Direitos Humanos",
+      "authority": "Ministério da Educação / Conselho Nacional de Educação",
+      "url": "https://www.gov.br/mec/pt-br/cne/pdf/normas-classificadas-por-assunto/direitos-humanos-cne/rcp001_12.pdf/view",
+      "role": "apoio_dignidade_igualdade_diversidade_democracia",
+      "tipo": "norma_oficial",
+      "titulo": "Resolução CNE/CP nº 1, de 30 de maio de 2012 — Educação em Direitos Humanos"
+    },
+    {
+      "id": "src-inepam-luminarias-001-2023-edital",
+      "type": "edital_inepam",
+      "title": "Luminárias/MG — Concurso Público nº 001/2023 — Monitor de Educação",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=469",
+      "evidence": "mesmo cargo; programa inclui literalmente Relações humanas no trabalho",
+      "screenshot": "cache_miss_p72",
+      "tipo": "edital_inepam",
+      "titulo": "Luminárias/MG — Concurso Público nº 001/2023 — Monitor de Educação"
+    },
+    {
+      "id": "src-inepam-recurso-bloco-relacoes-humanas",
+      "type": "recurso_inepam",
+      "title": "Julgamento de Recursos INEPAM — cargo Encanador — conteúdo programático",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=954",
+      "evidence": "questões 16 a 25 consideradas previstas em bloco que inclui Relações humanas no trabalho; documento não identifica qual questão corresponde especificamente ao tema",
+      "screenshot": "cache_miss_p9",
+      "tipo": "recurso_inepam",
+      "titulo": "Julgamento de Recursos INEPAM — cargo Encanador — conteúdo programático"
+    },
+    {
+      "id": "src-inepam-relacoes-humanas-evidencias",
+      "type": "agrupador_editorial",
+      "title": "Evidências INEPAM — relações humanas no trabalho",
+      "role": "atalho_para_questions_json",
+      "sourceIds": [
+        "src-inepam-luminarias-001-2023-edital",
+        "src-inepam-carmo-mata-003-2024-edital",
+        "src-inepam-santa-isabel-001-2026-edital",
+        "src-inepam-recurso-bloco-relacoes-humanas"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "Evidências INEPAM — relações humanas no trabalho"
+    },
+    {
+      "id": "src-legado-ajudante-relacoes-humanas-001",
+      "type": "legado_editorial",
+      "title": "ajudante-especificos-relacoes-humanas-trabalho-001.md",
+      "driveId": "1GvKF-CrMZt_Zm2YS-YPjIs707o-mGd5D",
+      "role": "base_pedagogica_revisada_e_adaptada",
+      "tipo": "legado_editorial",
+      "titulo": "ajudante-especificos-relacoes-humanas-trabalho-001.md"
+    },
+    {
+      "id": "src-eca-8069",
+      "type": "legislacao_oficial",
+      "title": "Lei nº 8.069/1990 — ECA",
+      "authority": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069compilado.htm",
+      "role": "apoio_dignidade_respeito_protecao",
+      "tipo": "legislacao_oficial",
+      "titulo": "Lei nº 8.069/1990 — ECA"
+    },
+    {
+      "id": "src-ldb-9394",
+      "type": "legislacao_oficial",
+      "title": "Lei nº 9.394/1996 — LDB — texto compilado",
+      "authority": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9394compilado.htm",
+      "evidence": "art. 12 IX: prevenção e combate à violência/bullying; X: cultura de paz; XI: ambiente escolar seguro",
+      "tipo": "legislacao_oficial",
+      "titulo": "Lei nº 9.394/1996 — LDB — texto compilado"
+    },
+    {
+      "id": "src-lei-13185-2015",
+      "type": "legislacao_oficial",
+      "title": "Lei nº 13.185/2015 — Programa de Combate à Intimidação Sistemática",
+      "authority": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13185.htm",
+      "tipo": "legislacao_oficial",
+      "titulo": "Lei nº 13.185/2015 — Programa de Combate à Intimidação Sistemática (Bullying)"
+    },
+    {
+      "id": "src-lei-14811-2024",
+      "type": "legislacao_oficial",
+      "title": "Lei nº 14.811/2024 — proteção contra violência em estabelecimentos educacionais",
+      "authority": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14811.htm",
+      "tipo": "legislacao_oficial",
+      "titulo": "Lei nº 14.811/2024 — proteção contra violência em estabelecimentos educacionais"
+    },
+    {
+      "id": "src-inepam-inspetor-001-2024",
+      "type": "edital_inepam",
+      "title": "Concurso Público nº 001/2024 — programa escolar",
+      "url": "https://www.inepam.org.br/concurso/downloadAnexo.do?idAnexo=976",
+      "evidence": "tema literal: Inspeção e cuidados com o comportamento dos alunos no ambiente escolar",
+      "tipo": "edital_inepam",
+      "titulo": "Concurso Público nº 001/2024 — programa escolar"
+    },
+    {
+      "id": "src-inepam-inspetor-001-2025",
+      "type": "edital_inepam",
+      "title": "Concurso Público nº 001/2025 — programa escolar",
+      "url": "https://www.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1341",
+      "evidence": "mesma sequência temática de Rincão",
+      "tipo": "edital_inepam",
+      "titulo": "Concurso Público nº 001/2025 — programa escolar"
+    },
+    {
+      "id": "src-inepam-inspetor-ribeirao-sul",
+      "type": "edital_inepam",
+      "title": "Ribeirão do Sul/SP — Processo Seletivo nº 001/2025 — Inspetor de Alunos",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1845",
+      "evidence": "tema literal na página 29",
+      "screenshot": "tentativa_retornou_internal_error",
+      "tipo": "edital_inepam",
+      "titulo": "Ribeirão do Sul/SP — Processo Seletivo nº 001/2025 — Inspetor de Alunos"
+    },
+    {
+      "id": "src-inepam-inspetor-atribuicoes-001-2023",
+      "type": "edital_inepam",
+      "title": "Processo Seletivo nº 001/2023 — Inspetor de Alunos — atribuições",
+      "url": "https://www.inepam.org.br/concurso/downloadAnexo.do?idAnexo=130",
+      "evidence": "segurança, comportamento, regras, reclamações, atividades livres, entrada e saída e recreação",
+      "tipo": "edital_inepam",
+      "titulo": "Processo Seletivo nº 001/2023 — Inspetor de Alunos — atribuições"
+    },
+    {
+      "id": "src-inepam-comportamento-evidencias",
+      "type": "agrupador_editorial",
+      "title": "Evidências INEPAM — comportamento dos alunos",
+      "sourceIds": [
+        "src-inepam-inspetor-001-2024",
+        "src-inepam-inspetor-001-2025",
+        "src-inepam-inspetor-ribeirao-sul",
+        "src-inepam-inspetor-atribuicoes-001-2023"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "Evidências INEPAM — comportamento dos alunos"
+    },
+    {
+      "id": "src-ldb-9394-compilada",
+      "type": "legislacao_oficial",
+      "title": "Lei nº 9.394/1996 — LDB — texto compilado",
+      "authority": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9394compilado.htm",
+      "evidence": "art. 12: normas comuns e do sistema; integração com famílias; prevenção da violência; cultura de paz; ambiente escolar seguro",
+      "tipo": "legislacao_oficial",
+      "titulo": "Lei nº 9.394/1996 — LDB — texto compilado",
+      "role": "base_legal_organizacao_escolar"
+    },
+    {
+      "id": "src-inepam-luminarias-001-2023",
+      "type": "edital_inepam",
+      "title": "Luminárias/MG — Concurso Público nº 001/2023 — Monitor de Educação",
+      "url": "https://www.inepam.org.br/concurso/downloadAnexo.do?idAnexo=469",
+      "evidence": "mesmo cargo e mesma cláusula final de atividades/atribuições",
+      "priority": "muito_alta",
+      "tipo": "edital_inepam",
+      "titulo": "Luminárias/MG — Concurso Público nº 001/2023 — Monitor de Educação",
+      "page": 72,
+      "screenshot": "cache_miss_p72"
+    },
+    {
+      "id": "src-inepam-monitor-escolar-001-2025",
+      "type": "edital_inepam",
+      "title": "Processo Seletivo nº 001/2025 — Monitor Escolar",
+      "url": "https://www.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1516",
+      "evidence": "programa inclui Regimento escolar",
+      "tipo": "edital_inepam",
+      "titulo": "Processo Seletivo nº 001/2025 — Monitor Escolar"
+    },
+    {
+      "id": "src-inepam-monitor-escolar-002-2025",
+      "type": "edital_inepam",
+      "title": "Processo Seletivo nº 002/2025 — Monitor Escolar",
+      "url": "https://www.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1536",
+      "evidence": "programa inclui Regimento escolar",
+      "tipo": "edital_inepam",
+      "titulo": "Processo Seletivo nº 002/2025 — Monitor Escolar"
+    },
+    {
+      "id": "src-inepam-monitor-escolar-2026",
+      "type": "edital_inepam",
+      "title": "Bom Jardim da Serra/SC — edital de educação 2026 — Monitor Escolar",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2399",
+      "evidence": "tema literal repetido para diferentes localidades de Monitor Escolar",
+      "tipo": "edital_inepam",
+      "titulo": "Bom Jardim da Serra/SC — edital de educação 2026 — Monitor Escolar"
+    },
+    {
+      "id": "src-inepam-recurso-inspetor-2026",
+      "type": "recurso_inepam",
+      "title": "Conchas/SP — Concurso Público nº 001/2026 — julgamento de recursos",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2272",
+      "evidence": "documento oficial de recursos inclui Inspetor de Alunos, porém não fornece questão específica integral do tema; screenshot p1 retornou cache miss",
+      "screenshot": "cache_miss_p1",
+      "tipo": "recurso_inepam",
+      "titulo": "Conchas/SP — Concurso Público nº 001/2026 — julgamento de recursos"
+    },
+    {
+      "id": "src-inepam-regras-procedimentos-evidencias",
+      "type": "agrupador_editorial",
+      "title": "Evidências INEPAM — regras e procedimentos escolares",
+      "sourceIds": [
+        "src-inepam-luminarias-001-2023",
+        "src-inepam-carmo-mata-003-2024",
+        "src-inepam-monitor-escolar-001-2025",
+        "src-inepam-monitor-escolar-002-2025",
+        "src-inepam-monitor-escolar-2026",
+        "src-inepam-recurso-inspetor-2026"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "Evidências INEPAM — regras e procedimentos escolares"
+    },
+    {
+      "id": "src-inepam-bom-jardim-2026",
+      "type": "edital_inepam",
+      "title": "Bom Jardim da Serra/SC — processo seletivo educacional 2026 — Monitor Escolar",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2399",
+      "evidence": "tema literal em múltiplas localidades",
+      "page": 49,
+      "screenshot": "cache_miss",
+      "tipo": "edital_inepam",
+      "titulo": "Bom Jardim da Serra/SC — processo seletivo educacional 2026 — Monitor Escolar"
+    },
+    {
+      "id": "src-enap-comunicacao-assertiva",
+      "type": "fonte_pedagogica_oficial",
+      "title": "Comunicação Assertiva: Oratória, Retórica e Técnicas de Apresentação",
+      "authority": "Escola Virtual de Governo / ENAP / Receita Federal",
+      "url": "https://www.escolavirtual.gov.br/curso/1347",
+      "evidence": "comunicação assertiva, retórica, oratória, linguagem corporal, medo de falar e argumentos",
+      "tipo": "fonte_pedagogica_oficial",
+      "titulo": "Comunicação Assertiva: Oratória, Retórica e Técnicas de Apresentação"
+    },
+    {
+      "id": "src-enap-oratoria-apostila",
+      "type": "fonte_pedagogica_oficial",
+      "title": "Apostila ENAP — Oratória e planejamento de apresentação",
+      "authority": "ENAP",
+      "url": "https://repositorio.enap.gov.br/jspui/bitstream/1/3027/1/1%20Apostila%20Didatica.pdf",
+      "evidence": "planejamento, objetivos, clareza e lógica",
+      "tipo": "fonte_pedagogica_oficial",
+      "titulo": "Apostila ENAP — Oratória e planejamento de apresentação"
+    },
+    {
+      "id": "src-lei-15263-2025",
+      "type": "legislacao_oficial_complementar",
+      "title": "Lei nº 15.263/2025 — Política Nacional de Linguagem Simples",
+      "authority": "Presidência da República",
+      "url": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15263.htm",
+      "evidence": "comunicação pública clara e compreensível",
+      "tipo": "legislacao_oficial_complementar",
+      "titulo": "Lei nº 15.263/2025 — Política Nacional de Linguagem Simples"
+    },
+    {
+      "id": "src-inepam-comunicacao-oratoria-evidencias",
+      "type": "agrupador_editorial",
+      "title": "Evidências INEPAM — comunicação e oratória",
+      "sourceIds": [
+        "src-inepam-luminarias-001-2023",
+        "src-inepam-carmo-mata-003-2024",
+        "src-inepam-bom-jardim-2026",
+        "src-inepam-inspetor-001-2026"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "Evidências INEPAM — comunicação e oratória"
+    },
+    {
+      "id": "src-ceesp-delib-10-97-indic-9-97",
+      "type": "norma_oficial",
+      "title": "Deliberação CEE nº 10/1997 e Indicação CEE nº 9/1997 — Diretrizes para organização de proposta pedagógica e regimento",
+      "authority": "Conselho Estadual de Educação de São Paulo",
+      "url": "https://www.ceesp.sp.gov.br/wp-content/uploads/2024/11/d10ind9-97.pdf",
+      "evidence": "identificação, objetivos, organização administrativa/técnica, vida escolar, direitos/deveres, sanções e vias recursais",
+      "screenshot": "tentativa_falhou_timeout_cache",
+      "tipo": "norma_oficial",
+      "titulo": "Deliberação CEE nº 10/1997 e Indicação CEE nº 9/1997 — Diretrizes para organização de proposta pedagógica e regimento"
+    },
+    {
+      "id": "src-ceesp-delib-231-2025",
+      "type": "norma_oficial",
+      "title": "Deliberação CEE nº 231/2025",
+      "authority": "Conselho Estadual de Educação de São Paulo",
+      "url": "https://www.ceesp.sp.gov.br/wp-content/uploads/2024/11/2025-00125-delib-231-25-indic-241-25.pdf",
+      "evidence": "necessidade de adequação/entrada em vigor de regimentos diante de mudanças normativas",
+      "screenshot": "tentativa_falhou_timeout_cache",
+      "tipo": "norma_oficial",
+      "titulo": "Deliberação CEE nº 231/2025"
+    },
+    {
+      "id": "src-auditoria-regimento-rincao-2026",
+      "type": "auditoria_editorial",
+      "title": "Auditoria de disponibilidade pública — Regimento escolar de Rincão-SP",
+      "verifiedAt": "2026-08-26",
+      "finding": "não foi localizado regimento escolar vigente da rede municipal de Rincão publicamente acessível; registros históricos do CEE de 1985/1987 foram excluídos como fonte atual",
+      "tipo": "auditoria_editorial",
+      "titulo": "Auditoria de disponibilidade pública — Regimento escolar de Rincão-SP"
+    },
+    {
+      "id": "src-inepam-regimento-evidencias",
+      "type": "agrupador_editorial",
+      "title": "Evidências INEPAM — Regimento escolar",
+      "sourceIds": [
+        "src-inepam-luminarias-001-2023",
+        "src-inepam-monitor-escolar-001-2025",
+        "src-inepam-monitor-escolar-002-2025",
+        "src-inepam-inspetor-001-2026"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "Evidências INEPAM — Regimento escolar"
+    },
+    {
+      "id": "src-cf88-art1-art3-art37",
+      "type": "norma_oficial",
+      "title": "Constituição da República Federativa do Brasil de 1988 — arts. 1º, 3º e 37",
+      "authority": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "evidence": "cidadania, dignidade da pessoa humana, não discriminação e princípios LIMPE da Administração Pública",
+      "tipo": "norma_oficial",
+      "titulo": "Constituição da República Federativa do Brasil de 1988 — arts. 1º, 3º e 37"
+    },
+    {
+      "id": "src-inepam-sarutaia-recursos-001-2025",
+      "type": "recurso_inepam",
+      "title": "Sarutaiá/SP — Concurso Público nº 001/2025 — Julgamento de Recursos — Recursos Humanos, Questão 20",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2074",
+      "evidence": "questão real parcialmente documentada; impessoalidade proíbe favoritismos/perseguições e moralidade exige honestidade, boa-fé e lisura",
+      "page": 5,
+      "screenshot": "cache_miss",
+      "publicationRule": "evidencia_parcial_nao_reconstruir_A_E",
+      "tipo": "recurso_inepam",
+      "titulo": "Sarutaiá/SP — Concurso Público nº 001/2025 — Julgamento de Recursos — Recursos Humanos, Questão 20"
+    },
+    {
+      "id": "src-inepam-etica-cidadania-evidencias",
+      "type": "agrupador_editorial",
+      "title": "Evidências INEPAM — ética e cidadania no trabalho",
+      "sourceIds": [
+        "src-inepam-luminarias-001-2023",
+        "src-inepam-carmo-mata-003-2024",
+        "src-inepam-inspetor-001-2026",
+        "src-inepam-sarutaia-recursos-001-2025"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "Evidências INEPAM — ética e cidadania no trabalho"
+    },
+    {
+      "id": "src-mte-nr1-2026",
+      "type": "referencia_tecnica_oficial",
+      "title": "NR-1 — Disposições Gerais e Gerenciamento de Riscos Ocupacionais",
+      "authority": "Ministério do Trabalho e Emprego",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-1",
+      "verifiedAt": "2026-08-28",
+      "evidence": "página atualizada em 06/08/2026; redação vigente desde 26/05/2026",
+      "tipo": "referencia_tecnica_oficial",
+      "titulo": "NR-1 — Disposições Gerais e Gerenciamento de Riscos Ocupacionais"
+    },
+    {
+      "id": "src-mte-nr6-2026",
+      "type": "referencia_tecnica_oficial",
+      "title": "NR-6 — Equipamento de Proteção Individual",
+      "authority": "Ministério do Trabalho e Emprego",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-6-nr-6",
+      "evidence": "última modificação indicada: Portaria MTE nº 57/2025",
+      "tipo": "referencia_tecnica_oficial",
+      "titulo": "NR-6 — Equipamento de Proteção Individual"
+    },
+    {
+      "id": "src-mte-epi-2026",
+      "type": "referencia_tecnica_oficial",
+      "title": "Equipamentos de Proteção Individual — EPI",
+      "authority": "Ministério do Trabalho e Emprego",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/equipamentos-de-protecao-individual",
+      "verifiedAt": "2026-08-28",
+      "evidence": "página atualizada em 06/08/2026; CA qualifica produto como EPI",
+      "tipo": "referencia_tecnica_oficial",
+      "titulo": "Equipamentos de Proteção Individual — EPI"
+    },
+    {
+      "id": "src-mte-nr17",
+      "type": "referencia_tecnica_oficial",
+      "title": "NR-17 — Ergonomia",
+      "authority": "Ministério do Trabalho e Emprego",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-17-nr-17",
+      "tipo": "referencia_tecnica_oficial",
+      "titulo": "NR-17 — Ergonomia"
+    },
+    {
+      "id": "src-mte-nrs-vigentes",
+      "type": "referencia_tecnica_oficial",
+      "title": "Normas Regulamentadoras vigentes",
+      "authority": "Ministério do Trabalho e Emprego",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs",
+      "tipo": "referencia_tecnica_oficial",
+      "titulo": "Normas Regulamentadoras vigentes"
+    },
+    {
+      "id": "src-inepam-monitor-escolar-2025",
+      "type": "edital_inepam",
+      "title": "Editais INEPAM 2025 — Monitor Escolar",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1779",
+      "evidence": "cargos equivalentes com acompanhamento escolar/transporte; uso apenas comparativo",
+      "tipo": "edital_inepam",
+      "titulo": "Edital INEPAM — Monitor Escolar — 2025"
+    },
+    {
+      "id": "src-inepam-campo-limpo-001-2026-recursos",
+      "type": "recurso_inepam",
+      "title": "Campo Limpo Paulista/SP — Concurso nº 001/2026 — Retificação do Julgamento de Recursos — Auxiliar de Serviços Gerais, Questão 23",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2338",
+      "evidence": "prioridade no acidente: atendimento rápido à vítima e comunicação à organização; recurso deferido, D",
+      "screenshot": "internal_error_p0",
+      "publicationRule": "questao_real_parcial",
+      "tipo": "recurso_inepam",
+      "titulo": "Campo Limpo Paulista/SP — Concurso nº 001/2026 — Retificação do Julgamento de Recursos — Auxiliar de Serviços Gerais, Questão 23"
+    },
+    {
+      "id": "src-inepam-santa-isabel-recursos",
+      "type": "recurso_inepam",
+      "title": "Santa Isabel/SP — Julgamento de Recursos — Agente de Serviços Gerais, Questão 24",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=1182",
+      "evidence": "cabe ao empregado utilizar EPI para a finalidade a que se destina; recurso indeferido, E",
+      "screenshot": "ok_p21",
+      "publicationRule": "questao_real_parcial",
+      "tipo": "recurso_inepam",
+      "titulo": "Santa Isabel/SP — Julgamento de Recursos — Agente de Serviços Gerais, Questão 24"
+    },
+    {
+      "id": "src-legado-ajudante-seguranca-trabalho-001",
+      "type": "legado_editorial",
+      "title": "ajudante-especificos-seguranca-trabalho-001.md",
+      "driveId": "1Ry4TW85bCIY2O2SknKzGZWs4S-WNi28A",
+      "sizeBytes": 53348,
+      "role": "núcleo técnico universal adaptado para ambiente escolar",
+      "tipo": "legado_editorial",
+      "titulo": "ajudante-especificos-seguranca-trabalho-001.md"
+    },
+    {
+      "id": "src-inepam-seguranca-trabalho-evidencias",
+      "type": "agrupador_editorial",
+      "title": "Evidências INEPAM — segurança no trabalho",
+      "sourceIds": [
+        "src-inepam-luminarias-001-2023",
+        "src-inepam-carmo-mata-003-2024",
+        "src-inepam-monitor-escolar-2025",
+        "src-inepam-campo-limpo-001-2026-recursos",
+        "src-inepam-pradopolis-recursos",
+        "src-inepam-santa-isabel-recursos"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "Evidências INEPAM — segurança no trabalho"
+    },
+    {
+      "id": "src-ldb-master-lote070",
+      "type": "master_reutilizado",
+      "title": "monitor-especificos-ldb-001.md",
+      "stableItemId": "MON-ESP-004",
+      "driveId": "1jHrf7iVa-UAdb0VlKWRDvZnT-xVcH3IK",
+      "sizeBytes": 657762,
+      "sha256": "be1e6c7e7e90831a3080d60c00fbb59105b4b8a4c67d0228bda1e363214c45c9",
+      "tipo": "master_reutilizado",
+      "titulo": "monitor-especificos-ldb-001.md"
+    },
+    {
+      "id": "src-questions-ldb-lote070",
+      "type": "questions_reutilizadas",
+      "driveId": "1OEYs_vIwzbEfIWPwjrfotiYPGEyaW0ED",
+      "count": 18,
+      "firstId": "q-inedita-monitor-especificos-0451",
+      "lastId": "q-inedita-monitor-especificos-0468",
+      "sha256": "15b0caf2eaba71b050aa16e0364283c132cca58ba108d6afab0260591e3877a0",
+      "tipo": "questions_reutilizadas",
+      "titulo": "src-questions-ldb-lote070"
+    },
+    {
+      "id": "src-sources-ldb-lote070",
+      "type": "sources_reutilizadas",
+      "driveId": "1RsjIVb4Q8oLw5zGY32Y402kO_xm7dFCS",
+      "tipo": "sources_reutilizadas",
+      "titulo": "src-sources-ldb-lote070"
+    },
+    {
+      "id": "src-evidencias-inepam-ldb-lote070",
+      "type": "evidencias_reutilizadas",
+      "driveId": "1WZIJd-zC-D9Z0FPJXGN6ZLOKLJ_IekBN",
+      "tipo": "evidencias_reutilizadas",
+      "titulo": "src-evidencias-inepam-ldb-lote070"
+    },
+    {
+      "id": "src-edital-rincao-2026-anexo-i",
+      "type": "edital_oficial",
+      "title": "Concurso Público nº 001/2026 — Rincão/SP — Anexo I — Descrição das Atribuições — Monitor de Educação",
+      "authority": "Prefeitura Municipal de Rincão / INEPAM",
+      "date": "2026-07-31",
+      "url": "https://jcconcursos.com.br/media/uploads/anexos/concurso-prefeitura-rincao-sp-edital-1-2026.pdf",
+      "evidence": "p.31: creches/escolas; sob supervisão; necessidades diárias; alimentação, higiene, recreação; transporte escolar ida/volta; lazer/recreação",
+      "screenshot": "cache_miss_p31",
+      "tipo": "edital_oficial",
+      "titulo": "Concurso Público nº 001/2026 — Rincão/SP — Anexo I — Descrição das Atribuições — Monitor de Educação"
+    },
+    {
+      "id": "src-edital-rincao-2026-anexo-ii",
+      "type": "edital_oficial",
+      "title": "Concurso Público nº 001/2026 — Rincão/SP — Anexo II — Monitor de Educação",
+      "authority": "Prefeitura Municipal de Rincão / INEPAM",
+      "date": "2026-07-31",
+      "url": "https://jcconcursos.com.br/media/uploads/anexos/concurso-prefeitura-rincao-sp-edital-1-2026.pdf",
+      "evidence": "p.38: Outras questões versando sobre as atividades e atribuições especificas do cargo",
+      "screenshot": "cache_miss_p38",
+      "tipo": "edital_oficial",
+      "titulo": "Concurso Público nº 001/2026 — Rincão/SP — Anexo II — Monitor de Educação"
+    },
+    {
+      "id": "src-rincao-historico-2024",
+      "type": "fonte_oficial_historica",
+      "title": "Edital municipal Rincão 2024 — Monitor de Educação",
+      "authority": "Diário Oficial do Município de Rincão",
+      "evidence": "redação histórica equivalente às atribuições 2026",
+      "publicationRule": "corroboracao_apenas_nao_substitui_edital_2026",
+      "screenshot": "cache_miss",
+      "tipo": "fonte_oficial_historica",
+      "titulo": "Edital municipal Rincão 2024 — Monitor de Educação"
+    },
+    {
+      "id": "src-inepam-bom-jardim-007-2023",
+      "type": "edital_inepam",
+      "title": "Bom Jardim da Serra/SC — Processo Seletivo nº 007/2023 — Monitor de Educação",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=363",
+      "evidence": "mesmo cargo com atribuições de cuidado, alimentação, higiene, recreação/apoio e transporte; apenas evidência comparativa",
+      "tipo": "edital_inepam",
+      "titulo": "Bom Jardim da Serra/SC — Processo Seletivo nº 007/2023 — Monitor de Educação"
+    },
+    {
+      "id": "src-inepam-atribuicoes-monitor-evidencias",
+      "type": "agrupador_editorial",
+      "title": "Evidências INEPAM — atividades e atribuições de Monitor",
+      "sourceIds": [
+        "src-inepam-luminarias-001-2023",
+        "src-inepam-bom-jardim-007-2023",
+        "src-inepam-monitor-escolar-2025"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "Evidências INEPAM — atividades e atribuições de Monitor"
+    },
+    {
+      "id": "src-lei-8112-1990-compilada",
+      "type": "referencia_federal_oficial",
+      "title": "Lei nº 8.112/1990 — texto consolidado",
+      "authority": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm",
+      "verifiedAt": "2026-08-30",
+      "evidence": "art. 116, IV — ordens superiores, exceto manifestamente ilegais; via hierárquica",
+      "limit": "regime federal, não estatuto automático de Rincão",
+      "tipo": "referencia_federal_oficial",
+      "titulo": "Lei nº 8.112/1990 — texto consolidado"
+    },
+    {
+      "id": "src-inepam-hierarquia-evidencias",
+      "type": "agrupador_editorial",
+      "sourceIds": [
+        "src-inepam-itamogi-001-2024-edital",
+        "src-inepam-mongagua-001-2026-edital",
+        "src-inepam-mongagua-001-2026-gabarito",
+        "src-inepam-pradopolis-001-2023-discursiva",
+        "src-inepam-carlinda-001-2025-recursos"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "src-inepam-hierarquia-evidencias"
+    },
+    {
+      "id": "src-cf1988-compilada-2026-08-30",
+      "type": "norma_oficial",
+      "title": "Constituição da República Federativa do Brasil — texto compilado",
+      "authority": "Presidência da República",
+      "url": "https://planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+      "verifiedAt": "2026-08-30",
+      "scope": "art. 37 e arts. 39 a 41",
+      "tipo": "norma_oficial",
+      "titulo": "Constituição da República Federativa do Brasil — texto compilado"
+    },
+    {
+      "id": "src-ec139-2026",
+      "type": "emenda_constitucional",
+      "title": "Emenda Constitucional nº 139/2026",
+      "authority": "Congresso Nacional / Planalto",
+      "evidence": "última EC localizada na conferência; altera arts. 31 e 75, sem impacto no recorte desta aula",
+      "tipo": "emenda_constitucional",
+      "titulo": "Emenda Constitucional nº 139/2026"
+    },
+    {
+      "id": "src-stf-adi-2135-andamento-2025",
+      "type": "andamento_stf",
+      "title": "ADI 2.135 — andamento processual",
+      "authority": "Supremo Tribunal Federal",
+      "evidence": "julgamentos virtuais dos embargos concluídos em agosto de 2025",
+      "tipo": "andamento_stf",
+      "titulo": "ADI 2.135 — andamento processual"
+    },
+    {
+      "id": "src-q4544548-external",
+      "type": "caderno_externo_corrob",
+      "title": "Q4544548 — Campo Limpo Paulista — Escriturário — INEPAM — art. 37 §5º",
+      "url": "https://questoes.grancursosonline.com.br/questoes-de-concursos/direito-administrativo-prescricao-408376",
+      "evidence": "enunciado e A-E externos; prova/cargo/banca identificados; gabarito oficial da mesma prova localizado",
+      "publicationRule": "não publicar como questão real integral oficial",
+      "tipo": "caderno_externo_corrob",
+      "titulo": "Q4544548 — Campo Limpo Paulista — Escriturário — INEPAM — art. 37 §5º"
+    },
+    {
+      "id": "src-q4544551-external",
+      "type": "caderno_externo_corrob",
+      "title": "Q4544551 — Campo Limpo Paulista — Escriturário — INEPAM — art. 41 §4º",
+      "evidence": "enunciado e A-E externos; prova/cargo/banca identificados; gabarito oficial da mesma prova localizado",
+      "publicationRule": "não publicar como questão real integral oficial",
+      "tipo": "caderno_externo_corrob",
+      "titulo": "Q4544551 — Campo Limpo Paulista — Escriturário — INEPAM — art. 41 §4º"
+    },
+    {
+      "id": "src-inepam-cf37-41-evidencias",
+      "type": "agrupador_editorial",
+      "sourceIds": [
+        "src-inepam-campo-limpo-paulista-001-2026-gabarito",
+        "src-inepam-campo-limpo-paulista-001-2026-recursos",
+        "src-q4544548-external",
+        "src-q4544551-external"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "src-inepam-cf37-41-evidencias"
+    },
+    {
+      "id": "src-lcp95-compilada",
+      "type": "ato_oficial",
+      "title": "Lei Complementar nº 95/1998 — texto compilado",
+      "authority": "Presidência da República",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95compilado.htm",
+      "tipo": "ato_oficial",
+      "titulo": "Lei Complementar nº 95/1998 — texto compilado"
+    },
+    {
+      "id": "src-inepam-manuais-redacao-evidencias",
+      "type": "agrupador_editorial",
+      "sourceIds": [
+        "src-inepam-campo-limpo-paulista-001-2026-recursos",
+        "src-inepam-emilianopolis-001-2023-recursos"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "src-inepam-manuais-redacao-evidencias"
+    },
+    {
+      "id": "src-microsoft-windows-11-release-health",
+      "type": "fonte_oficial_tecnica",
+      "title": "Windows 11 — informações sobre versões",
+      "authority": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/pt-br/windows/release-health/windows11-release-information",
+      "verifiedAt": "2026-08-30",
+      "evidence": "versões atuais incluem 26H1, 25H2 e 24H2, com ciclos de suporte diferenciados",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Windows 11 — informações sobre versões"
+    },
+    {
+      "id": "src-microsoft-windows10-eos",
+      "type": "fonte_oficial_tecnica",
+      "title": "O suporte ao Windows 10 terminou em 14 de outubro de 2025",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/pt-BR/Windows/Deployment/Updates-Lifecycle/windows-10-support-has-ended-on-october-14-2025",
+      "verifiedAt": "2026-08-30",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "O suporte ao Windows 10 terminou em 14 de outubro de 2025"
+    },
+    {
+      "id": "src-microsoft-keyboard-shortcuts",
+      "type": "fonte_oficial_tecnica",
+      "title": "Atalhos do teclado no Windows",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/pt-br/windows/atalhos-do-teclado-no-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec",
+      "verifiedAt": "2026-08-30",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Atalhos do teclado no Windows"
+    },
+    {
+      "id": "src-microsoft-display-settings",
+      "type": "fonte_oficial_tecnica",
+      "title": "Alterar a resolução e o layout da tela no Windows",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/pt-br/windows/hardware/display-graphics/change-your-screen-resolution-and-layout-in-windows",
+      "verifiedAt": "2026-08-30",
+      "evidence": "Windows 11 e 10; Escala e Resolução diferenciadas",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Alterar a resolução e o layout da tela no Windows"
+    },
+    {
+      "id": "src-inepam-windows-evidencias",
+      "type": "agrupador_editorial",
+      "title": "Evidências INEPAM — Windows",
+      "sourceIds": [
+        "src-inepam-itajuba-001-2024-recursos",
+        "src-inepam-nova-monte-verde-001-2025-recursos"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "Evidências INEPAM — Windows"
+    },
+    {
+      "id": "src-microsoft-notepad-help",
+      "type": "fonte_oficial_tecnica",
+      "title": "Ajuda do Bloco de notas do Windows",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/pt-br/windows/apps/help-in-notepad",
+      "verifiedAt": "2026-09-01",
+      "evidence": "Windows 10/11; cabeçalho/rodapé, códigos &f e &p, configurações não persistentes e recurso .LOG.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Ajuda do Bloco de notas do Windows"
+    },
+    {
+      "id": "src-microsoft-calculator-help",
+      "type": "fonte_oficial_tecnica",
+      "title": "Use a Calculadora no Windows",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/pt-br/windows/apps/use-the-calculator-in-windows",
+      "verifiedAt": "2026-09-01",
+      "evidence": "Modos Padrão, Científico, Gráficos, Programador e Cálculo de data; conversores; moeda atualizada online; histórico e memória.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Use a Calculadora no Windows"
+    },
+    {
+      "id": "src-microsoft-paint-windows",
+      "type": "fonte_oficial_tecnica",
+      "title": "Desenhe, crie e edite com o Paint",
+      "authority": "Microsoft Windows",
+      "url": "https://www.microsoft.com/pt-br/windows/paint",
+      "verifiedAt": "2026-09-01",
+      "evidence": "Paint atual no Windows 11; recortar, inverter, girar, redimensionar, pincéis, preenchimento, seletor de cores e texto; recursos recentes dependem da versão.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Desenhe, crie e edite com o Paint"
+    },
+    {
+      "id": "src-microsoft-snipping-paint",
+      "type": "fonte_oficial_tecnica",
+      "title": "Usar a Ferramenta de Captura para obter capturas de tela",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/pt-BR/Windows/Apps/use-snipping-tool-to-capture-screenshots",
+      "verifiedAt": "2026-09-01",
+      "evidence": "O comando Editar com Paint é indicado para dimensionamento, cor, texto e outros aprimoramentos.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Usar a Ferramenta de Captura para obter capturas de tela"
+    },
+    {
+      "id": "src-microsoft-wordpad-removed",
+      "type": "fonte_oficial_tecnica",
+      "title": "Recursos e funcionalidades removidos no cliente Windows — WordPad",
+      "authority": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/pt-br/windows/whats-new/removed-features",
+      "verifiedAt": "2026-09-01",
+      "evidence": "WordPad removido de todas as edições a partir do Windows 11 24H2 e Windows Server 2025; Word recomendado para .doc/.rtf e Bloco de Notas para .txt.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Recursos e funcionalidades removidos no cliente Windows — WordPad"
+    },
+    {
+      "id": "src-microsoft-wordpad-resources",
+      "type": "fonte_oficial_tecnica",
+      "title": "Recursos para funcionalidades preteridas no cliente Windows — WordPad",
+      "authority": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/pt-br/windows/whats-new/deprecated-features-resources",
+      "verifiedAt": "2026-09-01",
+      "evidence": "Após a remoção, Windows deixa de ter leitor RTF interno e padrão; binários do WordPad são removidos.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Recursos para funcionalidades preteridas no cliente Windows — WordPad"
+    },
+    {
+      "id": "src-inepam-aplicativos-windows-evidencias",
+      "type": "agrupador_editorial",
+      "title": "Evidências INEPAM — aplicativos embarcados do Windows",
+      "sourceIds": [
+        "src-inepam-crea-mt-001-2025-recursos",
+        "src-inepam-carlinda-001-2025-recursos",
+        "src-inepam-nova-monte-verde-001-2025-recursos"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "Evidências INEPAM — aplicativos embarcados do Windows"
+    },
+    {
+      "id": "src-microsoft-printer-install",
+      "type": "fonte_oficial_tecnica",
+      "title": "Add or install a printer in Windows",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/en-us/windows/hardware/printer/add-or-install-a-printer-in-windows",
+      "verifiedAt": "2026-09-01",
+      "evidence": "Windows 11/10; muitas impressoras instalam automaticamente; caminho atual para Impressoras e scanners e Adicionar dispositivo; drivers adicionais/atualizados podem existir.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Add or install a printer in Windows"
+    },
+    {
+      "id": "src-microsoft-printer-default",
+      "type": "fonte_oficial_tecnica",
+      "title": "Set a default printer in Windows",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/en-us/windows/hardware/printer/set-a-default-printer-in-windows",
+      "verifiedAt": "2026-09-01",
+      "evidence": "Permite definir impressora padrão manualmente ou deixar o Windows gerenciar e usar a última impressora utilizada.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Set a default printer in Windows"
+    },
+    {
+      "id": "src-microsoft-print-spooler",
+      "type": "fonte_oficial_tecnica",
+      "title": "Fix print spooler service not running errors in Windows",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/en-US/Windows/Hardware/printer/fix-print-spooler-service-not-running-errors-in-windows",
+      "verifiedAt": "2026-09-01",
+      "evidence": "Print Spooler gerencia trabalhos de impressão; fila pode ser aberta/cancelada e o serviço reiniciado em solução de problemas.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Fix print spooler service not running errors in Windows"
+    },
+    {
+      "id": "src-microsoft-scanner-install",
+      "type": "fonte_oficial_tecnica",
+      "title": "Install and use a scanner in Windows",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/en-US/Windows/Hardware/printer/install-and-use-a-scanner-in-windows",
+      "verifiedAt": "2026-09-01",
+      "evidence": "Windows 11/10; scanners locais, de rede e sem fio; caminho de instalação; multifuncional pode expor Scanner settings; rede sem fio deve estar no mesmo SSID no cenário documentado.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Install and use a scanner in Windows"
+    },
+    {
+      "id": "src-microsoft-display-layout",
+      "type": "fonte_oficial_tecnica",
+      "title": "Change your screen resolution and layout in Windows",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/en-US/Windows/Hardware/Display-Graphics/change-your-screen-resolution-and-layout-in-windows",
+      "verifiedAt": "2026-09-01",
+      "evidence": "Escala, resolução e orientação; recomendação de usar opção Recommended e alerta de perda de nitidez em resolução abaixo da nativa.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Change your screen resolution and layout in Windows"
+    },
+    {
+      "id": "src-microsoft-multiple-monitors",
+      "type": "fonte_oficial_tecnica",
+      "title": "How to use multiple monitors in Windows",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/en-us/windows/hardware/display-graphics/how-to-use-multiple-monitors-in-windows",
+      "verifiedAt": "2026-09-01",
+      "evidence": "Identificar/detectar telas e modos Windows+P: PC screen only, Duplicate, Extend e Second screen only.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "How to use multiple monitors in Windows"
+    },
+    {
+      "id": "src-microsoft-refresh-rate",
+      "type": "fonte_oficial_tecnica",
+      "title": "Change the refresh rate on your monitor in Windows",
+      "authority": "Microsoft Support",
+      "url": "https://support.microsoft.com/pt-BR/Windows/Hardware/Display-Graphics/change-the-refresh-rate-on-your-monitor-in-windows",
+      "verifiedAt": "2026-09-01",
+      "evidence": "Taxa de atualização é número de atualizações por segundo; exemplo 60 Hz = 60 vezes/segundo; opções dependem da tela.",
+      "tipo": "fonte_oficial_tecnica",
+      "titulo": "Change the refresh rate on your monitor in Windows"
+    },
+    {
+      "id": "src-inepam-clementina-001-2026-edital",
+      "type": "edital_oficial_inepam_escopo",
+      "title": "Clementina/SP — Concurso Público nº 001/2026 — Edital de Abertura",
+      "authority": "Prefeitura Municipal de Clementina / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2068",
+      "evidence": "Agente Administrativo: Informática inclui Windows XP ou mais recente e configurações de periféricos (impressoras, monitores, etc.).",
+      "screenshot": "cache_miss_page_index_36",
+      "publicationRule": "evidencia_de_escopo",
+      "tipo": "edital_oficial_inepam_escopo",
+      "titulo": "Clementina/SP — Concurso Público nº 001/2026 — Edital de Abertura"
+    },
+    {
+      "id": "src-inepam-valentim-gentil-001-2026-edital",
+      "type": "edital_oficial_inepam_escopo",
+      "title": "Valentim Gentil/SP — Concurso Público nº 001/2026 — Edital",
+      "authority": "Prefeitura Municipal de Valentim Gentil / INEPAM",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2435",
+      "evidence": "Conteúdo de Informática repete periféricos; Secretário de Escola explicita impressoras, scanners, monitores, dispositivos USB e Bluetooth.",
+      "screenshot": "cache_miss_page_index_51",
+      "publicationRule": "evidencia_de_escopo",
+      "tipo": "edital_oficial_inepam_escopo",
+      "titulo": "Valentim Gentil/SP — Concurso Público nº 001/2026 — Edital"
+    },
+    {
+      "id": "src-inepam-perifericos-evidencias",
+      "type": "agrupador_editorial",
+      "title": "Evidências INEPAM — periféricos, impressão e exibição",
+      "sourceIds": [
+        "src-inepam-itajuba-001-2024-recursos",
+        "src-inepam-clementina-001-2026-edital",
+        "src-inepam-valentim-gentil-001-2026-edital"
+      ],
+      "tipo": "agrupador_editorial",
+      "titulo": "Evidências INEPAM — periféricos, impressão e exibição"
+    },
+    {
+      "id": "src-microsoft-word-basic-tasks",
+      "type": "manufacturer_official",
+      "title": "Microsoft Support — Basic tasks in Word",
+      "url": "https://support.microsoft.com/pt-BR/Word/basic-tasks-in-word",
+      "verifiedAt": "2026-09-01",
+      "usage": "Salvar, Track Changes, impressão e tarefas básicas.",
+      "tipo": "manufacturer_official",
+      "titulo": "Microsoft Support — Basic tasks in Word"
+    },
+    {
+      "id": "src-microsoft-word-shortcuts-ptbr",
+      "type": "manufacturer_official",
+      "title": "Microsoft Support — Atalhos de teclado do Word",
+      "url": "https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+      "verifiedAt": "2026-09-01",
+      "usage": "Atalhos do Word para Windows em português do Brasil, incluindo Salvar Ctrl+B, Negrito Ctrl+N, Sublinhado Ctrl+S, Imprimir Ctrl+P.",
+      "tipo": "manufacturer_official",
+      "titulo": "Microsoft Support — Atalhos de teclado do Word"
+    },
+    {
+      "id": "src-microsoft-word-bullets",
+      "type": "manufacturer_official",
+      "title": "Microsoft Support — Criar lista com marcadores ou numerada",
+      "url": "https://support.microsoft.com/pt-br/word/training/create-a-bulleted-or-numbered-list",
+      "verifiedAt": "2026-09-01",
+      "usage": "Marcadores, Numeração e localização na Página Inicial.",
+      "tipo": "manufacturer_official",
+      "titulo": "Microsoft Support — Criar lista com marcadores ou numerada"
+    },
+    {
+      "id": "src-microsoft-word-table",
+      "type": "manufacturer_official",
+      "title": "Microsoft Support — Inserir uma tabela",
+      "url": "https://support.microsoft.com/pt-BR/Word/training/insert-a-table",
+      "verifiedAt": "2026-09-01",
+      "usage": "Inserir > Tabela e operações básicas.",
+      "tipo": "manufacturer_official",
+      "titulo": "Microsoft Support — Inserir uma tabela"
+    },
+    {
+      "id": "src-microsoft-word-section-breaks",
+      "type": "manufacturer_official",
+      "title": "Microsoft Support — Inserir quebra de seção / alterar layout por seção",
+      "url": "https://support.microsoft.com/pt-br/word/insert-a-section-break",
+      "verifiedAt": "2026-09-01",
+      "usage": "Tipos e finalidade das quebras de seção.",
+      "tipo": "manufacturer_official",
+      "titulo": "Microsoft Support — Inserir quebra de seção / alterar layout por seção"
+    },
+    {
+      "id": "src-microsoft-word-header-sections",
+      "type": "manufacturer_official",
+      "title": "Microsoft Support — Configurar cabeçalhos e rodapés para diferentes seções",
+      "url": "https://support.microsoft.com/pt-br/word/configure-headers-and-footers-for-different-sections-of-a-word-document",
+      "verifiedAt": "2026-09-01",
+      "usage": "Vincular ao Anterior e independência entre seções.",
+      "tipo": "manufacturer_official",
+      "titulo": "Microsoft Support — Configurar cabeçalhos e rodapés para diferentes seções"
+    },
+    {
+      "id": "src-microsoft-word-page-numbers",
+      "type": "manufacturer_official",
+      "title": "Microsoft Support — Adicionar números de página a cabeçalho ou rodapé",
+      "url": "https://support.microsoft.com/pt-br/word/add-page-numbers-to-a-header-or-footer-in-word",
+      "verifiedAt": "2026-09-01",
+      "usage": "Numeração de páginas.",
+      "tipo": "manufacturer_official",
+      "titulo": "Microsoft Support — Adicionar números de página a cabeçalho ou rodapé"
+    },
+    {
+      "id": "src-microsoft-word-find-replace",
+      "type": "manufacturer_official",
+      "title": "Microsoft Support — Localizar e substituir texto no Word",
+      "url": "https://support.microsoft.com/pt-br/word/training/find-and-replace-text-in-word",
+      "verifiedAt": "2026-09-01",
+      "usage": "Conceitos de Localizar/Substituir; sem questão de Ctrl+H devido a inconsistência entre tabelas de suporte.",
+      "tipo": "manufacturer_official",
+      "titulo": "Microsoft Support — Localizar e substituir texto no Word"
+    },
+    {
+      "id": "src-microsoft-word-track-changes",
+      "type": "manufacturer_official",
+      "title": "Microsoft Support — Controlar alterações no Word",
+      "url": "https://support.microsoft.com/pt-BR/Word/training/track-changes-in-word",
+      "verifiedAt": "2026-09-01",
+      "usage": "Revisão e registro de alterações.",
+      "tipo": "manufacturer_official",
+      "titulo": "Microsoft Support — Controlar alterações no Word"
+    },
+    {
+      "id": "src-microsoft-word-compare",
+      "type": "manufacturer_official",
+      "title": "Microsoft Support — Combinar revisões / Comparar documentos",
+      "url": "https://support.microsoft.com/pt-BR/Word/combine-document-revisions",
+      "verifiedAt": "2026-09-01",
+      "usage": "Revisão > Comparar/Combinar.",
+      "tipo": "manufacturer_official",
+      "titulo": "Microsoft Support — Combinar revisões / Comparar documentos"
+    },
+    {
+      "id": "src-microsoft-word-file-formats",
+      "type": "manufacturer_official",
+      "title": "Microsoft Support — Formatos de arquivo para salvar documentos",
+      "url": "https://support.microsoft.com/pt-BR/Word/file-formats-for-saving-documents",
+      "verifiedAt": "2026-09-01",
+      "usage": "Formato padrão moderno .docx.",
+      "tipo": "manufacturer_official",
+      "titulo": "Microsoft Support — Formatos de arquivo para salvar documentos"
+    },
+    {
+      "id": "src-microsoft-word-pdf",
+      "type": "manufacturer_official",
+      "title": "Microsoft Support — Salvar ou converter em PDF ou XPS",
+      "url": "https://support.microsoft.com/pt-BR/Office/collab-files/save-or-convert-to-pdf-or-xps-in-office-desktop-apps",
+      "verifiedAt": "2026-09-01",
+      "usage": "Salvar/converter para PDF e cautela sobre editabilidade.",
+      "tipo": "manufacturer_official",
+      "titulo": "Microsoft Support — Salvar ou converter em PDF ou XPS"
+    },
+    {
+      "id": "src-microsoft-excel-basic-tasks",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Tarefas básicas no Excel",
+      "url": "https://support.microsoft.com/pt-BR/Excel/basic-tasks-in-excel"
+    },
+    {
+      "id": "src-microsoft-excel-formulas-overview",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Visão geral de fórmulas no Excel",
+      "url": "https://support.microsoft.com/pt-BR/Excel/get-started/overview-of-formulas-in-excel"
+    },
+    {
+      "id": "src-microsoft-excel-sum",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Função SOMA",
+      "url": "https://support.microsoft.com/pt-BR/Excel/functions/sum-function"
+    },
+    {
+      "id": "src-microsoft-excel-average",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Função MÉDIA",
+      "url": "https://support.microsoft.com/pt-BR/Excel/functions/average-function"
+    },
+    {
+      "id": "src-microsoft-excel-if",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Função SE",
+      "url": "https://support.microsoft.com/pt-br/excel/functions/if-function"
+    },
+    {
+      "id": "src-microsoft-excel-index",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Função ÍNDICE",
+      "url": "https://support.microsoft.com/pt-br/excel/functions/index-function"
+    },
+    {
+      "id": "src-microsoft-excel-sort",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Classificar dados em um intervalo ou tabela no Excel",
+      "url": "https://support.microsoft.com/pt-BR/Excel/sort-data-in-a-range-or-table-in-excel"
+    },
+    {
+      "id": "src-microsoft-excel-chart",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Criar um gráfico do início ao fim",
+      "url": "https://support.microsoft.com/pt-BR/Excel/get-started/create-a-chart-from-start-to-finish"
+    },
+    {
+      "id": "src-microsoft-excel-freeze-panes",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Congelar painéis para bloquear linhas e colunas",
+      "url": "https://support.microsoft.com/pt-BR/Excel/get-started/freeze-panes-to-lock-rows-and-columns"
+    },
+    {
+      "id": "src-microsoft-excel-lock-cells",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Bloquear células para protegê-las no Excel",
+      "url": "https://support.microsoft.com/pt-BR/Excel/lock-cells-to-protect-them-in-excel"
+    },
+    {
+      "id": "src-microsoft-excel-file-formats",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Formatos de arquivos com suporte no Excel",
+      "url": "https://support.microsoft.com/pt-br/excel/file-formats-that-are-supported-in-excel"
+    },
+    {
+      "id": "src-inepam-santa-rita-001-2022-recursos",
+      "tipo": "julgamento_recursos_oficial",
+      "titulo": "INEPAM — Santa Rita do Passa Quatro/SP — Julgamento dos Recursos — PS 01/2022",
+      "url": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=15"
+    },
+    {
+      "id": "src-inepam-excel-evidencias",
+      "tipo": "referencia_interna_lote",
+      "titulo": "Evidências oficiais INEPAM utilizadas no Lote 092",
+      "arquivo": "referencias-evidencias-inepam-excel.json"
+    },
+    {
+      "id": "src-microsoft-powerpoint-basic",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Tarefas básicas para criar uma apresentação do PowerPoint",
+      "url": "https://support.microsoft.com/pt-br/powerpoint/basic-tasks-for-creating-a-powerpoint-presentation"
+    },
+    {
+      "id": "src-microsoft-powerpoint-layout",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — O que é um layout de slide?",
+      "url": "https://support.microsoft.com/pt-br/powerpoint/what-is-a-slide-layout"
+    },
+    {
+      "id": "src-microsoft-powerpoint-transitions-animations",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — A diferença entre animações e transições",
+      "url": "https://support.microsoft.com/pt-br/powerpoint/the-difference-between-animations-and-transitions"
+    },
+    {
+      "id": "src-microsoft-powerpoint-transitions",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Adicionar, alterar ou remover transições entre slides",
+      "url": "https://support.microsoft.com/pt-br/powerpoint/training/add-change-or-remove-transitions-between-slides"
+    },
+    {
+      "id": "src-microsoft-powerpoint-shortcuts-deliver",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Usar atalhos de teclado para veicular apresentações do PowerPoint",
+      "url": "https://support.microsoft.com/pt-BR/accessibility/powerpoint/use-keyboard-shortcuts-to-deliver-powerpoint-presentations"
+    },
+    {
+      "id": "src-microsoft-powerpoint-slide-master",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — O que é um slide master no PowerPoint?",
+      "url": "https://support.microsoft.com/pt-br/powerpoint/training/what-is-a-slide-master-in-powerpoint"
+    },
+    {
+      "id": "src-microsoft-powerpoint-file-formats",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Formatos de arquivo aos quais o PowerPoint oferece suporte",
+      "url": "https://support.microsoft.com/pt-br/powerpoint/file-formats-that-are-supported-in-powerpoint"
+    },
+    {
+      "id": "src-microsoft-powerpoint-print",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Imprimir folhetos, anotações ou slides",
+      "url": "https://support.microsoft.com/pt-BR/PowerPoint/print-your-handouts-notes-or-slides"
+    },
+    {
+      "id": "src-microsoft-powerpoint-speaker-notes",
+      "tipo": "documentacao_oficial",
+      "titulo": "Microsoft Support — Anotações do orador no PowerPoint",
+      "url": "https://support.microsoft.com/pt-BR/accessibility/powerpoint/use-a-screen-reader-to-read-or-add-speaker-notes-and-comments-in-powerpoint"
+    },
+    {
+      "id": "src-inepam-powerpoint-evidencias",
+      "tipo": "referencia_interna_lote",
+      "titulo": "Evidências oficiais INEPAM utilizadas no Lote 093",
+      "arquivo": "referencias-evidencias-inepam-powerpoint.json"
     }
   ]
 }
-

@@ -1,12 +1,13 @@
 {
   "schemaVersion": "2.0",
   "libraryId": "rincao-2026-conteudo-master",
-  "version": "2.0.0",
-  "updatedAt": "2026-08-24T10:56:29.623Z",
+  "version": "2.1.0",
+  "updatedAt": "2026-09-02T12:00:00-03:00",
   "timezone": "America/Sao_Paulo",
   "editorialStatus": "em_producao",
   "editorialAliases": {
-    "agente-especificos-manuais-redacao-001": "agente-especificos-atos-oficiais-001"
+    "agente-especificos-nocoes-arquivo-001": "agente-especificos-arquivo-001",
+    "monitor-especificos-diretrizes-bases-educacao-nacional-001": "monitor-especificos-ldb-001"
   },
   "scope": {
     "concurso": "Prefeitura Municipal de Rincão-SP — Concurso Público nº 001/2026",
@@ -22,22 +23,26 @@
     "documentId": "rerratificacao-edital-abertura-2026-08-13",
     "publishedAt": "2026-08-13",
     "sourceUrl": "https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2681",
-    "lastVerifiedAt": "2026-08-24"
+    "lastVerifiedAt": "2026-09-02",
+    "sourceSha256": "AB350B9E1E51C7421426FDE784E8DA1826E141021709AFA87F900FA34BBAF9A3"
   },
   "summary": {
-    "publishedLessons": 89,
+    "publishedLessons": 112,
     "portugueseMedium": 21,
     "mathMedium": 13,
     "portugueseFundamental": 4,
     "mathFundamental": 5,
-    "agentSpecificTopics": 30,
+    "agentSpecificTopics": 31,
     "ajudanteSpecificLessons": 15,
     "practicalModules": 1,
-    "interactiveQuestions": 713,
+    "interactiveQuestions": 1307,
     "realInepam": 11,
-    "ineditasEstiloInepam": 702,
+    "ineditasEstiloInepam": 1296,
     "simulationsPackages": 0,
-    "wholeProjectComplete": false
+    "wholeProjectComplete": false,
+    "monitorSpecificLessons": 17,
+    "monitorSpecificItems": 19,
+    "monitorSpecificTopics": 30
   },
   "lessons": [
     {
@@ -50,12 +55,12 @@
       "cargoIds": [
         "agente-administrativo"
       ],
-      "status": "revisado",
-      "version": "0.1.0",
+      "status": "questoes_adicionadas",
+      "version": "0.1.1",
       "siteTopicIds": [
         "aa-redacao"
       ],
-      "questionCount": 5
+      "questionCount": 18
     },
     {
       "stableItemId": "AGE-ESP-002",
@@ -67,12 +72,12 @@
       "cargoIds": [
         "agente-administrativo"
       ],
-      "status": "revisado",
-      "version": "0.1.0",
+      "status": "questoes_adicionadas",
+      "version": "0.1.1",
       "siteTopicIds": [
         "aa-atos"
       ],
-      "questionCount": 5
+      "questionCount": 18
     },
     {
       "stableItemId": "AGE-ESP-003-01",
@@ -339,12 +344,12 @@
       "cargoIds": [
         "agente-administrativo"
       ],
-      "status": "revisado",
-      "version": "0.1.0",
+      "status": "questoes_adicionadas",
+      "version": "0.2.0",
       "siteTopicIds": [
         "aa-principios"
       ],
-      "questionCount": 5
+      "questionCount": 18
     },
     {
       "stableItemId": "AGE-ESP-007-01",
@@ -373,29 +378,29 @@
       "cargoIds": [
         "agente-administrativo"
       ],
-      "status": "revisado",
-      "version": "0.1.0",
+      "status": "questoes_adicionadas",
+      "version": "0.2.0",
       "siteTopicIds": [
         "aa-cf-37-41"
       ],
-      "questionCount": 6
+      "questionCount": 18
     },
     {
       "stableItemId": "AGE-ESP-011-01",
       "id": "agente-especificos-informatica-windows-001",
-      "temaId": "windows",
+      "temaId": "windows-utilizacao-configuracao",
       "titulo": "Windows — utilização, arquivos, pastas, atalhos e configurações",
       "disciplinaId": "agente-especificos",
       "path": "src/content/library/lessons/agente-especificos-informatica-windows-001.md",
       "cargoIds": [
         "agente-administrativo"
       ],
-      "status": "revisado",
-      "version": "0.2.0",
+      "status": "questoes_adicionadas",
+      "version": "0.3.0",
       "siteTopicIds": [
         "aa-windows"
       ],
-      "questionCount": 5
+      "questionCount": 18
     },
     {
       "stableItemId": "AGE-ESP-011-02",
@@ -407,29 +412,29 @@
       "cargoIds": [
         "agente-administrativo"
       ],
-      "status": "revisado",
-      "version": "0.2.0",
+      "status": "questoes_adicionadas",
+      "version": "0.3.0",
       "siteTopicIds": [
         "aa-aplicativos"
       ],
-      "questionCount": 5
+      "questionCount": 18
     },
     {
       "stableItemId": "AGE-ESP-011-03",
       "id": "agente-especificos-informatica-perifericos-001",
-      "temaId": "perifericos",
+      "temaId": "perifericos-impressoras-monitores",
       "titulo": "Periféricos — impressoras, monitores e dispositivos de entrada e saída",
       "disciplinaId": "agente-especificos",
       "path": "src/content/library/lessons/agente-especificos-informatica-perifericos-001.md",
       "cargoIds": [
         "agente-administrativo"
       ],
-      "status": "revisado",
-      "version": "0.2.0",
+      "status": "questoes_adicionadas",
+      "version": "0.3.0",
       "siteTopicIds": [
         "aa-perifericos"
       ],
-      "questionCount": 5
+      "questionCount": 18
     },
     {
       "stableItemId": "AGE-ESP-011-04",
@@ -441,12 +446,12 @@
       "cargoIds": [
         "agente-administrativo"
       ],
-      "status": "revisado",
-      "version": "0.2.0",
+      "status": "questoes_adicionadas",
+      "version": "0.3.0",
       "siteTopicIds": [
         "aa-word"
       ],
-      "questionCount": 5
+      "questionCount": 18
     },
     {
       "stableItemId": "AGE-ESP-011-05",
@@ -458,12 +463,12 @@
       "cargoIds": [
         "agente-administrativo"
       ],
-      "status": "revisado",
-      "version": "0.2.0",
+      "status": "questoes_adicionadas",
+      "version": "0.3.0",
       "siteTopicIds": [
         "aa-excel"
       ],
-      "questionCount": 5
+      "questionCount": 18
     },
     {
       "stableItemId": "AGE-ESP-011-06",
@@ -475,12 +480,12 @@
       "cargoIds": [
         "agente-administrativo"
       ],
-      "status": "revisado",
-      "version": "0.2.0",
+      "status": "questoes_adicionadas",
+      "version": "0.3.0",
       "siteTopicIds": [
         "aa-powerpoint"
       ],
-      "questionCount": 5
+      "questionCount": 18
     },
     {
       "stableItemId": "AGE-ESP-011-07",
@@ -1610,6 +1615,421 @@
         "mp-interpretacao"
       ],
       "questionCount": 15
+    },
+    {
+      "stableItemId": "AGE-ESP-003",
+      "id": "agente-especificos-elaboracao-documentos-001",
+      "temaId": "elaboracao-documentos-normas-gerais",
+      "titulo": "Elaboração de documentos — normas gerais, siglas, vícios de linguagem, grafia, fechos e tratamento",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-elaboracao-documentos-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "aa-elaboracao",
+        "aa-siglas",
+        "aa-hifen-destaques",
+        "aa-numerais",
+        "aa-fecho",
+        "aa-tratamento"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "AGE-ESP-004",
+      "id": "agente-especificos-modelos-comunicacoes-001",
+      "temaId": "modelos-comunicacoes-oficiais",
+      "titulo": "Modelos de comunicações e atos oficiais — espécies, finalidades, assinaturas e estruturas",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-modelos-comunicacoes-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "aa-ata-apostila",
+        "aa-carta-circular",
+        "aa-contrato-convenio",
+        "aa-email",
+        "aa-despacho-parecer",
+        "aa-portaria-resolucao"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "AGE-ESP-005",
+      "id": "agente-especificos-padrao-oficio-001",
+      "temaId": "padrao-oficio-aviso-oficio-memorando-exposicao-motivos",
+      "titulo": "Padrão Ofício — Aviso e Ofício, Memorando e Exposição de Motivos",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-padrao-oficio-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "aa-oficio"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "AGE-ESP-006",
+      "id": "agente-especificos-arquivo-001",
+      "temaId": "nocoes-basicas-arquivo",
+      "titulo": "Noções básicas de arquivo — conceitos, organização, gestão documental e ciclo de vida",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-arquivo-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.1",
+      "siteTopicIds": [
+        "aa-arquivo",
+        "aa-classificacao"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-001",
+      "id": "monitor-especificos-constituicao-federal-001",
+      "temaId": "constituicao-federal-monitor",
+      "titulo": "Constituição Federal — arts. 5º a 7º, 205 a 214 e 226 a 230",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-constituicao-federal-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-cf-5-7",
+        "me-cf-205-214",
+        "me-cf-226-230"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-002",
+      "id": "monitor-especificos-lei-organica-rincao-001",
+      "temaId": "lei-organica-municipio-rincao",
+      "titulo": "Lei Orgânica do Município de Rincão — organização municipal, poderes, administração e educação",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-lei-organica-rincao-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-lom-preliminares",
+        "me-lom-governo",
+        "me-lom-administracao",
+        "me-lom-cidadaos",
+        "me-lom-desenvolvimento",
+        "me-lom-ordem-social",
+        "me-lom-financas"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-003",
+      "id": "monitor-especificos-eca-001",
+      "temaId": "eca-direitos-crianca-adolescente",
+      "titulo": "ECA — Lei nº 8.069/1990 — arts. 1º–6º, 13–18 e 53–73",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-eca-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-eca-1-6",
+        "me-eca-13-18",
+        "me-eca-53-59",
+        "me-eca-60-69",
+        "me-eca-70-73"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-004",
+      "id": "monitor-especificos-ldb-001",
+      "temaId": "ldb-lei-9394",
+      "titulo": "LDB — Lei nº 9.394/1996 e alterações",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-ldb-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-ldb-principios",
+        "me-ldb-basica"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-005",
+      "id": "monitor-especificos-diretrizes-direitos-humanos-001",
+      "temaId": "educacao-direitos-humanos",
+      "titulo": "1. Identificação e referência ao edital",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-diretrizes-direitos-humanos-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-direitos-humanos"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-007",
+      "id": "monitor-especificos-seguranca-aluno-escola-001",
+      "temaId": "seguranca-aluno-escola",
+      "titulo": "Segurança do aluno nas dependências da escola",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-seguranca-aluno-escola-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-seguranca-aluno"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-008",
+      "id": "monitor-especificos-primeiros-socorros-001",
+      "temaId": "primeiros-socorros",
+      "titulo": "Noções de primeiros socorros no ambiente escolar",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-primeiros-socorros-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-primeiros-socorros"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-009",
+      "id": "monitor-especificos-atendimento-publico-001",
+      "temaId": "atendimento-publico",
+      "titulo": "Atendimento ao público",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-atendimento-publico-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-atendimento"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-010",
+      "id": "monitor-especificos-higiene-pessoal-trabalho-001",
+      "temaId": "higiene-pessoal-trabalho",
+      "titulo": "Higiene pessoal e no trabalho",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-higiene-pessoal-trabalho-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-higiene"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-011",
+      "id": "monitor-especificos-relacoes-humanas-trabalho-001",
+      "temaId": "relacoes-humanas-trabalho",
+      "titulo": "Relações humanas no trabalho",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-relacoes-humanas-trabalho-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-relacoes"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-012",
+      "id": "monitor-especificos-comportamento-alunos-001",
+      "temaId": "comportamento-alunos",
+      "titulo": "Inspeção e cuidados com o comportamento dos alunos no ambiente escolar",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-comportamento-alunos-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-inspecao"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-013",
+      "id": "monitor-especificos-regras-procedimentos-escola-001",
+      "temaId": "regras-procedimentos-escola",
+      "titulo": "Regras e procedimentos de um ambiente escolar",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-regras-procedimentos-escola-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-ambiente"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-014",
+      "id": "monitor-especificos-comunicacao-oratoria-001",
+      "temaId": "comunicacao-oratoria",
+      "titulo": "Noção de comunicação e oratória",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-comunicacao-oratoria-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-comunicacao"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-015",
+      "id": "monitor-especificos-regimento-escolar-001",
+      "temaId": "regimento-escolar",
+      "titulo": "Regimento escolar",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-regimento-escolar-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-regimento-escolar"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-016",
+      "id": "monitor-especificos-etica-cidadania-trabalho-001",
+      "temaId": "etica-cidadania-trabalho",
+      "titulo": "Ética e cidadania no trabalho",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-etica-cidadania-trabalho-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-etica-cidadania"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-017",
+      "id": "monitor-especificos-seguranca-trabalho-001",
+      "temaId": "seguranca-trabalho",
+      "titulo": "Noções básicas de segurança no trabalho",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-seguranca-trabalho-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-trabalho"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "MON-ESP-019",
+      "id": "monitor-especificos-atividades-atribuicoes-cargo-001",
+      "temaId": "atividades-atribuicoes-cargo",
+      "titulo": "Atividades e atribuições específicas do cargo — Monitor de Educação",
+      "disciplinaId": "monitor-especificos",
+      "path": "src/content/library/lessons/monitor-especificos-atividades-atribuicoes-cargo-001.md",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.1.0",
+      "siteTopicIds": [
+        "me-atribuicoes"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "AGE-ESP-008",
+      "id": "agente-especificos-hierarquia-001",
+      "temaId": "hierarquia-servico-publico",
+      "titulo": "Regras de hierarquia no serviço público",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-hierarquia-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-servidores"
+      ],
+      "questionCount": 18
+    },
+    {
+      "stableItemId": "AGE-ESP-010",
+      "id": "agente-especificos-manuais-redacao-001",
+      "temaId": "manuais-redacao-atos-oficiais-presidencia",
+      "titulo": "Manual de Redação e de Atos Oficiais + Manual de Redação da Presidência da República — revisão integrada",
+      "disciplinaId": "agente-especificos",
+      "path": "src/content/library/lessons/agente-especificos-manuais-redacao-001.md",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "status": "questoes_adicionadas",
+      "version": "0.2.0",
+      "siteTopicIds": [
+        "aa-manuais"
+      ],
+      "questionCount": 18
     }
   ],
   "dataFiles": {

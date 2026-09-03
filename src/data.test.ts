@@ -27,13 +27,14 @@ describe('integração editorial no banco e nos simulados', () => {
     expect(fonema.every((question) => question.id.startsWith('q-inedita-medio-portugues-'))).toBe(true)
   })
 
-  it('disponibiliza todo o material aprovado por cargo sem vazar Específicos do Monitor', () => {
+  it('disponibiliza todo o material aprovado para os três cargos', () => {
     const agentTopics = topics.filter((topic) => topic.cargoIds.includes('agente'))
     const ajudanteTopics = topics.filter((topic) => topic.cargoIds.includes('ajudante'))
     const monitorSpecific = topics.filter((topic) => topic.cargoIds.includes('monitor') && topic.discipline === 'especificos')
     expect(agentTopics.every((topic) => Boolean(richLessonsByTopicId[topic.id]))).toBe(true)
     expect(ajudanteTopics.every((topic) => Boolean(richLessonsByTopicId[topic.id]))).toBe(true)
-    expect(monitorSpecific.every((topic) => !richLessonsByTopicId[topic.id])).toBe(true)
+    expect(monitorSpecific).toHaveLength(30)
+    expect(monitorSpecific.every((topic) => Boolean(richLessonsByTopicId[topic.id]))).toBe(true)
     expect(richLessonsByTopicId['mp-fonema'].cargoIds).toEqual(['agente', 'monitor'])
   })
 })

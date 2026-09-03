@@ -9,9 +9,9 @@ temaId: constituicao-federal-art37-39-41
 titulo: "Constituição Federal — art. 37 e arts. 39 a 41"
 editalRefs:
   - "Anexo II — Conhecimentos Específicos — Agente Administrativo: Constituição Federal — art. 37 e arts. 39 a 41"
-status: revisado
-versao: "0.1.0"
-revisadoEm: "2026-08-23"
+status: questoes_adicionadas
+versao: "0.2.0"
+revisadoEm: "2026-08-30"
 sourceRefs:
   - src-edital-rincao-2026
   - src-cf1988-compilada-2026-08-23
@@ -22,6 +22,10 @@ sourceRefs:
   - src-inepam-campo-limpo-paulista-001-2026
   - src-inepam-campo-limpo-paulista-001-2026-gabarito-homologado
   - src-inepam-campo-limpo-paulista-escriturario-questoes-2026
+  - src-inepam-campo-limpo-paulista-001-2026-gabarito
+  - src-inepam-campo-limpo-paulista-001-2026-recursos
+  - src-ec139-2026
+  - src-stf-adi-2135-andamento-2025
 ---
 
 # Constituição Federal — art. 37 e arts. 39 a 41
@@ -36,7 +40,11 @@ O conteúdo é específico do cargo de **Agente Administrativo**.
 
 ### Situação editorial
 
-A aula está **revisada** quanto ao recorte constitucional exigido. O item ainda não recebe o status global `concluido` porque a consolidação de questões, fontes e cobertura 1:1 será realizada posteriormente nos arquivos `questions.json`, `sources.json` e `cobertura-edital.json`.
+A aula foi **revalidada em 30/08/2026** contra o texto compilado oficial da Constituição e o quadro de Emendas Constitucionais do Planalto.
+
+A Emenda Constitucional nº 139/2026 é a emenda constitucional mais recente localizada no quadro oficial nessa conferência e altera os arts. 31 e 75, **sem impacto no recorte desta aula (arts. 37 e 39 a 41)**.
+
+O item recebe neste lote o status `questoes_adicionadas`, com consolidação em `questions.json`, `sources.json` e `cobertura-edital.json`.
 
 ### Regra central desta aula
 
@@ -57,7 +65,7 @@ O **art. 38 não integra o recorte indicado no edital** e, por isso, não será 
 
 Este tema exige cuidado especial porque a Constituição foi alterada várias vezes.
 
-Para esta aula foi conferido o **texto compilado oficial da Constituição no Portal Planalto em 23/08/2026**.
+Para esta aula foi conferido novamente o **texto compilado oficial da Constituição no Portal Planalto em 30/08/2026**.
 
 ## 2.1 Alteração muito recente: acumulação de cargo de professor
 
@@ -106,7 +114,7 @@ A EC nº 19/1998 retirou essa obrigatoriedade do caput do art. 39. Em 2007, uma 
 
 Porém, no julgamento definitivo da **ADI 2.135**, concluído em **06/11/2024**, o STF considerou constitucional a alteração promovida pela EC nº 19/1998 que suprimiu a obrigatoriedade constitucional de regime jurídico único.
 
-Em agosto de 2025, embargos de declaração foram rejeitados.
+Em agosto de 2025, o STF concluiu o julgamento virtual dos embargos de declaração; o Portal do STF continua apresentando como referência constitucional a decisão definitiva da ADI 2.135, de 06/11/2024.
 
 ### Consequência para o estudo em 2026
 
@@ -589,7 +597,7 @@ Este parágrafo já foi cobrado literalmente pela INEPAM em prova recente de ní
 
 ---
 
-## 32. QUESTÃO REAL — INEPAM: art. 37, §5º
+## 32. QUESTÃO ATRIBUÍDA À INEPAM — caderno externo corroborado por gabarito oficial: art. 37, §5º
 
 **Banca:** INEPAM  
 **Órgão:** Câmara Municipal de Campo Limpo Paulista/SP  
@@ -1339,7 +1347,7 @@ Esse texto foi cobrado literalmente pela INEPAM em 2026.
 
 ---
 
-# 79. QUESTÃO REAL — INEPAM: art. 41, §4º
+# 79. QUESTÃO ATRIBUÍDA À INEPAM — caderno externo corroborado por gabarito oficial: art. 41, §4º
 
 **Banca:** INEPAM  
 **Órgão:** Câmara Municipal de Campo Limpo Paulista/SP  
@@ -1382,7 +1390,35 @@ Exigiu:
 
 ### Nota documental
 
-O banco público utilizado reproduz enunciado e alternativas, mas não expõe com segurança o número ordinal original do caderno na página consultada. Por isso, esta aula registra o identificador público e a resolução constitucional, sem inventar numeração.
+O banco público reproduz integralmente o enunciado e as cinco alternativas e identifica a prova como **INEPAM — Câmara de Campo Limpo Paulista — Escriturário — 2026**.
+
+O gabarito oficial da INEPAM para Escriturário foi localizado no `idAnexo=2282`. Como o caderno oficial completo não foi recuperado diretamente da página da banca, a questão é tratada neste projeto como **caderno externo corroborado por gabarito oficial**, e não inserida no `questions.json` como questão real integral oficial.
+
+A tentativa de screenshot da página do gabarito oficial foi realizada e retornou erro interno/cache do renderizador.
+
+---
+
+
+## 79-A. QUESTÃO REAL — INEPAM parcialmente documentada: art. 41, §1º, III
+
+**Fonte oficial:** Câmara Municipal de Campo Limpo Paulista/SP — Concurso Público nº 001/2026 — Julgamento dos Recursos (`idAnexo=2328`).  
+**Questão:** 28, em bloco de cargo jurídico no julgamento.
+
+A banca confirmou que a alternativa discutida descrevia corretamente uma hipótese de perda do cargo do servidor estável por:
+
+> **avaliação periódica de desempenho**, na forma de lei complementar, assegurada ampla defesa.
+
+O julgamento também destacou a necessidade de regulamentação por lei complementar prevista no art. 41, §1º, III.
+
+### Classificação
+
+**QUESTÃO REAL — INEPAM parcialmente documentada.**
+
+O julgamento oficial não reproduz o caderno inteiro com todas as alternativas. Portanto, o lote utiliza apenas a informação comprovada no recurso e **não reconstrói alternativas ausentes**.
+
+### Screenshot
+
+A tentativa obrigatória de screenshot da página 14 do PDF oficial retornou `cache miss`. O texto do PDF foi lido diretamente, sem OCR.
 
 ---
 
@@ -1833,112 +1869,336 @@ Disponibilidade até adequado aproveitamento.
 
 ## 109. Questão 1
 
-Considerando a redação vigente do art. 37, XVI, da Constituição Federal após a Emenda Constitucional nº 138/2025, assinale a alternativa correta:
+Após a EC nº 138/2025, é constitucionalmente admitida, havendo compatibilidade de horários:
 
-A) É permitida a acumulação de qualquer dois cargos públicos quando houver compatibilidade de horários.  
-B) É permitida a acumulação de um cargo de professor com outro de qualquer natureza, havendo compatibilidade de horários e observância do teto constitucional.  
-C) A Constituição continua permitindo professor apenas com cargo técnico ou científico.  
-D) É permitida a acumulação de três cargos de professor.  
-E) É proibida qualquer acumulação de cargos públicos.
+A) a acumulação de quaisquer três cargos públicos.  
+B) a acumulação de um cargo de professor com outro de qualquer natureza, observadas também as regras do teto constitucional.  
+C) somente a acumulação de professor com cargo técnico ou científico.  
+D) a acumulação irrestrita de dois cargos administrativos.  
+E) a acumulação de cargo de professor apenas com outro cargo de professor.  
+
+### Gabarito: B
+
+### Comentário
+
+A EC nº 138/2025 alterou o art. 37, XVI, b, permitindo professor + outro cargo de qualquer natureza, mantidas as condições constitucionais.
 
 ---
 
 ## 110. Questão 2
 
-O prazo de validade de um concurso público, conforme o art. 37, III, da Constituição Federal:
+Nos termos do art. 37, III, o prazo de validade do concurso público será:
 
-A) será obrigatoriamente de dois anos.  
-B) será de até três anos, sem prorrogação.  
-C) será de até dois anos, prorrogável uma vez por igual período.  
-D) será de um ano e poderá ser prorrogado indefinidamente.  
-E) será fixado exclusivamente por decreto municipal, sem limite constitucional.
+A) exatamente dois anos, sem exceção.  
+B) de até quatro anos.  
+C) de até dois anos, prorrogável uma vez por igual período.  
+D) de um ano, prorrogável quantas vezes a Administração desejar.  
+E) fixado sem limite constitucional.  
+
+### Gabarito: C
+
+### Comentário
+
+A Constituição estabelece até dois anos e uma única prorrogação por igual período.
 
 ---
 
 ## 111. Questão 3
 
-Segundo o art. 40 da Constituição Federal, assinale a alternativa correta:
+Segundo o art. 37, I, cargos, empregos e funções públicas são acessíveis:
 
-A) O RPPS destina-se indistintamente a todos os agentes públicos.  
-B) Empregado público é obrigatoriamente segurado do RPPS.  
-C) Ocupante exclusivamente de cargo em comissão está sujeito ao RGPS.  
-D) Cada ente pode manter vários RPPS.  
-E) A Constituição autoriza livremente a criação de novos RPPS.
+A) somente a brasileiros natos.  
+B) somente a brasileiros natos ou naturalizados, sem exceção.  
+C) a qualquer estrangeiro independentemente de lei.  
+D) a brasileiros que preencham requisitos legais e a estrangeiros, na forma da lei.  
+E) apenas a brasileiros maiores de 21 anos.  
+
+### Gabarito: D
+
+### Comentário
+
+O texto constitucional também admite estrangeiros, na forma da lei.
 
 ---
 
 ## 112. Questão 4
 
-Nos termos do art. 41 da Constituição Federal, o servidor público estável poderá perder o cargo:
+Nos termos do art. 37, V, as funções de confiança:
 
-A) somente por sentença judicial transitada em julgado.  
-B) por decisão verbal de sua chefia imediata.  
-C) por processo administrativo sem necessidade de defesa.  
-D) mediante processo administrativo em que lhe seja assegurada ampla defesa, entre outras hipóteses constitucionais.  
-E) automaticamente quando completar dez anos de serviço.
+A) são exercidas exclusivamente por servidores ocupantes de cargo efetivo.  
+B) podem ser ocupadas livremente por qualquer pessoa.  
+C) destinam-se a atividades operacionais comuns.  
+D) dispensam previsão legal.  
+E) são equivalentes a emprego público.  
+
+### Gabarito: A
+
+### Comentário
+
+A Constituição reserva funções de confiança a servidores ocupantes de cargo efetivo.
 
 ---
 
 ## 113. Questão 5
 
-De acordo com o art. 41, §4º, é condição para aquisição da estabilidade:
+O art. 37, IX, determina que a lei estabelecerá os casos de contratação por tempo determinado para atender:
 
-A) avaliação especial de desempenho por comissão instituída para essa finalidade.  
-B) autorização do Prefeito.  
-C) aprovação em novo concurso após três anos.  
-D) avaliação exclusiva do chefe imediato, sem comissão.  
-E) exercício de cargo em comissão por três anos.
+A) qualquer necessidade permanente.  
+B) exclusivamente substituição de cargo em comissão.  
+C) apenas projetos privados.  
+D) necessidade administrativa comum, ainda que permanente.  
+E) necessidade temporária de excepcional interesse público.  
+
+### Gabarito: E
+
+### Comentário
+
+A contratação temporária constitucional exige necessidade temporária de excepcional interesse público, nos casos definidos em lei.
 
 ---
 
+## 114. Questão 6
+
+De acordo com o art. 37, XIX:
+
+A) empresa pública é criada diretamente por decreto.  
+B) autarquia é criada por lei específica, enquanto a instituição de empresa pública, sociedade de economia mista e fundação é autorizada por lei específica, observadas as demais regras constitucionais.  
+C) todas as entidades são criadas apenas por contrato.  
+D) autarquia é apenas autorizada por lei.  
+E) fundação pública jamais depende de lei.  
+
+### Gabarito: B
+
+### Comentário
+
+O inciso XIX diferencia criação de autarquia e autorização para as demais entidades indicadas.
+
+---
+
+## 115. Questão 7
+
+O art. 37, §5º, determina que a lei estabelecerá prazos de:
+
+A) decadência para atos lícitos, ressalvadas indenizações.  
+B) prescrição apenas para servidores efetivos.  
+C) prescrição para ilícitos praticados por qualquer agente, servidor ou não, que causem prejuízos ao erário, ressalvadas as respectivas ações de ressarcimento.  
+D) prescrição apenas para ilícitos penais.  
+E) ressarcimento para atos sem prejuízo ao erário.  
+
+### Gabarito: C
+
+### Comentário
+
+É a literalidade essencial do §5º; a INEPAM já explorou a troca de palavras nesse dispositivo.
+
+---
+
+## 116. Questão 8
+
+Segundo o art. 37, §6º, as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão:
+
+A) apenas se houver dolo do agente.  
+B) somente por danos causados por servidores efetivos.  
+C) apenas depois da condenação penal do agente.  
+D) pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso nos casos de dolo ou culpa.  
+E) sem possibilidade de direito de regresso.  
+
+### Gabarito: D
+
+### Comentário
+
+O §6º estabelece responsabilidade perante terceiros e direito de regresso contra o responsável em caso de dolo ou culpa.
+
+---
+
+## 117. Questão 9
+
+A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deve:
+
+A) ter caráter educativo, informativo ou de orientação social, sem promoção pessoal de autoridades ou servidores.  
+B) promover prioritariamente a autoridade responsável.  
+C) conter nomes e imagens de servidores como regra.  
+D) ter caráter comercial.  
+E) ser sigilosa por princípio.  
+
+### Gabarito: A
+
+### Comentário
+
+O art. 37, §1º, veda nomes, símbolos ou imagens que caracterizem promoção pessoal.
+
+---
+
+## 118. Questão 10
+
+Na fixação dos padrões de vencimento e dos demais componentes do sistema remuneratório, o art. 39, §1º, determina observar, entre outros fatores:
+
+A) apenas idade do servidor.  
+B) somente tempo de residência no Município.  
+C) preferência pessoal da chefia.  
+D) número de dependentes.  
+E) natureza, grau de responsabilidade e complexidade dos cargos, requisitos para investidura e peculiaridades dos cargos.  
+
+### Gabarito: E
+
+### Comentário
+
+Esses são os três grupos de fatores expressos no §1º do art. 39.
+
+---
+
+## 119. Questão 11
+
+Sobre o art. 39 após o julgamento definitivo da ADI 2.135, é correto afirmar que:
+
+A) a Constituição continua impondo obrigatoriamente regime jurídico único a todos os entes.  
+B) o STF anulou integralmente a EC nº 19/1998.  
+C) a Constituição não impõe, pelo caput atual do art. 39, a obrigatoriedade de regime jurídico único, embora cada ente continue sujeito à sua legislação própria.  
+D) todos os municípios são obrigados a adotar CLT.  
+E) o art. 39 foi revogado.  
+
+### Gabarito: C
+
+### Comentário
+
+O STF validou a alteração da EC nº 19/1998 que suprimiu a obrigatoriedade constitucional do regime jurídico único.
+
+---
+
+## 120. Questão 12
+
+O art. 39, §4º, estabelece remuneração exclusivamente por subsídio fixado em parcela única, entre outros, para:
+
+A) qualquer empregado público.  
+B) membro de Poder, detentor de mandato eletivo, Ministros de Estado e Secretários Estaduais e Municipais.  
+C) todos os servidores efetivos municipais.  
+D) estagiários.  
+E) terceirizados.  
+
+### Gabarito: B
+
+### Comentário
+
+O §4º enumera essas categorias e veda acréscimos remuneratórios ali especificados, observadas as exceções constitucionais.
+
+---
+
+## 121. Questão 13
+
+O caput do art. 40 trata do regime próprio de previdência social dos:
+
+A) servidores titulares de cargos efetivos.  
+B) empregados públicos em geral.  
+C) ocupantes exclusivamente de cargo em comissão.  
+D) trabalhadores da iniciativa privada.  
+E) contratados temporários exclusivamente.  
+
+### Gabarito: A
+
+### Comentário
+
+O RPPS do art. 40 é dos servidores titulares de cargos efetivos.
+
+---
+
+## 122. Questão 14
+
+Quanto à idade mínima de aposentadoria voluntária do art. 40, §1º, III, é correto afirmar que:
+
+A) a Constituição fixa diretamente 62/65 para todos os municípios.  
+B) cada prefeito pode definir a idade por decreto.  
+C) a idade mínima municipal é sempre 60 anos.  
+D) para Estados, DF e Municípios, a idade mínima é estabelecida mediante emenda às respectivas Constituições e Leis Orgânicas, com os demais requisitos em lei complementar do ente.  
+E) não existe idade mínima no RPPS.  
+
+### Gabarito: D
+
+### Comentário
+
+A EC nº 103/2019 fixou 62/65 diretamente no âmbito da União e remeteu aos entes subnacionais a disciplina indicada pelo texto constitucional.
+
+---
+
+## 123. Questão 15
+
+Nos termos do art. 40, §13, aplica-se o RGPS ao agente público ocupante exclusivamente de:
+
+A) cargo efetivo.  
+B) cargo vitalício.  
+C) cargo em comissão de livre nomeação e exoneração, outro cargo temporário, inclusive mandato eletivo, ou emprego público.  
+D) qualquer cargo efetivo municipal.  
+E) cargo efetivo acumulável.  
+
+### Gabarito: C
+
+### Comentário
+
+O §13 submete essas categorias ao RGPS.
+
+---
+
+## 124. Questão 16
+
+São estáveis, nos termos do art. 41, os servidores:
+
+A) após dois anos, qualquer que seja o vínculo.  
+B) nomeados para cargo de provimento efetivo em virtude de concurso público, após três anos de efetivo exercício.  
+C) ocupantes de cargo em comissão após três anos.  
+D) empregados públicos após dois anos.  
+E) temporários após três anos.  
+
+### Gabarito: B
+
+### Comentário
+
+O caput do art. 41 exige cargo efetivo, concurso público e três anos de efetivo exercício.
+
+---
+
+## 125. Questão 17
+
+O servidor público estável pode perder o cargo mediante:
+
+A) apenas decisão verbal da chefia.  
+B) somente aposentadoria.  
+C) qualquer avaliação informal.  
+D) exclusivamente sentença judicial.  
+E) sentença judicial transitada em julgado, processo administrativo com ampla defesa ou avaliação periódica de desempenho na forma de lei complementar, assegurada ampla defesa, além de outras hipóteses constitucionais externas ao §1º.  
+
+### Gabarito: E
+
+### Comentário
+
+O §1º enumera três hipóteses; a Constituição também possui hipótese do art. 169, §4º.
+
+---
+
+## 126. Questão 18
+
+Como condição para aquisição da estabilidade, o art. 41, §4º, exige:
+
+A) aprovação do prefeito.  
+B) novo concurso após três anos.  
+C) avaliação exclusiva do chefe imediato.  
+D) avaliação especial de desempenho por comissão instituída para essa finalidade.  
+E) curso obrigatório de quatro anos.  
+
+### Gabarito: D
+
+### Comentário
+
+A avaliação especial por comissão instituída para essa finalidade é exigência literal do §4º.
+
+---
 # PARTE XIII — GABARITO COMENTADO
 
-## 114. Gabarito
+## 127. Gabarito consolidado
 
-### Questão 1 — B
+1-B | 2-C | 3-D | 4-A | 5-E | 6-B | 7-C | 8-D | 9-A | 10-E | 11-C | 12-B | 13-A | 14-D | 15-C | 16-B | 17-E | 18-D
 
-A EC nº 138/2025 ampliou o art. 37, XVI, `b` para:
+Os comentários individuais estão após cada questão e também em `questions.json`.
 
-> professor + outro cargo de qualquer natureza.
-
-Ainda são exigidas compatibilidade de horários e observância do teto.
-
----
-
-### Questão 2 — C
-
-Texto do art. 37, III:
-
-> até dois anos, prorrogável uma vez, por igual período.
-
----
-
-### Questão 3 — C
-
-O art. 40, §13 submete ao RGPS quem ocupa exclusivamente:
-
-- cargo em comissão;
-- cargo temporário;
-- mandato eletivo;
-- emprego público.
-
----
-
-### Questão 4 — D
-
-O art. 41, §1º prevê três hipóteses constitucionais de perda do cargo do estável:
-
-- sentença judicial transitada em julgado;
-- processo administrativo com ampla defesa;
-- avaliação periódica de desempenho na forma de LC, com ampla defesa.
-
----
-
-### Questão 5 — A
-
-É a literalidade do art. 41, §4º:
-
-> avaliação especial de desempenho por comissão instituída para essa finalidade.
+As 18 questões inéditas usam IDs permanentes `q-inedita-agente-especificos-0433` a `q-inedita-agente-especificos-0450`.
 
 ---
 
@@ -1985,161 +2245,176 @@ No art. 40, a idade voluntária de 62/65 é expressa para a União; Estados/DF/M
 
 # PARTE XV — FONTES
 
-## 116. Constituição da República Federativa do Brasil — texto compilado
+## 128. Constituição da República Federativa do Brasil — texto compilado
 
-Fonte oficial:
+**Fonte oficial:** Presidência da República — Portal Planalto.  
+**URL:** https://planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm  
+**Verificação:** 30/08/2026.
 
-**Presidência da República — Portal Planalto**
-
-https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm
-
-Consulta/revisão desta aula: **23/08/2026**.
-
-É a fonte principal para:
+Recorte integral desta aula:
 
 - art. 37;
 - art. 39;
 - art. 40;
-- art. 41;
-- histórico das emendas incorporadas.
+- art. 41.
+
+O quadro oficial de Emendas Constitucionais foi conferido na mesma data. A EC nº 139/2026, mais recente encontrada, altera os arts. 31 e 75 e **não altera o recorte 37/39–41**.
 
 ---
 
-## 117. Emenda Constitucional nº 138/2025
+## 129. Emenda Constitucional nº 138/2025
 
-Usada para confirmar a redação vigente do art. 37, XVI, `b`:
+**Fonte oficial:** Presidência da República — Planalto.
 
-> professor + outro cargo de qualquer natureza.
+Alterou o art. 37, XVI, `b` para permitir:
 
-A alteração está incorporada ao texto compilado oficial da Constituição.
+> um cargo de professor com outro de qualquer natureza.
 
----
-
-## 118. Emenda Constitucional nº 135/2024
-
-Usada para confirmar a redação atual do art. 37, §11, sobre parcelas indenizatórias excluídas do teto.
+A redação anterior “professor + técnico ou científico” está desatualizada para a prova de 2026.
 
 ---
 
-## 119. Emenda Constitucional nº 103/2019
+## 130. Emenda Constitucional nº 135/2024
 
-Principal atualização estrutural do art. 40 e fonte de alterações também relevantes no art. 39.
-
-A redação vigente foi conferida no texto constitucional compilado.
+Usada para conferir a redação atual do art. 37, §11, relativa às parcelas indenizatórias não computadas no teto nas condições constitucionais vigentes.
 
 ---
 
-## 120. STF — ADI 2.135
+## 131. Emenda Constitucional nº 103/2019
 
-Fonte oficial:
+Fonte das alterações estruturais centrais do art. 40 utilizadas nesta aula:
 
-**Supremo Tribunal Federal**
+- RPPS contributivo e solidário;
+- incapacidade permanente;
+- idade mínima;
+- cálculo por lei do ente;
+- regras especiais;
+- RGPS para ocupantes exclusivamente de cargo em comissão, temporário, mandato eletivo ou emprego público;
+- previdência complementar.
+
+---
+
+## 132. STF — ADI 2.135
+
+**Fonte oficial:** Supremo Tribunal Federal.
 
 Julgamento definitivo: **06/11/2024**.
 
-Tese relevante:
+O STF reconheceu a constitucionalidade da alteração da EC nº 19/1998 que suprimiu a obrigatoriedade constitucional de regime jurídico único no caput do art. 39.
 
-é constitucional a revogação, pela EC nº 19/1998, da redação original do art. 39 que previa obrigatoriedade de regime jurídico único.
+O andamento oficial registra a conclusão dos julgamentos virtuais dos embargos em agosto de 2025.
 
-Embargos de declaração rejeitados em agosto de 2025.
-
-Fontes oficiais consultadas:
-
-https://noticias.stf.jus.br/postsnoticias/stf-valida-emenda-que-flexibilizou-regime-de-contratacao-de-servidores-publicos/
-
-https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=39&abrirBase=CF
+**Consequência editorial:** não ensinar como regra constitucional vigente que todos os entes são obrigados pelo art. 39 a adotar regime jurídico único.
 
 ---
 
-## 121. INEPAM — Campo Limpo Paulista/SP — 2026
+## 133. INEPAM — Campo Limpo Paulista/SP — Concurso nº 001/2026
 
-**Câmara Municipal de Campo Limpo Paulista/SP**  
-**Concurso Público nº 001/2026**  
-**Banca:** INEPAM  
-**Cargo pesquisado:** Escriturário — Ensino Médio.
+**Cargo prioritário:** Escriturário — Ensino Médio.  
+**Página oficial:** concurso da Câmara Municipal de Campo Limpo Paulista.
 
-Página oficial do concurso:
+### Gabarito oficial
 
-https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=1&idInstituicao=78
+`idAnexo=2282`.
 
-O certame possui:
+O documento oficial apresenta o gabarito de Escriturário.
 
-- edital;
-- gabarito;
-- julgamento de recursos;
-- retificação;
-- homologação dos gabaritos.
+### Julgamento de recursos
 
-A versão final dos gabaritos foi homologada em 28/04/2026.
+`idAnexo=2328`.
+
+O documento oficial confirma, entre outros conteúdos constitucionais:
+
+- art. 41, §1º, III — avaliação periódica de desempenho como hipótese constitucional de perda do cargo estável, com lei complementar e ampla defesa;
+- cobrança literal de dispositivos constitucionais em diferentes cargos.
+
+**Screenshot obrigatório:** tentativa da página 14 → `cache miss`.
 
 ---
 
-## 122. Questões reais recuperadas
+## 134. Cadernos externos corroborados — Escriturário/2026
 
-### QUESTÃO REAL — INEPAM 1
+### Q4544548 — art. 37, §5º
 
-Cargo: Escriturário  
-Ano: 2026  
-Tema: art. 37, §5º  
-Identificador público: Q4544548.
+Banco público identifica:
 
-Cobrança:
+- banca: INEPAM;
+- prova: Câmara de Campo Limpo Paulista — Escriturário — 2026;
+- enunciado completo e cinco alternativas.
+
+A questão testa a literalidade de:
 
 - prescrição;
 - ilícitos;
 - erário;
 - ressarcimento.
 
-### QUESTÃO REAL — INEPAM 2
+O gabarito oficial da INEPAM do mesmo cargo/prova foi localizado.
 
-Cargo: Escriturário  
-Ano: 2026  
-Tema: art. 41, §4º  
-Identificador público: Q4544551.
+**Classificação do projeto:** caderno externo corroborado por gabarito oficial.  
+**Não inserir como questão real integral no `questions.json` sem caderno oficial recuperado.**
 
-Cobrança:
+### Q4544551 — art. 41, §4º
 
-> avaliação especial de desempenho por comissão instituída para essa finalidade.
+Banco público identifica:
+
+- banca: INEPAM;
+- prova: Câmara de Campo Limpo Paulista — Escriturário — 2026;
+- enunciado completo;
+- alternativas A–E.
+
+A lacuna correta é:
+
+> “por comissão instituída para essa finalidade”.
+
+O gabarito oficial da INEPAM do mesmo cargo/prova foi localizado.
+
+**Classificação do projeto:** caderno externo corroborado por gabarito oficial.
 
 ---
 
-# 123. Classificação epistemológica
+## 135. Classificação epistemológica
 
-## EXIGÊNCIA DO EDITAL
+### EXIGÊNCIA DO EDITAL
 
 - art. 37;
 - arts. 39 a 41.
 
-## FONTE OFICIAL VIGENTE
+### FONTE OFICIAL VIGENTE
 
 - Constituição compilada no Planalto;
-- STF para o estado jurídico da ADI 2.135.
+- EC nº 138/2025;
+- EC nº 135/2024;
+- EC nº 103/2019;
+- STF — ADI 2.135.
 
-## PADRÃO OBSERVADO EM PROVA REAL DA INEPAM
+### QUESTÃO REAL — INEPAM PARCIALMENTE DOCUMENTADA
 
-- cobrança literal;
-- troca de uma palavra;
-- preenchimento de lacuna;
-- artigos 37 e 41 em cargo administrativo de nível médio.
+- Campo Limpo Paulista/2026 — julgamento oficial da Questão 28 sobre art. 41, §1º, III.
 
-## EXPLICAÇÃO PEDAGÓGICA
+### CADERNO EXTERNO CORROBORADO POR GABARITO OFICIAL
+
+- Q4544548 — art. 37, §5º;
+- Q4544551 — art. 41, §4º.
+
+### EXPLICAÇÃO PEDAGÓGICA
 
 - quadros;
 - mnemônicos;
-- situações de prefeitura;
-- alertas sobre redações antigas.
+- situações administrativas;
+- alertas de redação antiga.
 
-## INFERÊNCIA EDITORIAL
+### INFERÊNCIA EDITORIAL
 
-Diante das alterações recentes, é recomendável treinar especialmente:
+Priorizar treino de:
 
-- acumulação de cargos após EC 138/2025;
-- teto após EC 135/2024;
-- estado atual do art. 39 após ADI 2.135;
-- art. 40 após EC 103/2019;
+- EC nº 138/2025;
+- teto após EC nº 135/2024;
+- art. 39 após ADI 2.135;
+- art. 40 após EC nº 103/2019;
 - estabilidade do art. 41.
 
-Isso é uma recomendação editorial baseada no risco de desatualização, e não uma afirmação de que a INEPAM obrigatoriamente cobrará esses pontos.
+Essa priorização decorre do risco de material desatualizado e das evidências de cobrança literal, não de promessa sobre a prova de Rincão.
 
 ---
 

@@ -10,13 +10,19 @@ titulo: "Redação Oficial — aspectos gerais e identidade visual"
 editalRefs:
   - "Anexo II — Conhecimentos Específicos — Agente Administrativo: Redação Oficial; aspectos gerais; identidade visual"
 status: revisado
-versao: "0.1.0"
-revisadoEm: "2026-08-23"
+versao: "0.1.1"
+revisadoEm: "2026-08-24"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-ana-manual-redacao-atos-oficiais-2009
   - src-mrpr-2018
+  - src-inepam-itanhanga-001-2024-edital
+  - src-inepam-campo-limpo-paulista-001-2026-pagina
   - src-inepam-campo-limpo-paulista-001-2026-recursos
+  - src-inepam-carlinda-001-2025-recursos
 ---
 
 # Redação Oficial — aspectos gerais e identidade visual
@@ -32,6 +38,10 @@ O conteúdo é específico do cargo de **Agente Administrativo** e, por isso, ut
 ### Situação editorial
 
 A aula está **revisada** quanto ao conteúdo deste recorte. Ela não declara o conjunto de Conhecimentos Específicos concluído: os tópicos seguintes do edital — atos oficiais, elaboração de documentos, modelos de comunicações, arquivo, Administração Pública, Constituição, informática e atribuições — permanecem como itens próprios da cobertura.
+
+### Rerratificação — auditoria concluída
+
+A **Rerratificação do Edital de Abertura** de Rincão foi auditada no controle oficial do projeto. O resultado registrado é **sem impacto nos cargos do projeto**, inclusive Agente Administrativo, portanto este item permanece com o mesmo escopo programático.
 
 ### Fontes-base do tema
 
@@ -545,6 +555,16 @@ Com base nessa amostra real, é correto afirmar que a INEPAM **pode cobrar de fo
 
 Não é correto concluir, apenas com essa amostra, que toda prova da banca necessariamente terá a mesma distribuição de questões.
 
+### Evidências adicionais de aderência
+
+A pesquisa ampliada encontrou ainda:
+
+- **Itanhangá/MT — Concurso Público nº 001/2024 — Agente Administrativo II**: o edital oficial da INEPAM reproduz literalmente o núcleo **“Redação Oficial. Aspectos Gerais. Identidade Visual.”** e indica as mesmas bibliografias de Manual de Redação e de Atos Oficiais da ANA e Manual de Redação da Presidência da República. Trata-se de evidência programática em cargo administrativo equivalente e de ensino médio.
+- **Carlinda/MT — Concurso Público nº 001/2025 — Assistente Previdenciário, questão 24**: no julgamento oficial dos recursos, a INEPAM reafirmou que, com fundamento na página 37 do Manual de Redação e de Atos Oficiais, a tipografia correta era **Times New Roman**. O documento não reproduz a questão integral, por isso nenhum enunciado ou alternativa ausente é reconstruído.
+
+Essas evidências reforçam que o candidato deve conhecer tanto os **conceitos gerais de redação oficial** quanto detalhes objetivos do manual quando o edital o adota expressamente como bibliografia. Isso é um padrão observado em documentos reais, não uma garantia de distribuição de questões na prova de Rincão.
+
+
 ---
 
 ## 19. QUESTÃO REAL — INEPAM 1: padronização visual e tipografia
@@ -907,10 +927,10 @@ As questões abaixo são **QUESTÕES INÉDITAS — ESTILO INEPAM**, produzidas p
 
 A respeito da redação oficial, assinale a alternativa correta.
 
-A) O servidor deve imprimir sua personalidade no documento para demonstrar autoria.  
-B) A redação oficial deve priorizar vocabulário raro para reforçar a formalidade.  
-C) A comunicação oficial representa institucionalmente a Administração Pública.  
-D) A concisão permite eliminar informações essenciais se o texto ficar menor.  
+A) O servidor deve imprimir sua personalidade no documento para demonstrar autoria.
+B) A redação oficial deve priorizar vocabulário raro para reforçar a formalidade.
+C) A comunicação oficial representa institucionalmente a Administração Pública.
+D) A concisão permite eliminar informações essenciais se o texto ficar menor.
 E) A identidade visual substitui a necessidade de clareza textual.
 
 ---
@@ -919,10 +939,10 @@ E) A identidade visual substitui a necessidade de clareza textual.
 
 Assinale a alternativa que apresenta melhor exemplo de impessoalidade.
 
-A) “Tenho orgulho de informar que resolvi pessoalmente a situação.”  
-B) “Como sou responsável pelo setor, considero minha solução a mais adequada.”  
-C) “Meu amigo solicitou prioridade, portanto o atendimento será antecipado.”  
-D) “Após análise dos documentos, o requerimento foi encaminhado ao setor competente.”  
+A) “Tenho orgulho de informar que resolvi pessoalmente a situação.”
+B) “Como sou responsável pelo setor, considero minha solução a mais adequada.”
+C) “Meu amigo solicitou prioridade, portanto o atendimento será antecipado.”
+D) “Após análise dos documentos, o requerimento foi encaminhado ao setor competente.”
 E) “Em minha opinião, a Administração deveria aceitar o pedido.”
 
 ---
@@ -931,10 +951,10 @@ E) “Em minha opinião, a Administração deveria aceitar o pedido.”
 
 Sobre concisão e objetividade, assinale a alternativa correta.
 
-A) Concisão é a retirada de qualquer detalhe, inclusive os indispensáveis.  
-B) Objetividade exige linguagem ríspida e ausência de cortesia.  
-C) Um texto conciso transmite as informações necessárias sem redundâncias.  
-D) Um texto formal deve preferir períodos longos e expressões solenes.  
+A) Concisão é a retirada de qualquer detalhe, inclusive os indispensáveis.
+B) Objetividade exige linguagem ríspida e ausência de cortesia.
+C) Um texto conciso transmite as informações necessárias sem redundâncias.
+D) Um texto formal deve preferir períodos longos e expressões solenes.
 E) Objetividade e clareza são incompatíveis.
 
 ---
@@ -943,87 +963,292 @@ E) Objetividade e clareza são incompatíveis.
 
 Considerando o tema identidade visual, assinale a alternativa incorreta.
 
-A) A identidade visual contribui para o reconhecimento institucional.  
-B) A padronização pode envolver tipografia, logomarca e disposição gráfica.  
-C) Elementos visuais padronizados dispensam a correção linguística do conteúdo.  
-D) O órgão deve observar seus padrões institucionais aplicáveis.  
+A) A identidade visual contribui para o reconhecimento institucional.
+B) A padronização pode envolver tipografia, logomarca e disposição gráfica.
+C) Elementos visuais padronizados dispensam a correção linguística do conteúdo.
+D) O órgão deve observar seus padrões institucionais aplicáveis.
 E) Uma regra de uso da logomarca específica da ANA não deve ser automaticamente generalizada para todos os órgãos.
 
 ---
 
 ## 40. Questão inédita 5
 
-Em uma comunicação administrativa lê-se:
+Em uma comunicação administrativa lê-se: “Pedimos que o interessado entregue os documentos assim que der.” A principal deficiência relacionada à precisão é:
 
-> “Pedimos que o interessado entregue os documentos assim que der.”
-
-A principal deficiência relacionada à precisão é:
-
-A) ausência de logomarca.  
-B) uso de prazo vago, sem data ou referência objetiva.  
-C) excesso de coesão textual.  
-D) presença obrigatória de pronome de tratamento.  
+A) ausência de logomarca.
+B) uso de prazo vago, sem data ou referência objetiva.
+C) excesso de coesão textual.
+D) presença obrigatória de pronome de tratamento.
 E) uso de vocabulário técnico excessivo.
+
+---
+
+## 41. Questão inédita 6
+
+Qual redação atende melhor ao atributo da clareza em um expediente administrativo?
+
+A) “Em face do supracitado e considerando-se as circunstâncias já expendidas, proceder-se-á oportunamente.”
+B) “Talvez seja necessário, em algum momento, remeter aquilo que falta.”
+C) “Solicita-se o envio do comprovante de residência até 30 de agosto de 2026.”
+D) “Eu penso que o cidadão deveria mandar logo o que a gente pediu.”
+E) “Diante do que acima se acha devidamente mencionado, sem mais delongas, segue-se.”
+
+---
+
+## 42. Questão inédita 7
+
+Em redação oficial, formalidade significa principalmente:
+
+A) usar palavras arcaicas e frases longas.
+B) eliminar toda cortesia para tornar o texto objetivo.
+C) observar convenções institucionais, estrutura adequada e linguagem compatível com a situação.
+D) escrever sempre na primeira pessoa do singular.
+E) substituir clareza por solenidade.
+
+---
+
+## 43. Questão inédita 8
+
+Assinale a alternativa que apresenta problema de coerência.
+
+A) “O pedido foi analisado e, em seguida, encaminhado ao setor competente.”
+B) “O requerimento foi deferido; por isso, a solicitação foi aprovada.”
+C) “O documento está incompleto; portanto, será solicitada complementação.”
+D) “O requerimento foi deferido; por esse motivo, o pedido foi negado.”
+E) “Após a conferência, verificou-se a ausência de um comprovante.”
+
+---
+
+## 44. Questão inédita 9
+
+A padronização dos documentos oficiais tem como finalidade mais adequada:
+
+A) permitir que cada setor crie livremente um modelo próprio.
+B) garantir uniformidade de apresentação e facilitar o reconhecimento institucional.
+C) substituir a necessidade de conteúdo preciso.
+D) impedir qualquer atualização futura dos modelos.
+E) tornar obrigatória a identidade visual da ANA em todos os municípios.
+
+---
+
+## 45. Questão inédita 10
+
+Quanto ao uso da língua na redação oficial, assinale a alternativa correta.
+
+A) A norma-padrão pode ser dispensada quando o destinatário é outro setor público.
+B) O uso de gírias reforça a proximidade institucional e deve ser preferido.
+C) A redação oficial observa a norma-padrão, sem exigir vocabulário artificialmente difícil.
+D) Erros gramaticais são irrelevantes se houver identidade visual correta.
+E) A linguagem técnica deve ser usada em qualquer assunto, mesmo quando desnecessária.
+
+---
+
+## 46. Questão inédita 11
+
+Em julgamento oficial de recurso do Concurso Público nº 001/2026 da Câmara de Campo Limpo Paulista, a INEPAM afirmou que, conforme a página 37 do Manual de Redação e de Atos Oficiais, a tipografia correta era:
+
+A) Times New Roman.
+B) Arial.
+C) Calibri.
+D) Verdana.
+E) Courier New.
+
+---
+
+## 47. Questão inédita 12
+
+Uma questão informa expressamente que deve ser respondida “conforme o Manual de Redação e de Atos Oficiais da ANA”. Nesse caso, o candidato deve:
+
+A) ignorar as regras específicas do manual e responder apenas por costume pessoal.
+B) aplicar a regra específica indicada pela fonte, distinguindo-a de regras universais para todos os órgãos.
+C) presumir que toda norma visual da ANA é obrigatória para a Prefeitura de Rincão.
+D) substituir o manual por qualquer modelo encontrado na internet.
+E) considerar somente regras do setor privado.
+
+---
+
+## 48. Questão inédita 13
+
+Na redação oficial, quem comunica institucionalmente é:
+
+A) o servidor, em nome exclusivamente pessoal.
+B) a Administração Pública, por meio do órgão ou entidade competente.
+C) apenas o chefe do Poder Executivo.
+D) somente o setor de protocolo.
+E) qualquer cidadão que utilize formulário público.
+
+---
+
+## 49. Questão inédita 14
+
+Sobre identidade visual em documentos oficiais, assinale a alternativa correta.
+
+A) É mero elemento decorativo, sem relação com padronização.
+B) Deve variar livremente conforme a preferência do servidor.
+C) Pode reunir elementos como marca, tipografia, disposição gráfica e outros padrões institucionais.
+D) Dispensa o cumprimento da norma-padrão.
+E) É necessariamente idêntica entre todos os entes da Federação.
+
+---
+
+## 50. Questão inédita 15
+
+Um servidor antecipa o atendimento de determinada empresa apenas porque conhece pessoalmente seu proprietário. O atributo da atuação e da redação oficial mais diretamente violado é:
+
+A) concisão.
+B) coesão.
+C) impessoalidade.
+D) tipografia.
+E) identidade visual.
+
+---
+
+## 51. Questão inédita 16
+
+A partir das evidências oficiais de Campo Limpo Paulista/2026 e Carlinda/2025, qual estratégia de estudo é mais adequada para este item do edital?
+
+A) Estudar somente definições gerais, porque a INEPAM não cobra detalhes de manual.
+B) Decorar apenas modelos da Prefeitura de Rincão, ignorando as bibliografias indicadas.
+C) Estudar conceitos gerais e também detalhes objetivos dos manuais expressamente indicados no edital.
+D) Estudar apenas gramática, pois identidade visual não integra Redação Oficial.
+E) Usar qualquer manual privado como equivalente ao material citado no edital.
+
+---
+
+## 52. Questão inédita 17
+
+Assinale a redação mais objetiva e adequada para solicitar um documento.
+
+A) “Venho por meio deste, com a devida vênia, solicitar encarecidamente que se digne a enviar o documento.”
+B) “Manda o documento hoje.”
+C) “Solicita-se o encaminhamento do documento até o final do expediente.”
+D) “Eu gostaria muito que você pudesse, quem sabe, enviar o documento.”
+E) “Será que daria para mandar aquela coisa que ficou faltando?”
+
+---
+
+## 53. Questão inédita 18
+
+Qual alternativa diferencia corretamente clareza e precisão?
+
+A) Clareza elimina toda informação específica; precisão torna o texto mais longo.
+B) Clareza facilita a compreensão; precisão busca expressar exatamente o sentido e os dados necessários.
+C) Clareza e precisão são sinônimos absolutos e não podem ser analisadas separadamente.
+D) Precisão exige linguagem rebuscada; clareza exige linguagem informal.
+E) Clareza é atributo visual; precisão é atributo exclusivamente gramatical.
 
 ---
 
 # PARTE XI — GABARITO COMENTADO
 
-## 41. Questão 1 — C
+## 54. Questão 1 — C
 
-A comunicação oficial representa institucionalmente a Administração Pública.
-
-- A está errada: personalismo contraria a impessoalidade.
-- B está errada: formalidade não exige palavras raras.
-- D está errada: concisão não autoriza omitir informação essencial.
-- E está errada: apresentação visual não substitui qualidade textual.
+A comunicação oficial representa institucionalmente a Administração Pública. Personalismo contraria a impessoalidade; formalidade não exige palavras raras; concisão não autoriza omitir informação essencial; apresentação visual não substitui qualidade textual.
 
 ---
 
-## 42. Questão 2 — D
+## 55. Questão 2 — D
 
-“Após análise dos documentos, o requerimento foi encaminhado ao setor competente” concentra-se no procedimento administrativo, sem promoção pessoal ou favorecimento.
-
-As demais alternativas introduzem:
-
-- vaidade;
-- opinião pessoal;
-- preferência;
-- favorecimento.
+A alternativa D concentra-se no procedimento administrativo, sem promoção pessoal ou favorecimento. As demais introduzem vaidade, opinião pessoal ou preferência particular.
 
 ---
 
-## 43. Questão 3 — C
+## 56. Questão 3 — C
 
-Concisão significa retirar redundâncias e excessos, preservando a informação necessária.
-
-Objetividade não é grosseria, e formalidade não exige linguagem rebuscada.
+Concisão significa retirar redundâncias e excessos, preservando a informação necessária. Objetividade não é grosseria, e formalidade não exige linguagem rebuscada.
 
 ---
 
-## 44. Questão 4 — C
+## 57. Questão 4 — C
 
-A alternativa C é incorreta porque identidade visual e padronização gráfica não dispensam:
-
-- clareza;
-- correção;
-- precisão;
-- coerência;
-- adequação linguística.
-
-Forma e conteúdo precisam funcionar em conjunto.
+A alternativa C é incorreta: identidade visual e padronização gráfica não dispensam clareza, correção, precisão, coerência e adequação linguística.
 
 ---
 
-## 45. Questão 5 — B
+## 58. Questão 5 — B
 
-“Assim que der” é expressão vaga.
-
-Quando existe prazo administrativo, a redação precisa indicar referência precisa, por exemplo:
-
-> até 28 de agosto de 2026, às 16h.
+“Assim que der” é expressão vaga. Havendo prazo administrativo definido, a redação deve indicar referência objetiva, como data e horário.
 
 ---
+
+## 59. Questão 6 — C
+
+A alternativa C identifica a providência e o prazo de forma direta, compreensível e precisa. As demais contêm vagueza, personalismo, informalidade ou excesso de palavras.
+
+---
+
+## 60. Questão 7 — C
+
+Formalidade envolve adequação institucional, polidez, estrutura e linguagem compatíveis. Não equivale a rebuscamento nem autoriza personalismo.
+
+---
+
+## 61. Questão 8 — D
+
+“Deferido” significa aceito. A conclusão de que o pedido foi negado contradiz a informação anterior, produzindo incoerência.
+
+---
+
+## 62. Questão 9 — B
+
+Padronização busca uniformidade e reconhecimento institucional. Ela não substitui a qualidade textual nem torna o padrão visual de um órgão automaticamente obrigatório para outro.
+
+---
+
+## 63. Questão 10 — C
+
+A redação oficial observa a norma-padrão, mas isso não significa rebuscamento. Linguagem técnica só deve ser usada quando a matéria exigir.
+
+---
+
+## 64. Questão 11 — A
+
+O julgamento oficial da INEPAM registra expressamente que a tipologia correta era Times New Roman e remete à página 37 do Manual de Redação e de Atos Oficiais. Trata-se de evidência real de cobrança literal do manual.
+
+---
+
+## 65. Questão 12 — B
+
+Quando o enunciado remete expressamente a um manual, a regra específica dessa fonte pode ser cobrada. Isso não autoriza generalizá-la automaticamente para outros órgãos fora daquele contexto.
+
+---
+
+## 66. Questão 13 — B
+
+A manifestação é institucional: quem comunica é a Administração Pública por meio de seus órgãos e agentes competentes, não a personalidade particular do redator.
+
+---
+
+## 67. Questão 14 — C
+
+Identidade visual reúne elementos gráficos e padrões institucionais que favorecem reconhecimento e unidade. Ela não é decoração e não substitui correção textual.
+
+---
+
+## 68. Questão 15 — C
+
+Favorecimento por relação pessoal contraria a impessoalidade. A INEPAM já validou esse raciocínio em julgamento oficial de questão contextual sobre favorecimento.
+
+---
+
+## 69. Questão 16 — C
+
+Os julgamentos oficiais mostram cobrança literal de detalhe de tipografia do Manual da ANA, enquanto o edital traz o manual como bibliografia. A inferência editorial prudente é estudar conceito e detalhe, sem presumir que toda prova repetirá a mesma distribuição.
+
+---
+
+## 70. Questão 17 — C
+
+A alternativa C vai diretamente ao pedido, mantém formalidade e indica prazo. Objetividade não significa grosseria nem ausência de informação necessária.
+
+---
+
+## 71. Questão 18 — B
+
+Clareza diz respeito à compreensão imediata; precisão, à exatidão do sentido, dos termos e dos dados. Os atributos se complementam, mas não são idênticos.
+
+---
+
 
 # PARTE XII — ESTRATÉGIA PARA A PROVA
 
@@ -1073,8 +1298,8 @@ Uma regra interna de um órgão não deve ser automaticamente aplicada a outro.
 
 ### Manual de Redação e de Atos Oficiais
 
-- **Agência Nacional de Águas — Manual de Redação e de Atos Oficiais**, edição oficial disponível no portal da ANA, Brasília, 2009.  
-  https://www.ana.gov.br/arquivos/institucional/sge/CEDOC/Catalogo/2009/ManualDeRedacaEAtosOficiais.pdf
+- **Agência Nacional de Águas — Manual de Redação e de Atos Oficiais**, Brasília, 2007, aprovado no âmbito da Resolução ANA nº 480/2007.  
+  https://arquivos.ana.gov.br/resolucoes/2007/480-2007-anexo1.pdf
 - Trechos centrais utilizados nesta aula:
   - Capítulo I — A Redação Oficial — Aspectos Gerais;
   - Capítulo II — Estrutura dos Atos Oficiais — Identidade Visual.
@@ -1106,7 +1331,7 @@ Uma regra interna de um órgão não deve ser automaticamente aplicada a outro.
 
 **Explicação pedagógica:** decomposição das características e exemplos práticos desta aula.
 
-**Padrão observado em prova real:** cobrança objetiva de detalhes do Manual de Redação e de Atos Oficiais e aplicação contextual de impessoalidade, comprovada em julgamento oficial da INEPAM de Campo Limpo Paulista-SP/2026.
+**Padrão observado em prova real:** cobrança objetiva de detalhes do Manual de Redação e de Atos Oficiais — inclusive tipografia — e aplicação contextual de impessoalidade, comprovada em julgamentos oficiais da INEPAM de Campo Limpo Paulista-SP/2026 e Carlinda-MT/2025.
 
 **Inferência editorial:** como a mesma bibliografia e a mesma sequência programática aparecem em diferentes editais administrativos da INEPAM, é prudente estudar o manual indicado de maneira direta, inclusive seus detalhes. Isso é estratégia de estudo; não significa afirmar que determinado detalhe necessariamente cairá na prova de Rincão.
 

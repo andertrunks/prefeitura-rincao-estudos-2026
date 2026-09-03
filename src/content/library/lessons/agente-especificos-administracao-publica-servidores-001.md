@@ -17,9 +17,9 @@ subtemaIds:
 titulo: "Princípios básicos da Administração Pública e servidores"
 editalRefs:
   - "Anexo II — Conhecimentos Específicos — Agente Administrativo: Princípios básicos da Administração Pública e servidores"
-status: revisado
-versao: "0.1.0"
-revisadoEm: "2026-08-23"
+status: questoes_adicionadas
+versao: "0.2.0"
+revisadoEm: "2026-08-30"
 sourceRefs:
   - src-edital-rincao-2026
   - src-cf1988-compilada-art37
@@ -28,6 +28,10 @@ sourceRefs:
   - src-cgu-agentes-publicos
   - src-enap-administracao-publica
   - src-inepam-campo-limpo-paulista-001-2026-recursos
+  - src-inepam-itamogi-001-2024-edital
+  - src-inepam-nova-monte-verde-001-2025-recursos
+  - src-inepam-sarutaia-001-2025-recursos
+  - src-sublesson-age-esp-007-01
 ---
 
 # Princípios básicos da Administração Pública e servidores
@@ -59,6 +63,19 @@ Por isso, aqui estudaremos:
 - dever de atuação voltada ao interesse público.
 
 Os dispositivos constitucionais serão citados apenas quando necessários para fundamentar os conceitos. A análise literal, inciso por inciso, do art. 37 e dos arts. 39 a 41 ficará na aula específica do edital, evitando duplicação.
+
+
+### Integração com a subaula `aa-servidores`
+
+Já existe no projeto a subaula:
+
+- `AGE-ESP-007-01` — `agente-especificos-servidores-hierarquia-001.md`;
+- tópico do site: `aa-servidores`;
+- foco: dever funcional, competência, subordinação e responsabilidade.
+
+Ela é preservada como unidade navegável de integração entre `AGE-ESP-007` e o item seguinte `AGE-ESP-008 — Hierarquia no serviço público`.
+
+**Regra editorial deste lote:** não duplicar aqui o aprofundamento de delegação, avocação, ordem manifestamente ilegal e poder hierárquico. Esses pontos permanecem vinculados à subaula e serão auditados no lote próprio de hierarquia. Aqui, servidor público é estudado apenas no nível necessário ao item `AGE-ESP-007`.
 
 ---
 
@@ -932,26 +949,77 @@ Usá-la como vingança pessoal aponta para:
 
 ## 41. Evidência observada
 
-A evidência oficial encontrada demonstra cobrança por **aplicação concreta de princípio**.
+A pesquisa de 30/08/2026 ampliou a evidência oficial da INEPAM para este tema.
 
-No julgamento de recursos de Campo Limpo Paulista/2026, a INEPAM afirmou que o favorecimento descrito na questão 16 de Assistente Jurídico feria o dever de atuação neutra do Estado, validando **impessoalidade** como resposta correta.
+### 41.1 Mesmo cargo e mesma sequência programática — Itamogi/MG
 
-### Padrão observado
+No Concurso Público nº 001/2024 de Itamogi/MG, organizado pela INEPAM, o cargo **Agente Administrativo I-A**, de Ensino Médio, apresenta a mesma sequência editorial encontrada em Rincão:
 
-A banca pode:
+- Noções básicas de arquivo;
+- **Princípios básicos da administração pública e servidores**;
+- **Regras de hierarquia no serviço público**;
+- Constituição Federal — arts. 37 e 39 a 41.
 
-- descrever uma conduta;
-- pedir qual princípio foi violado;
-- utilizar situação cotidiana;
-- exigir distinção entre princípios próximos.
+Isso é evidência de **mesma banca + cargo de mesma natureza + mesma escolaridade + mesmo bloco programático**.
+
+A tentativa obrigatória de screenshot da página 69 do PDF oficial retornou `cache miss`. O texto foi recuperado diretamente do PDF, sem OCR.
+
+### 41.2 Questão real parcialmente documentada — Campo Limpo Paulista/SP
+
+No Concurso Público nº 001/2026 da Câmara Municipal de Campo Limpo Paulista, **Assistente Jurídico, Questão 16**, o julgamento oficial registra que o favorecimento descrito feria o dever de atuação neutra do Estado e confirma **impessoalidade** como resposta técnica.
+
+A página 5 do PDF oficial foi renderizada com sucesso em screenshot.
+
+**Classificação:** QUESTÃO REAL — INEPAM parcialmente documentada.
+
+O julgamento não reproduz todas as alternativas originais; por isso, nenhuma alternativa ausente é reconstruída.
+
+### 41.3 Questão real parcialmente documentada — Nova Monte Verde/MT
+
+No Concurso Público nº 001/2025 de Nova Monte Verde/MT:
+
+- **Questão 16**: o julgamento registra que o enunciado descrevia o princípio da **eficiência** e determinou correção do gabarito para a alternativa D;
+- **Questão 20**: a banca alterou o gabarito para **Fundação**, explicando que o enunciado tratava de autorização em lei e afastava a autarquia, cuja criação ocorre por lei.
+
+Essas decisões comprovam cobrança de:
+
+- identificação de princípios;
+- estrutura da Administração indireta;
+- distinção conceitual entre entidades.
+
+A tentativa de screenshot da página 9 retornou `cache miss`.
+
+### 41.4 Questão real parcialmente documentada — Sarutaiá/SP
+
+No Concurso Público nº 001/2025 de Sarutaiá/SP, **Recursos Humanos, Questão 20**, a INEPAM afirmou que a situação:
+
+- feria a **impessoalidade**, por envolver favoritismo/perseguição;
+- feria a **moralidade**, associada a honestidade, boa-fé e aparência de lisura.
+
+A tentativa de screenshot da página 6 retornou `cache miss`.
+
+### Padrão observado com evidência
+
+A banca já cobrou, em documentos oficiais:
+
+- identificação de princípio em situação concreta;
+- impessoalidade diante de favorecimento;
+- eficiência;
+- relação entre impessoalidade e moralidade;
+- conceitos de entidades da Administração indireta.
 
 ### O que não podemos afirmar
 
-Uma questão real comprovada não autoriza dizer que a INEPAM “sempre cobra” impessoalidade ou que haverá uma questão desse tipo em Rincão.
+Essas evidências não permitem afirmar que:
 
-A conclusão correta é:
+- Rincão terá questão idêntica;
+- haverá quantidade específica de questões sobre LIMPE;
+- a INEPAM sempre prefere situações práticas;
+- o candidato deve memorizar doutrina além do edital.
 
-> **há evidência real de cobrança situacional de princípios administrativos.**
+A conclusão editorial segura é:
+
+> **há evidência oficial de que a INEPAM cobra princípios e estrutura administrativa tanto por conceitos quanto por situações concretas.**
 
 ---
 
@@ -1192,19 +1260,17 @@ Indicar fundamentos de fato e de direito da decisão quando exigida.
 
 Um servidor municipal recebe pedido de um conhecido e, sem qualquer prioridade prevista em norma, decide analisá-lo antes dos requerimentos protocolados anteriormente.
 
-O princípio da Administração Pública mais diretamente violado é o da:
-
 A) eficiência.  
 B) publicidade.  
 C) impessoalidade.  
 D) continuidade.  
-E) especialidade.
+E) especialidade.  
 
 ### Gabarito: C
 
 ### Comentário
 
-O núcleo da situação é o **favorecimento pessoal**. A Administração deve tratar situações equivalentes segundo critérios objetivos, sem preferências pessoais. Portanto, o princípio mais diretamente atingido é a **impessoalidade**.
+O núcleo da situação é favorecimento pessoal. Situações equivalentes devem ser tratadas segundo critérios objetivos.
 
 ---
 
@@ -1216,13 +1282,13 @@ A) Legalidade, isonomia, motivação, publicidade e economicidade.
 B) Legalidade, impessoalidade, moralidade, publicidade e eficiência.  
 C) Legitimidade, impessoalidade, moralidade, transparência e efetividade.  
 D) Legalidade, finalidade, moralidade, proporcionalidade e eficiência.  
-E) Legalidade, razoabilidade, motivação, publicidade e eficiência.
+E) Legalidade, razoabilidade, motivação, publicidade e eficiência.  
 
 ### Gabarito: B
 
 ### Comentário
 
-Os cinco princípios expressos no caput do art. 37 formam o mnemônico **LIMPE**: legalidade, impessoalidade, moralidade, publicidade e eficiência.
+Os princípios expressos formam o mnemônico LIMPE.
 
 ---
 
@@ -1234,31 +1300,31 @@ A) Todo agente público é necessariamente servidor efetivo.
 B) Servidor público é gênero do qual agente público é espécie.  
 C) Agente público é expressão mais ampla que servidor público.  
 D) Empregado público não é considerado agente público.  
-E) Agente político e servidor efetivo são expressões necessariamente equivalentes.
+E) Agente político e servidor efetivo são expressões necessariamente equivalentes.  
 
 ### Gabarito: C
 
 ### Comentário
 
-**Agente público** é gênero amplo. Servidores, empregados e agentes políticos integram categorias compreendidas no conceito amplo conforme o contexto jurídico aplicável.
+Agente público é gênero amplo; servidor público é uma de suas espécies/categorias.
 
 ---
 
 ## 55. QUESTÃO INÉDITA — ESTILO INEPAM 4
 
-Um setor decide deixar de publicar um ato cuja divulgação oficial é juridicamente obrigatória, alegando que a publicação atrasaria o serviço. A justificativa está incorreta porque:
+Um setor deixa de publicar ato cuja divulgação oficial é juridicamente obrigatória, alegando que a publicação atrasaria o serviço. A justificativa está incorreta porque:
 
 A) eficiência sempre prevalece sobre publicidade.  
 B) publicidade só se aplica a órgãos federais.  
-C) moralidade dispensa a observância da legalidade.  
+C) moralidade dispensa legalidade.  
 D) eficiência não autoriza descumprimento de obrigação legal e de transparência.  
-E) atos administrativos nunca precisam ser publicados.
+E) atos administrativos nunca precisam ser publicados.  
 
 ### Gabarito: D
 
 ### Comentário
 
-Os princípios não funcionam como autorização para anular uns aos outros. A busca de eficiência deve ocorrer dentro da legalidade e respeitando a publicidade exigida.
+Eficiência deve ser buscada dentro da legalidade e das exigências de publicidade.
 
 ---
 
@@ -1270,27 +1336,257 @@ A) Secretarias municipais são necessariamente autarquias.
 B) Toda entidade da Administração indireta é órgão sem personalidade jurídica.  
 C) Autarquias integram a Administração direta.  
 D) Administração indireta compreende, entre outras entidades, autarquias e empresas públicas.  
-E) Município não pode possuir Administração indireta.
+E) Município não pode possuir Administração indireta.  
 
 ### Gabarito: D
 
 ### Comentário
 
-A Administração indireta pode ser composta por autarquias, fundações públicas, empresas públicas e sociedades de economia mista. Secretarias são órgãos da Administração direta municipal.
+Autarquias, fundações públicas, empresas públicas e sociedades de economia mista integram tradicionalmente a Administração indireta.
+
+---
+
+## 57. QUESTÃO INÉDITA — ESTILO INEPAM 6
+
+Quando a expressão Administração Pública é usada para indicar o conjunto de órgãos, entidades e agentes que exercem atividade administrativa, trata-se principalmente do sentido:
+
+A) subjetivo, orgânico ou formal.  
+B) objetivo ou material.  
+C) jurisdicional.  
+D) legislativo.  
+E) privado.  
+
+### Gabarito: A
+
+### Comentário
+
+O sentido subjetivo responde 'quem administra'; o objetivo/material refere-se à atividade administrativa.
+
+---
+
+## 58. QUESTÃO INÉDITA — ESTILO INEPAM 7
+
+Assinale a alternativa correta sobre órgão e entidade.
+
+A) Todo órgão possui personalidade jurídica própria.  
+B) Entidade é sempre uma secretaria municipal.  
+C) Órgão e entidade são expressões necessariamente sinônimas.  
+D) Autarquia é apenas órgão sem personalidade jurídica.  
+E) Entidade possui personalidade jurídica própria; órgão é unidade da estrutura administrativa.  
+
+### Gabarito: E
+
+### Comentário
+
+A distinção conceitual é útil para separar unidades internas de pessoas jurídicas da Administração.
+
+---
+
+## 59. QUESTÃO INÉDITA — ESTILO INEPAM 8
+
+Um agente pretende criar uma cobrança municipal apenas porque considera que ela reduziria pedidos desnecessários. Sem fundamento jurídico adequado, a medida contraria principalmente o princípio da:
+
+A) publicidade.  
+B) legalidade.  
+C) eficiência.  
+D) continuidade.  
+E) especialidade.  
+
+### Gabarito: B
+
+### Comentário
+
+A atuação administrativa deve possuir competência e fundamento no ordenamento jurídico.
+
+---
+
+## 60. QUESTÃO INÉDITA — ESTILO INEPAM 9
+
+Um servidor utiliza informação privilegiada obtida no cargo para favorecer interesse particular. Além de outras possíveis infrações, a conduta conflita diretamente com a:
+
+A) especialidade.  
+B) continuidade.  
+C) moralidade administrativa.  
+D) autotutela apenas.  
+E) hierarquia.  
+
+### Gabarito: C
+
+### Comentário
+
+Moralidade administrativa envolve honestidade, boa-fé, probidade e correção.
+
+---
+
+## 61. QUESTÃO INÉDITA — ESTILO INEPAM 10
+
+Um setor reorganiza seu fluxo, reduz retrabalho e melhora o atendimento sem descumprir normas. A conduta concretiza principalmente o princípio da:
+
+A) impessoalidade.  
+B) publicidade.  
+C) legalidade exclusivamente.  
+D) eficiência.  
+E) supremacia judicial.  
+
+### Gabarito: D
+
+### Comentário
+
+Eficiência busca qualidade, produtividade e boa utilização dos recursos, sempre respeitando o Direito.
+
+---
+
+## 62. QUESTÃO INÉDITA — ESTILO INEPAM 11
+
+Uma autoridade pratica ato formalmente possível, mas com objetivo de perseguir desafeto pessoal. A situação viola, entre outros, o princípio da:
+
+A) finalidade.  
+B) publicidade.  
+C) continuidade.  
+D) especialidade.  
+E) economicidade exclusivamente.  
+
+### Gabarito: A
+
+### Comentário
+
+A atuação administrativa deve buscar a finalidade pública prevista, não perseguição ou benefício pessoal.
+
+---
+
+## 63. QUESTÃO INÉDITA — ESTILO INEPAM 12
+
+Em noção básica, motivação administrativa relaciona-se à:
+
+A) liberdade de decidir sem explicar.  
+B) obrigação de toda pessoa privada publicar seus atos.  
+C) indicação das razões de fato e de direito que fundamentam a decisão, quando exigida.  
+D) possibilidade de ignorar competência.  
+E) substituição da legalidade pela conveniência.  
+
+### Gabarito: C
+
+### Comentário
+
+A motivação permite compreender e controlar as razões da decisão administrativa.
+
+---
+
+## 64. QUESTÃO INÉDITA — ESTILO INEPAM 13
+
+Diante de irregularidade leve, a Administração adota medida extremamente gravosa sem justificativa. A situação sugere problema principalmente de:
+
+A) publicidade e especialidade.  
+B) razoabilidade e proporcionalidade.  
+C) descentralização e desconcentração.  
+D) personalidade jurídica.  
+E) competência legislativa.  
+
+### Gabarito: B
+
+### Comentário
+
+Razoabilidade e proporcionalidade afastam respostas arbitrárias ou excessivas em relação à finalidade.
+
+---
+
+## 65. QUESTÃO INÉDITA — ESTILO INEPAM 14
+
+O princípio da segurança jurídica busca, em termos básicos:
+
+A) permitir mudanças retroativas imprevisíveis.  
+B) eliminar a necessidade de normas.  
+C) garantir vantagem pessoal a servidores antigos.  
+D) impedir qualquer alteração administrativa.  
+E) promover estabilidade, previsibilidade e proteção da confiança legítima dentro do Direito.  
+
+### Gabarito: E
+
+### Comentário
+
+Segurança jurídica protege estabilidade e confiança, sem congelar permanentemente a Administração.
+
+---
+
+## 66. QUESTÃO INÉDITA — ESTILO INEPAM 15
+
+Assinale a alternativa correta.
+
+A) Cargo, emprego e função pública são categorias distintas, embora todas possam envolver exercício de atividade pública.  
+B) Emprego público e cargo estatutário são sempre idênticos.  
+C) Função pública significa exclusivamente cargo em comissão.  
+D) Todo agente público ocupa necessariamente cargo efetivo.  
+E) Empregado público não integra a Administração.  
+
+### Gabarito: A
+
+### Comentário
+
+A Constituição distingue cargos, empregos e funções; os regimes e formas de vínculo não são idênticos.
+
+---
+
+## 67. QUESTÃO INÉDITA — ESTILO INEPAM 16
+
+Segundo a Constituição Federal, cargos em comissão destinam-se às atribuições de:
+
+A) serviços braçais, exclusivamente.  
+B) qualquer atividade permanente sem distinção.  
+C) direção, chefia e assessoramento.  
+D) atividades que obrigatoriamente exigem estabilidade.  
+E) funções privativas de empregados de empresa pública.  
+
+### Gabarito: C
+
+### Comentário
+
+O art. 37, V, vincula cargos em comissão às atribuições de direção, chefia e assessoramento; o estudo literal fica na aula constitucional própria.
+
+---
+
+## 68. QUESTÃO INÉDITA — ESTILO INEPAM 17
+
+No atendimento administrativo, um servidor prioriza o requerimento de familiar sem critério objetivo. A melhor leitura é que a conduta:
+
+A) é válida por economia de tempo.  
+B) é obrigatória por vínculo familiar.  
+C) realiza publicidade.  
+D) afronta a impessoalidade e desvia a atuação do interesse público.  
+E) é exemplo de eficiência.  
+
+### Gabarito: D
+
+### Comentário
+
+Relações pessoais não justificam tratamento privilegiado em situações equivalentes.
+
+---
+
+## 69. QUESTÃO INÉDITA — ESTILO INEPAM 18
+
+Sobre a Lei nº 8.112/1990 e os servidores municipais de Rincão, assinale a alternativa correta.
+
+A) É automaticamente o estatuto de todos os servidores municipais brasileiros.  
+B) Pode ser usada como referência federal para conceitos, mas não deve ser apresentada como estatuto municipal de Rincão sem fonte local que o determine.  
+C) Substitui a Lei Orgânica de Rincão.  
+D) Aplica-se apenas a empregados de empresas privadas.  
+E) Revogou a Constituição Federal quanto aos servidores.  
+
+### Gabarito: B
+
+### Comentário
+
+A Lei nº 8.112/1990 rege servidores públicos civis federais; não se transforma automaticamente em estatuto municipal.
 
 ---
 
 # PARTE XVI — GABARITO CONSOLIDADO
 
-## 57. Gabarito das inéditas
+## 70. Gabarito das inéditas
 
-| Questão | Resposta | Tema central |
-|---|---|---|
-| 1 | C | Impessoalidade |
-| 2 | B | LIMPE |
-| 3 | C | Agente público x servidor |
-| 4 | D | Eficiência x legalidade/publicidade |
-| 5 | D | Administração direta e indireta |
+1-C | 2-B | 3-C | 4-D | 5-D | 6-A | 7-E | 8-B | 9-C | 10-D | 11-A | 12-C | 13-B | 14-E | 15-A | 16-C | 17-D | 18-B
+
+As 18 questões estão também estruturadas em `questions.json`, com IDs permanentes `q-inedita-agente-especificos-0397` a `q-inedita-agente-especificos-0414`.
 
 ---
 
@@ -1337,53 +1633,80 @@ A afirmação é falsa.
 
 ## 59. Fontes oficiais e evidências
 
-### 59.1 Constituição Federal de 1988 — texto compilado
+### 59.1 Edital de Rincão nº 001/2026
+
+**Fonte de verdade:** Prefeitura Municipal de Rincão / INEPAM.  
+**Item:** Agente Administrativo — “Princípios básicos da Administração Pública e servidores”.  
+**Página oficial verificada em 30/08/2026:** continua listando apenas o Edital e a Rerratificação do Edital de Abertura.
+
+### 59.2 Constituição Federal de 1988 — texto atual
 
 **Fonte oficial:** Presidência da República — Planalto.  
-**Dispositivo principal utilizado:** art. 37, caput, com referência conceitual aos cargos, empregos e funções.  
-URL: https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm  
-**Acesso/verificação:** 2026-08-23.
+**Uso:** art. 37, caput, para LIMPE e referência conceitual a cargos, empregos e funções.  
+**Verificação:** 30/08/2026.
 
-### 59.2 Lei nº 8.429/1992 — Lei de Improbidade Administrativa, texto compilado
+O estudo literal do art. 37 e dos arts. 39 a 41 permanece reservado ao item próprio do edital.
 
-**Fonte oficial:** Presidência da República — Planalto.  
-**Dispositivo utilizado:** art. 2º, conceito amplo de agente público, com redação dada pela Lei nº 14.230/2021.  
-URL: https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm  
-**Acesso/verificação:** 2026-08-23.
-
-### 59.3 Lei nº 9.784/1999
+### 59.3 Lei nº 8.429/1992 — texto compilado
 
 **Fonte oficial:** Presidência da República — Planalto.  
-**Uso:** conceitos de órgão, entidade e autoridade; princípios do processo administrativo federal.  
-**Limite:** lei federal, não apresentada como estatuto automático de processo municipal.  
-URL: https://www.planalto.gov.br/ccivil_03/leis/l9784.htm  
-**Acesso/verificação:** 2026-08-23.
+**Uso:** art. 2º, conceito amplo de agente público, com redação da Lei nº 14.230/2021.  
+**Verificação:** 30/08/2026.
 
-### 59.4 Controladoria-Geral da União — Agentes Públicos e Agentes Políticos
+### 59.4 Lei nº 9.784/1999
+
+**Fonte oficial:** Presidência da República — Planalto.  
+**Uso:** referência federal para conceitos de órgão, entidade, competência e princípios de processo administrativo.  
+**Limite:** não apresentada como lei municipal de processo administrativo de Rincão.
+
+### 59.5 Controladoria-Geral da União — Agentes Públicos e Agentes Políticos
 
 **Fonte oficial:** CGU.  
-**Uso:** distinção pedagógica entre agente público, agente político, servidor e empregado público.  
-URL: https://www.gov.br/cgu/pt-br/acesso-a-informacao/perguntas-frequentes/atividade-disciplinar/agentes-publicos-e-agentes-politicos  
-**Acesso/verificação:** 2026-08-23.
+**Uso:** apoio pedagógico para agente público, agente político, servidor e empregado público.  
+**Verificação:** 30/08/2026.
 
-### 59.5 ENAP — material de formação sobre Administração Pública
+### 59.6 INEPAM — Itamogi/MG — Concurso Público nº 001/2024
 
-**Fonte oficial:** Escola Nacional de Administração Pública / repositório institucional.  
-**Uso:** conceito didático de Administração Pública, Administração direta/indireta e princípios LIMPE.  
-**Acesso/verificação:** 2026-08-23.
+**Cargo:** Agente Administrativo I-A — Ensino Médio.  
+**Evidência:** programa contém a sequência “Noções básicas de arquivo; Princípios básicos da administração pública e servidores; Regras de hierarquia no serviço público; Constituição Federal — arts. 37 e 39 a 41”.  
+**Documento oficial INEPAM:** idAnexo 640.  
+**Screenshot:** tentativa p.69 → `cache miss`.
 
-### 59.6 INEPAM — Câmara Municipal de Campo Limpo Paulista/SP — Concurso Público nº 001/2026
+### 59.7 INEPAM — Campo Limpo Paulista/SP — Concurso Público nº 001/2026
 
 **Documento:** Julgamento dos Recursos.  
-**Cargo relacionado:** Assistente Jurídico.  
-**Questão utilizada:** 16 — princípio da impessoalidade em situação de favorecimento.  
-**Fonte oficial:** INEPAM.  
-URL: https://app.inepam.org.br/concurso/downloadAnexo.do?idAnexo=2328  
-**Acesso/verificação:** 2026-08-23.
+**Cargo:** Assistente Jurídico.  
+**Questão:** 16.  
+**Evidência:** favorecimento → impessoalidade.  
+**Documento oficial:** idAnexo 2328.  
+**Screenshot:** p.5 obtido com sucesso.
 
-### Limite da evidência
+### 59.8 INEPAM — Nova Monte Verde/MT — Concurso Público nº 001/2025
 
-O julgamento oficial informa a fundamentação e a resposta técnica, mas não reproduz todas as alternativas. Esta aula usa apenas o que é documentalmente comprovado e **não inventa o texto ausente da questão original**.
+**Documento:** Julgamento dos Recursos.  
+**Questão 16:** enunciado associado à eficiência.  
+**Questão 20:** entidade da Administração indireta identificada como Fundação no contexto da questão; banca distinguiu-a de autarquia e empresa pública.  
+**Documento oficial:** idAnexo 1848.  
+**Screenshot:** tentativa p.9 → `cache miss`.
+
+### 59.9 INEPAM — Sarutaiá/SP — Concurso Público nº 001/2025
+
+**Documento:** Julgamento dos Recursos.  
+**Cargo:** Recursos Humanos.  
+**Questão:** 20.  
+**Evidência:** impessoalidade = proibição de favoritismos/perseguições; moralidade = honestidade, boa-fé e lisura.  
+**Documento oficial:** idAnexo 2074.  
+**Screenshot:** tentativa p.6 → `cache miss`.
+
+### Limite das questões reais
+
+Os julgamentos oficiais acima não trazem necessariamente o caderno completo com todas as alternativas A–E.
+
+Portanto:
+
+- são classificados como **QUESTÃO REAL — INEPAM parcialmente documentada**;
+- não são inseridos em `questions.json` como questões reais integrais;
+- alternativas ausentes nunca são reconstruídas.
 
 ---
 

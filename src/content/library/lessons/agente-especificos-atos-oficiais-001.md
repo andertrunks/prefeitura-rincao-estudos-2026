@@ -10,14 +10,19 @@ titulo: "Atos oficiais — medidas e sistemática dos instrumentos normativos"
 editalRefs:
   - "Anexo II — Conhecimentos Específicos — Agente Administrativo: Atos oficiais; medidas; sistemática dos instrumentos normativos: artigos, parágrafos, incisos, alíneas, observações gerais e encaminhamento"
 status: revisado
-versao: "0.1.0"
-revisadoEm: "2026-08-23"
+versao: "0.1.1"
+revisadoEm: "2026-08-25"
 sourceRefs:
   - src-edital-rincao-2026
+  - src-inepam-rincao-concurso-001-2026-pagina
+  - src-rincao-retificacao-001-2026
+  - src-auditoria-rerratificacao-rincao-001-2026
   - src-ana-manual-redacao-atos-oficiais-2007
   - src-mrpr-2018
   - src-lc95-1998-compilada
   - src-decreto-12002-2024
+  - src-inepam-itanhanga-001-2024-edital
+  - src-inepam-carlinda-001-2025-edital
   - src-inepam-campo-limpo-paulista-001-2026-edital
   - src-inepam-campo-limpo-paulista-001-2026-recursos
 ---
@@ -34,7 +39,7 @@ O conteúdo é específico do cargo de **Agente Administrativo** e utiliza `carg
 
 ### Situação editorial
 
-A aula está **revisada** quanto a este recorte do edital. O item não é marcado como `concluido` porque a consolidação das questões no `questions.json`, das fontes no catálogo `sources.json` e da cobertura 1:1 ainda deverá ocorrer no pacote editorial de publicação.
+A aula está **revisada** quanto a este recorte do edital. Nesta revisão, a rerratificação oficial já auditada foi incorporada sem impacto no conteúdo de Agente Administrativo. O pacote editorial desta aula consolida 18 questões inéditas em estilo INEPAM, fontes e cobertura 1:1. O status relacional do pacote é `questoes_adicionadas`; o mestre permanece `revisado`.
 
 ### Regra de leitura desta aula
 
@@ -1023,179 +1028,371 @@ Sim. Há comprovação no julgamento dos recursos de Campo Limpo Paulista-SP, Co
 
 ---
 
-# PARTE XII — QUESTÕES DE FIXAÇÃO
+# PARTE XI-A — EVIDÊNCIAS INEPAM DO SUBTEMA
 
-## 36. QUESTÃO INÉDITA — ESTILO INEPAM 1
+## 36. Evidências observadas em documentos oficiais
+
+A pesquisa de banca foi atualizada antes do fechamento deste lote. As evidências abaixo não autorizam reconstruir questões ausentes; servem para demonstrar aderência temática e formas de cobrança documentadas.
+
+1. **Itanhangá/MT — Concurso Público nº 001/2024 — Agente Administrativo I e II:** o edital oficial da INEPAM reproduz literalmente o bloco “Atos Oficiais: Medidas, Sistemática dos Instrumentos Normativos – artigos, parágrafos, incisos, alíneas, observações gerais e encaminhamento”, com indicação do Manual da ANA e do Manual da Presidência. É evidência de mesma banca, mesma área administrativa e mesmo nível de escolaridade.
+2. **Carlinda/MT — Concurso Público nº 001/2025 — Auxiliar Administrativo:** o edital oficial repete o mesmo bloco programático e as mesmas referências bibliográficas, reforçando a recorrência editorial da INEPAM em cargos administrativos de ensino médio.
+3. **Campo Limpo Paulista/SP — Concurso Público nº 001/2026 — Assistente Administrativo:** o programa inclui Redação Oficial e o mesmo conjunto de documentos oficiais.
+4. **Campo Limpo Paulista/SP — Julgamento dos recursos:** a banca documentou cobrança literal do Manual de Redação e de Atos Oficiais em questões 18, 19, 21, 23 e 25, inclusive com indicação de páginas do manual. A questão 25 tratou do alinhamento do título de despacho; como o julgamento não apresenta o caderno completo com todas as alternativas, ela permanece apenas como **questão real parcialmente documentada**.
+
+**Capturas de PDF:** foi obtida captura visual da página do julgamento de Campo Limpo Paulista que contém as questões 18, 19, 21, 23 e 25. As tentativas de captura dos editais de Itanhangá e Carlinda retornaram `cache miss` no servidor da INEPAM; o texto oficial extraído foi utilizado e a limitação foi registrada.
+
+**Conclusão editorial:** não foi recuperada questão objetiva integral A–E comprovadamente real sobre artigos, parágrafos, incisos ou alíneas. Portanto, as 18 questões abaixo permanecem identificadas como `QUESTÃO INÉDITA — ESTILO INEPAM`.
+
+---
+
+# PARTE XII — QUESTÕES DE FIXAÇÃO
+## 37. QUESTÃO INÉDITA — ESTILO INEPAM 1
 
 Em relação à sistemática dos instrumentos normativos, assinale a alternativa correta.
 
-A) A alínea é o desdobramento imediato do artigo e deve ser indicada por algarismos romanos.  
-B) O inciso é indicado por letras minúsculas seguidas de parêntese.  
-C) O artigo constitui unidade básica de articulação e pode desdobrar-se em parágrafos ou incisos.  
-D) O parágrafo somente pode ser utilizado quando houver, no mínimo, dois complementos ao caput.  
+A) A alínea é o desdobramento imediato do artigo e deve ser indicada por algarismos romanos.
+B) O inciso é indicado por letras minúsculas seguidas de parêntese.
+C) O artigo constitui unidade básica de articulação e pode desdobrar-se em parágrafos ou incisos.
+D) O parágrafo somente pode ser utilizado quando houver, no mínimo, dois complementos ao caput.
 E) O item é identificado obrigatoriamente por algarismo romano.
 
 **Resposta:** C.
 
 ---
 
-## 37. QUESTÃO INÉDITA — ESTILO INEPAM 2
+## 38. QUESTÃO INÉDITA — ESTILO INEPAM 2
 
-De acordo com a sistemática de numeração reproduzida no Manual de Redação e de Atos Oficiais, assinale a forma correta.
+De acordo com a sistemática de numeração dos artigos, assinale a forma correta.
 
-A) Art. 9. e Art. 10º.  
-B) Art. 9º e Art. 10.  
-C) Artigo 9. e Artigo 10º.  
-D) Art. IX e Art. X.  
+A) Art. 9. e Art. 10º.
+B) Art. 9º e Art. 10.
+C) Artigo 9. e Artigo 10º.
+D) Art. IX e Art. X.
 E) Artigo 9º. e Artigo 10º.
 
 **Resposta:** B.
 
 ---
 
-## 38. QUESTÃO INÉDITA — ESTILO INEPAM 3
+## 39. QUESTÃO INÉDITA — ESTILO INEPAM 3
 
 Um artigo possui somente um parágrafo. A forma adequada para iniciar esse dispositivo é:
 
-A) § único.  
-B) § 1º único.  
-C) Parágrafo 1º.  
-D) Parágrafo único.  
+A) § único.
+B) § 1º único.
+C) Parágrafo 1º.
+D) Parágrafo único.
 E) § U.
 
 **Resposta:** D.
 
 ---
 
-## 39. QUESTÃO INÉDITA — ESTILO INEPAM 4
+## 40. QUESTÃO INÉDITA — ESTILO INEPAM 4
 
-Considere o trecho:
+Considere três atribuições cumulativas enumeradas em incisos. No fim do penúltimo inciso, antes do último, a construção adequada é:
 
-> Art. 4º São atribuições do setor:  
-> I – receber os requerimentos;  
-> II – registrar os protocolos; ___  
-> III – encaminhar os processos à autoridade competente.
-
-Se as três atribuições forem cumulativas, a lacuna deve ser preenchida, no fim do inciso II, por:
-
-A) ponto final, sem conjunção.  
-B) dois-pontos e a conjunção ou.  
-C) ponto e vírgula seguido da conjunção e.  
-D) vírgula seguida da conjunção ou.  
+A) ponto final, sem conjunção.
+B) dois-pontos e a conjunção ou.
+C) ponto e vírgula seguido da conjunção e.
+D) vírgula seguida da conjunção ou.
 E) travessão seguido da conjunção nem.
 
 **Resposta:** C.
 
 ---
 
-## 40. QUESTÃO INÉDITA — ESTILO INEPAM 5
+## 41. QUESTÃO INÉDITA — ESTILO INEPAM 5
 
 Segundo as medidas do padrão ofício apresentadas no Manual de Redação e de Atos Oficiais da ANA, assinale a alternativa correta.
 
-A) Margem esquerda de 1,5 cm e direita de 3 cm.  
-B) Margens superior e inferior de 3 cm.  
-C) Margem esquerda de 2 cm e direita de 2 cm.  
-D) Margem esquerda de 3 cm, direita de 1,5 cm e margens superior e inferior de 2 cm.  
+A) Margem esquerda de 1,5 cm e direita de 3 cm.
+B) Margens superior e inferior de 3 cm.
+C) Margem esquerda de 2 cm e direita de 2 cm.
+D) Margem esquerda de 3 cm, direita de 1,5 cm e margens superior e inferior de 2 cm.
 E) Todas as margens devem possuir 2,5 cm.
 
 **Resposta:** D.
 
 ---
 
+## 42. QUESTÃO INÉDITA — ESTILO INEPAM 6
+
+Segundo a LC nº 95/1998, os incisos são representados por:
+
+A) algarismos arábicos.
+B) algarismos romanos.
+C) letras maiúsculas.
+D) letras minúsculas seguidas de parêntese.
+E) símbolo §.
+
+**Resposta:** B.
+
+---
+
+## 43. QUESTÃO INÉDITA — ESTILO INEPAM 7
+
+Assinale a alternativa que representa corretamente uma alínea.
+
+A) I – atendimento ao público;
+B) § 1º atendimento ao público;
+C) a) atendimento ao público;
+D) 1. atendimento ao público;
+E) Art. a atendimento ao público.
+
+**Resposta:** C.
+
+---
+
+## 44. QUESTÃO INÉDITA — ESTILO INEPAM 8
+
+Quando um inciso se desdobra em alíneas, o texto do inciso termina, em regra, com:
+
+A) vírgula.
+B) ponto final.
+C) dois-pontos.
+D) travessão.
+E) ponto de interrogação.
+
+**Resposta:** C.
+
+---
+
+## 45. QUESTÃO INÉDITA — ESTILO INEPAM 9
+
+Conforme a técnica federal vigente, o parágrafo pode ser usado para:
+
+A) introduzir matéria totalmente estranha ao caput.
+B) expressar apenas aspectos complementares à norma do caput e exceções à regra nele estabelecida.
+C) substituir obrigatoriamente todos os incisos.
+D) numerar títulos e capítulos.
+E) identificar a espécie normativa.
+
+**Resposta:** B.
+
+---
+
+## 46. QUESTÃO INÉDITA — ESTILO INEPAM 10
+
+Um inciso deve ser usado principalmente para:
+
+A) identificar a autoridade signatária.
+B) promover discriminações e enumerações.
+C) substituir a ementa.
+D) indicar a data de assinatura.
+E) formar a epígrafe.
+
+**Resposta:** B.
+
+---
+
+## 47. QUESTÃO INÉDITA — ESTILO INEPAM 11
+
+Nos termos da LC nº 95/1998, o agrupamento de artigos pode constituir:
+
+A) Subseções.
+B) somente Livros.
+C) somente Partes.
+D) alíneas.
+E) itens.
+
+**Resposta:** A.
+
+---
+
+## 48. QUESTÃO INÉDITA — ESTILO INEPAM 12
+
+Assinale a alternativa correta sobre o caput.
+
+A) É sinônimo de alínea.
+B) É o enunciado principal do artigo, antes de seus desdobramentos.
+C) É sempre o último inciso do artigo.
+D) É a numeração do parágrafo.
+E) É o fecho do ato normativo.
+
+**Resposta:** B.
+
+---
+
+## 49. QUESTÃO INÉDITA — ESTILO INEPAM 13
+
+Conforme o Decreto nº 12.002/2024, o texto do artigo que se desdobra em incisos termina com:
+
+A) ponto e vírgula.
+B) dois-pontos.
+C) vírgula.
+D) ponto de exclamação.
+E) parêntese.
+
+**Resposta:** B.
+
+---
+
+## 50. QUESTÃO INÉDITA — ESTILO INEPAM 14
+
+Na técnica legislativa, a forma correta para o décimo parágrafo é:
+
+A) § 10º
+B) § X
+C) § 10.
+D) Parágrafo décimo.
+E) § décimo.
+
+**Resposta:** C.
+
+---
+
+## 51. QUESTÃO INÉDITA — ESTILO INEPAM 15
+
+A respeito de remissões a dispositivos, o Decreto nº 12.002/2024 orienta:
+
+A) usar preferencialmente expressões como “artigo anterior”.
+B) evitar indicar o número do dispositivo para deixar o texto mais curto.
+C) indicar expressamente o dispositivo e evitar expressões como “anterior” ou “seguinte”.
+D) fazer remissões encadeadas sempre que possível.
+E) remeter preferencialmente a atos hierarquicamente inferiores.
+
+**Resposta:** C.
+
+---
+
+## 52. QUESTÃO INÉDITA — ESTILO INEPAM 16
+
+Segundo o Decreto nº 12.002/2024, um ato normativo federal será estruturado em três partes básicas:
+
+A) cabeçalho, corpo e assinatura.
+B) parte preliminar, parte normativa e parte final.
+C) ementa, artigo e anexo.
+D) capítulo, seção e subseção.
+E) epígrafe, inciso e alínea.
+
+**Resposta:** B.
+
+---
+
+## 53. QUESTÃO INÉDITA — ESTILO INEPAM 17
+
+Assinale a alternativa que diferencia corretamente padrão ofício e ato normativo federal atual.
+
+A) Ambos usam obrigatoriamente margem esquerda de 3 cm.
+B) O padrão ofício do MRPR usa margem esquerda de no mínimo 3 cm; o Decreto nº 12.002/2024 prevê 2 cm à esquerda para atos normativos federais.
+C) O ato normativo federal usa 4 cm à esquerda.
+D) O padrão ofício usa 1 cm à esquerda.
+E) Não existe diferença de formatação entre eles.
+
+**Resposta:** B.
+
+---
+
+## 54. QUESTÃO INÉDITA — ESTILO INEPAM 18
+
+Em uma enumeração alternativa, quando as opções não são cumulativas, a conjunção adequada antes do último elemento é:
+
+A) e.
+B) ou.
+C) mas.
+D) logo.
+E) porque.
+
+**Resposta:** B.
+
+---
+
 # PARTE XIII — GABARITO COMENTADO
 
-## 41. Questão 1 — C
+## 55. Questão 1 — C
 
-A estrutura correta é:
+O artigo é a unidade básica de articulação. Pela LC nº 95/1998, artigos se desdobram em parágrafos ou incisos; parágrafos em incisos; incisos em alíneas; alíneas em itens.
 
-> artigo → parágrafo/inciso → inciso → alínea → item.
+## 56. Questão 2 — B
 
-O artigo é a unidade básica de articulação. Alínea não é identificada por algarismo romano; inciso é. Item usa algarismo arábico.
+A numeração é ordinal até o nono artigo e cardinal, acompanhada de ponto, a partir do décimo: Art. 9º e Art. 10.
 
-## 42. Questão 2 — B
+## 57. Questão 3 — D
 
-Do primeiro ao nono artigo, usa-se ordinal:
+Quando existe apenas um parágrafo, usa-se a expressão “Parágrafo único.” por extenso.
 
-> Art. 9º
+## 58. Questão 4 — C
 
-Do décimo em diante, cardinal seguido de ponto:
+Em enumeração cumulativa, o penúltimo elemento recebe a conjunção “e”; os incisos intermediários terminam, em regra, com ponto e vírgula.
 
-> Art. 10.
+## 59. Questão 5 — D
 
-## 43. Questão 3 — D
+No padrão ofício do Manual da ANA: 3 cm à esquerda, 1,5 cm à direita e 2 cm nas margens superior e inferior.
 
-Quando há apenas um parágrafo, a forma indicada é:
+## 60. Questão 6 — B
 
-> Parágrafo único.
+A LC nº 95/1998 determina que os incisos sejam representados por algarismos romanos.
 
-`§ único` é uma pegadinha recorrente em materiais de técnica legislativa.
+## 61. Questão 7 — C
 
-## 44. Questão 4 — C
+A alínea é indicada por letra minúscula, em ordem alfabética, acompanhada de parêntese.
 
-A enumeração é cumulativa. Portanto, o penúltimo elemento recebe ponto e vírgula e a conjunção `e`:
+## 62. Questão 8 — C
 
-> II – registrar os protocolos; **e**
+O Decreto nº 12.002/2024 prevê dois-pontos quando o inciso se desdobra em alíneas.
 
-Se a enumeração fosse alternativa, a conjunção adequada seria `ou`.
+## 63. Questão 9 — B
 
-## 45. Questão 5 — D
+A ordem lógica exige que os parágrafos expressem aspectos complementares ao caput e exceções à regra por ele estabelecida.
 
-No padrão ofício do Manual da ANA:
+## 64. Questão 10 — B
 
-- esquerda: 3 cm;
-- direita: 1,5 cm;
-- superior: 2 cm;
-- inferior: 2 cm.
+Incisos, alíneas, itens e subitens são estruturas de discriminação e enumeração.
 
-Não confunda essas medidas com a formatação de atos normativos federais atuais do Decreto nº 12.002/2024.
+## 65. Questão 11 — A
+
+A LC nº 95/1998 prevê a cadeia de agrupamento: artigos em Subseções; Subseções em Seções; Seções em Capítulos; Capítulos em Títulos; Títulos em Livros; Livros em Partes.
+
+## 66. Questão 12 — B
+
+Caput é o enunciado principal do artigo, sobre o qual recaem seus desdobramentos.
+
+## 67. Questão 13 — B
+
+Quando o artigo se desdobra em incisos, o texto do artigo termina com dois-pontos.
+
+## 68. Questão 14 — C
+
+Os parágrafos recebem numeração ordinal até o nono e cardinal acompanhada de ponto a partir do décimo.
+
+## 69. Questão 15 — C
+
+A norma vigente exige remissão expressa ao dispositivo e veda expressões vagas como “anterior” e “seguinte” para remissões a outros dispositivos.
+
+## 70. Questão 16 — B
+
+O art. 4º do Decreto nº 12.002/2024 estabelece parte preliminar, parte normativa e parte final.
+
+## 71. Questão 17 — B
+
+A aula distingue as medidas do padrão ofício das regras específicas de formatação de atos normativos federais atuais.
+
+## 72. Questão 18 — B
+
+Em enumeração disjuntiva, emprega-se “ou”; em enumeração cumulativa, “e”.
 
 ---
 
 # PARTE XIV — FONTES
 
-## 46. Fontes oficiais e bibliográficas
+## 73. Fontes oficiais e bibliográficas
 
-### Edital de Rincão
+- **Prefeitura Municipal de Rincão-SP / INEPAM — Concurso Público nº 001/2026:** página oficial do certame, Edital de Abertura e Rerratificação.
+- **Agência Nacional de Águas — Manual de Redação e de Atos Oficiais (2007):** Capítulo II, especialmente atos oficiais, medidas e sistemática dos instrumentos normativos.
+- **Presidência da República — Manual de Redação da Presidência da República, 3ª ed. (2018).**
+- **Lei Complementar nº 95/1998, texto compilado:** arts. 10 e 11.
+- **Decreto nº 12.002/2024:** estrutura, redação, articulação, formatação e encaminhamento de atos normativos federais.
+- **Itanhangá/MT — Concurso Público nº 001/2024 — INEPAM:** edital oficial, Agente Administrativo I e II.
+- **Carlinda/MT — Concurso Público nº 001/2025 — INEPAM:** edital oficial, Auxiliar Administrativo e cargos administrativos correlatos.
+- **Campo Limpo Paulista/SP — Concurso Público nº 001/2026 — INEPAM:** edital e julgamento oficial dos recursos das provas objetivas.
 
-- Concurso Público nº 001/2026 — Prefeitura Municipal de Rincão-SP — INEPAM. Anexo II — Conhecimentos Específicos de Agente Administrativo.
-
-### Manual de Redação e de Atos Oficiais — ANA
-
-- Agência Nacional de Águas. *Manual de Redação e de Atos Oficiais*. Brasília: ANA, Secretaria-Geral, Centro de Documentação, 2007.
-- Capítulo II — Estrutura dos Atos Oficiais: itens 3.1 a 3.4.
-- O endereço histórico indicado nos editais da INEPAM é `arquivos.ana.gov.br/resolucoes/2007/480-2007-anexo1.pdf`; na pesquisa editorial, o conteúdo foi conferido em cópia pública preservada do mesmo manual, identificada como publicação da ANA de 2007.
-
-### Manual de Redação da Presidência da República
-
-- Presidência da República. *Manual de Redação da Presidência da República*. 3ª ed. Brasília, 2018.
-- Consulta oficial disponibilizada pelo portal Gov.br/Casa Civil.
-
-### Lei Complementar nº 95/1998
-
-- BRASIL. Lei Complementar nº 95, de 26 de fevereiro de 1998, texto compilado.
-- Destaque para arts. 10 e 11: articulação, clareza, precisão e ordem lógica.
-- Fonte oficial: Presidência da República/Planalto.
-
-### Decreto nº 12.002/2024
-
-- BRASIL. Decreto nº 12.002, de 22 de abril de 2024.
-- Dispõe sobre elaboração, redação, alteração e consolidação de atos normativos no âmbito federal.
-- Fonte oficial: Presidência da República/Planalto.
-
-### Evidência INEPAM
-
-- Câmara Municipal de Campo Limpo Paulista-SP. Concurso Público nº 001/2026 — INEPAM.
-- Edital de abertura: programa de Assistente Administrativo com o mesmo bloco de Redação Oficial.
-- Edital de Divulgação do Julgamento dos Recursos referentes aos gabaritos das provas objetivas, publicado em abril de 2026.
-- O julgamento comprova cobrança literal do Manual de Redação e de Atos Oficiais em questões específicas de Assistente Administrativo, incluindo uso de maiúsculas/minúsculas, tipologia, conceito de comunicação interna e estrutura do despacho.
-
----
-
-## 47. Controle editorial da pesquisa de banca
+## 74. Controle editorial da pesquisa de banca
 
 **Pesquisa de questão real do subtema:** realizada.  
-**Questão real oficial com enunciado completo especificamente sobre artigos/parágrafos/incisos/alíneas localizada nesta rodada:** não.  
-**Evidência oficial de cobrança do mesmo manual e do mesmo cargo equivalente:** sim.  
-**Documento:** Julgamento dos Recursos — Câmara Municipal de Campo Limpo Paulista-SP — Concurso Público nº 001/2026 — INEPAM.  
-**Decisão editorial:** manter as questões de fixação como `QUESTÃO INÉDITA — ESTILO INEPAM` e não reconstruir como real qualquer questão cujo caderno completo não tenha sido comprovado.
+**Questão real oficial integral A–E especificamente sobre artigos/parágrafos/incisos/alíneas localizada:** não.  
+**Evidências INEPAM analisadas:** 5.  
+**Mesma área/cargo administrativo:** sim.  
+**Questões reais parcialmente documentadas:** sim, no julgamento de Campo Limpo Paulista; não foram reconstruídas.  
+**Decisão editorial:** todas as questões do site deste lote são `QUESTÃO INÉDITA — ESTILO INEPAM`.
 

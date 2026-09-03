@@ -7,28 +7,32 @@
   ],
   "coverageStatus": "em_producao",
   "summary": {
-    "publishedLessons": 89,
+    "publishedLessons": 112,
     "portugueseMedium": 21,
     "mathMedium": 13,
     "portugueseFundamental": 4,
     "mathFundamental": 5,
-    "agentSpecificTopics": 30,
+    "agentSpecificTopics": 31,
     "ajudanteSpecificLessons": 15,
     "practicalModules": 1,
-    "interactiveQuestions": 713,
-    "wholeProjectComplete": false
+    "interactiveQuestions": 1307,
+    "wholeProjectComplete": false,
+    "monitorSpecificLessons": 17,
+    "monitorSpecificItems": 19,
+    "monitorSpecificTopics": 30
   },
   "cargoCoverage": {
     "agente-administrativo": {
       "sharedMediumContent": "34 aulas revisadas com questões",
-      "specificKnowledge": "30 tópicos com aulas revisadas e questões adicionadas",
-      "status": "questoes_adicionadas",
-      "note": "Fontes com metadados parciais impedem declarar concluído."
+      "specificKnowledge": "31 tópicos publicados; Informática concluída até PowerPoint (AGE-ESP-011-06)",
+      "status": "em_producao",
+      "note": "Permanecem pendentes no fluxo editorial as subunidades Outlook, Adobe Reader e Internet, além da consolidação final do item-pai de Informática."
     },
     "monitor-educacao": {
       "sharedMediumContent": "34 aulas revisadas com questões",
-      "specificKnowledge": "pendente",
-      "status": "em_producao"
+      "specificKnowledge": "19 itens estáveis concluídos em 17 aulas canônicas, cobrindo 30 tópicos do site sem duplicar Direitos Humanos nem LDB",
+      "status": "concluido",
+      "note": "MON-ESP-005/006 compartilham uma aula; MON-ESP-018 reutiliza integralmente MON-ESP-004."
     },
     "ajudante-geral": {
       "portugueseFundamental": "4 aulas revisadas",
@@ -810,16 +814,25 @@
       ],
       "disciplinaId": "agente-especificos",
       "textoEdital": "Redação Oficial; aspectos gerais; identidade visual;",
-      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo: Redação Oficial; aspectos gerais; identidade visual",
       "aulaIds": [
         "agente-especificos-redacao-oficial-001"
       ],
       "siteTopicIds": [
         "aa-redacao"
       ],
-      "questoesVinculadas": 5,
+      "questoesVinculadas": 18,
       "status": "questoes_adicionadas",
-      "retificacaoImpacto": "nenhum"
+      "retificacaoImpacto": "nenhum",
+      "stableItemId": "AGE-ESP-001",
+      "temaId": "redacao-oficial-aspectos-gerais-identidade-visual",
+      "aulaId": "agente-especificos-redacao-oficial-001",
+      "questoesObjetivasReaisIntegrais": 0,
+      "evidenciasInepamAnalisadas": 5,
+      "evidenciasMesmoCargo": 0,
+      "evidenciasCargoAdministrativoEquivalente": 3,
+      "evidenciasMesmaDisciplinaTema": 1,
+      "observacao": "Rincão/2026 é a fonte de verdade. Itanhangá/2024 confirma o mesmo programa em Agente Administrativo II. Campo Limpo Paulista/2026 e Carlinda/2025 documentam cobrança real parcial de detalhes do Manual da ANA e de impessoalidade. Nenhuma questão real integral A-E foi recuperada; as 18 questões do site são inéditas estilo INEPAM."
     },
     {
       "id": "AGE-ESP-002",
@@ -828,7 +841,7 @@
       ],
       "disciplinaId": "agente-especificos",
       "textoEdital": "Atos oficiais; medidas; sistemática dos instrumentos normativos: artigos, parágrafos, incisos, alíneas, observações e encaminhamento;",
-      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo: Atos oficiais; medidas; sistemática dos instrumentos normativos: artigos, parágrafos, incisos, alíneas, observações gerais e encaminhamento",
       "aulaIds": [
         "agente-especificos-atos-oficiais-001"
       ],
@@ -837,7 +850,18 @@
       ],
       "questoesVinculadas": 5,
       "status": "questoes_adicionadas",
-      "retificacaoImpacto": "nenhum"
+      "retificacaoImpacto": "nenhum",
+      "schemaVersion": "1.0",
+      "stableItemId": "AGE-ESP-002",
+      "masterId": "agente-especificos-atos-oficiais-001",
+      "masterVersion": "0.1.1",
+      "questoesIneditasEstiloInepam": 18,
+      "questoesObjetivasReaisIntegrais": 0,
+      "evidenciasInepamAnalisadas": 5,
+      "evidenciasMesmaAreaAdministrativa": 4,
+      "questoesReaisParcialmenteDocumentadas": 1,
+      "rerratificacao": "auditada_sem_impacto_nos_cargos_do_projeto",
+      "revisadoEm": "2026-08-25"
     },
     {
       "id": "AGE-ESP-003",
@@ -846,7 +870,7 @@
       ],
       "disciplinaId": "agente-especificos",
       "textoEdital": "Elaboração de documentos; siglas, acrônimos, vícios de linguagem, hífen, destaques, maiúsculas/minúsculas, enumerações, numerais, fechos, signatário, formas de tratamento, vocativo, destinatário e envelope;",
-      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo: Elaboração de documentos; normas gerais de elaboração; siglas e acrônimos; vícios de linguagem; hífen; destaques; maiúsculas/minúsculas; enumerações; grafia de numerais; fechos; signatário; formas de tratamento; abreviatura; vocativo; destinatário e envelope",
       "aulaIds": [
         "agente-especificos-elaboracao-normas-gerais-001",
         "agente-especificos-siglas-vicios-linguagem-001",
@@ -868,7 +892,18 @@
       "retificacaoImpacto": "nenhum",
       "observacoes": [
         "Arquivo-mestre agente-especificos-elaboracao-documentos-001.md preservado como fonte editorial interna; não publicar duplicadamente."
-      ]
+      ],
+      "schemaVersion": "1.0",
+      "stableItemId": "AGE-ESP-003",
+      "masterId": "agente-especificos-elaboracao-documentos-001",
+      "masterVersion": "0.1.1",
+      "questoesIneditasEstiloInepam": 18,
+      "questoesObjetivasReaisIntegrais": 0,
+      "evidenciasInepamAnalisadas": 5,
+      "evidenciasMesmaAreaAdministrativa": 4,
+      "questoesReaisParcialmenteDocumentadas": 4,
+      "rerratificacao": "auditada_sem_impacto_nos_cargos_do_projeto",
+      "revisadoEm": "2026-08-25"
     },
     {
       "id": "AGE-ESP-004",
@@ -877,7 +912,7 @@
       ],
       "disciplinaId": "agente-especificos",
       "textoEdital": "Modelos de comunicações: apostila, ata, carta, cartão de visita, circular, comunicação interna, contrato, convênio, correio eletrônico, despacho, instrução normativa, nota informativa, nota técnica, ofício, ordem de serviço, parecer, portaria, regimento interno e resolução;",
-      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo: Modelos de comunicações oficiais — espécies, finalidades, assinaturas e estruturas: apostila, ata, carta, cartão de visita, circular, comunicação interna, contrato, convênio, correio eletrônico, despacho, instrução normativa, nota informativa, nota técnica, ofício, ordem de serviço, parecer, portaria, regimento interno e resolução",
       "aulaIds": [
         "agente-especificos-ata-apostila-001",
         "agente-especificos-carta-circular-comunicacao-interna-001",
@@ -901,7 +936,18 @@
       "retificacaoImpacto": "nenhum",
       "observacoes": [
         "Arquivo-mestre agente-especificos-modelos-comunicacoes-001.md preservado como fonte editorial interna. As 19 espécies do edital estão distribuídas nas sete subaulas."
-      ]
+      ],
+      "schemaVersion": "1.0",
+      "stableItemId": "AGE-ESP-004",
+      "masterId": "agente-especificos-modelos-comunicacoes-001",
+      "masterVersion": "0.1.1",
+      "questoesIneditasEstiloInepam": 18,
+      "questoesObjetivasReaisIntegrais": 0,
+      "questoesReaisParcialmenteDocumentadas": 2,
+      "evidenciasInepamAnalisadas": 5,
+      "evidenciasMesmaAreaAdministrativa": 5,
+      "rerratificacao": "auditada_sem_impacto_nos_cargos_do_projeto",
+      "revisadoEm": "2026-08-25"
     },
     {
       "id": "AGE-ESP-005",
@@ -910,7 +956,7 @@
       ],
       "disciplinaId": "agente-especificos",
       "textoEdital": "Padrão ofício; aviso e ofício; memorando; exposição de motivos;",
-      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo: O padrão ofício. Aviso e Ofício. Memorando. Exposição de Motivos.",
       "aulaIds": [
         "agente-especificos-oficio-aviso-memorando-exposicao-001"
       ],
@@ -923,7 +969,17 @@
       "retificacaoImpacto": "nenhum",
       "observacoes": [
         "Item transversal ao AGE-ESP-004. Arquivo-mestre agente-especificos-padrao-oficio-001.md preservado para rastreabilidade."
-      ]
+      ],
+      "schemaVersion": "1.0",
+      "stableItemId": "AGE-ESP-005",
+      "masterId": "agente-especificos-padrao-oficio-001",
+      "masterVersion": "0.1.1",
+      "questoesIneditasEstiloInepam": 18,
+      "questoesObjetivasReaisIntegrais": 0,
+      "questoesReaisParcialmenteDocumentadasTemaAdjacente": 2,
+      "evidenciasInepamAnalisadas": 5,
+      "rerratificacao": "auditada_sem_impacto_nos_cargos_do_projeto",
+      "revisadoEm": "2026-08-25"
     },
     {
       "id": "AGE-ESP-006",
@@ -932,7 +988,7 @@
       ],
       "disciplinaId": "agente-especificos",
       "textoEdital": "Noções básicas de arquivo;",
-      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo: Noções básicas de arquivo",
       "aulaIds": [
         "agente-especificos-nocoes-arquivo-001",
         "agente-especificos-classificacao-arquivamento-001"
@@ -946,7 +1002,32 @@
       "retificacaoImpacto": "nenhum",
       "observacoes": [
         "Arquivo-mestre agente-especificos-arquivo-001.md preservado como índice/fonte editorial interna."
-      ]
+      ],
+      "schemaVersion": "1.0",
+      "stableItemId": "AGE-ESP-006",
+      "masterId": "agente-especificos-arquivo-001",
+      "masterVersion": "0.1.1",
+      "subaulas": [
+        {
+          "stableItemId": "AGE-ESP-006-01",
+          "aulaId": "agente-especificos-nocoes-arquivo-001",
+          "siteTopicId": "aa-arquivo",
+          "version": "0.2.1",
+          "questoes": 8
+        },
+        {
+          "stableItemId": "AGE-ESP-006-02",
+          "aulaId": "agente-especificos-classificacao-arquivamento-001",
+          "siteTopicId": "aa-classificacao",
+          "version": "0.1.1",
+          "questoes": 10
+        }
+      ],
+      "questoesIneditasEstiloInepam": 18,
+      "questoesObjetivasReaisIntegrais": 0,
+      "evidenciasInepamAnalisadas": 4,
+      "rerratificacao": "auditada_sem_impacto_nos_cargos_do_projeto",
+      "revisadoEm": "2026-08-25"
     },
     {
       "id": "AGE-ESP-007",
@@ -966,7 +1047,38 @@
       ],
       "questoesVinculadas": 18,
       "status": "questoes_adicionadas",
-      "retificacaoImpacto": "nenhum"
+      "retificacaoImpacto": "nenhum",
+      "stableItemId": "AGE-ESP-007",
+      "editalText": "Princípios básicos da Administração Pública e servidores",
+      "aulaId": "agente-especificos-administracao-publica-servidores-001",
+      "masterFile": "agente-especificos-administracao-publica-servidores-001.md",
+      "questionIds": [
+        "q-inedita-agente-especificos-0397",
+        "q-inedita-agente-especificos-0398",
+        "q-inedita-agente-especificos-0399",
+        "q-inedita-agente-especificos-0400",
+        "q-inedita-agente-especificos-0401",
+        "q-inedita-agente-especificos-0402",
+        "q-inedita-agente-especificos-0403",
+        "q-inedita-agente-especificos-0404",
+        "q-inedita-agente-especificos-0405",
+        "q-inedita-agente-especificos-0406",
+        "q-inedita-agente-especificos-0407",
+        "q-inedita-agente-especificos-0408",
+        "q-inedita-agente-especificos-0409",
+        "q-inedita-agente-especificos-0410",
+        "q-inedita-agente-especificos-0411",
+        "q-inedita-agente-especificos-0412",
+        "q-inedita-agente-especificos-0413",
+        "q-inedita-agente-especificos-0414"
+      ],
+      "relatedSublesson": {
+        "stableItemId": "AGE-ESP-007-01",
+        "aulaId": "agente-especificos-servidores-hierarquia-001",
+        "driveId": "1aTgujkLsz91HeGCsaagmKmHHKJx4VoDz",
+        "publicationTopic": "aa-servidores"
+      },
+      "coverageNotes": "Administração Pública; sentidos subjetivo/objetivo; direta/indireta; órgão/entidade; LIMPE; finalidade, motivação, razoabilidade, proporcionalidade e segurança jurídica; agentes e servidores; cargo, emprego e função. Hierarquia aprofundada fica em AGE-ESP-008 e CF 37/39-41 em AGE-ESP-009."
     },
     {
       "id": "AGE-ESP-008",
@@ -987,7 +1099,38 @@
       "retificacaoImpacto": "nenhum",
       "observacoes": [
         "Arquivo-mestre agente-especificos-hierarquia-001.md permanece como fonte editorial; a publicação é consolidada em aa-servidores."
-      ]
+      ],
+      "stableItemId": "AGE-ESP-008",
+      "editalText": "Hierarquia no serviço público",
+      "aulaId": "agente-especificos-hierarquia-001",
+      "masterFile": "agente-especificos-hierarquia-001.md",
+      "questionIds": [
+        "q-inedita-agente-especificos-0415",
+        "q-inedita-agente-especificos-0416",
+        "q-inedita-agente-especificos-0417",
+        "q-inedita-agente-especificos-0418",
+        "q-inedita-agente-especificos-0419",
+        "q-inedita-agente-especificos-0420",
+        "q-inedita-agente-especificos-0421",
+        "q-inedita-agente-especificos-0422",
+        "q-inedita-agente-especificos-0423",
+        "q-inedita-agente-especificos-0424",
+        "q-inedita-agente-especificos-0425",
+        "q-inedita-agente-especificos-0426",
+        "q-inedita-agente-especificos-0427",
+        "q-inedita-agente-especificos-0428",
+        "q-inedita-agente-especificos-0429",
+        "q-inedita-agente-especificos-0430",
+        "q-inedita-agente-especificos-0431",
+        "q-inedita-agente-especificos-0432"
+      ],
+      "relatedSublesson": {
+        "stableItemId": "AGE-ESP-007-01",
+        "aulaId": "agente-especificos-servidores-hierarquia-001",
+        "driveId": "1aTgujkLsz91HeGCsaagmKmHHKJx4VoDz",
+        "siteTopicId": "aa-servidores"
+      },
+      "coverageNotes": "Hierarquia, poder hierárquico, ordens, fiscalização, revisão, delegação, avocação, obediência e limites, via hierárquica, hierárquico x disciplinar, controle hierárquico x tutela. Lei 9.784 e Lei 8.112 usadas apenas como referências federais."
     },
     {
       "id": "AGE-ESP-009",
@@ -1005,7 +1148,32 @@
       ],
       "questoesVinculadas": 6,
       "status": "questoes_adicionadas",
-      "retificacaoImpacto": "nenhum"
+      "retificacaoImpacto": "nenhum",
+      "stableItemId": "AGE-ESP-009",
+      "editalText": "Constituição da República Federativa do Brasil — art. 37 e arts. 39 a 41",
+      "aulaId": "agente-especificos-constituicao-administracao-publica-001",
+      "masterFile": "agente-especificos-constituicao-administracao-publica-001.md",
+      "questionIds": [
+        "q-inedita-agente-especificos-0433",
+        "q-inedita-agente-especificos-0434",
+        "q-inedita-agente-especificos-0435",
+        "q-inedita-agente-especificos-0436",
+        "q-inedita-agente-especificos-0437",
+        "q-inedita-agente-especificos-0438",
+        "q-inedita-agente-especificos-0439",
+        "q-inedita-agente-especificos-0440",
+        "q-inedita-agente-especificos-0441",
+        "q-inedita-agente-especificos-0442",
+        "q-inedita-agente-especificos-0443",
+        "q-inedita-agente-especificos-0444",
+        "q-inedita-agente-especificos-0445",
+        "q-inedita-agente-especificos-0446",
+        "q-inedita-agente-especificos-0447",
+        "q-inedita-agente-especificos-0448",
+        "q-inedita-agente-especificos-0449",
+        "q-inedita-agente-especificos-0450"
+      ],
+      "coverageNotes": "Cobertura integral e atualizada dos arts. 37, 39, 40 e 41; art. 38 excluído do núcleo. Revalidação em 30/08/2026 incluiu EC 138/2025, EC 135/2024, EC 103/2019 e ADI 2.135; EC 139/2026 não altera o recorte."
     },
     {
       "id": "AGE-ESP-010",
@@ -1024,7 +1192,39 @@
       "retificacaoImpacto": "nenhum",
       "observacoes": [
         "Item bibliográfico transversal sem siteTopicId próprio; serve de referência e revisão integrada para os tópicos de redação oficial."
-      ]
+      ],
+      "stableItemId": "AGE-ESP-010",
+      "editalText": "Bibliografia referencial: Manual de Redação e de Atos Oficiais; Manual de Redação da Presidência da República",
+      "aulaId": "agente-especificos-manuais-redacao-001",
+      "masterFile": "agente-especificos-manuais-redacao-001.md",
+      "questionIds": [
+        "q-inedita-agente-especificos-0451",
+        "q-inedita-agente-especificos-0452",
+        "q-inedita-agente-especificos-0453",
+        "q-inedita-agente-especificos-0454",
+        "q-inedita-agente-especificos-0455",
+        "q-inedita-agente-especificos-0456",
+        "q-inedita-agente-especificos-0457",
+        "q-inedita-agente-especificos-0458",
+        "q-inedita-agente-especificos-0459",
+        "q-inedita-agente-especificos-0460",
+        "q-inedita-agente-especificos-0461",
+        "q-inedita-agente-especificos-0462",
+        "q-inedita-agente-especificos-0463",
+        "q-inedita-agente-especificos-0464",
+        "q-inedita-agente-especificos-0465",
+        "q-inedita-agente-especificos-0466",
+        "q-inedita-agente-especificos-0467",
+        "q-inedita-agente-especificos-0468"
+      ],
+      "relatedStableItems": [
+        "AGE-ESP-001",
+        "AGE-ESP-002",
+        "AGE-ESP-003",
+        "AGE-ESP-004",
+        "AGE-ESP-005"
+      ],
+      "coverageNotes": "Revisão integrada sem duplicar as aulas anteriores; distingue Manual da ANA, MRPR 2018 e regulamentação federal posterior. Inclui oito evidências reais parcialmente documentadas da INEPAM."
     },
     {
       "id": "AGE-ESP-011",
@@ -1567,13 +1767,726 @@
       "questoesVinculadas": 0,
       "status": "revisado",
       "retificacaoImpacto": "nenhum"
+    },
+    {
+      "schemaVersion": "1.0",
+      "stableItemId": "MON-ESP-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação: Constituição Federal, arts. 5º a 7º, 205 a 214 e 226 a 230",
+      "status": "questoes_adicionadas",
+      "masterId": "monitor-especificos-constituicao-federal-001",
+      "masterVersion": "0.1.0",
+      "siteTopicId": "me-constituicao",
+      "subaulas": [],
+      "coverage": [
+        {
+          "intervalo": "arts. 5º a 7º",
+          "status": "revisado",
+          "observacao": "Cobertura integral dos artigos, incisos e parágrafos dentro do recorte."
+        },
+        {
+          "intervalo": "arts. 205 a 214",
+          "status": "revisado",
+          "observacao": "Cobertura integral, incluindo art. 212-A."
+        },
+        {
+          "intervalo": "arts. 226 a 230",
+          "status": "revisado",
+          "observacao": "Cobertura integral dos artigos e respectivos parágrafos/incisos."
+        }
+      ],
+      "questoesIneditasEstiloInepam": 18,
+      "questoesObjetivasReaisIntegrais": 0,
+      "evidenciasInepamAnalisadas": 4,
+      "questionIdRange": {
+        "first": "q-inedita-monitor-especificos-0397",
+        "middleChecked": "q-inedita-monitor-especificos-0406",
+        "last": "q-inedita-monitor-especificos-0414",
+        "collisionCheck": "sem_colisao_no_drive_antes_da_alocacao"
+      },
+      "rerratificacao": "auditada_sem_impacto_nos_cargos_do_projeto",
+      "novaRetificacaoOficialLocalizadaEm20260825": false,
+      "revisadoEm": "2026-08-25"
+    },
+    {
+      "schemaVersion": "1.0",
+      "stableItemId": "MON-ESP-002",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação: Lei Orgânica do Município.",
+      "status": "questoes_adicionadas",
+      "masterId": "monitor-especificos-lei-organica-rincao-001",
+      "masterVersion": "0.1.0",
+      "coberturaLegal": {
+        "fonteConsolidada": "Emenda à Lei Orgânica nº 01/2024",
+        "dataConsolidacao": "2024-11-26",
+        "artigos": "1-220",
+        "disposicoesTransitorias": true,
+        "artigosOmitidos": []
+      },
+      "questoesIneditasEstiloInepam": 18,
+      "questoesObjetivasReaisIntegrais": 0,
+      "questoesReaisParcialmenteDocumentadas": 1,
+      "evidenciasInepamAnalisadas": 4,
+      "questionIdRange": [
+        "q-inedita-monitor-especificos-0415",
+        "q-inedita-monitor-especificos-0432"
+      ],
+      "rerratificacao": "auditado_sem_impacto_nos_cargos_do_projeto",
+      "revisadoEm": "2026-08-25"
+    },
+    {
+      "schemaVersion": "1.0",
+      "stableItemId": "MON-ESP-003",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "editalRef": "Anexo II — Monitor de Educação: Lei nº 8.069/1990 — arts. 1º–6º, 13–18 e 53–73.",
+      "status": "questoes_adicionadas",
+      "masterId": "monitor-especificos-eca-001",
+      "masterVersion": "0.1.0",
+      "coberturaLegal": {
+        "intervalosNumerados": [
+          "1-6",
+          "13-18",
+          "53-73"
+        ],
+        "artigosAlfanumericosIncluidos": [
+          "14-A",
+          "18-A",
+          "18-B",
+          "53-A",
+          "59-A",
+          "70-A",
+          "70-B"
+        ],
+        "totalDispositivosArtigoTratados": 40,
+        "artigosOmitidos": [],
+        "corteLegislativo": "2026-07-31"
+      },
+      "questoesIneditasEstiloInepam": 18,
+      "questoesObjetivasReaisIntegraisPublicadas": 0,
+      "questoesReaisDissertativasIntegraisResolvidas": 1,
+      "questoesReaisParcialmenteDocumentadas": 1,
+      "evidenciasInepamAnalisadas": 4,
+      "questionIdRange": [
+        "q-inedita-monitor-especificos-0433",
+        "q-inedita-monitor-especificos-0450"
+      ],
+      "rerratificacao": "auditado_sem_impacto_nos_cargos_do_projeto",
+      "revisadoEm": "2026-08-25"
+    },
+    {
+      "schemaVersion": "1.0",
+      "stableItemId": "MON-ESP-004",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "editalRef": "Anexo II — Monitor de Educação: Lei nº 9.394, de 20 de dezembro de 1996, e suas alterações, sem delimitação de artigos.",
+      "status": "questoes_adicionadas",
+      "masterId": "monitor-especificos-ldb-001",
+      "masterVersion": "0.1.0",
+      "coberturaLegal": {
+        "escopo": "Lei nº 9.394/1996 integral — arts. 1º a 92 e dispositivos alfanuméricos vigentes/inseridos no texto compilado, com referência a dispositivos revogados somente quando necessária para evitar erro de prova.",
+        "artigosBase": "1-92",
+        "artigosOmitidos": [],
+        "corteLegislativo": "2026-07-31",
+        "alteracoes2026VigentesNoCorte": [
+          "Lei 15.326/2026 — art. 61 §2º",
+          "Lei 15.360/2026 — art. 25-A",
+          "Lei 15.369/2026 — art. 11 V",
+          "Lei 15.462/2026 — art. 67 II",
+          "Lei 15.468/2026 — art. 26 §9º-B"
+        ],
+        "alteracoesPosCorteIncorporadas": []
+      },
+      "questoesIneditasEstiloInepam": 18,
+      "questoesObjetivasReaisIntegraisPublicadas": 0,
+      "questoesReaisParcialmenteDocumentadas": 2,
+      "evidenciasInepamAnalisadas": 3,
+      "questionIdRange": [
+        "q-inedita-monitor-especificos-0451",
+        "q-inedita-monitor-especificos-0468"
+      ],
+      "rerratificacao": "auditado_sem_impacto_nos_cargos_do_projeto",
+      "revisadoEm": "2026-08-25"
+    },
+    {
+      "stableItemId": "MON-ESP-005",
+      "editalText": "Diretrizes Nacionais para a Educação em Direitos Humanos",
+      "status": "questoes_adicionadas",
+      "aulaId": "monitor-especificos-diretrizes-direitos-humanos-001",
+      "materialCompartilhadoCom": [
+        "MON-ESP-006"
+      ]
+    },
+    {
+      "stableItemId": "MON-ESP-006",
+      "editalText": "Resolução CNE/CP nº 01, de 30 de maio de 2012",
+      "status": "questoes_adicionadas",
+      "aulaId": "monitor-especificos-diretrizes-direitos-humanos-001",
+      "materialCompartilhadoCom": [
+        "MON-ESP-005"
+      ]
+    },
+    {
+      "stableItemId": "MON-ESP-007",
+      "editalText": "Cuidados com a segurança do aluno nas dependências da escola",
+      "aulaId": "monitor-especificos-seguranca-aluno-escola-001",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0487",
+        "q-inedita-monitor-especificos-0488",
+        "q-inedita-monitor-especificos-0489",
+        "q-inedita-monitor-especificos-0490",
+        "q-inedita-monitor-especificos-0491",
+        "q-inedita-monitor-especificos-0492",
+        "q-inedita-monitor-especificos-0493",
+        "q-inedita-monitor-especificos-0494",
+        "q-inedita-monitor-especificos-0495",
+        "q-inedita-monitor-especificos-0496",
+        "q-inedita-monitor-especificos-0497",
+        "q-inedita-monitor-especificos-0498",
+        "q-inedita-monitor-especificos-0499",
+        "q-inedita-monitor-especificos-0500",
+        "q-inedita-monitor-especificos-0501",
+        "q-inedita-monitor-especificos-0502",
+        "q-inedita-monitor-especificos-0503",
+        "q-inedita-monitor-especificos-0504"
+      ],
+      "notes": "Item aberto do edital. Conteúdo produzido com base no edital e em referências oficiais atuais de segurança escolar; sem antecipar técnicas específicas de primeiros socorros."
+    },
+    {
+      "stableItemId": "MON-ESP-008",
+      "editalText": "Noções de primeiros socorros",
+      "aulaId": "monitor-especificos-primeiros-socorros-001",
+      "masterFile": "monitor-especificos-primeiros-socorros-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0505",
+        "q-inedita-monitor-especificos-0506",
+        "q-inedita-monitor-especificos-0507",
+        "q-inedita-monitor-especificos-0508",
+        "q-inedita-monitor-especificos-0509",
+        "q-inedita-monitor-especificos-0510",
+        "q-inedita-monitor-especificos-0511",
+        "q-inedita-monitor-especificos-0512",
+        "q-inedita-monitor-especificos-0513",
+        "q-inedita-monitor-especificos-0514",
+        "q-inedita-monitor-especificos-0515",
+        "q-inedita-monitor-especificos-0516",
+        "q-inedita-monitor-especificos-0517",
+        "q-inedita-monitor-especificos-0518",
+        "q-inedita-monitor-especificos-0519",
+        "q-inedita-monitor-especificos-0520",
+        "q-inedita-monitor-especificos-0521",
+        "q-inedita-monitor-especificos-0522"
+      ],
+      "coverageNotes": "Cobertura pedagógica do item aberto do edital, com foco escolar e em crianças/adolescentes; Lei 13.722/2018 usada como fonte oficial complementar, não como novo item do edital."
+    },
+    {
+      "stableItemId": "MON-ESP-009",
+      "editalText": "Atendimento ao público",
+      "aulaId": "monitor-especificos-atendimento-publico-001",
+      "masterFile": "monitor-especificos-atendimento-publico-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0523",
+        "q-inedita-monitor-especificos-0524",
+        "q-inedita-monitor-especificos-0525",
+        "q-inedita-monitor-especificos-0526",
+        "q-inedita-monitor-especificos-0527",
+        "q-inedita-monitor-especificos-0528",
+        "q-inedita-monitor-especificos-0529",
+        "q-inedita-monitor-especificos-0530",
+        "q-inedita-monitor-especificos-0531",
+        "q-inedita-monitor-especificos-0532",
+        "q-inedita-monitor-especificos-0533",
+        "q-inedita-monitor-especificos-0534",
+        "q-inedita-monitor-especificos-0535",
+        "q-inedita-monitor-especificos-0536",
+        "q-inedita-monitor-especificos-0537",
+        "q-inedita-monitor-especificos-0538",
+        "q-inedita-monitor-especificos-0539",
+        "q-inedita-monitor-especificos-0540"
+      ],
+      "coverageNotes": "Item aberto do edital desdobrado pedagogicamente para atendimento escolar; Leis 13.460/2017 e 15.263/2025 usadas como apoio normativo complementar, sem ampliar o conteúdo nominal do edital."
+    },
+    {
+      "stableItemId": "MON-ESP-010",
+      "editalText": "Noção de cuidados e higiene pessoal e no trabalho",
+      "aulaId": "monitor-especificos-higiene-pessoal-trabalho-001",
+      "masterFile": "monitor-especificos-higiene-pessoal-trabalho-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0541",
+        "q-inedita-monitor-especificos-0542",
+        "q-inedita-monitor-especificos-0543",
+        "q-inedita-monitor-especificos-0544",
+        "q-inedita-monitor-especificos-0545",
+        "q-inedita-monitor-especificos-0546",
+        "q-inedita-monitor-especificos-0547",
+        "q-inedita-monitor-especificos-0548",
+        "q-inedita-monitor-especificos-0549",
+        "q-inedita-monitor-especificos-0550",
+        "q-inedita-monitor-especificos-0551",
+        "q-inedita-monitor-especificos-0552",
+        "q-inedita-monitor-especificos-0553",
+        "q-inedita-monitor-especificos-0554",
+        "q-inedita-monitor-especificos-0555",
+        "q-inedita-monitor-especificos-0556",
+        "q-inedita-monitor-especificos-0557",
+        "q-inedita-monitor-especificos-0558"
+      ],
+      "coverageNotes": "Item aberto do edital desdobrado para higiene pessoal, mãos, etiqueta respiratória, cuidado e dignidade da criança, prevenção de contaminação e higiene na rotina escolar; fontes sanitárias usadas como apoio técnico, sem transformar o item em protocolo hospitalar."
+    },
+    {
+      "stableItemId": "MON-ESP-011",
+      "editalText": "Relações humanas no trabalho",
+      "aulaId": "monitor-especificos-relacoes-humanas-trabalho-001",
+      "masterFile": "monitor-especificos-relacoes-humanas-trabalho-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0559",
+        "q-inedita-monitor-especificos-0560",
+        "q-inedita-monitor-especificos-0561",
+        "q-inedita-monitor-especificos-0562",
+        "q-inedita-monitor-especificos-0563",
+        "q-inedita-monitor-especificos-0564",
+        "q-inedita-monitor-especificos-0565",
+        "q-inedita-monitor-especificos-0566",
+        "q-inedita-monitor-especificos-0567",
+        "q-inedita-monitor-especificos-0568",
+        "q-inedita-monitor-especificos-0569",
+        "q-inedita-monitor-especificos-0570",
+        "q-inedita-monitor-especificos-0571",
+        "q-inedita-monitor-especificos-0572",
+        "q-inedita-monitor-especificos-0573",
+        "q-inedita-monitor-especificos-0574",
+        "q-inedita-monitor-especificos-0575",
+        "q-inedita-monitor-especificos-0576"
+      ],
+      "coverageNotes": "Item aberto desdobrado em respeito, comunicação, escuta, empatia, cooperação, trabalho em equipe, hierarquia, feedback, conflitos, boatos, privacidade funcional, respeito às diferenças e limites da função, sempre aplicado ao ambiente escolar."
+    },
+    {
+      "stableItemId": "MON-ESP-012",
+      "editalText": "Inspeção e cuidados com o comportamento dos alunos no ambiente escolar",
+      "aulaId": "monitor-especificos-comportamento-alunos-001",
+      "masterFile": "monitor-especificos-comportamento-alunos-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0577",
+        "q-inedita-monitor-especificos-0578",
+        "q-inedita-monitor-especificos-0579",
+        "q-inedita-monitor-especificos-0580",
+        "q-inedita-monitor-especificos-0581",
+        "q-inedita-monitor-especificos-0582",
+        "q-inedita-monitor-especificos-0583",
+        "q-inedita-monitor-especificos-0584",
+        "q-inedita-monitor-especificos-0585",
+        "q-inedita-monitor-especificos-0586",
+        "q-inedita-monitor-especificos-0587",
+        "q-inedita-monitor-especificos-0588",
+        "q-inedita-monitor-especificos-0589",
+        "q-inedita-monitor-especificos-0590",
+        "q-inedita-monitor-especificos-0591",
+        "q-inedita-monitor-especificos-0592",
+        "q-inedita-monitor-especificos-0593",
+        "q-inedita-monitor-especificos-0594"
+      ],
+      "coverageNotes": "Cobertura integral do item aberto: inspeção preventiva, orientação de regras, conflito, agressão, bullying, registro, comunicação, privacidade, recreio, entrada/saída, discriminação, proporcionalidade e limites da função."
+    },
+    {
+      "stableItemId": "MON-ESP-013",
+      "editalText": "Regras e procedimentos de um ambiente escolar",
+      "aulaId": "monitor-especificos-regras-procedimentos-escola-001",
+      "masterFile": "monitor-especificos-regras-procedimentos-escola-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0595",
+        "q-inedita-monitor-especificos-0596",
+        "q-inedita-monitor-especificos-0597",
+        "q-inedita-monitor-especificos-0598",
+        "q-inedita-monitor-especificos-0599",
+        "q-inedita-monitor-especificos-0600",
+        "q-inedita-monitor-especificos-0601",
+        "q-inedita-monitor-especificos-0602",
+        "q-inedita-monitor-especificos-0603",
+        "q-inedita-monitor-especificos-0604",
+        "q-inedita-monitor-especificos-0605",
+        "q-inedita-monitor-especificos-0606",
+        "q-inedita-monitor-especificos-0607",
+        "q-inedita-monitor-especificos-0608",
+        "q-inedita-monitor-especificos-0609",
+        "q-inedita-monitor-especificos-0610",
+        "q-inedita-monitor-especificos-0611",
+        "q-inedita-monitor-especificos-0612"
+      ],
+      "coverageNotes": "Item aberto coberto por regras, rotinas, procedimentos, entrada/saída, visitantes, circulação, recreio, alimentação, registros, privacidade, acidentes, emergências, patrimônio, comunicação, inclusão e limites funcionais. Regimento escolar preservado como item separado."
+    },
+    {
+      "stableItemId": "MON-ESP-014",
+      "editalText": "Noção de comunicação e oratória",
+      "aulaId": "monitor-especificos-comunicacao-oratoria-001",
+      "masterFile": "monitor-especificos-comunicacao-oratoria-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0613",
+        "q-inedita-monitor-especificos-0614",
+        "q-inedita-monitor-especificos-0615",
+        "q-inedita-monitor-especificos-0616",
+        "q-inedita-monitor-especificos-0617",
+        "q-inedita-monitor-especificos-0618",
+        "q-inedita-monitor-especificos-0619",
+        "q-inedita-monitor-especificos-0620",
+        "q-inedita-monitor-especificos-0621",
+        "q-inedita-monitor-especificos-0622",
+        "q-inedita-monitor-especificos-0623",
+        "q-inedita-monitor-especificos-0624",
+        "q-inedita-monitor-especificos-0625",
+        "q-inedita-monitor-especificos-0626",
+        "q-inedita-monitor-especificos-0627",
+        "q-inedita-monitor-especificos-0628",
+        "q-inedita-monitor-especificos-0629",
+        "q-inedita-monitor-especificos-0630"
+      ],
+      "coverageNotes": "Cobertura integral do item aberto: processo de comunicação, feedback, ruído, verbal/não verbal, clareza, linguagem simples, escuta, assertividade, adequação ao público, oratória, planejamento, voz, ritmo, pausas, dicção, linguagem corporal, nervosismo e aplicações escolares."
+    },
+    {
+      "stableItemId": "MON-ESP-015",
+      "editalText": "Regimento escolar",
+      "aulaId": "monitor-especificos-regimento-escolar-001",
+      "masterFile": "monitor-especificos-regimento-escolar-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0631",
+        "q-inedita-monitor-especificos-0632",
+        "q-inedita-monitor-especificos-0633",
+        "q-inedita-monitor-especificos-0634",
+        "q-inedita-monitor-especificos-0635",
+        "q-inedita-monitor-especificos-0636",
+        "q-inedita-monitor-especificos-0637",
+        "q-inedita-monitor-especificos-0638",
+        "q-inedita-monitor-especificos-0639",
+        "q-inedita-monitor-especificos-0640",
+        "q-inedita-monitor-especificos-0641",
+        "q-inedita-monitor-especificos-0642",
+        "q-inedita-monitor-especificos-0643",
+        "q-inedita-monitor-especificos-0644",
+        "q-inedita-monitor-especificos-0645",
+        "q-inedita-monitor-especificos-0646",
+        "q-inedita-monitor-especificos-0647",
+        "q-inedita-monitor-especificos-0648"
+      ],
+      "coverageNotes": "Conceito, finalidade, hierarquia normativa, organização administrativa/técnica, vida escolar, direitos/deveres, sanções, recursos, registros, atualização, relação com PPP e atuação do Monitor. Regras locais de Rincão não inventadas por ausência de regimento vigente publicamente acessível."
+    },
+    {
+      "stableItemId": "MON-ESP-016",
+      "editalText": "Ética e cidadania no trabalho",
+      "aulaId": "monitor-especificos-etica-cidadania-trabalho-001",
+      "masterFile": "monitor-especificos-etica-cidadania-trabalho-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0649",
+        "q-inedita-monitor-especificos-0650",
+        "q-inedita-monitor-especificos-0651",
+        "q-inedita-monitor-especificos-0652",
+        "q-inedita-monitor-especificos-0653",
+        "q-inedita-monitor-especificos-0654",
+        "q-inedita-monitor-especificos-0655",
+        "q-inedita-monitor-especificos-0656",
+        "q-inedita-monitor-especificos-0657",
+        "q-inedita-monitor-especificos-0658",
+        "q-inedita-monitor-especificos-0659",
+        "q-inedita-monitor-especificos-0660",
+        "q-inedita-monitor-especificos-0661",
+        "q-inedita-monitor-especificos-0662",
+        "q-inedita-monitor-especificos-0663",
+        "q-inedita-monitor-especificos-0664",
+        "q-inedita-monitor-especificos-0665",
+        "q-inedita-monitor-especificos-0666"
+      ],
+      "coverageNotes": "Cobertura do item aberto com ética profissional, princípios constitucionais da Administração Pública, honestidade, boa-fé, responsabilidade, interesse público, sigilo, patrimônio, conflito de interesse, cidadania, dignidade, diversidade, inclusão e situações escolares. Nenhum código federal foi tratado como automaticamente aplicável ao servidor municipal."
+    },
+    {
+      "stableItemId": "MON-ESP-017",
+      "editalText": "Noções básicas de segurança no trabalho",
+      "aulaId": "monitor-especificos-seguranca-trabalho-001",
+      "masterFile": "monitor-especificos-seguranca-trabalho-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0667",
+        "q-inedita-monitor-especificos-0668",
+        "q-inedita-monitor-especificos-0669",
+        "q-inedita-monitor-especificos-0670",
+        "q-inedita-monitor-especificos-0671",
+        "q-inedita-monitor-especificos-0672",
+        "q-inedita-monitor-especificos-0673",
+        "q-inedita-monitor-especificos-0674",
+        "q-inedita-monitor-especificos-0675",
+        "q-inedita-monitor-especificos-0676",
+        "q-inedita-monitor-especificos-0677",
+        "q-inedita-monitor-especificos-0678",
+        "q-inedita-monitor-especificos-0679",
+        "q-inedita-monitor-especificos-0680",
+        "q-inedita-monitor-especificos-0681",
+        "q-inedita-monitor-especificos-0682",
+        "q-inedita-monitor-especificos-0683",
+        "q-inedita-monitor-especificos-0684"
+      ],
+      "coverageNotes": "Cobertura do item aberto: prevenção, perigo/risco, incidentes, riscos ocupacionais, hierarquia de prevenção, proteção coletiva, EPI, organização, quedas, eletricidade, químicos, ergonomia, incêndio, evacuação, comunicação e acidentes, adaptados à rotina escolar. NRs usadas como referência técnica oficial sem presumir automaticamente regime jurídico municipal."
+    },
+    {
+      "stableItemId": "MON-ESP-018",
+      "editalText": "Diretrizes e Bases da Educação Nacional",
+      "status": "concluido",
+      "publicationMode": "alias_no_duplicate",
+      "aulaId": "monitor-especificos-ldb-001",
+      "sourceStableItemId": "MON-ESP-004",
+      "sourceMasterDriveId": "1jHrf7iVa-UAdb0VlKWRDvZnT-xVcH3IK",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0451",
+        "q-inedita-monitor-especificos-0452",
+        "q-inedita-monitor-especificos-0453",
+        "q-inedita-monitor-especificos-0454",
+        "q-inedita-monitor-especificos-0455",
+        "q-inedita-monitor-especificos-0456",
+        "q-inedita-monitor-especificos-0457",
+        "q-inedita-monitor-especificos-0458",
+        "q-inedita-monitor-especificos-0459",
+        "q-inedita-monitor-especificos-0460",
+        "q-inedita-monitor-especificos-0461",
+        "q-inedita-monitor-especificos-0462",
+        "q-inedita-monitor-especificos-0463",
+        "q-inedita-monitor-especificos-0464",
+        "q-inedita-monitor-especificos-0465",
+        "q-inedita-monitor-especificos-0466",
+        "q-inedita-monitor-especificos-0467",
+        "q-inedita-monitor-especificos-0468"
+      ],
+      "newQuestionCount": 0,
+      "reusedQuestionCount": 18,
+      "coverageNotes": "Segundo enunciado do edital para a mesma Lei nº 9.394/1996. Mantém ID próprio de cobertura, reutiliza o mestre e as questões de MON-ESP-004 e não gera conteúdo duplicado."
+    },
+    {
+      "stableItemId": "MON-ESP-019",
+      "editalText": "Outras questões versando sobre as atividades e atribuições especificas do cargo.",
+      "aulaId": "monitor-especificos-atividades-atribuicoes-cargo-001",
+      "masterFile": "monitor-especificos-atividades-atribuicoes-cargo-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-monitor-especificos-0685",
+        "q-inedita-monitor-especificos-0686",
+        "q-inedita-monitor-especificos-0687",
+        "q-inedita-monitor-especificos-0688",
+        "q-inedita-monitor-especificos-0689",
+        "q-inedita-monitor-especificos-0690",
+        "q-inedita-monitor-especificos-0691",
+        "q-inedita-monitor-especificos-0692",
+        "q-inedita-monitor-especificos-0693",
+        "q-inedita-monitor-especificos-0694",
+        "q-inedita-monitor-especificos-0695",
+        "q-inedita-monitor-especificos-0696",
+        "q-inedita-monitor-especificos-0697",
+        "q-inedita-monitor-especificos-0698",
+        "q-inedita-monitor-especificos-0699",
+        "q-inedita-monitor-especificos-0700",
+        "q-inedita-monitor-especificos-0701",
+        "q-inedita-monitor-especificos-0702"
+      ],
+      "coverageNotes": "Cobertura integral da descrição vigente do Anexo I: creches/escolas, supervisão, necessidades diárias, alimentação, higiene, recreação, transporte escolar ida/volta e deslocamentos de lazer/recreação. Limites funcionais são explicados sem importar atribuições de outros municípios."
+    },
+    {
+      "stableItemId": "AGE-ESP-011-01",
+      "parentStableItemId": "AGE-ESP-011",
+      "siteTopicId": "aa-windows",
+      "editalText": "Utilização e configuração do Sistema Operacional Windows (versão XP ou mais recente)",
+      "aulaId": "agente-especificos-informatica-windows-001",
+      "masterFile": "agente-especificos-informatica-windows-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-agente-especificos-0469",
+        "q-inedita-agente-especificos-0470",
+        "q-inedita-agente-especificos-0471",
+        "q-inedita-agente-especificos-0472",
+        "q-inedita-agente-especificos-0473",
+        "q-inedita-agente-especificos-0474",
+        "q-inedita-agente-especificos-0475",
+        "q-inedita-agente-especificos-0476",
+        "q-inedita-agente-especificos-0477",
+        "q-inedita-agente-especificos-0478",
+        "q-inedita-agente-especificos-0479",
+        "q-inedita-agente-especificos-0480",
+        "q-inedita-agente-especificos-0481",
+        "q-inedita-agente-especificos-0482",
+        "q-inedita-agente-especificos-0483",
+        "q-inedita-agente-especificos-0484",
+        "q-inedita-agente-especificos-0485",
+        "q-inedita-agente-especificos-0486"
+      ],
+      "coverageNotes": "Cobre núcleo transversal de Windows e diferenças de versão: interface, janelas, arquivos, pastas, caminhos, extensões, Explorador, copiar/mover, Lixeira, atalhos, sistemas de arquivos, configurações, escala/resolução, energia e atualização. Aplicativos embarcados e periféricos ficam nas subaulas próprias."
+    },
+    {
+      "stableItemId": "AGE-ESP-011-02",
+      "parentStableItemId": "AGE-ESP-011",
+      "siteTopicId": "aa-aplicativos",
+      "editalText": "Aplicativos embarcados do Windows: Bloco de Notas, Calculadora, Paint, WordPad, etc.",
+      "aulaId": "agente-especificos-informatica-aplicativos-windows-001",
+      "masterFile": "agente-especificos-informatica-aplicativos-windows-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-agente-especificos-0487",
+        "q-inedita-agente-especificos-0488",
+        "q-inedita-agente-especificos-0489",
+        "q-inedita-agente-especificos-0490",
+        "q-inedita-agente-especificos-0491",
+        "q-inedita-agente-especificos-0492",
+        "q-inedita-agente-especificos-0493",
+        "q-inedita-agente-especificos-0494",
+        "q-inedita-agente-especificos-0495",
+        "q-inedita-agente-especificos-0496",
+        "q-inedita-agente-especificos-0497",
+        "q-inedita-agente-especificos-0498",
+        "q-inedita-agente-especificos-0499",
+        "q-inedita-agente-especificos-0500",
+        "q-inedita-agente-especificos-0501",
+        "q-inedita-agente-especificos-0502",
+        "q-inedita-agente-especificos-0503",
+        "q-inedita-agente-especificos-0504"
+      ],
+      "coverageNotes": "Cobre finalidade e uso de Bloco de Notas, Calculadora, Paint e WordPad; diferencia texto simples e formatado; registra recursos atuais documentados pela Microsoft; preserva WordPad como conteúdo histórico do edital e registra sua remoção a partir do Windows 11 24H2. Periféricos e demais aplicativos Office permanecem em subaulas próprias."
+    },
+    {
+      "stableItemId": "AGE-ESP-011-03",
+      "parentStableItemId": "AGE-ESP-011",
+      "siteTopicId": "aa-perifericos",
+      "editalText": "Configurações de periféricos (impressoras, monitores, etc.).",
+      "aulaId": "agente-especificos-informatica-perifericos-001",
+      "masterFile": "agente-especificos-informatica-perifericos-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-agente-especificos-0505",
+        "q-inedita-agente-especificos-0506",
+        "q-inedita-agente-especificos-0507",
+        "q-inedita-agente-especificos-0508",
+        "q-inedita-agente-especificos-0509",
+        "q-inedita-agente-especificos-0510",
+        "q-inedita-agente-especificos-0511",
+        "q-inedita-agente-especificos-0512",
+        "q-inedita-agente-especificos-0513",
+        "q-inedita-agente-especificos-0514",
+        "q-inedita-agente-especificos-0515",
+        "q-inedita-agente-especificos-0516",
+        "q-inedita-agente-especificos-0517",
+        "q-inedita-agente-especificos-0518",
+        "q-inedita-agente-especificos-0519",
+        "q-inedita-agente-especificos-0520",
+        "q-inedita-agente-especificos-0521",
+        "q-inedita-agente-especificos-0522"
+      ],
+      "coverageNotes": "Cobre classificação de periféricos de entrada/saída, impressoras locais/de rede, impressora padrão, fila e Print Spooler, drivers, preferências de impressão, monitores (escala, resolução, orientação e taxa de atualização), múltiplas telas (Duplicar/Estender), scanners/multifuncionais e distinção entre digitalização e OCR. Mantém caminhos de interface explicitamente versionados e registra evidência oficial da INEPAM para Escala no Windows 11."
+    },
+    {
+      "stableItemId": "AGE-ESP-011-04",
+      "parentStableItemId": "AGE-ESP-011",
+      "siteTopicId": "aa-word",
+      "editalText": "Microsoft Office 2010 ou versão mais recente — Microsoft Word.",
+      "aulaId": "agente-especificos-informatica-word-001",
+      "masterFile": "agente-especificos-informatica-word-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-agente-especificos-0523",
+        "q-inedita-agente-especificos-0524",
+        "q-inedita-agente-especificos-0525",
+        "q-inedita-agente-especificos-0526",
+        "q-inedita-agente-especificos-0527",
+        "q-inedita-agente-especificos-0528",
+        "q-inedita-agente-especificos-0529",
+        "q-inedita-agente-especificos-0530",
+        "q-inedita-agente-especificos-0531",
+        "q-inedita-agente-especificos-0532",
+        "q-inedita-agente-especificos-0533",
+        "q-inedita-agente-especificos-0534",
+        "q-inedita-agente-especificos-0535",
+        "q-inedita-agente-especificos-0536",
+        "q-inedita-agente-especificos-0537",
+        "q-inedita-agente-especificos-0538",
+        "q-inedita-agente-especificos-0539",
+        "q-inedita-agente-especificos-0540"
+      ],
+      "coverageNotes": "Cobre finalidade e formatos do Word, Fonte/Parágrafo, Marcadores/Numeração, tabelas, cabeçalho/rodapé, número de página, quebras de página e seção, Vincular ao Anterior, Localizar/Substituir, Controlar Alterações, Comparar, impressão, PDF e atalhos localizados do Word para Windows em português do Brasil. Registra três evidências reais INEPAM parcialmente documentadas e duas evidências oficiais de escopo, sem reconstruir alternativas ausentes."
+    },
+    {
+      "stableItemId": "AGE-ESP-011-05",
+      "parentStableItemId": "AGE-ESP-011",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "siteTopicId": "aa-excel",
+      "status": "questoes_adicionadas",
+      "version": "0.3.0",
+      "lot": 92,
+      "editalRequirement": "Pacote Office 2010 ou versão mais recente — Microsoft Excel.",
+      "coverage": {
+        "pasta_planilha_celulas": "concluido",
+        "formulas_operadores": "concluido",
+        "funcoes_basicas": "concluido",
+        "referencias": "concluido",
+        "classificacao_filtro": "concluido",
+        "graficos": "concluido",
+        "congelar_paineis": "concluido",
+        "protecao": "concluido",
+        "formatos": "concluido",
+        "evidencia_inepam": "concluido",
+        "questoes_fixas": "concluido"
+      },
+      "questionRange": [
+        "q-inedita-agente-especificos-0541",
+        "q-inedita-agente-especificos-0558"
+      ],
+      "parentStatus": "em_producao",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "stableItemId": "AGE-ESP-011-06",
+      "siteTopicId": "aa-powerpoint",
+      "editalText": "Pacote Office 2010 ou versão mais recente — Microsoft PowerPoint.",
+      "aulaId": "agente-especificos-informatica-powerpoint-001",
+      "masterFile": "agente-especificos-informatica-powerpoint-001.md",
+      "status": "questoes_adicionadas",
+      "questionIds": [
+        "q-inedita-agente-especificos-0559",
+        "q-inedita-agente-especificos-0560",
+        "q-inedita-agente-especificos-0561",
+        "q-inedita-agente-especificos-0562",
+        "q-inedita-agente-especificos-0563",
+        "q-inedita-agente-especificos-0564",
+        "q-inedita-agente-especificos-0565",
+        "q-inedita-agente-especificos-0566",
+        "q-inedita-agente-especificos-0567",
+        "q-inedita-agente-especificos-0568",
+        "q-inedita-agente-especificos-0569",
+        "q-inedita-agente-especificos-0570",
+        "q-inedita-agente-especificos-0571",
+        "q-inedita-agente-especificos-0572",
+        "q-inedita-agente-especificos-0573",
+        "q-inedita-agente-especificos-0574",
+        "q-inedita-agente-especificos-0575",
+        "q-inedita-agente-especificos-0576"
+      ],
+      "coverageNotes": "Cobertura de apresentação/slides, formatos, layouts, espaços reservados, temas, Slide Mestre, objetos, transições, animações, Opções de Efeito, atalhos de apresentação, anotações e impressão. Recursos exclusivos de versões novas não são tratados como obrigatórios do PowerPoint 2010."
     }
   ],
   "notes": [
     "A publicação progressiva não representa 100% do edital.",
     "Conhecimentos Específicos do Monitor de Educação permanecem pendentes.",
     "Nenhum simulado editorial canônico foi encontrado em 04_Simulados; o modo de simulado existente continua gerado pela aplicação.",
-    "99 referências do catálogo consolidado permanecem com metadados parciais; IDs e vínculos foram preservados."
+    "99 referências do catálogo consolidado permanecem com metadados parciais; IDs e vínculos foram preservados.",
+    "Integração dos lotes editoriais 060 a 093 em 2026-09-02; o lote 083 foi publicado como alias da LDB, sem duplicação.",
+    "A página oficial da INEPAM foi verificada em 2026-09-02 e continuava exibindo apenas o edital e a mesma rerratificação idAnexo=2681, já auditada sem impacto nos três cargos do projeto.",
+    "A cobertura global permanece em produção: não representa 100% do edital enquanto houver pendências editoriais e simulados finais."
   ]
 }
-
