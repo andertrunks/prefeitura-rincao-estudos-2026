@@ -1,4 +1,4 @@
-import { questions, topics } from '../data'
+import { historyQuestions as questions, topics } from '../data'
 import { primaryTopicIdByTopicId, richLessonsByTopicId } from '../content/editorial'
 import type { CargoId, DisciplineId, UserData } from '../types'
 import { questionMatchesCargo } from '../utils/questions'

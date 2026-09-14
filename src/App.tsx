@@ -46,12 +46,13 @@ import {
   XCircle,
 } from 'lucide-react'
 import { AccountPage } from './account/AccountPage'
+import { Analytics } from './analytics/AnalyticsControls'
 import { AuthModal } from './auth/AuthModal'
 import { useAuth } from './auth/useAuth'
 import { GuestImportModal } from './auth/GuestImportModal'
 import { RichLessonArticle, RichLessonToc } from './content/RichLessonArticle'
 import { practicalLesson, primaryTopicIdByTopicId, richLessonsByTopicId } from './content/editorial'
-import { calendarEventsForCargo, examCountdown, formatCalendarEvent, newsForCargo, publicationRectifications } from './content/publication'
+import { calendarEventsForCargo, examCountdown, examSchedule, formatCalendarEvent, newsForCargo, publicationDate, rectificationsForCargo } from './content/publication'
 import {
   HashRouter,
   Link,
@@ -67,12 +68,14 @@ import {
   cargos,
   disciplineLabels,
   questions,
+  historyQuestions,
   simulationQuestionsForCargo,
   topics,
   verifiedQuestionReferences,
 } from './data'
 import { useProgress } from './hooks/useProgress'
 import { PrivacyPage } from './privacy/PrivacyPage'
+import { PublicationPage } from './content/PublicationPage'
 import { getStudyRecommendations } from './services/recommendations'
 import { mergeUserData } from './services/progressMerge'
 import {
@@ -307,6 +310,8 @@ function AppLayout(props: ConnectedAppState) {
             <Route path="/pratica" element={<PracticalPage data={data} setData={setData} />} />
             <Route path="/conta" element={user ? <AccountPage data={data} setData={setData} syncMessage={syncMessage} syncStatus={syncStatus} onSync={onSync} /> : <Navigate to="/" replace />} />
             <Route path="/privacidade" element={<PrivacyPage />} />
+            <Route path="/noticias/:publicationId" element={<PublicationPage kind="noticia" cargoId={data.selectedCargo} />} />
+            <Route path="/retificacoes/:publicationId" element={<PublicationPage kind="retificacao" cargoId={data.selectedCargo} />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           <Footer />
@@ -325,13 +330,13 @@ function Dashboard({ data }: AppState) {
   const cargo = cargos.find((item) => item.id === data.selectedCargo)!
   const cargoTopics = byCargo(data.selectedCargo)
   const cargoQuestions = questions.filter((question) => questionMatchesCargo(question, data.selectedCargo))
-  const latest = latestAnswers(data.answers.filter((answer) => answer.cargoId === data.selectedCargo && cargoQuestions.some((question) => question.id === answer.questionId)))
+  const latest = latestAnswers(data.answers.filter((answer) => answer.cargoId === data.selectedCargo && historyQuestions.some((question) => question.id === answer.questionId && questionMatchesCargo(question, data.selectedCargo))))
   const completed = cargoTopics.filter((topic) => includesLessonState(data.completedTopics, topic.id)).length
   const coverage = cargoTopics.length ? Math.round((completed / cargoTopics.length) * 100) : 0
   const recommendations = getStudyRecommendations(data, data.selectedCargo)
   const nextTopic = cargoTopics.find((topic) => !includesLessonState(data.completedTopics, topic.id))
   const upcomingEvents = calendarEventsForCargo(data.selectedCargo).slice(0, 4)
-  const latestNews = newsForCargo(data.selectedCargo).slice().sort((left, right) => right.publishedAt.localeCompare(left.publishedAt)).slice(0, 2)
+  const latestNews = newsForCargo(data.selectedCargo).slice().sort((left, right) => right.publishedAt.localeCompare(left.publishedAt)).slice(0, 3)
 
   return (
     <>
@@ -345,7 +350,8 @@ function Dashboard({ data }: AppState) {
         <aside className="exam-card">
           <span className="mini-label">Sua prova objetiva</span>
           <strong>30 questões · 3 horas</strong>
-          <em className="exam-countdown"><CalendarClock size={15} />{examCountdown()}</em>
+          <em className="exam-countdown"><CalendarClock size={15} />{examCountdown(new Date(), data.selectedCargo)}</em>
+          <p className="exam-schedule">{examSchedule(data.selectedCargo)}</p>
           <div className="exam-row"><span>Língua Portuguesa</span><b>10</b></div>
           <div className="exam-row"><span>Matemática</span><b>05</b></div>
           <div className="exam-row"><span>Conhecimentos Específicos</span><b>15</b></div>
@@ -373,8 +379,8 @@ function Dashboard({ data }: AppState) {
       </section>
 
       <section className="publication-grid">
-        <article className="panel publication-panel"><div className="panel-title"><Newspaper size={20} /><div><span>Fontes oficiais</span><h2>Últimas notícias</h2></div></div><div className="publication-list">{latestNews.map((item) => <a href={item.url} target="_blank" rel="noreferrer" key={item.id}><small>{new Date(item.publishedAt).toLocaleDateString('pt-BR')} · {item.fonteOficial}</small><strong>{item.titulo}</strong><p>{item.resumo}</p></a>)}</div></article>
-        <article className="panel publication-panel rectification-panel"><div className="panel-title"><FileText size={20} /><div><span>Documento auditado</span><h2>Rerratificação</h2></div></div><div className="publication-list">{publicationRectifications.map((item) => <a href={item.url} target="_blank" rel="noreferrer" key={item.id}><small>{new Date(item.publishedAt).toLocaleDateString('pt-BR')} · {item.fonteOficial}</small><strong>{item.identificacao}</strong><p>{item.resumo}</p><em>{item.impactoCandidato}</em></a>)}</div></article>
+        <article className="panel publication-panel"><div className="panel-title"><Newspaper size={20} /><div><span>Fontes oficiais</span><h2>Últimas notícias</h2></div></div><div className="publication-list">{latestNews.map((item) => <Link to={`/noticias/${item.id}`} key={item.id}><small>{publicationDate(item.publishedAt)} · {item.fonteOficial}</small><strong>{item.titulo}</strong><p>{item.resumo}</p><em>Ler notícia →</em></Link>)}</div></article>
+        <article className="panel publication-panel rectification-panel"><div className="panel-title"><FileText size={20} /><div><span>Documentos auditados</span><h2>Rerratificações</h2></div></div><div className="publication-list">{rectificationsForCargo(data.selectedCargo).map((item) => <Link to={`/retificacoes/${item.id}`} key={item.id}><small>{publicationDate(item.publishedAt)} · {item.fonteOficial}</small><strong>{item.identificacao}</strong><p>{item.resumo}</p><em>O conteúdo programático dos três cargos permanece inalterado.</em><strong>Ler o que mudou →</strong></Link>)}</div></article>
       </section>
     </>
   )
@@ -499,7 +505,7 @@ function QuestionsPage({ data, setData }: AppState) {
   const [confirmed, setConfirmed] = useState(false)
   const topicFilter = search.get('topico')
   const latest = latestAnswers(data.answers.filter((answer) => answer.cargoId === data.selectedCargo))
-  const filtered = questions.filter((question) => {
+  const filtered = (status === 'erradas' || status === 'favoritas' ? historyQuestions : questions).filter((question) => {
     if (!questionMatchesCargo(question, data.selectedCargo)) return false
     if (discipline !== 'todas' && question.discipline !== discipline) return false
     if (topicFilter && question.topicId !== topicFilter) return false
@@ -578,9 +584,9 @@ function SimulationResult({ result, questionsSet, onRestart }: { result: { recor
 }
 
 function ErrorNotebook({ data }: AppState) {
-  const cargoIds = questions.filter((question) => questionMatchesCargo(question, data.selectedCargo)).map((question) => question.id)
+  const cargoIds = historyQuestions.filter((question) => questionMatchesCargo(question, data.selectedCargo)).map((question) => question.id)
   const errors = latestAnswers(data.answers.filter((answer) => answer.cargoId === data.selectedCargo)).filter((record) => cargoIds.includes(record.questionId) && !record.correct)
-  return <><PageHeader eyebrow="Caderno de Erros" title="Transforme erro em revisão" description="A última resposta errada de cada questão aparece com o assunto e acesso direto à aula." actions={<Link className="primary-action compact" to="/questoes">Revisar somente meus erros</Link>} />{errors.length ? <div className="error-list">{errors.map((record) => { const question = questions.find((item) => item.id === record.questionId)!; const topic = topics.find((item) => item.id === question.topicId)!; return <article key={record.questionId}><span className="error-icon"><XCircle size={20} /></span><div><small>{disciplineLabels[question.discipline]} · {new Date(record.answeredAt).toLocaleDateString('pt-BR')}</small><h2>{topic.title}</h2><p>{question.statement}</p><div><span>Sua resposta: {record.selectedIndex >= 0 ? String.fromCharCode(65 + record.selectedIndex) : 'em branco'}</span><span>Correta: {String.fromCharCode(65 + question.correctIndex)}</span></div></div><Link to={`/aula/${topic.id}`}>Estudar assunto <ArrowRight size={16} /></Link></article> })}</div> : <EmptyState icon={CheckCircle2} title="Seu caderno está limpo" text="Quando você errar uma questão, ela aparecerá aqui automaticamente para revisão." />}</>
+  return <><PageHeader eyebrow="Caderno de Erros" title="Transforme erro em revisão" description="A última resposta errada de cada questão aparece com o assunto e acesso direto à aula." actions={<Link className="primary-action compact" to="/questoes">Revisar somente meus erros</Link>} />{errors.length ? <div className="error-list">{errors.map((record) => { const question = historyQuestions.find((item) => item.id === record.questionId)!; const topic = topics.find((item) => item.id === question.topicId)!; return <article key={record.questionId}><span className="error-icon"><XCircle size={20} /></span><div><small>{disciplineLabels[question.discipline]} · {new Date(record.answeredAt).toLocaleDateString('pt-BR')}</small><h2>{topic.title}</h2><p>{question.statement}</p><div><span>Sua resposta: {record.selectedIndex >= 0 ? String.fromCharCode(65 + record.selectedIndex) : 'em branco'}</span><span>Correta: {String.fromCharCode(65 + question.correctIndex)}</span></div></div><Link to={`/aula/${topic.id}`}>Estudar assunto <ArrowRight size={16} /></Link></article> })}</div> : <EmptyState icon={CheckCircle2} title="Seu caderno está limpo" text="Quando você errar uma questão, ela aparecerá aqui automaticamente para revisão." />}</>
 }
 
 function ReviewsPage({ data, setData }: AppState) {
@@ -593,7 +599,7 @@ function PerformancePage({ data, setData }: AppState) {
   const fileRef = useRef<HTMLInputElement>(null)
   const cargoTopics = byCargo(data.selectedCargo)
   const cargoQuestions = questions.filter((question) => questionMatchesCargo(question, data.selectedCargo))
-  const latest = latestAnswers(data.answers.filter((answer) => answer.cargoId === data.selectedCargo)).filter((record) => cargoQuestions.some((question) => question.id === record.questionId))
+  const latest = latestAnswers(data.answers.filter((answer) => answer.cargoId === data.selectedCargo)).filter((record) => historyQuestions.some((question) => question.id === record.questionId && questionMatchesCargo(question, data.selectedCargo)))
   const importData = async (file?: File) => { if (!file) return; try { const value = normalizeImportedData(JSON.parse(await file.text())); if (!value) throw new Error(); setData(value); alert('Dados importados com sucesso.') } catch { alert('O arquivo não é um backup válido do Rincão Estudos.') } }
   return <><PageHeader eyebrow="Desempenho" title="Seu progresso real" description="Indicadores calculados apenas com seu histórico neste dispositivo." />
     <div className="performance-grid"><article><span>Aulas concluídas</span><strong>{data.completedTopics.filter((id) => cargoTopics.some((topic) => topic.id === id)).length}/{cargoTopics.length}</strong></article><article><span>Questões respondidas</span><strong>{latest.length}/{cargoQuestions.length}</strong></article><article><span>Aproveitamento</span><strong>{accuracy(latest)}%</strong></article><article><span>Simulados</span><strong>{data.simulations.filter((simulation) => simulation.cargoId === data.selectedCargo).length}</strong></article></div>
@@ -619,7 +625,7 @@ function EmptyState({ icon: Icon, title, text }: { icon: typeof CircleHelp; titl
 }
 
 function Footer() {
-  return <footer className="site-footer"><div><GraduationCap size={20} /><span><strong>Rincão Estudos 2026</strong><small>Projeto gratuito, educacional e não oficial.</small></span></div><p>Edital e rerratificação oficial revalidados em 02/09/2026. Continue acompanhando convocações e novas publicações da Prefeitura e da INEPAM.</p><Link to="/privacidade">Privacidade</Link></footer>
+  return <footer className="site-footer"><div><GraduationCap size={20} /><span><strong>Rincão Estudos 2026</strong><small>Projeto gratuito, educacional e não oficial.</small></span></div><p>2ª Rerratificação oficial conferida em 13/09/2026. Continue acompanhando convocações e novas publicações da Prefeitura e da INEPAM.</p><Link to="/privacidade">Privacidade</Link></footer>
 }
 
 function App() {
@@ -668,6 +674,7 @@ function App() {
 
   return (
     <HashRouter>
+      <Analytics />
       <AppLayout data={data} setData={setData} onOpenAuth={() => setAuthOpen(true)} onSync={syncNow} syncMessage={syncMessage} syncStatus={syncStatus} />
       <AuthModal open={authOpen} onClose={() => setAuthOpen(false)} />
       {guestImport && <GuestImportModal busy={importBusy} onImport={() => void importGuestProgress()} onSkip={skipGuestImport} />}

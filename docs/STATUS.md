@@ -1,5 +1,28 @@
 # Status do projeto
 
+## Retomada de 14/09/2026 — publicação em validação
+
+- Validação final local aprovada: lint, TypeScript, build de produção e 156 testes (153 da suíte completa + três de PWA). Execução serial contornou timeouts do ambiente local; nenhum teste foi removido. A auditoria de metadados agora possui um caso individual por aula.
+- PWA: testes confirmam fallback offline do shell/assets já salvos, exclusão de Analytics/Supabase do cache e limpeza apenas da versão antiga. Prévia do build final abriu corretamente. Permanece o aviso não bloqueante de bundles grandes.
+
+- Conciliação dos Lotes 103/104/105 autorizada e aplicada: 107 aulas existentes, 1.792 questões, três simulados canônicos, 90 itens de cobertura, 22 eventos, três notícias, duas rerratificações e 501 fontes. Nenhuma aula Markdown reescrita.
+- Notícias e rerratificações abrem páginas internas com explicação e link ao documento oficial integral. Mobile conferido sem overflow; Monitor mostra 13h00, Agente/Ajudante 08h00 (fechamento dos portões).
+- IDs e históricos preservados. Supabase restaurado no plano gratuito; novo login Google e sincronização verificados no site público em 13/09.
+- Pendência editorial: 28 questões sem comentário recuperável; mantidos gabarito e orientação para a aula, sem inventar explicações. Divergência na transcrição de Vigilante Patrimonial registrada, sem impacto nos três cargos.
+- Os registros abaixo são históricos. Validação ampliada e publicação ainda em andamento.
+
+## Execução de 13/09/2026 — em validação, ainda não publicada
+
+- Integração opcional do Google Analytics retomada na propriedade já existente; medição por consentimento, recusa/revogação e privacidade implementadas.
+- Patch operacional do Lote 105 importado integralmente, com hashes conferidos; calendário por cargo atualizado para fechamento dos portões em 27/09 às 08h00 (Agente/Ajudante) ou 13h00 (Monitor).
+- PDF oficial da segunda rerratificação recuperado e auditado integralmente, inclusive tabela visual.
+- Base remota confirmada: 112 aulas/1.307 questões, não 107/1.792. Conciliação com os Lotes 103/104 depende da decisão registrada em `AUDITORIA_LOTE105.md`; acervo atual não foi alterado.
+- Validação final local: `pnpm check` aprovado (lint, 42 testes, TypeScript e build). Conferidos os horários nos três cargos, duas aulas completas, tela de questões, configuração dos simulados, persistência visitante após recarga e layout mobile sem overflow horizontal. O build mantém aviso de bundles editoriais grandes, já existente.
+- Varredura de arquivos publicáveis não encontrou arquivos `.env` reais, chaves privadas nem padrões de tokens GitHub/OpenAI. `git diff --check` aprovado; diretórios de aulas/dados pessoais/armazenamento/autenticação intactos.
+- Deploy, verificação pública, teste de consentimento no navegador de produção e chegada da visita ao Analytics ainda não realizados. PWA com cache v12 preparada; validação offline pública pendente. Não considerar a publicação concluída.
+- Detalhes técnicos em `ANALYTICS.md`; rastreabilidade e divergências em `AUDITORIA_LOTE105.md`.
+- Diagnóstico adicional do login: Supabase do site confirmado `INACTIVE`, organização `free`, endpoint de autenticação sem resolução DNS. Sem alteração de infraestrutura; reativação e teste OAuth pendentes. Ver `DIAGNOSTICO_LOGIN_2026-09-13.md`.
+
 Atualizado em 02/09/2026.
 
 ## Concluído

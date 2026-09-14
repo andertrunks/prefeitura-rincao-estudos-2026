@@ -45,6 +45,13 @@
 .exam-card { background: #152b23; color: white; border-radius: 22px; padding: 25px; box-shadow: 0 26px 60px rgba(31,48,41,.17); transform: rotate(1deg); }
 .mini-label { color: #9fd3bd; text-transform: uppercase; font-size: 10px; font-weight: 850; letter-spacing: .1em; }
 .exam-card > strong { display: block; font: 27px Georgia,serif; margin: 9px 0 20px; }
+.exam-card .exam-schedule { color: #f3f5ee; font-size: 15px; line-height: 1.6; border-block: 1px solid #ffffff35; padding-block: 12px; overflow-wrap: anywhere; }
+.publication-article { max-width: 850px; margin: 0 auto; line-height: 1.8; overflow-wrap: anywhere; }
+.publication-article h1 { font: 500 clamp(32px, 4vw, 52px)/1.15 Georgia, serif; margin: 20px 0; }
+.publication-article section { margin-block: 28px; }
+.publication-article li { margin-bottom: 10px; }
+.publication-article .primary-action { white-space: normal; }
+.publication-highlight { border-left: 4px solid var(--green); padding: 14px 22px; background: #edf4ef; }
 .exam-countdown { display: inline-flex; align-items: center; gap: 7px; margin: -9px 0 18px; padding: 7px 9px; border-radius: 999px; background: rgba(159,211,189,.13); color: #b9ddce; font-size: 11px; font-style: normal; font-weight: 750; }
 .exam-row { display: flex; justify-content: space-between; align-items: center; padding: 11px 0; border-top: 1px solid rgba(255,255,255,.12); color: #d4e0db; font-size: 13px; }
 .exam-row b { display: grid; place-items: center; width: 31px; height: 31px; border-radius: 50%; background: #e3f1eb; color: var(--green); }
@@ -220,3 +227,4 @@
   .recommendation-list a { grid-template-columns: 28px minmax(0,1fr); }
   .recommendation-list em { grid-column: 2; justify-self: start; }
 }
+.publication-article > .eyebrow { display: block; margin-top: 1.5rem; }

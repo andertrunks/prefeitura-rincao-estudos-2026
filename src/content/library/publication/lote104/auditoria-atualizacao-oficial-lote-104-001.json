@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "auditoria-atualizacao-oficial-lote-104-001",
+  "lot": 104,
+  "checkedAt": "2026-09-10T21:32:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "officialPage": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+  "finding": {
+    "newOfficialDocument": true,
+    "documentTitle": "Edital de Divulgação dos Inscritos",
+    "newRetification": false,
+    "contentProgramImpact": "nenhum",
+    "lessonChangesRequired": 0,
+    "questionChangesRequired": 0,
+    "simulationChangesRequired": 0,
+    "calendarUpdated": true,
+    "newsUpdated": true,
+    "sourcesUpdated": true
+  },
+  "scheduleContext": {
+    "inscritosDisclosure": "2026-09-08",
+    "inscritosAppealWindow": [
+      "2026-09-09",
+      "2026-09-10",
+      "2026-09-11"
+    ],
+    "nextScheduledEvent": "2026-09-14 — convocação para prova objetiva / eventual retificação da relação de inscritos"
+  },
+  "evidenceNotes": [
+    "A página oficial da INEPAM, verificada em 10/09/2026, lista Edital, Rerratificação e Edital de Divulgação dos Inscritos.",
+    "O URL binário e o timestamp individual do anexo não ficaram expostos na página pública consultada.",
+    "A data de 08/09/2026 usada no calendário e na notícia é a data prevista no cronograma oficial do edital.",
+    "Nenhuma nova rerratificação foi localizada; o baseline editorial permanece válido."
+  ],
+  "status": "aprovado_sem_impacto_editorial"
+}

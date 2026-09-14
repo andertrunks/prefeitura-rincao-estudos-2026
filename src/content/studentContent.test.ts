@@ -32,14 +32,12 @@ describe('apresentação estudantil do conteúdo editorial', () => {
     expect(sourcesBody).toContain('Concurso Público nº 001/2026 da Prefeitura Municipal de Rincão-SP')
   })
 
-  it('não deixa metadados internos visíveis em nenhuma das 112 aulas', () => {
-    for (const item of richLessons) {
+  it.each(richLessons)('não deixa metadados internos visíveis em $editorialId', (item) => {
       const { mainBody, sourcesBody } = createStudentLessonMarkdown(item.markdown, item.questionCount)
       const studentText = `${mainBody}\n${sourcesBody}`
       expect(containsInternalMetadata(studentText), item.stableItemId).toBe(false)
       const leakedPresentationMarkup = studentText.match(/auditoria editorial|checklist editorial|controle editorial|status editorial|nota editorial|inferência editorial|<\/?(?:table|colgroup|thead|tbody|tr|th|br)\b/i)
       expect(leakedPresentationMarkup, `${item.stableItemId}: ${leakedPresentationMarkup?.[0]}`).toBeNull()
-    }
   })
 
   it('converte quadros HTML legados em blocos legíveis sem perder o texto pedagógico', () => {

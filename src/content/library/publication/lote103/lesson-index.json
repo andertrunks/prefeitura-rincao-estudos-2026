@@ -1,0 +1,1450 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-06T19:40:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "summary": {
+    "publishedLessons": 107,
+    "aliasesNotPublished": 1
+  },
+  "lessons": [
+    {
+      "id": "agente-especificos-administracao-publica-servidores-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-007"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-ata-apostila-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-004"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-atos-oficiais-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-002"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-atribuicoes-cargo-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-012"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-carta-circular-comunicacao-interna-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-004"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-classificacao-arquivamento-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-006"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-constituicao-administracao-publica-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-009"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-contrato-convenio-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-004"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-correio-eletronico-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-004"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-despacho-parecer-notas-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-004"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-elaboracao-normas-gerais-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-003"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-enumeracoes-numerais-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-003"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-fecho-signatario-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-003"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-formas-tratamento-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-003"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-hifen-destaques-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-003"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-informatica-adobe-reader-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-informatica-aplicativos-windows-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-informatica-excel-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-informatica-internet-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-informatica-outlook-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-informatica-perifericos-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-informatica-powerpoint-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-informatica-windows-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-informatica-word-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-manuais-redacao-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-010"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-nocoes-arquivo-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-006"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-oficio-aviso-memorando-exposicao-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-004",
+        "AGE-ESP-005"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-portaria-resolucao-instrucao-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-004"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-redacao-oficial-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-001"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-servidores-hierarquia-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-007",
+        "AGE-ESP-008"
+      ],
+      "publish": true
+    },
+    {
+      "id": "agente-especificos-siglas-vicios-linguagem-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaIds": [
+        "agente-especificos"
+      ],
+      "editalItemIds": [
+        "AGE-ESP-003"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-atividades-atribuicoes-cargo-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-015"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-epi-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-003"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-equipamentos-auxiliares-remocao-lixo-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-012"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-higiene-pessoal-trabalho-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-001"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-importancia-limpeza-urbana-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-008"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-limpeza-bocas-lobo-caixas-ralo-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-014"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-limpeza-logradouros-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-010"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-manuseio-ferramentas-produtos-materiais-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-002"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-plano-varricao-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-013"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-primeiros-socorros-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-004"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-qualidade-atendimento-publico-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-005"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-reciclagem-aspectos-economico-social-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-009"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-relacoes-humanas-trabalho-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-006"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-seguranca-trabalho-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-007"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-especificos-varricao-metodos-utensilios-equipamentos-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-especificos"
+      ],
+      "editalItemIds": [
+        "AJU-ESP-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "ajudante-pratica-preparacao-prova-pratica-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "ajudante-pratica"
+      ],
+      "editalItemIds": [
+        "AJU-PRAT-001"
+      ],
+      "publish": true
+    },
+    {
+      "id": "fundamental-matematica-juros-simples-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "fundamental-matematica"
+      ],
+      "editalItemIds": [
+        "FUND-MAT-002"
+      ],
+      "publish": true
+    },
+    {
+      "id": "fundamental-matematica-operacoes-fundamentais-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "fundamental-matematica"
+      ],
+      "editalItemIds": [
+        "FUND-MAT-001"
+      ],
+      "publish": true
+    },
+    {
+      "id": "fundamental-matematica-razao-proporcao-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "fundamental-matematica"
+      ],
+      "editalItemIds": [
+        "FUND-MAT-005"
+      ],
+      "publish": true
+    },
+    {
+      "id": "fundamental-matematica-sistema-metrico-decimal-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "fundamental-matematica"
+      ],
+      "editalItemIds": [
+        "FUND-MAT-003"
+      ],
+      "publish": true
+    },
+    {
+      "id": "fundamental-matematica-transformacoes-unidades-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "fundamental-matematica"
+      ],
+      "editalItemIds": [
+        "FUND-MAT-004"
+      ],
+      "publish": true
+    },
+    {
+      "id": "fundamental-portugues-escritas-corretas-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "fundamental-portugues"
+      ],
+      "editalItemIds": [
+        "FUND-PORT-004"
+      ],
+      "publish": true
+    },
+    {
+      "id": "fundamental-portugues-interpretacao-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "fundamental-portugues"
+      ],
+      "editalItemIds": [
+        "FUND-PORT-001"
+      ],
+      "publish": true
+    },
+    {
+      "id": "fundamental-portugues-significado-palavras-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "fundamental-portugues"
+      ],
+      "editalItemIds": [
+        "FUND-PORT-002"
+      ],
+      "publish": true
+    },
+    {
+      "id": "fundamental-portugues-vogais-consoantes-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaIds": [
+        "fundamental-portugues"
+      ],
+      "editalItemIds": [
+        "FUND-PORT-003"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-estatistica-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-expressoes-algebricas-fracionarias-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-008"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-expressoes-algebricas-operacoes-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-007"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-fatoracao-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-006"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-geometria-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-012"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-juros-simples-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-004"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-mdc-mmc-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-009"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-numeros-reais-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-005"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-porcentagem-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-003"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-probabilidade-analise-combinatoria-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-013"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-radicais-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-001"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-razao-proporcao-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-002"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-matematica-sistema-medidas-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-matematica"
+      ],
+      "editalItemIds": [
+        "MED-MAT-010"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-acentuacao-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-014"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-adjetivo-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-005"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-adverbio-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-008"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-analise-sintatica-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-019"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-artigo-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-013"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-colocacao-pronominal-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-018"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-concordancia-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-015"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-conjuncao-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-007"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-crase-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-017"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-figuras-linguagem-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-020"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-fonema-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-001"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-interjeicao-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-012"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-interpretacao-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-021"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-numeral-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-ortografia-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-003"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-pontuacao-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-016"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-preposicao-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-006"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-pronome-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-010"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-silaba-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-002"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-substantivo-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-004"
+      ],
+      "publish": true
+    },
+    {
+      "id": "medio-portugues-verbo-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "medio-portugues"
+      ],
+      "editalItemIds": [
+        "MED-PORT-009"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-atendimento-publico-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-009"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-atividades-atribuicoes-cargo-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-019"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-comportamento-alunos-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-012"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-comunicacao-oratoria-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-014"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-constituicao-federal-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-001"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-diretrizes-direitos-humanos-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-005",
+        "MON-ESP-006"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-eca-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-003"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-etica-cidadania-trabalho-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-016"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-higiene-pessoal-trabalho-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-010"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-ldb-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-004",
+        "MON-ESP-018"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-lei-organica-rincao-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-002"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-primeiros-socorros-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-008"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-regimento-escolar-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-015"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-regras-procedimentos-escola-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-013"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-relacoes-humanas-trabalho-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-011"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-seguranca-aluno-escola-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-007"
+      ],
+      "publish": true
+    },
+    {
+      "id": "monitor-especificos-seguranca-trabalho-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaIds": [
+        "monitor-especificos"
+      ],
+      "editalItemIds": [
+        "MON-ESP-017"
+      ],
+      "publish": true
+    }
+  ],
+  "aliases": [
+    {
+      "id": "monitor-especificos-diretrizes-bases-educacao-nacional-001",
+      "stableItemId": "MON-ESP-018",
+      "publish": false,
+      "targetAulaId": "monitor-especificos-ldb-001",
+      "targetStableItemId": "MON-ESP-004",
+      "reason": "alias_no_duplicate"
+    }
+  ]
+}

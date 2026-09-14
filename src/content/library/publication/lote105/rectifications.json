@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-13T15:00:00-03:00",
+  "rectifications": [
+    {
+      "id": "rerratificacao-abertura-detectada-2026-08-22",
+      "publishedAt": null,
+      "publishedAtStatus": "data_exata_nao_recuperada_com_seguranca",
+      "identificacao": "Rerratificação do Edital de Abertura",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "resumo": "Rerratificação oficial auditada. As alterações identificadas alcançam Nutricionista e Psicólogo; para Agente Administrativo, Monitor de Educação e Ajudante Geral, o impacto é nenhum.",
+      "mudancas": [
+        "Inclusão/detalhamento de atribuições e conteúdos programáticos de Nutricionista.",
+        "Inclusão/detalhamento de atribuições e conteúdos programáticos de Psicólogo.",
+        "Demais itens ratificados, sem alteração dos três cargos abrangidos por este projeto."
+      ],
+      "impactoCandidato": "nenhum_para_os_tres_cargos_do_projeto",
+      "impactoEstudo": "nenhum",
+      "itensEditalAfetados": [],
+      "materiaisAfetados": [],
+      "statusEditorial": "auditado_sem_impacto_nos_cargos_do_projeto",
+      "fonteOficial": "INEPAM",
+      "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+      "sourceRefs": [
+        "src-rincao-retificacao-001-2026",
+        "src-inepam-rincao-concurso-001-2026-pagina",
+        "src-auditoria-rerratificacao-rincao-001-2026"
+      ],
+      "auditDriveId": "1cHgGUCLIog9gkQubDhnEuQqJQVdI9zzh",
+      "lastVerifiedAt": "2026-09-06T19:40:00-03:00",
+      "publish": true,
+      "observacoes": "A data exata de publicação do anexo não foi exposta com segurança pelas fontes recuperadas; o campo permanece nulo para não inventar data. A página oficial foi reconferida em 06/09/2026 e não apresenta segunda rerratificação."
+    },
+    {
+      "id": "rerratificacao-abertura-2-2026-09-11",
+      "publishedAt": "2026-09-11T00:00:00-03:00",
+      "publishedAtStatus": "data_constante_no_documento",
+      "identificacao": "2ª Rerratificação do Edital de Abertura das Inscrições",
+      "cargoIds": [
+        "agente-administrativo",
+        "ajudante-geral",
+        "monitor-educacao"
+      ],
+      "resumo": "A 2ª Rerratificação acrescenta o item 2.2.2.1, distribuindo os cargos em dois períodos, e altera o item 4.9 para fixar a prova objetiva em 27/09/2026, com fechamento dos portões às 08h00 para o 1º período e às 13h00 para o 2º período. Nos cargos deste projeto, Agente Administrativo e Ajudante Geral ficam no 1º período; Monitor de Educação, no 2º período.",
+      "mudancas": [
+        "Acrescentado o item 2.2.2.1 ao Edital de Abertura, com distribuição dos cargos em 1º e 2º períodos.",
+        "Agente Administrativo e Ajudante Geral integram o 1º período.",
+        "Monitor de Educação integra o 2º período.",
+        "O item 4.9 passa a prever prova objetiva em 27/09/2026, com fechamento dos portões às 08h00 para os cargos do 1º período e às 13h00 para os cargos do 2º período.",
+        "Os demais itens do Edital de Abertura permanecem ratificados."
+      ],
+      "impactoCandidato": "alto_operacional: Agente Administrativo e Ajudante Geral devem observar o fechamento dos portões às 08h00; Monitor de Educação deve observar o fechamento dos portões às 13h00, todos em 27/09/2026.",
+      "impactoEstudo": "nenhum_no_conteudo_programatico; manter aulas, questões e simulados. Atualizar somente orientação logística/calendário e comunicação da prova.",
+      "itensEditalAfetados": [
+        "2.2.2.1",
+        "4.9"
+      ],
+      "materiaisAfetados": [
+        "calendar.json",
+        "news.json",
+        "rectifications.json",
+        "sources.json",
+        "manifest.json"
+      ],
+      "statusEditorial": "auditado_impacto_operacional_sem_impacto_conteudo_programatico",
+      "fonteOficial": "INEPAM / Prefeitura Municipal de Rincão-SP",
+      "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+      "sourceRefs": [
+        "src-rincao-2-rerratificacao-001-2026",
+        "src-inepam-rincao-concurso-001-2026-pagina"
+      ],
+      "lastVerifiedAt": "2026-09-13T15:00:00-03:00",
+      "publish": true,
+      "observacoes": "O texto integral da 2ª Rerratificação foi fornecido pelo usuário em 13/09/2026. A página oficial da INEPAM foi verificada na mesma data e confirma a existência do documento com esse título. O URL binário do anexo não foi recuperado nesta auditoria."
+    }
+  ]
+}

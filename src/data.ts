@@ -1,4 +1,5 @@
-import { editorialQuestions, topicEditorialIdByTopicId } from './content/editorial'
+import { archivedEditorialQuestions, editorialQuestions, topicEditorialIdByTopicId } from './content/editorial'
+import canonicalSimulations from './content/library/publication/lote103/simulations.json'
 import type { Cargo, CargoId, DisciplineId, Question, SourceLink, Topic } from './types'
 
 const EDITAL_URL = 'https://www.inepam.org.br/'
@@ -326,22 +327,25 @@ function questionsForCargo(cargoId: CargoId): Question[] {
   return selected.map((topic, index) => questionFromTopic(topic, cargoId, index, cargoTopics.filter((candidate) => candidate.discipline === topic.discipline)))
 }
 
-const editorialQuestionTopicIds = new Set(editorialQuestions.map((question) => question.topicId))
-
-export const questions: Question[] = [
-  ...questionsForCargo('monitor').filter((question) => !editorialQuestionTopicIds.has(question.topicId)),
-  ...questionsForCargo('agente').filter((question) => !editorialQuestionTopicIds.has(question.topicId)),
+const legacyQuestions: Question[] = [
+  ...questionsForCargo('monitor'),
+  ...questionsForCargo('agente'),
   ...questionsForCargo('ajudante'),
-  ...editorialQuestions,
+  ...archivedEditorialQuestions,
 ]
 
+export const questions: Question[] = editorialQuestions
+export const historyQuestions: Question[] = [...legacyQuestions.filter((legacy) => !questions.some((question) => question.id === legacy.id)), ...questions]
+
 export function simulationQuestionsForCargo(cargoId: CargoId): Question[] {
-  const cargoQuestions = questions.filter((question) => question.cargoIds.includes(cargoId) || question.cargoId === cargoId)
-  return [
-    ...cargoQuestions.filter((question) => question.discipline === 'portugues').slice(0, 10),
-    ...cargoQuestions.filter((question) => question.discipline === 'matematica').slice(0, 5),
-    ...cargoQuestions.filter((question) => question.discipline === 'especificos').slice(0, 15),
-  ]
+  const slugs = { agente: 'agente-administrativo', monitor: 'monitor-educacao', ajudante: 'ajudante-geral' }
+  const simulation = canonicalSimulations.simulations.find((item) => item.cargoIds.includes(slugs[cargoId]))
+  if (!simulation) throw new Error('Simulado canônico ausente para o cargo')
+  return simulation.questoesIds.map((id) => {
+    const question = questions.find((item) => item.id === id)
+    if (!question || !question.cargoIds.includes(cargoId)) throw new Error('Vínculo inválido no simulado')
+    return question
+  })
 }
 
 export const verifiedQuestionReferences = [

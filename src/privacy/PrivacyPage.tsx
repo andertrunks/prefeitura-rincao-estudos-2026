@@ -1,9 +1,11 @@
 import { Cloud, Database, ShieldCheck, Smartphone } from 'lucide-react'
+import { AnalyticsPreferences } from '../analytics/AnalyticsControls'
 
 export function PrivacyPage() {
   return (
     <>
       <header className="page-header"><div><span className="eyebrow">Privacidade</span><h1>Seus dados servem ao seu estudo</h1><p>Explicação simples sobre o que fica no dispositivo e o que pode ser sincronizado.</p></div></header>
+      <AnalyticsPreferences />
       <div className="privacy-grid">
         <article><Smartphone size={24} /><h2>Sem cadastro</h2><p>O cargo, progresso, respostas, favoritos, simulados e revisões ficam somente neste navegador. Você pode estudar sem criar conta.</p></article>
         <article><Cloud size={24} /><h2>Com conta</h2><p>Os mesmos dados de estudo são sincronizados com o Supabase para aparecerem nos seus outros dispositivos.</p></article>

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "auditoria-contrato-publicacao-lote-103-001",
+  "generatedAt": "2026-09-06T19:40:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "lot": 103,
+  "status": "aprovado",
+  "officialCheck": {
+    "inepamUrl": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+    "documentsListed": [
+      "Edital Concurso Público nº 001/2026",
+      "Rerratificação do Edital de Abertura"
+    ],
+    "newRetificationLocated": false,
+    "prefeituraNewsVerified": true
+  },
+  "coverage": {
+    "items": 90,
+    "concluded": 90,
+    "byCargo": {
+      "agente-administrativo": 46,
+      "monitor-educacao": 53,
+      "ajudante-geral": 25
+    },
+    "status": "aprovado"
+  },
+  "lessons": {
+    "publishedCanonical": 107,
+    "aliasesNotPublished": 1,
+    "alias": {
+      "id": "monitor-especificos-diretrizes-bases-educacao-nacional-001",
+      "target": "monitor-especificos-ldb-001"
+    },
+    "orphanReferences": 0,
+    "status": "aprovado"
+  },
+  "questions": {
+    "total": 1792,
+    "uniqueIds": 1792,
+    "realInepam": 11,
+    "ineditasEstiloInepam": 1781,
+    "fiveAlternativesValid": 1792,
+    "answersValid": 1792,
+    "explanationsPresent": 1792,
+    "sourceRefOrphans": 0,
+    "lessonRefOrphans": 0,
+    "editalItemRefOrphans": 0,
+    "status": "aprovado"
+  },
+  "sources": {
+    "total": 499,
+    "aliases": 34,
+    "withoutUrlDriveOrAlias": 0,
+    "requiredSourceRefOrphans": 0,
+    "note": "Agrupadores editoriais e referências externas sem URL direta receberam referência Drive ao lote/auditoria que preserva seus metadados; nenhuma barreira de acesso foi contornada.",
+    "status": "aprovado"
+  },
+  "simulations": {
+    "total": 3,
+    "questionsEach": 30,
+    "composition": {
+      "portugues": 10,
+      "matematica": 5,
+      "especificos": 15
+    },
+    "durationMinutes": 180,
+    "modes": [
+      "estudo",
+      "prova"
+    ],
+    "questionRefOrphans": 0,
+    "ajudantePracticalQuestionsExcluded": 18,
+    "status": "aprovado"
+  },
+  "calendarNewsRectifications": {
+    "calendarEvents": 21,
+    "newsItems": 1,
+    "rectifications": 1,
+    "rectificationStatus": "auditado_sem_impacto_nos_cargos_do_projeto",
+    "exactRectificationPublicationDate": "nao_recuperada_com_seguranca",
+    "nonBlockingReason": "A data não foi inventada; o documento oficial e o impacto editorial estão auditados. O campo publishedAt permanece nulo com status explícito.",
+    "status": "aprovado"
+  },
+  "contractValidation": {
+    "jsonValid": true,
+    "uniqueIds": true,
+    "crossReferencesValid": true,
+    "isoDatesValid": true,
+    "publicationReady": true,
+    "blockingIssues": []
+  },
+  "supersedes": {
+    "publicationManifestModified": "2026-08-23",
+    "oldCoverageItems": 92,
+    "oldCoveragePending": 91,
+    "reason": "Estrutura antiga substituída pelos estados canônicos aprovados dos lotes 100–102."
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-06T19:40:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "status": "aprovado",
+  "regraComum": {
+    "totalQuestoes": 30,
+    "duracaoMinutos": 180,
+    "composicao": {
+      "portugues": 10,
+      "matematica": 5,
+      "especificos": 15
+    },
+    "modos": [
+      "estudo",
+      "prova"
+    ],
+    "ordemBlocos": [
+      "portugues",
+      "matematica",
+      "especificos"
+    ]
+  },
+  "simulations": [
+    {
+      "id": "sim-agente-administrativo-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "titulo": "Simulado Completo 001 — Agente Administrativo",
+      "versao": "1.0.0",
+      "status": "concluido",
+      "duracaoMinutos": 180,
+      "modos": [
+        "estudo",
+        "prova"
+      ],
+      "composicao": {
+        "portugues": 10,
+        "matematica": 5,
+        "especificos": 15,
+        "total": 30
+      },
+      "blocos": [
+        {
+          "ordem": 1,
+          "disciplinaId": "medio-portugues",
+          "quantidade": 10,
+          "questoesIds": [
+            "q-inedita-medio-portugues-0029",
+            "q-inedita-medio-portugues-0093",
+            "q-inedita-medio-portugues-0096",
+            "q-inedita-medio-portugues-0147",
+            "q-inedita-medio-portugues-0150",
+            "q-inedita-medio-portugues-0162",
+            "q-inedita-medio-portugues-0174",
+            "q-inedita-medio-portugues-0201",
+            "q-inedita-medio-portugues-0217",
+            "q-inedita-medio-portugues-0231"
+          ]
+        },
+        {
+          "ordem": 2,
+          "disciplinaId": "medio-matematica",
+          "quantidade": 5,
+          "questoesIds": [
+            "q-inedita-medio-matematica-0019",
+            "q-inedita-medio-matematica-0038",
+            "q-inedita-medio-matematica-0052",
+            "q-inedita-medio-matematica-0145",
+            "q-inedita-medio-matematica-0187"
+          ]
+        },
+        {
+          "ordem": 3,
+          "disciplinaId": "agente-especificos",
+          "quantidade": 15,
+          "questoesIds": [
+            "q-inedita-agente-especificos-0299",
+            "q-inedita-agente-especificos-0006",
+            "q-inedita-agente-especificos-0082",
+            "q-inedita-agente-especificos-0031",
+            "q-inedita-agente-especificos-0098",
+            "q-inedita-agente-especificos-0130",
+            "q-inedita-agente-especificos-0167",
+            "q-inedita-agente-especificos-0187",
+            "q-inedita-agente-especificos-0199",
+            "q-inedita-agente-especificos-0420",
+            "q-inedita-agente-especificos-0215",
+            "q-inedita-agente-especificos-0216",
+            "q-inedita-agente-especificos-0245",
+            "q-inedita-agente-especificos-0264",
+            "q-inedita-agente-especificos-0270"
+          ]
+        }
+      ],
+      "questoesIds": [
+        "q-inedita-medio-portugues-0029",
+        "q-inedita-medio-portugues-0093",
+        "q-inedita-medio-portugues-0096",
+        "q-inedita-medio-portugues-0147",
+        "q-inedita-medio-portugues-0150",
+        "q-inedita-medio-portugues-0162",
+        "q-inedita-medio-portugues-0174",
+        "q-inedita-medio-portugues-0201",
+        "q-inedita-medio-portugues-0217",
+        "q-inedita-medio-portugues-0231",
+        "q-inedita-medio-matematica-0019",
+        "q-inedita-medio-matematica-0038",
+        "q-inedita-medio-matematica-0052",
+        "q-inedita-medio-matematica-0145",
+        "q-inedita-medio-matematica-0187",
+        "q-inedita-agente-especificos-0299",
+        "q-inedita-agente-especificos-0006",
+        "q-inedita-agente-especificos-0082",
+        "q-inedita-agente-especificos-0031",
+        "q-inedita-agente-especificos-0098",
+        "q-inedita-agente-especificos-0130",
+        "q-inedita-agente-especificos-0167",
+        "q-inedita-agente-especificos-0187",
+        "q-inedita-agente-especificos-0199",
+        "q-inedita-agente-especificos-0420",
+        "q-inedita-agente-especificos-0215",
+        "q-inedita-agente-especificos-0216",
+        "q-inedita-agente-especificos-0245",
+        "q-inedita-agente-especificos-0264",
+        "q-inedita-agente-especificos-0270"
+      ],
+      "sourceQuestionBanks": [
+        {
+          "driveId": "1CNMjzlZGa_zY79ZNwjbfsSH-WtWFw6b-",
+          "file": "questions.json",
+          "status": "canônico_aprovado"
+        }
+      ]
+    },
+    {
+      "id": "sim-monitor-educacao-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "titulo": "Simulado Completo 001 — Monitor de Educação",
+      "versao": "1.0.0",
+      "status": "concluido",
+      "duracaoMinutos": 180,
+      "modos": [
+        "estudo",
+        "prova"
+      ],
+      "composicao": {
+        "portugues": 10,
+        "matematica": 5,
+        "especificos": 15,
+        "total": 30
+      },
+      "blocos": [
+        {
+          "ordem": 1,
+          "disciplinaId": "medio-portugues",
+          "quantidade": 10,
+          "questoesIds": [
+            "q-inedita-medio-portugues-0029",
+            "q-inedita-medio-portugues-0093",
+            "q-inedita-medio-portugues-0096",
+            "q-inedita-medio-portugues-0147",
+            "q-inedita-medio-portugues-0150",
+            "q-inedita-medio-portugues-0162",
+            "q-inedita-medio-portugues-0174",
+            "q-inedita-medio-portugues-0201",
+            "q-inedita-medio-portugues-0217",
+            "q-inedita-medio-portugues-0231"
+          ]
+        },
+        {
+          "ordem": 2,
+          "disciplinaId": "medio-matematica",
+          "quantidade": 5,
+          "questoesIds": [
+            "q-inedita-medio-matematica-0019",
+            "q-inedita-medio-matematica-0038",
+            "q-inedita-medio-matematica-0052",
+            "q-inedita-medio-matematica-0145",
+            "q-inedita-medio-matematica-0187"
+          ]
+        },
+        {
+          "ordem": 3,
+          "disciplinaId": "monitor-especificos",
+          "quantidade": 15,
+          "questoesIds": [
+            "q-inedita-monitor-especificos-0397",
+            "q-inedita-monitor-especificos-0415",
+            "q-inedita-monitor-especificos-0442",
+            "q-inedita-monitor-especificos-0465",
+            "q-inedita-monitor-especificos-0486",
+            "q-inedita-monitor-especificos-0487",
+            "q-inedita-monitor-especificos-0505",
+            "q-inedita-monitor-especificos-0524",
+            "q-inedita-monitor-especificos-0541",
+            "q-inedita-monitor-especificos-0578",
+            "q-inedita-monitor-especificos-0597",
+            "q-inedita-monitor-especificos-0632",
+            "q-inedita-monitor-especificos-0651",
+            "q-inedita-monitor-especificos-0671",
+            "q-inedita-monitor-especificos-0700"
+          ]
+        }
+      ],
+      "questoesIds": [
+        "q-inedita-medio-portugues-0029",
+        "q-inedita-medio-portugues-0093",
+        "q-inedita-medio-portugues-0096",
+        "q-inedita-medio-portugues-0147",
+        "q-inedita-medio-portugues-0150",
+        "q-inedita-medio-portugues-0162",
+        "q-inedita-medio-portugues-0174",
+        "q-inedita-medio-portugues-0201",
+        "q-inedita-medio-portugues-0217",
+        "q-inedita-medio-portugues-0231",
+        "q-inedita-medio-matematica-0019",
+        "q-inedita-medio-matematica-0038",
+        "q-inedita-medio-matematica-0052",
+        "q-inedita-medio-matematica-0145",
+        "q-inedita-medio-matematica-0187",
+        "q-inedita-monitor-especificos-0397",
+        "q-inedita-monitor-especificos-0415",
+        "q-inedita-monitor-especificos-0442",
+        "q-inedita-monitor-especificos-0465",
+        "q-inedita-monitor-especificos-0486",
+        "q-inedita-monitor-especificos-0487",
+        "q-inedita-monitor-especificos-0505",
+        "q-inedita-monitor-especificos-0524",
+        "q-inedita-monitor-especificos-0541",
+        "q-inedita-monitor-especificos-0578",
+        "q-inedita-monitor-especificos-0597",
+        "q-inedita-monitor-especificos-0632",
+        "q-inedita-monitor-especificos-0651",
+        "q-inedita-monitor-especificos-0671",
+        "q-inedita-monitor-especificos-0700"
+      ],
+      "sourceQuestionBanks": [
+        {
+          "driveId": "1CNMjzlZGa_zY79ZNwjbfsSH-WtWFw6b-",
+          "file": "questions.json",
+          "scope": "Português/Matemática compartilhados",
+          "status": "canônico_aprovado"
+        },
+        {
+          "file": "questions-monitor-educacao-consolidado.json",
+          "scope": "Conhecimentos Específicos",
+          "sourceLots": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84
+          ],
+          "status": "consolidado_de_lotes_aprovados"
+        }
+      ]
+    },
+    {
+      "id": "sim-ajudante-geral-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "titulo": "Simulado Completo 001 — Ajudante Geral",
+      "versao": "1.0.0",
+      "status": "concluido",
+      "duracaoMinutos": 180,
+      "modos": [
+        "estudo",
+        "prova"
+      ],
+      "composicao": {
+        "portugues": 10,
+        "matematica": 5,
+        "especificos": 15,
+        "total": 30
+      },
+      "blocos": [
+        {
+          "ordem": 1,
+          "disciplinaId": "fundamental-portugues",
+          "quantidade": 10,
+          "questoesIds": [
+            "q-inedita-fundamental-portugues-0003",
+            "q-inedita-fundamental-portugues-0005",
+            "q-inedita-fundamental-portugues-0009",
+            "q-inedita-fundamental-portugues-0021",
+            "q-inedita-fundamental-portugues-0026",
+            "q-inedita-fundamental-portugues-0032",
+            "q-inedita-fundamental-portugues-0039",
+            "q-inedita-fundamental-portugues-0047",
+            "q-inedita-fundamental-portugues-0053",
+            "q-inedita-fundamental-portugues-0061"
+          ]
+        },
+        {
+          "ordem": 2,
+          "disciplinaId": "fundamental-matematica",
+          "quantidade": 5,
+          "questoesIds": [
+            "q-inedita-fundamental-matematica-0001",
+            "q-inedita-fundamental-matematica-0027",
+            "q-inedita-fundamental-matematica-0038",
+            "q-inedita-fundamental-matematica-0065",
+            "q-inedita-fundamental-matematica-0086"
+          ]
+        },
+        {
+          "ordem": 3,
+          "disciplinaId": "ajudante-especificos",
+          "quantidade": 15,
+          "questoesIds": [
+            "q-inedita-ajudante-especificos-0001",
+            "q-inedita-ajudante-especificos-0020",
+            "q-inedita-ajudante-especificos-0041",
+            "q-inedita-ajudante-especificos-0058",
+            "q-inedita-ajudante-especificos-0077",
+            "q-inedita-ajudante-especificos-0100",
+            "q-inedita-ajudante-especificos-0112",
+            "q-inedita-ajudante-especificos-0143",
+            "q-inedita-ajudante-especificos-0159",
+            "q-inedita-ajudante-especificos-0175",
+            "q-inedita-ajudante-especificos-0191",
+            "q-inedita-ajudante-especificos-0207",
+            "q-inedita-ajudante-especificos-0222",
+            "q-inedita-ajudante-especificos-0242",
+            "q-inedita-ajudante-especificos-0256"
+          ]
+        }
+      ],
+      "questoesIds": [
+        "q-inedita-fundamental-portugues-0003",
+        "q-inedita-fundamental-portugues-0005",
+        "q-inedita-fundamental-portugues-0009",
+        "q-inedita-fundamental-portugues-0021",
+        "q-inedita-fundamental-portugues-0026",
+        "q-inedita-fundamental-portugues-0032",
+        "q-inedita-fundamental-portugues-0039",
+        "q-inedita-fundamental-portugues-0047",
+        "q-inedita-fundamental-portugues-0053",
+        "q-inedita-fundamental-portugues-0061",
+        "q-inedita-fundamental-matematica-0001",
+        "q-inedita-fundamental-matematica-0027",
+        "q-inedita-fundamental-matematica-0038",
+        "q-inedita-fundamental-matematica-0065",
+        "q-inedita-fundamental-matematica-0086",
+        "q-inedita-ajudante-especificos-0001",
+        "q-inedita-ajudante-especificos-0020",
+        "q-inedita-ajudante-especificos-0041",
+        "q-inedita-ajudante-especificos-0058",
+        "q-inedita-ajudante-especificos-0077",
+        "q-inedita-ajudante-especificos-0100",
+        "q-inedita-ajudante-especificos-0112",
+        "q-inedita-ajudante-especificos-0143",
+        "q-inedita-ajudante-especificos-0159",
+        "q-inedita-ajudante-especificos-0175",
+        "q-inedita-ajudante-especificos-0191",
+        "q-inedita-ajudante-especificos-0207",
+        "q-inedita-ajudante-especificos-0222",
+        "q-inedita-ajudante-especificos-0242",
+        "q-inedita-ajudante-especificos-0256"
+      ],
+      "sourceQuestionBanks": [
+        {
+          "driveId": "1suugSWra2iE2lvdKWLGVzU1m0QFTzgck",
+          "file": "questions-ajudante-geral.json",
+          "status": "canônico_aprovado"
+        }
+      ],
+      "exclusoes": {
+        "disciplinaId": "ajudante-pratica",
+        "quantidadeExcluida": 18,
+        "motivo": "Questões de treino da Prova Prática não pertencem à prova objetiva."
+      }
+    }
+  ]
+}

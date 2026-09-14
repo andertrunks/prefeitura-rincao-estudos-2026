@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-10T21:32:00-03:00",
+  "news": [
+    {
+      "id": "noticia-inscricoes-concurso-001-2026",
+      "publishedAt": "2026-08-03T00:00:00-03:00",
+      "titulo": "Concurso Público nº 001/2026: inscrições de 10 de agosto a 3 de setembro",
+      "resumo": "A Prefeitura de Rincão divulgou o Concurso Público nº 001/2026. As inscrições estão previstas das 10h de 10/08/2026 às 16h de 03/09/2026, conforme edital e página oficial.",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta",
+      "fonteOficial": "Prefeitura Municipal de Rincão",
+      "url": "https://www.rincao.sp.gov.br/noticia/concurso-publico-001-2026",
+      "sourceRefs": [
+        "src-rincao-pagina-prefeitura-001-2026",
+        "src-rincao-edital-001-2026"
+      ],
+      "lastVerifiedAt": "2026-09-06T19:40:00-03:00",
+      "publish": true
+    },
+    {
+      "id": "noticia-edital-divulgacao-inscritos-2026",
+      "publishedAt": "2026-09-08T00:00:00-03:00",
+      "titulo": "INEPAM publica Edital de Divulgação dos Inscritos do Concurso nº 001/2026",
+      "resumo": "A página oficial do Concurso Público nº 001/2026 de Rincão passou a listar o “Edital de Divulgação dos Inscritos”. Conforme o cronograma oficial, a divulgação da relação de candidatos inscritos estava prevista para 08/09/2026 e o período de recursos ocorre de 09 a 11/09/2026. Não foi localizada nova rerratificação nem alteração do conteúdo programático dos cargos estudados.",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta",
+      "fonteOficial": "INEPAM",
+      "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-rincao-inscritos-2026"
+      ],
+      "lastVerifiedAt": "2026-09-10T21:32:00-03:00",
+      "publish": true,
+      "observacoes": "A data de 08/09/2026 segue o cronograma oficial do edital; a página pública da INEPAM confirmou a existência do documento, mas não expôs o timestamp individual do anexo."
+    }
+  ],
+  "officialUpdateCheck": {
+    "checkedAt": "2026-09-10T21:32:00-03:00",
+    "newContestNewsLocated": true,
+    "newOfficialDocumentLocated": true,
+    "newRetificationLocated": false,
+    "status": "edital_divulgacao_inscritos_confirmado"
+  }
+}

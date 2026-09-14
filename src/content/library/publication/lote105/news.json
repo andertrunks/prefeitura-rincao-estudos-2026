@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-13T15:00:00-03:00",
+  "news": [
+    {
+      "id": "noticia-inscricoes-concurso-001-2026",
+      "publishedAt": "2026-08-03T00:00:00-03:00",
+      "titulo": "Concurso Público nº 001/2026: inscrições de 10 de agosto a 3 de setembro",
+      "resumo": "A Prefeitura de Rincão divulgou o Concurso Público nº 001/2026. As inscrições estão previstas das 10h de 10/08/2026 às 16h de 03/09/2026, conforme edital e página oficial.",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta",
+      "fonteOficial": "Prefeitura Municipal de Rincão",
+      "url": "https://www.rincao.sp.gov.br/noticia/concurso-publico-001-2026",
+      "sourceRefs": [
+        "src-rincao-pagina-prefeitura-001-2026",
+        "src-rincao-edital-001-2026"
+      ],
+      "lastVerifiedAt": "2026-09-06T19:40:00-03:00",
+      "publish": true
+    },
+    {
+      "id": "noticia-edital-divulgacao-inscritos-2026",
+      "publishedAt": "2026-09-08T00:00:00-03:00",
+      "titulo": "INEPAM publica Edital de Divulgação dos Inscritos do Concurso nº 001/2026",
+      "resumo": "A página oficial do Concurso Público nº 001/2026 de Rincão passou a listar o “Edital de Divulgação dos Inscritos”. Conforme o cronograma oficial, a divulgação da relação de candidatos inscritos estava prevista para 08/09/2026 e o período de recursos ocorre de 09 a 11/09/2026. Não foi localizada nova rerratificação nem alteração do conteúdo programático dos cargos estudados.",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "importancia": "alta",
+      "fonteOficial": "INEPAM",
+      "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+      "sourceRefs": [
+        "src-edital-rincao-2026",
+        "src-inepam-rincao-inscritos-2026"
+      ],
+      "lastVerifiedAt": "2026-09-10T21:32:00-03:00",
+      "publish": true,
+      "observacoes": "A data de 08/09/2026 segue o cronograma oficial do edital; a página pública da INEPAM confirmou a existência do documento, mas não expôs o timestamp individual do anexo."
+    },
+    {
+      "id": "noticia-2-rerratificacao-periodos-prova-2026",
+      "publishedAt": "2026-09-11T00:00:00-03:00",
+      "publishedAtStatus": "data_constante_no_documento",
+      "titulo": "2ª Rerratificação define períodos e horários da prova objetiva",
+      "resumo": "A 2ª Rerratificação do Concurso Público nº 001/2026 definiu dois períodos de prova para 27/09/2026. Agente Administrativo e Ajudante Geral estão no 1º período, com fechamento dos portões às 08h00. Monitor de Educação está no 2º período, com fechamento às 13h00. Os demais itens do edital foram ratificados.",
+      "cargoIds": [
+        "agente-administrativo",
+        "ajudante-geral",
+        "monitor-educacao"
+      ],
+      "importancia": "critica",
+      "fonteOficial": "INEPAM / Prefeitura Municipal de Rincão-SP",
+      "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+      "sourceRefs": [
+        "src-rincao-2-rerratificacao-001-2026",
+        "src-inepam-rincao-concurso-001-2026-pagina"
+      ],
+      "lastVerifiedAt": "2026-09-13T15:00:00-03:00",
+      "publish": true,
+      "observacoes": "A data de 11/09/2026 é a data constante no próprio documento. O texto integral foi fornecido pelo usuário; a página oficial da INEPAM confirma a existência da 2ª Rerratificação."
+    }
+  ],
+  "officialUpdateCheck": {
+    "checkedAt": "2026-09-13T15:00:00-03:00",
+    "newContestNewsLocated": true,
+    "newOfficialDocumentLocated": true,
+    "newRectificationLocated": true,
+    "status": "2a_rerratificacao_auditada_com_impacto_operacional"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "1.0.0",
+  "contractVersion": "1.0.0",
+  "projectId": "prefeitura-rincao-estudos-2026",
+  "packageId": "lote-105-2a-rerratificacao-periodos-prova",
+  "version": "1.0.2",
+  "generatedAt": "2026-09-13T15:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "basePackage": "lote-103-contrato-publicacao-global",
+  "previousPatch": "lote-104-atualizacao-oficial-inscritos",
+  "editorialStatus": "concluido_pronto_para_work",
+  "publicationReady": true,
+  "blockingIssues": [],
+  "cargoIds": [
+    "agente-administrativo",
+    "monitor-educacao",
+    "ajudante-geral"
+  ],
+  "summary": {
+    "coverageItems": 90,
+    "publishedLessons": 107,
+    "lessonAliases": 1,
+    "questions": 1792,
+    "sources": 501,
+    "simulations": 3,
+    "calendarEvents": 22,
+    "newsItems": 3,
+    "rectifications": 2
+  },
+  "impact": {
+    "contentProgram": "nenhum",
+    "lessonsChanged": 0,
+    "questionsChanged": 0,
+    "simulationsChanged": 0,
+    "coverageChanged": 0,
+    "calendarChanged": true,
+    "newsChanged": true,
+    "rectificationsChanged": true,
+    "sourcesChanged": true
+  },
+  "officialUpdateCheck": {
+    "checkedAt": "2026-09-13T15:00:00-03:00",
+    "inepamUrl": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+    "newOfficialDocumentLocated": true,
+    "newOfficialDocument": "2ª Rerratificação do Edital de Abertura",
+    "newRectificationLocated": true,
+    "documentDate": "2026-09-11",
+    "binaryAnnexRetrieved": false,
+    "fullTextBasis": "transcricao_integral_fornecida_pelo_usuario"
+  },
+  "files": [
+    {
+      "path": "calendar.json",
+      "sha256": "0bba3c821fb19d2df61e53249ce17f508f37a607ce0015e08c580ea061d545a7",
+      "bytes": 11161
+    },
+    {
+      "path": "news.json",
+      "sha256": "73ed3cce5fed734e776781ffe7b5eb4c99aa43c7ba84742e300ca56a53b20dd2",
+      "bytes": 3878
+    },
+    {
+      "path": "rectifications.json",
+      "sha256": "7d7fca5d1f6020b47d1583de5ed31e99958866e4b901d930502a648d1341fe76",
+      "bytes": 4625
+    },
+    {
+      "path": "sources.json",
+      "sha256": "88b2710be85966dc7d989c3d824b020ff5d89c4a92912a5b8f215842a2850c07",
+      "bytes": 738190
+    },
+    {
+      "path": "auditoria-2a-rerratificacao-lote-105-001.json",
+      "sha256": "b8a3218bbfb8921886b0778a00ce3b9edecd46caef0b032fa485cadb05545cd2",
+      "bytes": 1572
+    },
+    {
+      "path": "fonte-transcrita-2a-rerratificacao.txt",
+      "sha256": "17445f6305695921e834046a55a76055b1709110be2f9d6c79101609a96c0008",
+      "bytes": 1600
+    },
+    {
+      "path": "README.md",
+      "sha256": "58d7b9d8b91e87bff1e28a71e7a20652473558700bf5d6b9b0a39e74c4566b5f",
+      "bytes": 1245
+    }
+  ]
+}

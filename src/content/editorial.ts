@@ -1,7 +1,9 @@
 import type { CargoId, DisciplineId, Question } from '../types'
 import manifestData from './library/data/manifest.json'
-import questionsRaw from './library/data/questions.json?raw'
-import sourcesRaw from './library/data/sources.json?raw'
+import legacyQuestionsRaw from './library/data/questions.json?raw'
+import questionsRaw from './library/publication/lote103/questions.json?raw'
+import lessonIndex from './library/publication/lote103/lesson-index.json'
+import sourcesRaw from './library/publication/lote105/sources.json?raw'
 
 type EditorialQuestionOrigin = {
   classificacao?: string
@@ -128,7 +130,7 @@ function levelFromId(disciplineId: string): LessonBinding['level'] {
 }
 
 const manifest = manifestData as { lessons: ManifestLesson[]; editorialAliases?: Record<string, string> }
-const lessonBindings: LessonBinding[] = manifest.lessons.map((lesson) => ({
+const legacyLessonBindings: LessonBinding[] = manifest.lessons.map((lesson) => ({
   fileName: lesson.fileName ?? lesson.path.split('/').pop()!,
   editorialId: lesson.id,
   stableItemId: lesson.stableItemId,
@@ -140,6 +142,8 @@ const lessonBindings: LessonBinding[] = manifest.lessons.map((lesson) => ({
   status: lesson.status,
   version: lesson.version,
 }))
+const approvedLessonIds = new Set(lessonIndex.lessons.filter((lesson) => lesson.publish).map((lesson) => lesson.id))
+const lessonBindings = legacyLessonBindings.filter((lesson) => approvedLessonIds.has(lesson.editorialId))
 
 const lessonModules = import.meta.glob<string>('./library/lessons/*.md', {
   eager: true,
@@ -203,7 +207,7 @@ const sourcePackage: { sources: EditorialSource[] } = {
   })),
 }
 const sourcesById = new Map(sourcePackage.sources.map((source) => [source.id, source]))
-const bindingByEditorialId = new Map(lessonBindings.map((binding) => [binding.editorialId, binding]))
+const bindingByEditorialId = new Map(legacyLessonBindings.map((binding) => [binding.editorialId, binding]))
 
 for (const [historicalId, canonicalId] of Object.entries(manifest.editorialAliases ?? {})) {
   const canonicalBinding = bindingByEditorialId.get(canonicalId)
@@ -293,7 +297,7 @@ function questionExplanation(question: EditorialQuestion, binding: LessonBinding
   return `Gabarito: alternativa ${question.respostaCorreta}. Consulte a resolução comentada e a revisão completa na aula deste assunto.`
 }
 
-export const editorialQuestions: Question[] = questionPackage.questions.map((question) => {
+function adaptQuestion(question: EditorialQuestion): Question {
   const binding = bindingByEditorialId.get(question.aulaIds[0])
   if (!binding) throw new Error(`Questão ${question.id} aponta para aula não integrada: ${question.aulaIds[0]}`)
   const alternatives = letters.map((letter) => question.alternativas[letter])
@@ -317,11 +321,17 @@ export const editorialQuestions: Question[] = questionPackage.questions.map((que
     sourceUrl: question.sourceUrl ?? linkedSource?.url,
     year: question.origem?.ano ?? question.ano ?? 2026,
   }
-})
+}
+
+export const editorialQuestions: Question[] = questionPackage.questions.map(adaptQuestion)
 
 export const recoveredExplanationCount = recoveredExplanations
 export const fallbackExplanationCount = fallbackExplanations
-export const fallbackExplanationIds = fallbackIds
+export const fallbackExplanationIds = [...fallbackIds]
+// Read compatibility only: withdrawn IDs remain resolvable in the student's history.
+const currentQuestionIds = new Set(editorialQuestions.map((question) => question.id))
+export const archivedEditorialQuestions: Question[] = (JSON.parse(legacyQuestionsRaw) as { questions: EditorialQuestion[] }).questions
+  .filter((question) => !currentQuestionIds.has(question.id)).map(adaptQuestion)
 
 const questionCountByEditorialId = new Map<string, number>()
 const originalQuestionCountByEditorialId = new Map<string, number>()

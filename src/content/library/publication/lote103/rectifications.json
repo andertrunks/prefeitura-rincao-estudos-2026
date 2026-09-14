@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-06T19:40:00-03:00",
+  "rectifications": [
+    {
+      "id": "rerratificacao-abertura-detectada-2026-08-22",
+      "publishedAt": null,
+      "publishedAtStatus": "data_exata_nao_recuperada_com_seguranca",
+      "identificacao": "Rerratificação do Edital de Abertura",
+      "cargoIds": [
+        "ajudante-geral",
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "resumo": "Rerratificação oficial auditada. As alterações identificadas alcançam Nutricionista e Psicólogo; para Agente Administrativo, Monitor de Educação e Ajudante Geral, o impacto é nenhum.",
+      "mudancas": [
+        "Inclusão/detalhamento de atribuições e conteúdos programáticos de Nutricionista.",
+        "Inclusão/detalhamento de atribuições e conteúdos programáticos de Psicólogo.",
+        "Demais itens ratificados, sem alteração dos três cargos abrangidos por este projeto."
+      ],
+      "impactoCandidato": "nenhum_para_os_tres_cargos_do_projeto",
+      "impactoEstudo": "nenhum",
+      "itensEditalAfetados": [],
+      "materiaisAfetados": [],
+      "statusEditorial": "auditado_sem_impacto_nos_cargos_do_projeto",
+      "fonteOficial": "INEPAM",
+      "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+      "sourceRefs": [
+        "src-rincao-retificacao-001-2026",
+        "src-inepam-rincao-concurso-001-2026-pagina",
+        "src-auditoria-rerratificacao-rincao-001-2026"
+      ],
+      "auditDriveId": "1cHgGUCLIog9gkQubDhnEuQqJQVdI9zzh",
+      "lastVerifiedAt": "2026-09-06T19:40:00-03:00",
+      "publish": true,
+      "observacoes": "A data exata de publicação do anexo não foi exposta com segurança pelas fontes recuperadas; o campo permanece nulo para não inventar data. A página oficial foi reconferida em 06/09/2026 e não apresenta segunda rerratificação."
+    }
+  ]
+}

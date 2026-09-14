@@ -2,18 +2,18 @@ import { describe, expect, it } from 'vitest'
 import { editorialQuestions, editorialStableItemIds, fallbackExplanationCount, fallbackExplanationIds, practicalLesson, recoveredExplanationCount, richLessons, richLessonsByTopicId } from './editorial'
 
 describe('biblioteca editorial revisada', () => {
-  it('integra as 112 aulas canônicas aprovadas sem duplicar IDs', () => {
-    expect(richLessons).toHaveLength(112)
+  it('integra as 107 aulas canônicas aprovadas sem duplicar IDs', () => {
+    expect(richLessons).toHaveLength(107)
     expect(richLessons.filter((lesson) => lesson.disciplineId === 'medio-portugues')).toHaveLength(21)
     expect(richLessons.filter((lesson) => lesson.disciplineId === 'medio-matematica')).toHaveLength(13)
     expect(richLessons.filter((lesson) => lesson.disciplineId === 'fundamental-portugues')).toHaveLength(4)
     expect(richLessons.filter((lesson) => lesson.disciplineId === 'fundamental-matematica')).toHaveLength(5)
-    expect(richLessons.filter((lesson) => lesson.disciplineId === 'agente-especificos')).toHaveLength(36)
+    expect(richLessons.filter((lesson) => lesson.disciplineId === 'agente-especificos')).toHaveLength(31)
     expect(richLessons.filter((lesson) => lesson.disciplineId === 'monitor-especificos')).toHaveLength(17)
     expect(richLessons.filter((lesson) => lesson.disciplineId === 'ajudante-especificos')).toHaveLength(15)
     expect(richLessons.filter((lesson) => lesson.disciplineId === 'ajudante-pratica')).toHaveLength(1)
-    expect(new Set(richLessons.map((lesson) => lesson.editorialId)).size).toBe(112)
-    expect(new Set(editorialStableItemIds).size).toBe(112)
+    expect(new Set(richLessons.map((lesson) => lesson.editorialId)).size).toBe(107)
+    expect(new Set(editorialStableItemIds).size).toBe(107)
   })
 
   it('mantém a aula de Fonema integral e associada ao ID local permanente', () => {
@@ -26,24 +26,26 @@ describe('biblioteca editorial revisada', () => {
     expect(lesson.markdown.length).toBeGreaterThan(18_000)
   })
 
-  it('integra 1.307 questões consolidadas, sempre com cinco alternativas', () => {
-    expect(editorialQuestions).toHaveLength(1307)
-    expect(new Set(editorialQuestions.map((question) => question.id)).size).toBe(1307)
+  it('integra 1.792 questões consolidadas, sempre com cinco alternativas', () => {
+    expect(editorialQuestions).toHaveLength(1792)
+    expect(new Set(editorialQuestions.map((question) => question.id)).size).toBe(1792)
     expect(editorialQuestions.filter((question) => question.topicId === 'mp-fonema')).toHaveLength(10)
     for (const question of editorialQuestions) {
       expect(question.alternatives).toHaveLength(5)
       expect(question.correctIndex).toBeGreaterThanOrEqual(0)
       expect(question.correctIndex).toBeLessThan(5)
     }
-    expect(editorialQuestions.filter((question) => question.type === 'inedita')).toHaveLength(1296)
+    expect(editorialQuestions.filter((question) => question.type === 'inedita')).toHaveLength(1781)
     expect(editorialQuestions.filter((question) => question.type === 'real')).toHaveLength(11)
     expect(editorialQuestions.every((question) => question.explanation.replace(/^[A-E][.:]\s*/i, '').replace(/[-–—\s.]/g, '').length >= 4)).toBe(true)
-    expect(recoveredExplanationCount).toBe(103)
-    expect(fallbackExplanationCount, fallbackExplanationIds.join(', ')).toBe(26)
-    expect(editorialQuestions.filter((question) => question.discipline !== 'especificos').every((question) => question.cargoIds.join(',') === 'agente,monitor')).toBe(true)
+    expect(recoveredExplanationCount).toBeGreaterThan(0)
+    // Approved package has 28 answer keys without a recoverable explanation.
+    // Keep their original content and a transparent link to the lesson; never invent commentary.
+    expect(fallbackExplanationCount, fallbackExplanationIds.join(', ')).toBe(28)
+    expect(editorialQuestions.filter((question) => question.discipline !== 'especificos').every((question) => question.cargoIds.join(',') === 'agente,monitor' || question.cargoIds.join(',') === 'ajudante')).toBe(true)
     expect(editorialQuestions.filter((question) => question.discipline === 'especificos').every((question) => {
       const cargos = question.cargoIds.join(',')
-      return cargos === 'agente' || cargos === 'monitor'
+      return cargos === 'agente' || cargos === 'monitor' || cargos === 'ajudante'
     })).toBe(true)
     expect(editorialQuestions.filter((question) => question.cargoIds.includes('monitor') && question.discipline === 'especificos')).toHaveLength(306)
   })

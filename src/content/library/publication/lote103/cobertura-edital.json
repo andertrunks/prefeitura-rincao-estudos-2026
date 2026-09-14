@@ -1,0 +1,2120 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-06T19:40:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "projectId": "prefeitura-rincao-estudos-2026",
+  "concurso": "Prefeitura Municipal de Rincão-SP — Concurso Público nº 001/2026 — INEPAM",
+  "sourceOfTruthOrder": [
+    "Edital oficial do Concurso Público nº 001/2026",
+    "Rerratificação oficial do Edital de Abertura",
+    "Legislação e normas oficiais vigentes citadas no edital",
+    "Provas, gabaritos, julgamentos de recursos e documentos reais da INEPAM",
+    "Fontes pedagógicas confiáveis",
+    "Conteúdo gerado por IA"
+  ],
+  "officialUpdateCheck": {
+    "checkedAt": "2026-09-06T19:40:00-03:00",
+    "url": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+    "documentsListed": [
+      "Edital Concurso Público nº 001/2026",
+      "Rerratificação do Edital de Abertura"
+    ],
+    "newRetificationLocated": false,
+    "status": "sem_nova_alteracao_oficial_localizada"
+  },
+  "coverageStatus": "concluido",
+  "summary": {
+    "itens": 90,
+    "concluidos": 90,
+    "porCargo": {
+      "agente-administrativo": 46,
+      "monitor-educacao": 53,
+      "ajudante-geral": 25
+    },
+    "porDisciplina": {
+      "medio-portugues": 21,
+      "medio-matematica": 13,
+      "agente-especificos": 12,
+      "monitor-especificos": 19,
+      "ajudante-especificos": 15,
+      "ajudante-pratica": 1,
+      "fundamental-matematica": 5,
+      "fundamental-portugues": 4
+    }
+  },
+  "items": [
+    {
+      "id": "MED-PORT-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Fonema",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-fonema-001"
+      ],
+      "siteTopicIds": [
+        "mp-fonema"
+      ],
+      "questoesVinculadas": 10,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-002",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Sílaba",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-silaba-001"
+      ],
+      "siteTopicIds": [
+        "mp-silaba"
+      ],
+      "questoesVinculadas": 10,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-003",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Ortografia",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-ortografia-001"
+      ],
+      "siteTopicIds": [
+        "mp-ortografia"
+      ],
+      "questoesVinculadas": 10,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-004",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Substantivo",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-substantivo-001"
+      ],
+      "siteTopicIds": [
+        "mp-substantivo"
+      ],
+      "questoesVinculadas": 10,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-005",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Adjetivo",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-adjetivo-001"
+      ],
+      "siteTopicIds": [
+        "mp-adjetivo"
+      ],
+      "questoesVinculadas": 10,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-006",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Preposição",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-preposicao-001"
+      ],
+      "siteTopicIds": [
+        "mp-preposicao"
+      ],
+      "questoesVinculadas": 10,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-007",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Conjunção",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-conjuncao-001"
+      ],
+      "siteTopicIds": [
+        "mp-conjuncao"
+      ],
+      "questoesVinculadas": 10,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-008",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Advérbio",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-adverbio-001"
+      ],
+      "siteTopicIds": [
+        "mp-adverbio"
+      ],
+      "questoesVinculadas": 10,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-009",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Verbo",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-verbo-001"
+      ],
+      "siteTopicIds": [
+        "mp-verbo"
+      ],
+      "questoesVinculadas": 10,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-010",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Pronome",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-pronome-001"
+      ],
+      "siteTopicIds": [
+        "mp-pronome"
+      ],
+      "questoesVinculadas": 10,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-011",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Numeral",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-numeral-001"
+      ],
+      "siteTopicIds": [
+        "mp-numeral"
+      ],
+      "questoesVinculadas": 10,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-012",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Interjeição",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-interjeicao-001"
+      ],
+      "siteTopicIds": [
+        "mp-interjeicao"
+      ],
+      "questoesVinculadas": 10,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-013",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Artigo",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-artigo-001"
+      ],
+      "siteTopicIds": [
+        "mp-artigo"
+      ],
+      "questoesVinculadas": 12,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-014",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Acentuação",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-acentuacao-001"
+      ],
+      "siteTopicIds": [
+        "mp-acentuacao"
+      ],
+      "questoesVinculadas": 12,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-015",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Concordância nominal e verbal",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-concordancia-001"
+      ],
+      "siteTopicIds": [
+        "mp-concordancia-nominal",
+        "mp-concordancia-verbal"
+      ],
+      "questoesVinculadas": 12,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-016",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Pontuação",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-pontuacao-001"
+      ],
+      "siteTopicIds": [
+        "mp-pontuacao"
+      ],
+      "questoesVinculadas": 12,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-017",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Crase",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-crase-001"
+      ],
+      "siteTopicIds": [
+        "mp-crase"
+      ],
+      "questoesVinculadas": 12,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-018",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Colocação pronominal",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-colocacao-pronominal-001"
+      ],
+      "siteTopicIds": [
+        "mp-colocacao"
+      ],
+      "questoesVinculadas": 12,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-019",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Análise sintática de período simples e composto",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-analise-sintatica-001"
+      ],
+      "siteTopicIds": [
+        "mp-sintaxe",
+        "mp-periodo-simples",
+        "mp-periodo-composto"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-020",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Figuras de linguagem",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-figuras-linguagem-001"
+      ],
+      "siteTopicIds": [
+        "mp-figuras"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-PORT-021",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-portugues",
+      "textoEdital": "Interpretação de textos",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Língua Portuguesa",
+      "aulaIds": [
+        "medio-portugues-interpretacao-001"
+      ],
+      "siteTopicIds": [
+        "mp-interpretacao"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "legacyIds": [
+        "edital-medio-portugues-interpretacao"
+      ],
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-001",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "Radicais: operações, simplificação, propriedades e racionalização de denominadores",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-radicais-001"
+      ],
+      "siteTopicIds": [
+        "mm-radicais",
+        "mm-operacoes-radicais",
+        "mm-racionalizacao"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-002",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "Razão e proporção",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-razao-proporcao-001"
+      ],
+      "siteTopicIds": [
+        "mm-razao",
+        "mm-proporcao"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-003",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "Porcentagem",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-porcentagem-001"
+      ],
+      "siteTopicIds": [
+        "mm-porcentagem"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-004",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "Juros simples",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-juros-simples-001"
+      ],
+      "siteTopicIds": [
+        "mm-juros"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-005",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "Números reais",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-numeros-reais-001"
+      ],
+      "siteTopicIds": [
+        "mm-reais"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-006",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "Fatoração de expressão algébrica",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-fatoracao-001"
+      ],
+      "siteTopicIds": [
+        "mm-fatoracao"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-007",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "Operações com expressões algébricas",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-expressoes-algebricas-operacoes-001"
+      ],
+      "siteTopicIds": [
+        "mm-expressoes"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-008",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "Expressões algébricas fracionárias: operações e simplificação",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-expressoes-algebricas-fracionarias-001"
+      ],
+      "siteTopicIds": [
+        "mm-fracoes-algebricas"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-009",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "MDC e MMC",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-mdc-mmc-001"
+      ],
+      "siteTopicIds": [
+        "mm-mdc",
+        "mm-mmc"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-010",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "Sistema de medidas: comprimento, superfície, massa, capacidade, tempo e volume; transformações",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-sistema-medidas-001"
+      ],
+      "siteTopicIds": [
+        "mm-medidas",
+        "mm-conversoes"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-011",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "Estatística: noções básicas, razão, proporção, interpretação e construção de tabelas e gráficos",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-estatistica-001"
+      ],
+      "siteTopicIds": [
+        "mm-estatistica",
+        "mm-tabelas",
+        "mm-graficos"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-012",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "Geometria: elementos básicos, conceitos primitivos e representação geométrica no plano",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-geometria-001"
+      ],
+      "siteTopicIds": [
+        "mm-geometria",
+        "mm-plano"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MED-MAT-013",
+      "cargoIds": [
+        "agente-administrativo",
+        "monitor-educacao"
+      ],
+      "disciplinaId": "medio-matematica",
+      "textoEdital": "Probabilidade e análise combinatória",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Médio/Técnico — Matemática",
+      "aulaIds": [
+        "medio-matematica-probabilidade-analise-combinatoria-001"
+      ],
+      "siteTopicIds": [
+        "mm-probabilidade",
+        "mm-combinatoria"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Conteúdo compartilhado entre Agente Administrativo e Monitor de Educação por cargoIds[].",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-001",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Redação Oficial; aspectos gerais; identidade visual;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-redacao-oficial-001"
+      ],
+      "siteTopicIds": [
+        "aa-redacao"
+      ],
+      "questoesVinculadas": 19,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-002",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Atos oficiais; medidas; sistemática dos instrumentos normativos: artigos, parágrafos, incisos, alíneas, observações e encaminhamento;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-atos-oficiais-001"
+      ],
+      "siteTopicIds": [
+        "aa-atos"
+      ],
+      "questoesVinculadas": 20,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-003",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Elaboração de documentos; siglas, acrônimos, vícios de linguagem, hífen, destaques, maiúsculas/minúsculas, enumerações, numerais, fechos, signatário, formas de tratamento, vocativo, destinatário e envelope;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-elaboracao-normas-gerais-001",
+        "agente-especificos-siglas-vicios-linguagem-001",
+        "agente-especificos-hifen-destaques-001",
+        "agente-especificos-enumeracoes-numerais-001",
+        "agente-especificos-fecho-signatario-001",
+        "agente-especificos-formas-tratamento-001"
+      ],
+      "siteTopicIds": [
+        "aa-elaboracao",
+        "aa-siglas",
+        "aa-hifen-destaques",
+        "aa-numerais",
+        "aa-fecho",
+        "aa-tratamento"
+      ],
+      "questoesVinculadas": 96,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Arquivo-mestre agente-especificos-elaboracao-documentos-001.md preservado como fonte editorial interna; não publicar duplicadamente.",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-004",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Modelos de comunicações: apostila, ata, carta, cartão de visita, circular, comunicação interna, contrato, convênio, correio eletrônico, despacho, instrução normativa, nota informativa, nota técnica, ofício, ordem de serviço, parecer, portaria, regimento interno e resolução;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-ata-apostila-001",
+        "agente-especificos-carta-circular-comunicacao-interna-001",
+        "agente-especificos-contrato-convenio-001",
+        "agente-especificos-correio-eletronico-001",
+        "agente-especificos-despacho-parecer-notas-001",
+        "agente-especificos-oficio-aviso-memorando-exposicao-001",
+        "agente-especificos-portaria-resolucao-instrucao-001"
+      ],
+      "siteTopicIds": [
+        "aa-ata-apostila",
+        "aa-carta-circular",
+        "aa-contrato-convenio",
+        "aa-email",
+        "aa-despacho-parecer",
+        "aa-oficio",
+        "aa-portaria-resolucao"
+      ],
+      "questoesVinculadas": 129,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Arquivo-mestre agente-especificos-modelos-comunicacoes-001.md preservado como fonte editorial interna. As 19 espécies do edital estão distribuídas nas sete subaulas.",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-005",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Padrão ofício; aviso e ofício; memorando; exposição de motivos;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-oficio-aviso-memorando-exposicao-001"
+      ],
+      "siteTopicIds": [
+        "aa-oficio",
+        "aa-fecho"
+      ],
+      "questoesVinculadas": 24,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Item transversal ao AGE-ESP-004. Arquivo-mestre agente-especificos-padrao-oficio-001.md preservado para rastreabilidade.",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-006",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Noções básicas de arquivo;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-nocoes-arquivo-001",
+        "agente-especificos-classificacao-arquivamento-001"
+      ],
+      "siteTopicIds": [
+        "aa-arquivo",
+        "aa-classificacao"
+      ],
+      "questoesVinculadas": 19,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Arquivo-mestre agente-especificos-arquivo-001.md preservado como índice/fonte editorial interna.",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-007",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Princípios básicos da Administração Pública e servidores;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-administracao-publica-servidores-001",
+        "agente-especificos-servidores-hierarquia-001"
+      ],
+      "siteTopicIds": [
+        "aa-principios",
+        "aa-servidores"
+      ],
+      "questoesVinculadas": 33,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-008",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Hierarquia no serviço público;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-servidores-hierarquia-001"
+      ],
+      "siteTopicIds": [
+        "aa-servidores"
+      ],
+      "questoesVinculadas": 31,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Arquivo-mestre agente-especificos-hierarquia-001.md permanece como fonte editorial; a publicação é consolidada em aa-servidores.",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-009",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Constituição Federal: art. 37 e arts. 39 a 41;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-constituicao-administracao-publica-001"
+      ],
+      "siteTopicIds": [
+        "aa-cf-37-41"
+      ],
+      "questoesVinculadas": 24,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-010",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Manual de Redação e de Atos Oficiais e Manual de Redação da Presidência da República;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-manuais-redacao-001"
+      ],
+      "siteTopicIds": [],
+      "questoesVinculadas": 23,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Item bibliográfico transversal sem siteTopicId próprio; serve de referência e revisão integrada para os tópicos de redação oficial.",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-011",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Informática: Windows XP ou mais recente; Bloco de Notas, Calculadora, Paint, WordPad; periféricos; Office 2010 ou mais recente — Word, Excel, PowerPoint, Outlook; Adobe Reader; Internet, navegadores, configurações e navegação;",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-informatica-windows-001",
+        "agente-especificos-informatica-aplicativos-windows-001",
+        "agente-especificos-informatica-perifericos-001",
+        "agente-especificos-informatica-word-001",
+        "agente-especificos-informatica-excel-001",
+        "agente-especificos-informatica-powerpoint-001",
+        "agente-especificos-informatica-outlook-001",
+        "agente-especificos-informatica-adobe-reader-001",
+        "agente-especificos-informatica-internet-001"
+      ],
+      "siteTopicIds": [
+        "aa-windows",
+        "aa-aplicativos",
+        "aa-perifericos",
+        "aa-word",
+        "aa-excel",
+        "aa-powerpoint",
+        "aa-outlook",
+        "aa-adobe",
+        "aa-internet"
+      ],
+      "questoesVinculadas": 207,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Arquivo-mestre agente-especificos-informatica-001.md preservado como índice editorial.",
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "AGE-ESP-012",
+      "cargoIds": [
+        "agente-administrativo"
+      ],
+      "disciplinaId": "agente-especificos",
+      "textoEdital": "Atividades e atribuições específicas do cargo.",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Agente Administrativo",
+      "aulaIds": [
+        "agente-especificos-atribuicoes-cargo-001"
+      ],
+      "siteTopicIds": [
+        "aa-atribuicoes"
+      ],
+      "questoesVinculadas": 25,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 100: auditoria final 1:1 aprovada em 05/09/2026; questões, aulas e fontes canônicas validadas."
+      ]
+    },
+    {
+      "id": "MON-ESP-001",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Constituição Federal, arts. 5º a 7º, 205 a 214 e 226 a 230",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação: Constituição Federal, arts. 5º a 7º, 205 a 214 e 226 a 230",
+      "aulaIds": [
+        "monitor-especificos-constituicao-federal-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 67: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-002",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Lei Orgânica do Município.",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação: Lei Orgânica do Município.",
+      "aulaIds": [
+        "monitor-especificos-lei-organica-rincao-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 68: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-003",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Lei nº 8.069/1990 — arts. 1º–6º, 13–18 e 53–73.",
+      "editalRef": "Anexo II — Monitor de Educação: Lei nº 8.069/1990 — arts. 1º–6º, 13–18 e 53–73.",
+      "aulaIds": [
+        "monitor-especificos-eca-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 69: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-004",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Lei nº 9.394, de 20 de dezembro de 1996, e suas alterações, sem delimitação de artigos.",
+      "editalRef": "Anexo II — Monitor de Educação: Lei nº 9.394, de 20 de dezembro de 1996, e suas alterações, sem delimitação de artigos.",
+      "aulaIds": [
+        "monitor-especificos-ldb-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 70: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-005",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Diretrizes Nacionais para a Educação em Direitos Humanos",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Diretrizes Nacionais para a Educação em Direitos Humanos",
+      "aulaIds": [
+        "monitor-especificos-diretrizes-direitos-humanos-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 71: estado editorial aprovado e consolidado no Lote 103.",
+        "Material compartilhado sem duplicação com MON-ESP-006."
+      ]
+    },
+    {
+      "id": "MON-ESP-006",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Resolução CNE/CP nº 01, de 30 de maio de 2012",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Resolução CNE/CP nº 01, de 30 de maio de 2012",
+      "aulaIds": [
+        "monitor-especificos-diretrizes-direitos-humanos-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 71: estado editorial aprovado e consolidado no Lote 103.",
+        "Material compartilhado sem duplicação com MON-ESP-005."
+      ]
+    },
+    {
+      "id": "MON-ESP-007",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Cuidados com a segurança do aluno nas dependências da escola",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Cuidados com a segurança do aluno nas dependências da escola",
+      "aulaIds": [
+        "monitor-especificos-seguranca-aluno-escola-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 72: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-008",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Noções de primeiros socorros",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Noções de primeiros socorros",
+      "aulaIds": [
+        "monitor-especificos-primeiros-socorros-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 73: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-009",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Atendimento ao público",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Atendimento ao público",
+      "aulaIds": [
+        "monitor-especificos-atendimento-publico-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 74: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-010",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Noção de cuidados e higiene pessoal e no trabalho",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Noção de cuidados e higiene pessoal e no trabalho",
+      "aulaIds": [
+        "monitor-especificos-higiene-pessoal-trabalho-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 75: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-011",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Relações humanas no trabalho",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Relações humanas no trabalho",
+      "aulaIds": [
+        "monitor-especificos-relacoes-humanas-trabalho-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 76: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-012",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Inspeção e cuidados com o comportamento dos alunos no ambiente escolar",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Inspeção e cuidados com o comportamento dos alunos no ambiente escolar",
+      "aulaIds": [
+        "monitor-especificos-comportamento-alunos-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 77: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-013",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Regras e procedimentos de um ambiente escolar",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Regras e procedimentos de um ambiente escolar",
+      "aulaIds": [
+        "monitor-especificos-regras-procedimentos-escola-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 78: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-014",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Noção de comunicação e oratória",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Noção de comunicação e oratória",
+      "aulaIds": [
+        "monitor-especificos-comunicacao-oratoria-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 79: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-015",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Regimento escolar",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Regimento escolar",
+      "aulaIds": [
+        "monitor-especificos-regimento-escolar-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 80: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-016",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Ética e cidadania no trabalho",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Ética e cidadania no trabalho",
+      "aulaIds": [
+        "monitor-especificos-etica-cidadania-trabalho-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 81: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-017",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Noções básicas de segurança no trabalho",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Noções básicas de segurança no trabalho",
+      "aulaIds": [
+        "monitor-especificos-seguranca-trabalho-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 82: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "MON-ESP-018",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Diretrizes e Bases da Educação Nacional",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Diretrizes e Bases da Educação Nacional",
+      "aulaIds": [
+        "monitor-especificos-ldb-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 83: estado editorial aprovado e consolidado no Lote 103.",
+        "Alias editorial de MON-ESP-004; reutiliza aula e questões, sem duplicação."
+      ]
+    },
+    {
+      "id": "MON-ESP-019",
+      "cargoIds": [
+        "monitor-educacao"
+      ],
+      "disciplinaId": "monitor-especificos",
+      "textoEdital": "Outras questões versando sobre as atividades e atribuições especificas do cargo.",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Monitor de Educação — Outras questões versando sobre as atividades e atribuições especificas do cargo.",
+      "aulaIds": [
+        "monitor-especificos-atividades-atribuicoes-cargo-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "observacoes": [
+        "Lote 84: estado editorial aprovado e consolidado no Lote 103."
+      ]
+    },
+    {
+      "id": "AJU-ESP-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "higiene-pessoal-trabalho",
+      "textoEdital": "Higiene pessoal e no trabalho",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Higiene pessoal e no trabalho",
+      "aulaIds": [
+        "ajudante-especificos-higiene-pessoal-trabalho-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 3,
+        "questoesReaisAnalisadas": 1,
+        "evidenciasProgramaticas": 1,
+        "evidenciasDeJulgamentoSemQuestaoIdentificada": 1
+      },
+      "observacoes": [
+        "Itanhangá/MT 2024 comprova o mesmo núcleo programático para Auxiliar de Serviços Gerais. Dumont/SP 2024 comprova, em julgamento de recurso, bloco específico contendo higiene pessoal e no trabalho, sem permitir identificar qual questão era de higiene. Emilianópolis/SP 2023 registra questão real de Enfermeiro sobre higienização das mãos após retirada de luvas; evidência temática complementar, não cargo equivalente.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-002",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "manuseio-ferramentas-produtos-materiais",
+      "textoEdital": "Manuseio e utilização de ferramentas, produtos e materiais de trabalho",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Manuseio e utilização de ferramentas, produtos e materiais de trabalho",
+      "aulaIds": [
+        "ajudante-especificos-manuseio-ferramentas-produtos-materiais-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "questoesReaisAnalisadas": 1,
+        "evidenciasPraticasInepam": 2,
+        "evidenciasPrincipais": 3
+      },
+      "observacoes": [
+        "SAEC Catanduva/2023 comprova Q24 objetiva para Auxiliar de Serviços Gerais no próprio tema, gabarito C, sem enunciado/alternativas integrais no julgamento. Adamantina/2023 comprova avaliação prática para Ajudante Geral. Santa Isabel/2024 reforça uso/identificação correta para Serviços Gerais.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-003",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "equipamentos-protecao-individual",
+      "textoEdital": "Equipamentos de proteção individual",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Equipamentos de proteção individual",
+      "aulaIds": [
+        "ajudante-especificos-epi-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 3,
+        "evidenciasMesmoCargo": 1,
+        "evidenciasCargoOperacionalEquivalente": 2
+      },
+      "observacoes": [
+        "Adamantina/SP 2023 comprova o mesmo tema e a utilização de EPI em prova prática de Ajudante Geral. Santa Isabel/SP 2024 comprova uso de EPI em prova prática de Agente de Serviços Gerais e Agente de Serviços Públicos. CREA-MT 2025 comprova conteúdo e avaliação prática de EPI para Auxiliar de Serviços Gerais. Não foi recuperada questão objetiva integral A-E com gabarito oficial sobre EPI em cargo equivalente; nenhuma questão foi reconstruída.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-004",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "primeiros-socorros",
+      "textoEdital": "Primeiros socorros",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Primeiros socorros",
+      "aulaIds": [
+        "ajudante-especificos-primeiros-socorros-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 5,
+        "evidenciasMesmoCargo": 1,
+        "evidenciasCargoOperacionalEquivalente": 4
+      },
+      "observacoes": [
+        "Adamantina/SP 2023 comprova o tema no mesmo cargo. Dumont/SP comprova o tema em Ajudante de Serviços Diversos. Bofete/SP, Pradópolis/SP e Campo Limpo Paulista/SP fornecem evidências reais de julgamentos da INEPAM sobre primeiros socorros em cargos operacionais, porém sem publicação integral de enunciado e cinco alternativas nos documentos analisados. Não foi recuperada questão objetiva integral A-E com gabarito oficial sobre o tema para cargo equivalente; nenhuma questão foi reconstruída.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-005",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "qualidade-atendimento-publico",
+      "textoEdital": "Qualidade no atendimento ao público",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Qualidade no atendimento ao público",
+      "aulaIds": [
+        "ajudante-especificos-qualidade-atendimento-publico-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 4,
+        "evidenciasMesmoCargo": 1,
+        "evidenciasCargoOperacionalEquivalente": 2,
+        "evidenciasMesmaDisciplinaTema": 1
+      },
+      "observacoes": [
+        "Adamantina/SP 2023 é evidência de máxima prioridade: mesma banca e mesmo cargo, com Qualidade no atendimento ao público expressamente no conteúdo de Ajudante Geral. Nova Ubiratã/MT 2024 e CREA-MT 2025 reforçam o tema em Auxiliar de Serviços Gerais; Nova Ubiratã ainda documenta atendimento educado e encaminhamento nas atribuições. Itamogi/MG 2024 fornece questão real parcialmente documentada para Recepcionista sobre empatia no bom atendimento. Não foi recuperada questão objetiva integral A-E com gabarito oficial sobre o tema para cargo equivalente; nenhuma questão foi reconstruída.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-006",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "relacoes-humanas-trabalho",
+      "textoEdital": "Relações humanas no trabalho",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Relações humanas no trabalho",
+      "aulaIds": [
+        "ajudante-especificos-relacoes-humanas-trabalho-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 5,
+        "evidenciasMesmoCargo": 1,
+        "evidenciasCargoOperacionalEquivalente": 2,
+        "evidenciasMesmaDisciplinaTema": 2
+      },
+      "observacoes": [
+        "Adamantina/SP 2023 é evidência de máxima prioridade: mesma banca e mesmo cargo, com Relações humanas no trabalho expressamente no conteúdo de Ajudante Geral. Santa Ernestina/SP 2025 e CREA-MT 2025 reforçam o tema em Auxiliar de Serviços Gerais. Itamogi/MG 2024 fornece questão real parcialmente documentada de Recepcionista sobre empatia; Santa Isabel/SP 2026 documenta colaboração, solidariedade, respeito mútuo e respeito às diferenças em relações interpessoais. Não foi recuperada questão objetiva integral A-E com gabarito oficial diretamente sobre o tema para cargo equivalente; nenhuma questão foi reconstruída.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-007",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "seguranca-trabalho",
+      "textoEdital": "Segurança no trabalho",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Segurança no trabalho",
+      "aulaIds": [
+        "ajudante-especificos-seguranca-trabalho-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 4,
+        "evidenciasMesmoCargo": 1,
+        "evidenciasCargoOperacionalEquivalente": 3
+      },
+      "observacoes": [
+        "Adamantina/SP 2023 é evidência de máxima prioridade: mesma banca e mesmo cargo, com Noções básicas de segurança no trabalho expressamente no conteúdo de Ajudante Geral. Nova Ubiratã/MT 2024 e CREA-MT 2025 reforçam o tema em Auxiliar de Serviços Gerais. Campo Limpo Paulista/SP 2026 fornece questão real parcialmente documentada sobre acidente de trabalho, mas o julgamento não reproduz integralmente enunciado e alternativas. Não foi recuperada questão objetiva integral A-E com gabarito oficial diretamente sobre o tema para cargo equivalente; nenhuma questão foi reconstruída.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-008",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "importancia-limpeza-urbana",
+      "textoEdital": "Importância do serviço de limpeza urbana",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Importância do serviço de limpeza urbana",
+      "aulaIds": [
+        "ajudante-especificos-importancia-limpeza-urbana-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 5,
+        "evidenciasCargoOperacionalEquivalente": 5
+      },
+      "observacoes": [
+        "Não foi localizada evidência externa da INEPAM com o mesmo cargo Ajudante Geral cobrando literalmente este subtema. A evidência de maior prioridade recuperada é Neves Paulista/SP 2026, Operário Braçal, mesma banca, mesmo nível e cargo operacional equivalente, com o item literal e captura visual da página oficial. Santa Ernestina/SP 2025 e Lutécia/SP 2023 reforçam o tema em Coletor de Lixo. Em Lutécia, as questões 19 e 28 são reais, mas apenas parcialmente documentadas nos julgamentos de recursos; o enunciado e as cinco alternativas não foram reconstruídos.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-009",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "reciclagem-aspectos-economico-social",
+      "textoEdital": "Reciclagem de papel, plástico, metal, vidro e outros recuperáveis; aspectos econômico-financeiro e social",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Reciclagem de papel, plástico, metal, vidro e outros recuperáveis; aspectos econômico-financeiro e social",
+      "aulaIds": [
+        "ajudante-especificos-reciclagem-aspectos-economico-social-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 5,
+        "evidenciasMesmoCargo": 1,
+        "evidenciasCargoOperacionalEquivalente": 4
+      },
+      "observacoes": [
+        "A evidência programática mais aderente é Neves Paulista/SP 2026, Operário Braçal, mesma banca e mesmo nível, com o bloco de reciclagem e aspectos econômico-financeiro e social praticamente literal e captura visual obtida. Adamantina/SP 2023 acrescenta evidência do mesmo cargo Ajudante Geral, cujas atribuições incluem triagem, separação, organização, prensagem e compostagem de lixo. Santa Ernestina/SP 2025 e Lutécia/SP 2023 reforçam o núcleo em Coletor de Lixo. A questão 28 de Lutécia é real, porém apenas parcialmente documentada no julgamento dos recursos; não foi reconstruída.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-010",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "limpeza-logradouros",
+      "textoEdital": "Limpeza de logradouros: objetivos e atribuições",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Limpeza de logradouros: objetivos e atribuições",
+      "aulaIds": [
+        "ajudante-especificos-limpeza-logradouros-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 6,
+        "evidenciasMesmoCargo": 1,
+        "evidenciasCargoOperacionalEquivalente": 5
+      },
+      "observacoes": [
+        "Neves Paulista/SP 2026 traz o bloco literal para Operário Braçal, com captura visual obtida. Adamantina/SP 2023 confirma no próprio cargo Ajudante Geral limpeza de ruas, praças e logradouros, varrição, entulhos e coleta. Júlio Mesquita, Luminárias e Itanhangá reforçam o padrão em cargos operacionais. Lutécia/SP 2023 documenta parcialmente a questão 19 de Coletor de Lixo sobre atribuições, identificando como incorreta a limpeza da garagem dos munícipes; a questão não foi reconstruída.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-011",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "varricao-metodos-utensilios-equipamentos",
+      "textoEdital": "varrição: métodos de varrição; utensílios e equipamentos",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — varrição: métodos de varrição; utensílios e equipamentos",
+      "aulaIds": [
+        "ajudante-especificos-varricao-metodos-utensilios-equipamentos-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 6,
+        "evidenciasMesmoCargo": 1,
+        "evidenciasCargoOperacionalEquivalente": 5
+      },
+      "observacoes": [
+        "Neves Paulista/SP 2026 e Luminárias/MG 2023 trazem o bloco literal. Adamantina/SP 2023 confirma varrição no mesmo cargo Ajudante Geral. Marinópolis e Jenipapo de Minas reforçam uso de vassoura, pá e carrinho em Gari. Lutécia/SP 2023 documenta parcialmente a questão 19 de Coletor de Lixo sobre atribuições; não reconstruída.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-012",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "equipamentos-auxiliares-remocao-lixo",
+      "textoEdital": "Equipamentos auxiliares de remoção de lixo: carrocinha de madeira, carrinho de ferro com rodas de pneus, carrinho de mão convencional e cestas coletoras",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Equipamentos auxiliares de remoção de lixo: carrocinha de madeira, carrinho de ferro com rodas de pneus, carrinho de mão convencional e cestas coletoras",
+      "aulaIds": [
+        "ajudante-especificos-equipamentos-auxiliares-remocao-lixo-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 4,
+        "evidenciasMesmoCargo": 1,
+        "evidenciasCargoOperacionalEquivalente": 3
+      },
+      "observacoes": [
+        "Ribeirão do Sul/SP 2025 documenta parcialmente a questão 25 de Serviços Gerais sobre cestas coletoras; não reconstruída. Luminárias/MG 2023 e Neves Paulista/SP 2026 trazem o bloco literal dos quatro equipamentos. Adamantina/SP 2023 confirma aderência funcional no mesmo cargo Ajudante Geral.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-013",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "plano-varricao",
+      "textoEdital": "Plano de varrição: nível de serviço, frequência, tipos de varredura, velocidade, extensão de sarjeta, remoção do lixo varrido, itinerário, implantação e fiscalização",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Plano de varrição: nível de serviço, frequência, tipos de varredura, velocidade, extensão de sarjeta, remoção do lixo varrido, itinerário, implantação e fiscalização",
+      "aulaIds": [
+        "ajudante-especificos-plano-varricao-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 5,
+        "evidenciasMesmoCargo": 1,
+        "evidenciasCargoOperacionalEquivalente": 4
+      },
+      "observacoes": [
+        "Quatro editais INEPAM de cargos operacionais trazem o bloco programático detalhado; Adamantina/2023 reforça a aderência operacional no mesmo cargo Ajudante Geral. Não foi recuperada questão objetiva integral oficial sobre o subtema; não houve reconstrução. Rerratificação de Rincão auditada sem impacto.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-014",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "limpeza-bocas-lobo-caixas-ralo",
+      "textoEdital": "Limpeza de bocas de lobo ou caixas de ralo",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Limpeza de bocas de lobo ou caixas de ralo",
+      "aulaIds": [
+        "ajudante-especificos-limpeza-bocas-lobo-caixas-ralo-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 4,
+        "evidenciasMesmoCargo": 1,
+        "evidenciasCargoOperacionalEquivalente": 2,
+        "evidenciasMesmaDisciplinaTema": 1
+      },
+      "observacoes": [
+        "Embu das Artes/2026 fornece evidência real parcial da Questão 24, sem enunciado/alternativas integrais; Neves Paulista/2026 e Carlinda/2026 repetem literalmente o tema em cargos operacionais; Adamantina/2023 reforça o contexto no mesmo cargo Ajudante Geral. Não houve reconstrução de questão real. Rerratificação de Rincão auditada sem impacto.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-ESP-015",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-especificos",
+      "temaId": "atividades-atribuicoes-cargo",
+      "textoEdital": "Atividades e atribuições específicas do cargo",
+      "editalRef": "Anexo II — Conhecimentos Específicos — Ajudante Geral — Atividades e atribuições específicas do cargo",
+      "aulaIds": [
+        "ajudante-especificos-atividades-atribuicoes-cargo-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 5,
+        "evidenciasMesmoCargo": 2,
+        "evidenciasCargoOperacionalEquivalente": 3
+      },
+      "observacoes": [
+        "Adamantina/SP 2023 fornece evidência de máxima prioridade: mesma banca, mesmo cargo e mesmo nível, tanto no conteúdo programático quanto na prova prática. Santa Ernestina/2025, Itanhangá/2024 e Campo Limpo Paulista/2026 reforçam a cobrança de atribuições em cargos operacionais equivalentes. Nenhuma questão objetiva integral foi recuperada. Rerratificação de Rincão auditada sem impacto. O antigo idAnexo=2068 não é usado, pois corresponde a Clementina/SP.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "AJU-PRAT-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "ajudante-pratica",
+      "temaId": "preparacao-prova-pratica",
+      "textoEdital": "Prova Prática de Ajudante Geral — regras, tarefas e critérios previstos nos itens 4.33 a 4.41 e Anexo VI",
+      "editalRef": "Edital de Abertura — Concurso Público nº 001/2026 — Rincão/SP — itens 4.33 a 4.41; Anexo I; Anexo II; Anexo VI",
+      "aulaIds": [
+        "ajudante-pratica-preparacao-prova-pratica-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "evidenciasInepamAnalisadas": 3,
+        "evidenciasMesmoCargo": 3
+      },
+      "observacoes": [
+        "Rincão/2026 é a fonte de verdade da prova prática. Adamantina/SP 2023 fornece evidência INEPAM de máxima prioridade, mesma banca e mesmo cargo, com modelo oficial muito próximo e convocação que comprova a realização da etapa. A rerratificação de Rincão foi auditada sem impacto em Ajudante Geral. Nenhuma questão objetiva real integral integra este lote.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "FUND-MAT-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-matematica",
+      "temaId": "operacoes-fundamentais",
+      "textoEdital": "Operações fundamentais: adição, subtração, multiplicação e divisão",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Fundamental — Matemática: Operações fundamentais: adição, subtração, multiplicação e divisão",
+      "aulaIds": [
+        "fundamental-matematica-operacoes-fundamentais-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "questoesReaisAnalisadas": 5,
+        "evidenciasPrincipais": 4,
+        "evidenciasComplementares": 1
+      },
+      "observacoes": [
+        "Lote 039 cobre exclusivamente FUND-MAT-001. A rerratificação de Rincão foi auditada sem impacto. O lote preserva as 18 questões inéditas existentes no mestre e documenta evidências reais da INEPAM para Ajudante Geral, Auxiliar de Serviços Gerais e cargos operacionais equivalentes, sem reconstruir elementos ausentes dos julgamentos.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "FUND-MAT-002",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-matematica",
+      "temaId": "juros-simples",
+      "textoEdital": "Juros simples",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Fundamental — Matemática: Juros simples",
+      "aulaIds": [
+        "fundamental-matematica-juros-simples-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "questoesReaisAnalisadas": 4,
+        "evidenciasPrincipais": 3,
+        "evidenciasComplementares": 1
+      },
+      "observacoes": [
+        "Lote 040 cobre exclusivamente FUND-MAT-002. A rerratificação de Rincão foi auditada sem impacto. O lote preserva as 18 questões inéditas existentes no mestre e documenta quatro evidências reais da INEPAM, priorizando Auxiliar/Servidor de Serviços Gerais e separando a evidência recente de 2026 como complementar por diferença de escolaridade.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "FUND-MAT-003",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-matematica",
+      "temaId": "sistema-metrico-decimal",
+      "textoEdital": "Matemática: Sistema métrico decimal: unidades de medida (comprimento, massa e capacidade)",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Fundamental — Matemática: Sistema métrico decimal: unidades de medida (comprimento, massa e capacidade)",
+      "aulaIds": [
+        "fundamental-matematica-sistema-metrico-decimal-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "questoesReaisAnalisadas": 2,
+        "evidenciasPrincipais": 2
+      },
+      "observacoes": [
+        "Amostra real oficial: Estiva Gerbi/SP 2025, cargo operacional equivalente (Copeira), questões 13 e 14 de Matemática. Ambas anuladas; o material preserva apenas os cálculos e limites documentais publicados pela INEPAM.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "FUND-MAT-004",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-matematica",
+      "temaId": "transformacoes-unidades",
+      "textoEdital": "Matemática: transformações de unidades",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Fundamental — Matemática: transformações de unidades",
+      "aulaIds": [
+        "fundamental-matematica-transformacoes-unidades-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "questoesReaisAnalisadas": 2,
+        "evidenciasPrincipais": 2
+      },
+      "observacoes": [
+        "Amostra real oficial: Estiva Gerbi/SP 2025, Copeira, questão 13, com conversão 3.750 m = 3,75 km e anulação por erro de unidade; Campo Limpo Paulista/SP 2026, bloco que inclui Auxiliar de Serviços Gerais, questão 12, com cálculo publicado 0,34 × 1000 = 340 kg, alternativa C. Não se reconstrói enunciado ou alternativas ausentes.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "FUND-MAT-005",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-matematica",
+      "temaId": "razao-proporcao",
+      "textoEdital": "Matemática: Razão e proporção",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Fundamental — Matemática: Razão e proporção",
+      "aulaIds": [
+        "fundamental-matematica-razao-proporcao-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "questoesReaisAnalisadas": 4,
+        "evidenciasPrincipais": 4
+      },
+      "observacoes": [
+        "Evidência de prioridade máxima por proximidade de cargo: Dumont/SP 2024, Ajudante de Serviços Diversos, Q15, razão 2/10 = 1/5. Demais evidências operacionais: Itamogi/MG 2024, Ribeirão do Sul/SP 2025 e Águas de São Pedro/SP 2025.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "FUND-PORT-001",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-portugues",
+      "temaId": "interpretacao-de-textos",
+      "textoEdital": "Interpretação de textos",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Fundamental — Língua Portuguesa: Interpretação de textos",
+      "aulaIds": [
+        "fundamental-portugues-interpretacao-001"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "questoesReaisAnalisadas": 3,
+        "evidenciasPrincipais": 1,
+        "evidenciasComplementares": 2
+      },
+      "observacoes": [
+        "Lote 035 cobre exclusivamente FUND-PORT-001. A auditoria da rerratificação de Rincão foi concluída sem impacto neste item. A evidência real prioritária é de Auxiliar de Serviços Gerais/Operador de Máquinas Pesadas (SAEC Catanduva); duas evidências complementares de Adamantina reforçam foco do comando e distinção entre informação explícita e interpretação subjetiva.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "FUND-PORT-002",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-portugues",
+      "temaId": "significado-das-palavras",
+      "textoEdital": "Significado das palavras",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Fundamental — Língua Portuguesa: Significado das palavras",
+      "aulaIds": [
+        "fundamental-portugues-significado-palavras-001"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "questoesReaisAnalisadas": 3,
+        "evidenciasPrincipais": 1,
+        "evidenciasComplementares": 2
+      },
+      "observacoes": [
+        "Lote 036 cobre exclusivamente FUND-PORT-002. A auditoria da rerratificação de Rincão foi concluída sem impacto neste item. A evidência real prioritária é de Auxiliar de Serviços Gerais (CREA/MT); duas evidências complementares reforçam acepção contextual e substituição sem alteração de sentido.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "FUND-PORT-003",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-portugues",
+      "temaId": "identificacao-vogais-consoantes",
+      "textoEdital": "Identificação de vogais e consoantes",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Fundamental — Língua Portuguesa: Identificação de vogais e consoantes",
+      "aulaIds": [
+        "fundamental-portugues-vogais-consoantes-001"
+      ],
+      "questoesVinculadas": 15,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "questoesReaisAnalisadas": 5,
+        "evidenciasPrincipais": 4,
+        "evidenciasComplementares": 1
+      },
+      "observacoes": [
+        "Lote 037 cobre exclusivamente FUND-PORT-003. A auditoria da rerratificação de Rincão foi concluída sem impacto. A amostra oficial INEPAM comprova cobrança de encontros vocálicos, tipos de dígrafos e diferença entre letras e fonemas; duas evidências são de cargos operacionais equivalentes ao Ajudante Geral.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    },
+    {
+      "id": "FUND-PORT-004",
+      "cargoIds": [
+        "ajudante-geral"
+      ],
+      "disciplinaId": "fundamental-portugues",
+      "temaId": "escritas-corretas",
+      "textoEdital": "Escritas corretas",
+      "editalRef": "Anexo II — Conhecimentos Gerais — Ensino Fundamental — Língua Portuguesa: Escritas corretas",
+      "aulaIds": [
+        "fundamental-portugues-escritas-corretas-001"
+      ],
+      "questoesVinculadas": 18,
+      "status": "concluido",
+      "retificacaoImpacto": "nenhum",
+      "evidenciasRegistradas": {
+        "questoesReaisAnalisadas": 9,
+        "evidenciasPrincipais": 6,
+        "evidenciasComplementares": 3
+      },
+      "observacoes": [
+        "Lote 038 cobre exclusivamente FUND-PORT-004. A rerratificação de Rincão foi auditada sem impacto. O lote preserva as 18 questões inéditas existentes no mestre e documenta evidências reais INEPAM para Ajudante Geral e cargos operacionais equivalentes, sem reconstruir elementos ausentes dos julgamentos.",
+        "Lote 101: consolidação relacional aprovada; aula, questões e sourceRefs reconciliados sem órfãos."
+      ]
+    }
+  ],
+  "notes": [
+    "Lote 103 consolida somente estados canônicos aprovados dos lotes 100–102.",
+    "Português e Matemática de Ensino Médio permanecem compartilhados por cargoIds[] entre Agente Administrativo e Monitor de Educação.",
+    "MON-ESP-005 e MON-ESP-006 compartilham material; MON-ESP-018 é alias de MON-ESP-004, preservando cobertura 1:1 sem duplicação.",
+    "Ajudante Geral possui módulo separado de Prova Prática; questões desse módulo não entram nos simulados objetivos.",
+    "A contagem global de 90 itens substitui a estrutura obsoleta de 92 itens da publicação de 23/08/2026, sem perda de conteúdo: houve desdobramento de Português Médio e consolidação/alias de itens específicos."
+  ]
+}

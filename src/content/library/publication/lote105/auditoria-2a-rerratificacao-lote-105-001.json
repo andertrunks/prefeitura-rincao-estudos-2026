@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "auditoria-2a-rerratificacao-rincao-2026-09-13",
+  "lot": 105,
+  "checkedAt": "2026-09-13T15:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "officialPage": "https://app.inepam.org.br/concurso/concursoPaginaInterna.do?idConcurso=2&idInstituicao=94",
+  "document": {
+    "title": "2ª Rerratificação do Edital de Abertura das Inscrições",
+    "documentDate": "2026-09-11",
+    "fullTextBasis": "transcricao_integral_fornecida_pelo_usuario",
+    "officialPageConfirmsExistence": true,
+    "binaryAnnexRetrieved": false
+  },
+  "finding": {
+    "contentProgramImpact": "nenhum",
+    "affectedCargoIds": [
+      "agente-administrativo",
+      "ajudante-geral",
+      "monitor-educacao"
+    ],
+    "periods": {
+      "primeiro": {
+        "startAt": "2026-09-27T08:00:00-03:00",
+        "cargoIds": [
+          "agente-administrativo",
+          "ajudante-geral"
+        ]
+      },
+      "segundo": {
+        "startAt": "2026-09-27T13:00:00-03:00",
+        "cargoIds": [
+          "monitor-educacao"
+        ]
+      }
+    },
+    "lessonChangesRequired": 0,
+    "questionChangesRequired": 0,
+    "simulationChangesRequired": 0,
+    "coverageChangesRequired": 0,
+    "calendarEventsUpdated": 1,
+    "calendarEventsAdded": 1,
+    "newsItemsAdded": 1,
+    "rectificationsAdded": 1,
+    "sourcesAdded": 1
+  },
+  "editorialDecision": "Manter integralmente a base editorial de aulas, questões e simulados. Aplicar patch somente a dados operacionais/oficiais.",
+  "status": "aprovado_impacto_operacional_sem_impacto_conteudo_programatico"
+}
