@@ -1,35 +1,47 @@
-# TJ-SP Escrevente — Central de Estudos 2026/2027
+# Rincão Estudos 2026
 
-Reaproveitamento da plataforma **Prefeitura de Rincão Estudos 2026**, direcionada ao concurso do Tribunal de Justiça de São Paulo para **Escrevente Técnico Judiciário (edital nº 02/2026, Fundação Vunesp)**.
+Plataforma pública, gratuita e static-first para o Concurso Público nº 001/2026 da Prefeitura de Rincão-SP, destinada exclusivamente a Monitor de Educação, Agente Administrativo e Ajudante Geral.
 
-**Site principal:** https://andertrunks.github.io/prefeitura-rincao-estudos-2026/
+**Site público:** [acessar a plataforma](https://andertrunks.github.io/prefeitura-rincao-estudos-2026/)
 
-**Arquivo original preservado:** https://andertrunks.github.io/prefeitura-rincao-estudos-2026/?arquivo=prefeitura
+![Tela móvel da plataforma](docs/preview-mobile.png)
 
-## Edição 2026/2027 — primeira entrega (19/10/2026)
+## Recursos
 
-- Conteúdo programático de prova objetiva e redação catalogado por bloco, disciplina e assunto (Anexo VIII).
-- 78 tópicos de estudo, representando decomposição didática do conteúdo; nem todos têm aulas publicadas.
-- Primeiras 3 aulas completas: Português (interpretação), Matemática (operações) e Raciocínio Lógico (dedução).
-- 9 questões inéditas de fixação, com alternativas, feedback e gabarito comentado.
-- Página inicial, ciclo de estudos, painel de matérias, questões, revisões e caderno de erros.
-- Registro local e **separado** do progresso das aulas do TJ-SP, sem modificar dados do site anterior.
-- Páginas de informações do edital, prazos e inscrição PcD.
-- Aulas de Direito, Informática, Atualidades, LBI e redação na fila de produção progressiva. Tópicos planejados aparecem como não publicados, sem simular disponibilidade.
-
-## Estrutura
-
-- src/tjsp2026/catalog.ts — mapa do Anexo VIII.
-- src/tjsp2026/lessons.ts — aula em Markdown e questões inéditas.
-- src/tjsp2026/TjspApp.tsx — aplicativo do TJ-SP.
-- src/tjsp2026/tjsp.css — design responsivo.
-- src/main.tsx — troca de portal por query string.
-- src/App.tsx — implementação original preservada e acessível com ?arquivo=prefeitura.
+- conteúdo rastreado por página e item do edital;
+- cobertura estrutural de 74 tópicos para Monitor, 76 para Agente e 36 para Ajudante;
+- aulas divididas por cargo, disciplina e tópico;
+- banco editorial com 713 questões: 702 inéditas — estilo INEPAM e 11 reais com origem catalogada;
+- simulados com 30 questões na distribuição 10/5/15;
+- modos prova e estudo;
+- Caderno de Erros, favoritos, revisões e estatísticas;
+- dados locais em IndexedDB/LocalStorage;
+- cadastro opcional e login com Google pelo Supabase Auth;
+- sincronização offline-first e isolamento `guest` / `user:<UUID>`;
+- importação assistida do progresso de visitante;
+- recomendações locais baseadas em desempenho, sem IA paga;
+- exportação e importação de backup;
+- PWA com suporte offline;
+- 89 aulas editoriais completas importadas estaticamente de pacotes versionados, com Markdown navegável e fontes rastreáveis;
+- preparação específica para a prova prática do Ajudante Geral;
+- publicação gratuita pelo GitHub Pages.
 
 ## Desenvolvimento
 
-Executar pnpm install, pnpm lint, pnpm test e pnpm build. A publicação ocorre pela GitHub Actions em cada push no branch main.
+```bash
+pnpm install
+pnpm dev
+pnpm test
+pnpm check
+pnpm build
+```
 
-## Fonte e responsabilidade
+O mapa auditado e a cobertura tópico a tópico ficam em [`docs/MAPA-MESTRE-DO-EDITAL.md`](docs/MAPA-MESTRE-DO-EDITAL.md) e [`docs/cobertura-edital.md`](docs/cobertura-edital.md). A arquitetura de autenticação, RLS, namespaces e conflitos está em [`docs/AUTENTICACAO-E-SINCRONIZACAO.md`](docs/AUTENTICACAO-E-SINCRONIZACAO.md). O fluxo de pacotes de conteúdo está em [`docs/INTEGRACAO-EDITORIAL.md`](docs/INTEGRACAO-EDITORIAL.md).
 
-O edital nº 02/2026 é a fonte primária; verifique retificações e resultados no TJ-SP e na Vunesp. Questões marcadas como inéditas não são questões oficiais. Este site não é afiliado ao TJ-SP ou à organizadora. Materiais anteriores referentes ao concurso da Prefeitura de Rincão permanecem arquivados e podem divergir do programa do TJ-SP.
+## Fontes e limites
+
+O edital é a fonte primária. Textos legais apontam para fontes oficiais. Nenhuma questão é apresentada como real da INEPAM sem caderno integral e gabarito verificáveis. A plataforma não é oficial e o candidato deve acompanhar retificações e convocações nos canais da Prefeitura e da banca.
+
+## Licença
+
+O código é disponibilizado sob a licença MIT. Essa licença não concede direito de republicação de conteúdo de terceiros, provas, textos protegidos ou documentos oficiais além das permissões legais aplicáveis.
