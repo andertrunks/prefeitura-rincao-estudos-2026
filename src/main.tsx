@@ -2,12 +2,15 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
+import TjspApp from './tjsp2026/TjspApp'
 import { AuthProvider } from './auth/AuthContext.tsx'
+
+const arquivoPrefeitura = new URLSearchParams(window.location.search).get('arquivo') === 'prefeitura'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <AuthProvider>
-      <App />
+      {arquivoPrefeitura ? <App /> : <TjspApp />}
     </AuthProvider>
   </StrictMode>,
 )
@@ -21,7 +24,7 @@ if ('serviceWorker' in navigator && import.meta.env.PROD) {
     window.location.reload()
   })
   window.addEventListener('load', () => {
-    void navigator.serviceWorker.register(`${import.meta.env.BASE_URL}service-worker.js`, { updateViaCache: 'none' })
+    void navigator.serviceWorker.register(import.meta.env.BASE_URL + 'service-worker.js', { updateViaCache: 'none' })
       .then((registration) => registration.update())
   })
 }
