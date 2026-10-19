@@ -350,7 +350,7 @@ export const materias: Materia[] = [
         "id": "interna-05",
         "materia": "interna",
         "titulo": "Normas da Corregedoria — Cap. II e III",
-        "referencia": "Tomo I, Cap. II, Seção I, Subseções I–II; Cap. III, Seções I, II, V–XIX e Subseções indicadas"
+        "referencia": "Tomo I, Cap. II, Seção I, Subseções I e II; Cap. III, Seções I, II, V, VI, VII; Seção VIII, Subseções I, II, III; Seções IX a XIX"
       },
       {
         "id": "interna-06",

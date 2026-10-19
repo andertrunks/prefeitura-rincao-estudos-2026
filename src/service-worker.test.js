@@ -38,6 +38,8 @@ describe('PWA offline e atualização', () => {
     let completion
     h.handlers.activate({ waitUntil: (value) => { completion = value } })
     await completion
-    expect(h.caches.delete).toHaveBeenCalledExactlyOnceWith('rincao-estudos-v11')
+    expect(h.caches.delete).toHaveBeenCalledTimes(2)
+    expect(h.caches.delete).toHaveBeenNthCalledWith(1, 'rincao-estudos-v11')
+    expect(h.caches.delete).toHaveBeenNthCalledWith(2, 'rincao-estudos-v12')
   })
 })
